@@ -18,3 +18,7 @@ This branch fails closed if keys are absent and must not be merged until configu
 Validation: `node --experimental-strip-types --test tests/turnstile.test.mjs` and `npm run build`.
 
 References: https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/ and https://developers.cloudflare.com/turnstile/get-started/server-side-validation/
+
+## Direct enquiry delivery update
+
+The direct-email branch submits to `/api/contact`, where CAPTCHA verification and email sending happen in the same server request. See EMAIL_SETUP.md for sender configuration and activation. The standalone verification endpoint remains for compatibility and is not an authorization mechanism for sending.

@@ -24,8 +24,7 @@ const sections = [
     "What we collect",
     <>
       If you complete the enquiry form or email us, we collect the details you
-      choose to give us: your name and company, work email, markets, service
-      area, preferred form of support and message. Please do not send
+      choose to give us: your name and company, work email, optional phone number and message. Please do not send
       special-category data, patient information or adverse-event reports
       through this website. To report an adverse event, contact the marketing
       authorisation holder or your national regulator directly.
@@ -55,6 +54,7 @@ const sections = [
     "Who else sees it",
     <>
       Personal data is accessible to Eunomia colleagues who need it to respond.
+      Website enquiries are processed by Vercel and sent to our inbox through Resend. Cloudflare Turnstile performs the security check.
       Service providers may process data on our behalf under written terms,
       including our email and document-hosting provider, website host and, where
       you opt in, email-marketing platform. They act on our instructions. We may
@@ -134,7 +134,7 @@ export default function Privacy() {
           This notice explains what we collect when you contact us through this
           website, why we hold it, and what you can ask us to do with it.
         </p>
-        <small>Last updated: 29 August 2026</small>
+        <small>Last updated: 8 September 2026</small>
       </section>
       <section className="privacy-content section-pad">
         {sections.map(([title, body]) => (
