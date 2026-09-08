@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useId, useRef, useState } from "react";
 import { compliancePartners, partnerId } from "../data/compliancePartners";
 
 const europeanMarkets = [
@@ -37,9 +40,26 @@ const partnerMarkers = [
 
 const partnerByName = new Map(compliancePartners.map((partner) => [partner.name, partner]));
 
-export function CoverageMap({ showOfficers = false }: { showOfficers?: boolean }) {
+export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean }) {
+  const [active, setActive] = useState<string | null>(null);
+  const root = useRef<HTMLDivElement>(null);
+  const cardId = useId();
+  const selected = active ? partnerByName.get(active) : undefined;
+  const coordinates = partnerMarkers.find(([name]) => name === active);
+  useEffect(() => {
+    if (!active) return;
+    const dismiss = (event: PointerEvent) => {
+      if (event.target instanceof Node && !root.current?.contains(event.target)) setActive(null);
+    };
+    document.addEventListener("pointerdown", dismiss);
+    return () => document.removeEventListener("pointerdown", dismiss);
+  }, [active]);
   return (
     <div
+      ref={root}
+      onKeyDown={(event) => { if (event.key === "Escape") setActive(null); }}
+      onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setActive(null); }}
+      onPointerLeave={(event) => { if (event.pointerType === "mouse" && !event.currentTarget.contains(document.activeElement)) setActive(null); }}
       className={`coverage-map${showOfficers ? " coverage-map-officers" : ""}`}
       aria-label="World map showing Eunomia service coverage across Europe, MENA, the United States, Brazil and South America, India, Southeast Asia and Japan"
       role={showOfficers ? undefined : "img"}
@@ -57,25 +77,53 @@ export function CoverageMap({ showOfficers = false }: { showOfficers?: boolean }
           const partner = partnerByName.get(name);
           if (!partner) return null;
           return (
-            <a
-              className="market-marker partner-dot"
+            <button
+              type="button"
+              className={`market-marker partner-dot${active === name ? " is-active" : ""}`}
               style={{ left: `${left}%`, top: `${top}%` }}
-              href={`/team#${partnerId(partner.name)}`}
-              aria-label={`Read ${partner.name}'s biography — ${partner.country}`}
+              aria-label={`${partner.name} — ${partner.country}. Show team member`}
+              aria-expanded={active === name}
+              aria-controls={active === name ? cardId : undefined}
+              onPointerEnter={(event) => { if (event.pointerType === "mouse") setActive(name); }}
+              onFocus={() => setActive(name)}
+              onClick={() => setActive(name)}
               key={partner.name}
             >
-              <i></i><b>{partner.country}<small>{partner.name}</small></b>
-            </a>
+              <i aria-hidden="true"></i>
+            </button>
           );
         })}
         {regionalMarkets.map(([label, left, top, side]) => (
-          <div className={`market-marker ${side}`} style={{ left: `${left}%`, top: `${top}%` }} key={label}>
+          <div className={`market-marker coverage-region ${side}`} style={{ left: `${left}%`, top: `${top}%` }} key={label}>
             <i></i><b>{label}</b>
           </div>
         ))}
+        {showOfficers && selected && coordinates && (
+          <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}
+            style={{ left: `clamp(8px, calc(${coordinates[1]}% - 164px), calc(100% - 336px))`, top: `calc(${coordinates[2]}% + 20px)` }}>
+            <button type="button" className="map-card-close" aria-label="Close team member card" onClick={() => setActive(null)}>×</button>
+            {selected.image
+              ? <img className="map-partner-photo" src={selected.image} alt={selected.name} />
+              : <span className="map-partner-initials" aria-hidden="true">{selected.name.split(" ").filter((part) => !part.endsWith(".")).map((part) => part[0]).slice(0, 2).join("")}</span>}
+            <div className="map-partner-copy">
+              <span className="map-partner-country">{selected.country}</span>
+              <h3>{selected.name}</h3>
+              <p>{selected.role}</p>
+              <a href={`/team#${partnerId(selected.name)}`}>View team profile →</a>
+            </div>
+          </aside>
+        )}
       </div>
+      {showOfficers && <label className="map-partner-picker">
+        <span>Explore our team</span>
+        <select value={active || ""} onChange={(event) => setActive(event.target.value || null)}>
+          <option value="">Choose a team member</option>
+          {partnerMarkers.map(([name]) => <option value={name} key={name}>{partnerByName.get(name)?.country} — {name}</option>)}
+        </select>
+      </label>}
       <div className="map-caption">
         <strong>Service coverage</strong>
+        {showOfficers && <span>Hover or tap a team marker to meet your compliance partner.</span>}
         <span>Europe · MENA · US · Brazil &amp; South America · India · Southeast Asia · Japan</span>
       </div>
     </div>

@@ -1044,3 +1044,31 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
   .resource-search-count{grid-column:1;margin:-12px 0 0}
   .service-video-frame{aspect-ratio:auto;min-height:330px;flex-direction:column;align-items:flex-start}
 }
+
+/* Team cards on the geographic coverage markers. */
+.coverage-map-officers .map-stage{z-index:2}
+.coverage-map-officers .coverage-region{pointer-events:none}
+.map-stage .partner-dot{z-index:8;width:20px;height:20px;padding:0;border:0;border-radius:50%;background:transparent;justify-content:center;cursor:pointer}
+.map-stage .partner-dot i{pointer-events:none;width:16px;height:16px;border-width:3px;animation:none}
+.map-stage .partner-dot i:after{display:none}
+.map-stage .partner-dot:hover,.map-stage .partner-dot:focus-visible,.map-stage .partner-dot.is-active{z-index:10}
+.map-stage .partner-dot:focus-visible{outline:3px solid #ffb07b;outline-offset:5px}
+.map-stage .partner-dot.is-active i{background:#f47a32;box-shadow:0 0 0 5px rgba(244,122,50,.4)}
+.map-partner-card{position:absolute;z-index:20;box-sizing:border-box;width:328px;display:grid;grid-template-columns:78px minmax(0,1fr);gap:16px;padding:22px 24px 22px 18px;background:#fff;color:#17331b;border:1px solid #d9e4d7;border-top:4px solid #f47a32;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.25);text-align:left}
+.map-partner-photo,.map-partner-initials{width:78px;height:94px;object-fit:cover;object-position:center 20%;border-radius:7px;background:#e7eee2}
+.map-partner-initials{display:grid;place-items:center;font-size:25px;font-weight:700;color:#315d37}
+.map-partner-country{display:block;font:700 11px/1.4 var(--display);color:#8d3f13;padding-right:10px}
+.map-partner-copy h3{margin:5px 0 7px;font:800 19px/1.2 var(--display);letter-spacing:-.02em;text-transform:none;color:#17331b}
+.map-partner-copy p{margin:0 0 12px;font:400 13px/1.5 var(--display);color:#526153}
+.map-partner-copy a{font:700 12px/1.4 var(--display);color:#245d2e;text-decoration:underline;text-underline-offset:3px}
+.map-card-close{position:absolute;right:4px;top:3px;width:28px;height:28px;border:0;background:transparent;color:#526153;font:24px/1 sans-serif;cursor:pointer}
+.map-partner-picker{position:relative;z-index:2;display:flex;align-items:center;gap:12px;margin:22px 0 14px;color:#fff;font:600 13px/1.4 var(--display)}
+.map-partner-picker select{max-width:100%;min-width:0;background:#fff;color:#17331b;border:1px solid #bdcfb5;border-radius:6px;padding:10px;font:400 13px/1.4 var(--display)}
+.coverage-map-officers .map-caption{position:relative;inset:auto;margin:18px 0 0 auto;z-index:1}
+@media(max-width:700px){
+  .coverage-map-officers{padding-bottom:18px;min-height:0}
+  .coverage-map-officers .map-stage:has(.map-partner-card){margin-bottom:260px}
+  .map-partner-card{position:absolute;top:calc(100% + 20px)!important;left:0!important;width:100%;grid-template-columns:64px minmax(0,1fr)}
+  .map-partner-photo,.map-partner-initials{width:64px;height:80px}
+  .map-partner-picker{flex-direction:column;align-items:stretch;gap:7px}
+}
