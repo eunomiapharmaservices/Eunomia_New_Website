@@ -1,9 +1,30 @@
 "use client";
-import { FormEvent } from "react";
+import { FormEvent, useRef, useState } from "react";
+import { ContactCaptcha } from "./ContactCaptcha";
 export function ContactForm() {
-  function submit(event: FormEvent<HTMLFormElement>) {
+  const [token, setToken] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const [attempt, setAttempt] = useState(0);
+  const submitting = useRef(false);
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (submitting.current) return;
+    if (!token) { setError("Please complete the security check."); return; }
     const data = new FormData(event.currentTarget);
+    submitting.current = true;
+    setBusy(true);
+    setError("");
+    try {
+      const response = await fetch("/api/contact/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token }),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!response.ok) throw new Error("verification");
+      const result = await response.json();
+      if (result.success !== true) throw new Error("verification");
     const body = [
       `Name: ${data.get("name")}`,
       `Company: ${data.get("company")}`,
@@ -13,6 +34,14 @@ export function ContactForm() {
       String(data.get("question")),
     ].join("\n");
     window.location.href = `mailto:hello@eunomiapharmaservices.com?subject=${encodeURIComponent(`Website enquiry — ${data.get("company")}`)}&body=${encodeURIComponent(body)}`;
+    } catch {
+      setError("The security check could not be completed. Please try again.");
+    } finally {
+      setToken("");
+      setAttempt((value) => value + 1);
+      submitting.current = false;
+      setBusy(false);
+    }
   }
   return (
     <form className="enquiry-form" onSubmit={submit}>
@@ -47,8 +76,10 @@ export function ContactForm() {
           as set out in the <a href="/privacy">privacy notice</a>.
         </span>
       </label>
-      <button className="primary-button" type="submit">
-        Send your note
+      <ContactCaptcha key={attempt} onToken={setToken} />
+      {error && <p role="alert">{error}</p>}
+      <button className="primary-button" type="submit" disabled={!token || busy} aria-busy={busy}>
+        {busy ? "Checking…" : "Send your note"}
       </button>
       <p className="form-note">
         We will not add you to a mailing list from this form, and we will not
