@@ -10,8 +10,8 @@ const partnerMarkers = [
   ["Jalmira Mulchande", 43.8577, 29.4425], ["Ilaria Franchini", 49.6673, 27.9611],
   ["Dunja Hu", 50.2479, 25.3387], ["Miroslaw Zapala", 51.4733, 23.2169],
   ["Karen Glade", 18.462, 30.6137], ["Eduordo Nogueira", 32.349, 56.5738],
-  ["Mohamed Afir", 60, 35], ["Nishant Chaturvedi", 76.5, 38.5],
-  ["Rohit Kumar", 80, 48.5],
+  ["Mohamed Afir", 60, 35], ["Nishant Chaturvedi", 68.43, 38.4135],
+  ["Rohit Kumar", 76.5, 38.5],
 ] as const;
 
 const partnerByName = new Map(compliancePartners.map((partner) => [partner.name, partner]));
