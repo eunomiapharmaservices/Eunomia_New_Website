@@ -1072,3 +1072,19 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
   .map-partner-photo,.map-partner-initials{width:64px;height:80px}
   .map-partner-picker{flex-direction:column;align-items:stretch;gap:7px}
 }
+
+/* Explore mapped team locations with an enlarged European view. */
+.map-instructions{position:relative;z-index:3;color:#fff;margin:0 0 18px;font:15px/1.5 var(--display)}
+.map-instructions strong,.map-instructions span{display:block}
+.map-instructions span{margin-top:6px;font-size:13px;color:#dcebd7}
+.map-zoom-controls{display:flex;gap:10px;margin-top:14px}
+.map-zoom-controls button{padding:10px 16px;border:1px solid #f47a32;border-radius:6px;background:#fff;color:#17331b;cursor:pointer;font:700 14px var(--display)}
+.map-zoom-controls button[aria-pressed="true"]{background:#f47a32;color:#17331b}
+.map-zoom-controls button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.map-viewport{position:absolute;inset:0;overflow:hidden;border-radius:10px;background:#fff}
+.map-geography{position:absolute;inset:0;transform-origin:51% 26%;transition:transform .3s ease}
+.map-geography.is-zoomed{transform:scale(4)}
+.map-geography.is-zoomed .partner-dot{transform:translate(-50%,-50%) scale(.45)}
+.coverage-map .map-partner-card{position:relative;inset:auto!important;margin:18px auto;width:min(100%,440px)}
+.coverage-map-officers .map-stage:has(.map-partner-card){margin-bottom:0}
+@media(prefers-reduced-motion:reduce){.map-geography{transition:none}}

@@ -3,30 +3,6 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { compliancePartners, partnerId } from "../data/compliancePartners";
 
-const europeanMarkets = [
-  ["Ireland", 47.7, 22.6], ["United Kingdom", 49.1, 21.8],
-  ["Portugal", 47.2, 29.6], ["Spain", 48.5, 29.1],
-  ["France", 50.2, 26.2], ["Belgium", 50.9, 23.9],
-  ["Netherlands", 51.2, 22.8], ["Luxembourg", 51.2, 24.8],
-  ["Germany", 52.2, 24.2], ["Denmark", 52.1, 20.9],
-  ["Norway", 51.5, 16.8], ["Sweden", 53.1, 17.3],
-  ["Finland", 54.8, 17.2], ["Switzerland", 51.2, 27.1],
-  ["Austria", 52.5, 26.7], ["Italy", 52.2, 29.8],
-  ["Poland", 54.1, 23.9], ["Czechia", 53.2, 25.3],
-  ["Hungary", 53.7, 27.2], ["Romania", 55.3, 28.1],
-  ["Greece", 54.1, 32.1], ["Croatia", 53.1, 28.6],
-  ["Slovenia", 52.6, 27.8], ["Bulgaria", 55.2, 30.4],
-] as const;
-
-const regionalMarkets = [
-  ["United States", 23, 29, "label-right"],
-  ["Brazil & South America", 34.8, 60.5, "label-right"],
-  ["MENA", 60, 35, "label-right"],
-  ["India & South Asia", 72, 38, "label-right"],
-  ["Singapore & SE Asia", 79, 49, "label-left"],
-  ["Japan", 86.1, 29.8, "label-left"],
-] as const;
-
 const partnerMarkers = [
   ["Rashmi Papneja", 49.1, 21.8],
   ["Xavier Lopez", 48.2, 28.7], ["Maria Diaz", 48.9, 29.5],
@@ -42,10 +18,11 @@ const partnerByName = new Map(compliancePartners.map((partner) => [partner.name,
 
 export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean }) {
   const [active, setActive] = useState<string | null>(null);
+  const [zoomed, setZoomed] = useState(false);
   const root = useRef<HTMLDivElement>(null);
   const cardId = useId();
   const selected = active ? partnerByName.get(active) : undefined;
-  const coordinates = partnerMarkers.find(([name]) => name === active);
+
   useEffect(() => {
     if (!active) return;
     const dismiss = (event: PointerEvent) => {
@@ -61,18 +38,28 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
       onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setActive(null); }}
       onPointerLeave={(event) => { if (event.pointerType === "mouse" && !event.currentTarget.contains(document.activeElement)) setActive(null); }}
       className={`coverage-map${showOfficers ? " coverage-map-officers" : ""}`}
-      aria-label="World map showing Eunomia service coverage across Europe, MENA, the United States, Brazil and South America, India, Southeast Asia and Japan"
+      aria-label="World map showing Eunomia team member locations"
       role={showOfficers ? undefined : "img"}
     >
-      <div className="map-stage">
+      <div className="map-instructions">
+        <strong>Hover over Europe to zoom in. Hover over a red dot to meet the team.</strong>
+        <span>On mobile, tap “Zoom Europe”, then tap a red dot. Red dots show team member locations.</span>
+        <div className="map-zoom-controls">
+          <button type="button" aria-pressed={!zoomed} onClick={() => { setZoomed(false); setActive(null); }}>World view</button>
+          <button type="button" aria-pressed={zoomed} onClick={() => { setZoomed(true); setActive(null); }}>Zoom Europe</button>
+        </div>
+      </div>
+      <div className="map-stage" onPointerMove={(event) => {
+          if (event.pointerType !== "mouse" || zoomed) return;
+          const bounds = event.currentTarget.getBoundingClientRect();
+          const x = (event.clientX - bounds.left) / bounds.width;
+          const y = (event.clientY - bounds.top) / bounds.height;
+          if (x > .43 && x < .59 && y > .12 && y < .35) { setActive(null); setZoomed(true); }
+        }}
+        onPointerLeave={(event) => { if (event.pointerType === "mouse") setZoomed(false); }}>
+        <div className="map-viewport"><div className={`map-geography${zoomed ? " is-zoomed" : ""}`}>
+
         <img className="world-map-base" src="/world-map.svg" alt="" aria-hidden="true" />
-        {europeanMarkets.map(([label, left, top]) => {
-          return (
-            <span className="market-marker is-country" style={{ left: `${left}%`, top: `${top}%` }} aria-label={label} key={label}>
-              <i></i>
-            </span>
-          );
-        })}
         {showOfficers && partnerMarkers.map(([name, left, top]) => {
           const partner = partnerByName.get(name);
           if (!partner) return null;
@@ -85,7 +72,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
               aria-expanded={active === name}
               aria-controls={active === name ? cardId : undefined}
               onPointerEnter={(event) => { if (event.pointerType === "mouse") setActive(name); }}
-              onFocus={() => setActive(name)}
+              onFocus={() => { setActive(name); setZoomed(left > 43 && left < 59 && top < 35); }}
               onClick={() => setActive(name)}
               key={partner.name}
             >
@@ -93,14 +80,10 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
             </button>
           );
         })}
-        {regionalMarkets.map(([label, left, top, side]) => (
-          <div className={`market-marker coverage-region ${side}`} style={{ left: `${left}%`, top: `${top}%` }} key={label}>
-            <i></i><b>{label}</b>
-          </div>
-        ))}
-        {showOfficers && selected && coordinates && (
-          <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}
-            style={{ left: `clamp(8px, calc(${coordinates[1]}% - 164px), calc(100% - 336px))`, top: `calc(${coordinates[2]}% + 20px)` }}>
+        </div></div>
+      </div>
+        {showOfficers && selected && (
+          <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}>
             <button type="button" className="map-card-close" aria-label="Close team member card" onClick={() => setActive(null)}>×</button>
             {selected.image
               ? <img className="map-partner-photo" src={selected.image} alt={selected.name} />
@@ -113,10 +96,9 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
             </div>
           </aside>
         )}
-      </div>
       {showOfficers && <label className="map-partner-picker">
         <span>Explore our team</span>
-        <select value={active || ""} onChange={(event) => setActive(event.target.value || null)}>
+        <select value={active || ""} onChange={(event) => { const marker = partnerMarkers.find(([name]) => name === event.target.value); setActive(event.target.value || null); setZoomed(Boolean(marker && marker[1] > 43 && marker[1] < 59 && marker[2] < 35)); }}>
           <option value="">Choose a team member</option>
           {partnerMarkers.map(([name]) => <option value={name} key={name}>{partnerByName.get(name)?.country} — {name}</option>)}
         </select>
