@@ -1082,7 +1082,7 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .map-zoom-controls button[aria-pressed="true"]{background:#f47a32;color:#17331b}
 .map-zoom-controls button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .map-viewport{position:absolute;inset:0;overflow:hidden;border-radius:10px;background:#fff}
-.map-geography{position:absolute;inset:0;transform-origin:51% 26%;transition:transform .3s ease}
+.map-geography{position:absolute;inset:0;transform-origin:48% 26%;transition:transform .3s ease}
 .map-geography.is-zoomed{transform:scale(4)}
 .map-geography.is-zoomed .partner-dot{transform:translate(-50%,-50%) scale(.45)}
 .coverage-map .map-partner-card{position:absolute;inset:auto 8px 8px auto!important;margin:0;width:min(328px,calc(100% - 16px));max-height:calc(100% - 16px);overflow:auto;overscroll-behavior:contain}

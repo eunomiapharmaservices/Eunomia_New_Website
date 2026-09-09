@@ -4,12 +4,12 @@ import { useEffect, useId, useRef, useState } from "react";
 import { compliancePartners, partnerId } from "../data/compliancePartners";
 
 const partnerMarkers = [
-  ["Rashmi Papneja", 49.1, 21.8],
-  ["Xavier Lopez", 48.2, 28.7], ["Maria Diaz", 48.9, 29.5],
-  ["Dr. Hans Joachim Hutt", 52.2, 24.2], ["Alexandre Guillaume", 50.2, 26.2],
-  ["Jalmira Mulchande", 47.2, 29.6], ["Ilaria Franchini", 52.2, 29.8],
-  ["Dunja Hu", 52.5, 26.7], ["Miroslaw Zapala", 54.1, 23.9],
-  ["Karen Glade", 23, 29], ["Eduordo Nogueira", 34.8, 60.5],
+  ["Rashmi Papneja", 45.6155, 22.0041],
+  ["Xavier Lopez", 44.5448, 29.2849], ["Maria Diaz", 45.7998, 29.2849],
+  ["Dr. Hans Joachim Hutt", 49.0527, 23.6386], ["Alexandre Guillaume", 46.7583, 25.8373],
+  ["Jalmira Mulchande", 43.8577, 29.4425], ["Ilaria Franchini", 49.6673, 27.9611],
+  ["Dunja Hu", 50.2479, 25.3387], ["Miroslaw Zapala", 51.4733, 23.2169],
+  ["Karen Glade", 18.462, 30.6137], ["Eduordo Nogueira", 32.349, 56.5738],
   ["Mohamed Afir", 60, 35], ["Nishant Chaturvedi", 76.5, 38.5],
   ["Rohit Kumar", 80, 48.5],
 ] as const;
@@ -54,7 +54,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
           const bounds = event.currentTarget.getBoundingClientRect();
           const x = (event.clientX - bounds.left) / bounds.width;
           const y = (event.clientY - bounds.top) / bounds.height;
-          if (x > .43 && x < .59 && y > .12 && y < .35) { setActive(null); setZoomed(true); }
+          if (x > .41 && x < .55 && y > .12 && y < .35) { setActive(null); setZoomed(true); }
         }}
         onPointerLeave={(event) => { if (event.pointerType === "mouse") setZoomed(false); }}>
         <div className="map-viewport"><div className={`map-geography${zoomed ? " is-zoomed" : ""}`}>
