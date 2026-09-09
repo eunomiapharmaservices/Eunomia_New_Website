@@ -1085,6 +1085,6 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .map-geography{position:absolute;inset:0;transform-origin:51% 26%;transition:transform .3s ease}
 .map-geography.is-zoomed{transform:scale(4)}
 .map-geography.is-zoomed .partner-dot{transform:translate(-50%,-50%) scale(.45)}
-.coverage-map .map-partner-card{position:relative;inset:auto!important;margin:18px auto;width:min(100%,440px)}
+.coverage-map .map-partner-card{position:absolute;inset:auto 8px 8px auto!important;margin:0;width:min(328px,calc(100% - 16px));max-height:calc(100% - 16px);overflow:auto;overscroll-behavior:contain}
 .coverage-map-officers .map-stage:has(.map-partner-card){margin-bottom:0}
 @media(prefers-reduced-motion:reduce){.map-geography{transition:none}}

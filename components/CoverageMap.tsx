@@ -50,7 +50,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
         </div>
       </div>
       <div className="map-stage" onPointerMove={(event) => {
-          if (event.pointerType !== "mouse" || zoomed) return;
+          if (event.pointerType !== "mouse" || zoomed || (event.target instanceof Element && event.target.closest(".map-partner-card"))) return;
           const bounds = event.currentTarget.getBoundingClientRect();
           const x = (event.clientX - bounds.left) / bounds.width;
           const y = (event.clientY - bounds.top) / bounds.height;
@@ -81,7 +81,6 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
           );
         })}
         </div></div>
-      </div>
         {showOfficers && selected && (
           <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}>
             <button type="button" className="map-card-close" aria-label="Close team member card" onClick={() => setActive(null)}>×</button>
@@ -96,6 +95,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
             </div>
           </aside>
         )}
+      </div>
       {showOfficers && <label className="map-partner-picker">
         <span>Explore our team</span>
         <select value={active || ""} onChange={(event) => { const marker = partnerMarkers.find(([name]) => name === event.target.value); setActive(event.target.value || null); setZoomed(Boolean(marker && marker[1] > 43 && marker[1] < 59 && marker[2] < 35)); }}>
