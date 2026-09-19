@@ -15,6 +15,10 @@ export default function Page() {
   return (
     <ServiceSubpage
       accent="blue"
+      video={{
+        src: "/videos/compliant-automation.mp4",
+        poster: "/videos/compliant-automation-poster.jpg",
+      }}
       serviceTitleFirst
       hideScope
       kicker="Automation of Compliance Operations"
