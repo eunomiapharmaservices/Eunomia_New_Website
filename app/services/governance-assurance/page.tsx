@@ -9,6 +9,11 @@ export default function Page() {
   return (
     <ServiceSubpage
       accent="orange"
+      video={{
+        src: "/videos/healthcare-compliance-programme.mp4",
+        poster: "/videos/healthcare-compliance-programme-poster.jpg",
+        captions: "/videos/healthcare-compliance-programme.en.vtt",
+      }}
       serviceTitleFirst
       kicker="Healthcare Compliance Programme Design and Implementation"
       title="A practical programme, built to work day to day."
