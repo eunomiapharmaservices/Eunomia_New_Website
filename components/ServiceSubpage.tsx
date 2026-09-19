@@ -12,7 +12,7 @@ type Props = {
   faqs: FAQ[];
   accent?: string;
   lead?: { name: string; role: string; image: string };
-  video?: { src: string; poster: string; captions: string };
+  video?: { src: string; poster: string; captions?: string };
   heroDetail?: ReactNode;
   detailSection?: ReactNode;
   hideScope?: boolean;
@@ -73,7 +73,7 @@ export function ServiceSubpage({
             style={{ display: "block", width: "100%", maxWidth: 960, margin: "0 auto", borderRadius: 16 }}
           >
             <source src={video.src} type="video/mp4" />
-            <track kind="captions" src={video.captions} srcLang="en" label="English" />
+            {video.captions ? <track kind="captions" src={video.captions} srcLang="en" label="English" /> : null}
             Your browser does not support video. <a href={video.src}>Download the video</a>.
           </video>
         ) : (
