@@ -44,6 +44,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       accent="teal"
+      serviceImage={{ src: "/market-representation.png", alt: "Local compliance representatives discussing market requirements" }}
       serviceTitleFirst
       kicker="Local Legal Mandates and Representation"
       title="In-market presence without in-country headcount."
