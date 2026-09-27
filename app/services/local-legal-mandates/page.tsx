@@ -37,19 +37,20 @@ const mandates = [
 ];
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/local-legal-mandates" },
-  title: "Local legal mandates and representation | Eunomia Pharma Services",
-  description:
-    "In-market compliance representation and local-code support without the need to build in-country headcount.",
+  title: "Local Legal Representative for Pharma | Eunomia",
+  description: "Local legal representative and compliance support for pharma market entry, country-specific codes, HCP engagement and transparency obligations.",
 };
 export default function Page() {
   return (
     <ServiceSubpage
+      servicePath="/services/local-legal-mandates"
+      heading="Local Legal Representative and Compliance Support for Pharma"
       accent="teal"
       serviceImage={{ src: "/market-representation.png", alt: "Local compliance representatives discussing market requirements" }}
       serviceTitleFirst
       kicker="Local Legal Mandates and Representation"
       title="In-market presence without in-country headcount."
-      intro="Entering a market often requires someone who understands the local code, association expectations and regulator. We provide named local support and translate mandates into workable ownership, review routes, evidence and reporting."
+      intro="Local legal representative support for pharma must reflect each country’s requirements and the activities being undertaken. Eunomia provides named in-market compliance support, local-code interpretation and market-entry assessments, with the required mandate and responsibilities agreed for each engagement."
       services={[
         "Responsible person and local representative support",
         "Local code interpretation and queries",

@@ -68,7 +68,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
               href={`/team#${partnerId(partner.name)}`}
               className={`market-marker partner-dot${active === name ? " is-active" : ""}`}
               style={{ left: `${left}%`, top: `${top}%` }}
-              aria-label={`${partner.name} — ${partner.country}. Show team member`}
+              aria-label={`${partner.name} — ${partner.country} — ${partner.role}. Read biography`}
               aria-expanded={active === name}
               aria-controls={active === name ? cardId : undefined}
               onPointerEnter={(event) => { if (event.pointerType === "mouse") setActive(name); }}
@@ -76,6 +76,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
               key={partner.name}
             >
               <i aria-hidden="true"></i>
+              <span className="map-link-text">{partner.name} — {partner.country} — {partner.role}</span>
             </a>
           );
         })}

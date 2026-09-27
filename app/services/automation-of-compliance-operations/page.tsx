@@ -8,20 +8,21 @@ import {
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/automation-of-compliance-operations" },
-  title: "Automation of healthcare compliance operations | Eunomia",
-  description:
-    "Compliance expertise with automation built into existing pharmaceutical review, monitoring and governance processes.",
+  title: "Pharma Compliance Automation & EFPIA Disclosure | Eunomia",
+  description: "Automate pharma compliance workflows, EFPIA disclosure data and monitoring with SharePoint, Power BI and controlled AI, supported by compliance specialists.",
 };
 export default function Page() {
   return (
     <ServiceSubpage
+      servicePath="/services/automation-of-compliance-operations"
+      heading="Pharma Compliance Automation and EFPIA Disclosure Support"
       accent="blue"
       serviceImage={{ src: "/eunomia-workflow.png", alt: "Planning digital compliance workflows and automated processes" }}
       serviceTitleFirst
       hideScope
       kicker="Automation of Compliance Operations"
       title="Compliant automation deployment, from build to business-as-usual."
-      intro="Eunomia combines technical build, disciplined project management and global and local compliance expertise in one delivery model. From a focused chatbot to AI enablement across an operational chain, we design the technology around the process, evaluate the risks and keep the appropriate compliance officers accountable for review and approval."
+      intro="Our pharma compliance automation services streamline review workflows, monitoring and EFPIA disclosure data processes. Eunomia combines compliance expertise with SharePoint, Power BI and controlled AI to support traceable decisions, human oversight and business-as-usual operations."
       services={[
         "AI compliance readiness assessment",
         "SharePoint workflow design and implementation",
@@ -42,7 +43,7 @@ export default function Page() {
       heroDetail={
         <section className="ai-delivery-model section-pad" aria-labelledby="ai-delivery-title">
           <div className="ai-delivery-heading">
-            <h2 id="ai-delivery-title">Our unique delivery model</h2>
+            <h2 id="ai-delivery-title">How we deliver pharma compliance automation</h2>
             <p className="ai-delivery-subtitle">Three disciplines. One accountable deployment.</p>
           </div>
 

@@ -1,3 +1,5 @@
+import { StructuredData } from "../../components/StructuredData";
+import { partnerId } from "../../data/compliancePartners";
 import type { Metadata } from "next";
 import { ArrowUpRight } from "lucide-react";
 import { SiteFooter, SiteHeader } from "../../components/SiteChrome";
@@ -29,6 +31,13 @@ const operations: TeamPerson[] = [
 export default function Team() {
   return (
     <main className="team-page">
+      <StructuredData data={{ "@context": "https://schema.org", "@graph": [...partners, agyat, ...operations].map((person) => ({
+        "@type": "Person", "@id": `https://www.eunomiapharmaservices.com/team#${partnerId(person.name)}`,
+        name: person.name, jobTitle: person.name === "Rashmi Papneja" ? "Founder and Managing Director" : person.role,
+        image: person.image ? `https://www.eunomiapharmaservices.com${person.image}` : undefined,
+        affiliation: { "@id": "https://www.eunomiapharmaservices.com/#organization" },
+        url: "https://www.eunomiapharmaservices.com/team",
+      })) }} />
       <SiteHeader />
       <section className="team-hero section-pad">
         <div><p className="section-kicker">The people behind Eunomia</p><h1>Specialists who stay close to the work.</h1></div>

@@ -244,7 +244,7 @@ export default function Home() {
           Which of these is <em>you</em>?
         </h2>
         <div className="start-grid">
-          <a href="mailto:hello@eunomiapharmaservices.com?subject=Building%20our%20first%20compliance%20function">
+          <div className="start-card"><a className="start-card-primary" href="/services/shared-services">
             <span>01</span>
             <h3>We don’t have a compliance function yet</h3>
             <p>
@@ -254,24 +254,24 @@ export default function Home() {
             <b>
               Explore shared services <ArrowRight />
             </b>
-          </a>
-          <a href="mailto:hello@eunomiapharmaservices.com?subject=Compliance%20capacity%20support">
+          </a><a className="start-card-email" href="mailto:hello@eunomiapharmaservices.com?subject=Building%20our%20first%20compliance%20function">Email us about this →</a></div>
+          <div className="start-card"><a className="start-card-primary" href="/services/shared-services">
             <span>02</span>
             <h3>We have one compliance manager, and they’re at capacity</h3>
             <p>The work exists. The hours don’t.</p>
             <b>
               Add operational capacity <ArrowRight />
             </b>
-          </a>
-          <a href="mailto:hello@eunomiapharmaservices.com?subject=Local%20representation">
+          </a><a className="start-card-email" href="mailto:hello@eunomiapharmaservices.com?subject=Compliance%20capacity%20support">Email us about this →</a></div>
+          <div className="start-card"><a className="start-card-primary" href="/services/local-legal-mandates">
             <span>03</span>
             <h3>We’re entering a market we don’t have people in</h3>
             <p>Someone local has to be answerable to the code.</p>
             <b>
               Explore local representation <ArrowRight />
             </b>
-          </a>
-          <a href="/services/governance-assurance">
+          </a><a className="start-card-email" href="mailto:hello@eunomiapharmaservices.com?subject=Local%20representation">Email us about this →</a></div>
+          <div className="start-card"><a className="start-card-primary" href="/services/governance-assurance">
             <span>04</span>
             <h3>We are building our compliance framework from scratch</h3>
             <p>
@@ -281,7 +281,7 @@ export default function Home() {
             <b>
               Explore program design &amp; audit readiness <ArrowRight />
             </b>
-          </a>
+          </a></div>
         </div>
       </section>
 

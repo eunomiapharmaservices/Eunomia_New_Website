@@ -2,21 +2,22 @@ import type { Metadata } from "next";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/shared-services" },
-  title: "Healthcare compliance shared services | Eunomia Pharma Services",
-  description:
-    "A named healthcare compliance team working within your SOPs, systems and timelines—from materials review to disclosure reporting.",
+  title: "Outsourced Pharma Compliance & Shared Services | Eunomia",
+  description: "Outsourced pharma compliance for materials review, HCP fair market value, EFPIA disclosure and daily operations through shared services, GBS and GCC support.",
 };
 export default function Page() {
   return (
     <ServiceSubpage
+      servicePath="/services/shared-services"
+      heading="Outsourced Pharma Compliance and Shared Services"
       kicker="Shared Services / GBS / GCC"
       title="Your compliance function, run with you."
       serviceTitleFirst
-      intro="A named team works inside your SOPs and systems—reviewing materials, clearing activities and filing disclosures. You keep accountability and visibility; we provide the operational capacity."
+      intro="Our outsourced pharma compliance team works within your SOPs and systems to review materials, support HCP engagements and manage transparency reporting, including EFPIA disclosure processes. Shared services, GBS and GCC support adds operational capacity while you retain accountability and oversight."
       services={[
         "Promotional and medical materials review",
         "Activity, event and congress review",
-        "HCP engagement and fair market value",
+        "HCP engagement and fair market value assessment",
         "Transparency reporting and disclosure",
         "Operational compliance support across markets",
         "Centralised workflow and evidence management",

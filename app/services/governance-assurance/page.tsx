@@ -2,19 +2,20 @@ import type { Metadata } from "next";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance" },
-  title: "Healthcare compliance programme design and implementation | Eunomia",
-  description:
-    "Compliance programme design, audit readiness, policy, monitoring and training with a defensible evidence trail.",
+  title: "Pharmaceutical Compliance Consultancy UK | Eunomia",
+  description: "UK pharmaceutical compliance consultancy for programme design, ABPI Code compliance support, ABAC risk assessment, policies, training and monitoring.",
 };
 export default function Page() {
   return (
     <ServiceSubpage
+      servicePath="/services/governance-assurance"
+      heading="Pharmaceutical Compliance Consultancy UK"
       accent="orange"
       serviceImage={{ src: "/home-compliance-team.jpeg", alt: "Compliance specialists discussing programme design and implementation" }}
       serviceTitleFirst
       kicker="Healthcare Compliance Programme Design and Implementation"
       title="A practical programme, built to work day to day."
-      intro="Frameworks, policies, processes and guidance designed to work in practice—not just on paper. We translate complex requirements into clear, operational ways of working, supported by governance, training and evidence trails that make compliance consistent, repeatable and able to stand up to scrutiny."
+      intro="Our UK pharmaceutical compliance consultancy helps pharma and biotech companies design and implement practical healthcare compliance programmes. We support ABPI Code compliance and anti-bribery and anti-corruption (ABAC) controls through policies, risk assessments, training and monitoring tailored to your activities and markets."
       services={[
         "Compliance programme design and implementation",
         "Policy and SOP development",

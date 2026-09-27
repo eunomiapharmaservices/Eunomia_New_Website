@@ -1,8 +1,11 @@
+import { StructuredData } from "./StructuredData";
 import type { ReactNode } from "react";
 import { ArrowLeft, ArrowUpRight, Check } from "lucide-react";
 import { SiteHeader, SiteFooter } from "./SiteChrome";
 type FAQ = { question: string; answer: string };
 type Props = {
+  servicePath: string;
+  heading?: string;
   kicker: string;
   title: string;
   subtitle?: string;
@@ -20,6 +23,8 @@ type Props = {
   serviceTitleFirst?: boolean;
 };
 export function ServiceSubpage({
+  servicePath,
+  heading,
   kicker,
   title,
   subtitle,
@@ -38,6 +43,7 @@ export function ServiceSubpage({
 }: Props) {
   return (
     <main className={`service-subpage ${accent}`}>
+      <StructuredData data={{ "@context": "https://schema.org", "@type": "Service", "@id": `https://www.eunomiapharmaservices.com${servicePath}#service`, name: kicker, description: intro, url: `https://www.eunomiapharmaservices.com${servicePath}`, provider: { "@id": "https://www.eunomiapharmaservices.com/#organization" } }} />
       <SiteHeader />
       <section className="subservice-hero section-pad">
         <a href="/services" className="back-link">
@@ -46,7 +52,7 @@ export function ServiceSubpage({
         </a>
         {serviceTitleFirst ? (
           <>
-            <h1 className="subservice-primary-title">{kicker}</h1>
+            <h1 className="subservice-primary-title">{heading || kicker}</h1>
             <h2 className="subservice-tagline">{title}</h2>
           </>
         ) : (
@@ -91,7 +97,7 @@ export function ServiceSubpage({
         <section className="subservice-scope section-pad">
           <div>
             <p className="section-kicker">What we can take on</p>
-            <h2>Support shaped around the work.</h2>
+            <h2>{kicker}: scope of support</h2>
           </div>
           <div className="scope-list">
             {services.map((service, i) => (
