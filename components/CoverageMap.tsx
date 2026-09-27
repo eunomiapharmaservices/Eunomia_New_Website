@@ -5,11 +5,11 @@ import { compliancePartners, partnerId } from "../data/compliancePartners";
 
 const partnerMarkers = [
   ["Rashmi Papneja", 45.6155, 22.0041],
-  ["Xavier Lopez", 44.5448, 29.2849], ["Maria Diaz", 45.7998, 29.2849],
+  ["Maria Diaz", 45.7998, 29.2849],
   ["Dr. Hans Joachim Hutt", 49.0527, 23.6386], ["Alexandre Guillaume", 46.7583, 25.8373],
   ["Jalmira Mulchande", 43.8577, 29.4425], ["Ilaria Franchini", 49.6673, 27.9611],
   ["Dunja Hu", 50.2479, 25.3387], ["Miroslaw Zapala", 51.4733, 23.2169],
-  ["Karen Glade", 18.462, 30.6137], ["Eduordo Nogueira", 32.349, 56.5738],
+  ["Karen Glade", 18.462, 30.6137],
   ["Mohamed Afir", 60, 35], ["Nishant Chaturvedi", 68.43, 38.4135],
   ["Rohit Kumar", 76.5, 38.5],
 ] as const;
@@ -42,8 +42,8 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
       role={showOfficers ? undefined : "img"}
     >
       <div className="map-instructions">
-        <strong>Hover over Europe to zoom in. Hover over a red dot to meet the team.</strong>
-        <span>On mobile, tap “Zoom Europe”, then tap a red dot. Red dots show team member locations.</span>
+        <strong>Hover over Europe to zoom in. Hover over a red dot to see a photo; click to read their bio.</strong>
+        <span>On mobile, tap “Zoom Europe”, then tap a red dot to read their bio. Red dots show team member locations.</span>
         <div className="map-zoom-controls">
           <button type="button" aria-pressed={!zoomed} onClick={() => { setZoomed(false); setActive(null); }}>World view</button>
           <button type="button" aria-pressed={zoomed} onClick={() => { setZoomed(true); setActive(null); }}>Zoom Europe</button>
@@ -64,8 +64,8 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
           const partner = partnerByName.get(name);
           if (!partner) return null;
           return (
-            <button
-              type="button"
+            <a
+              href={`/team#${partnerId(partner.name)}`}
               className={`market-marker partner-dot${active === name ? " is-active" : ""}`}
               style={{ left: `${left}%`, top: `${top}%` }}
               aria-label={`${partner.name} — ${partner.country}. Show team member`}
@@ -73,11 +73,10 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
               aria-controls={active === name ? cardId : undefined}
               onPointerEnter={(event) => { if (event.pointerType === "mouse") setActive(name); }}
               onFocus={() => { setActive(name); setZoomed(left > 43 && left < 59 && top < 35); }}
-              onClick={() => setActive(name)}
               key={partner.name}
             >
               <i aria-hidden="true"></i>
-            </button>
+            </a>
           );
         })}
         </div></div>
@@ -85,13 +84,13 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
           <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}>
             <button type="button" className="map-card-close" aria-label="Close team member card" onClick={() => setActive(null)}>×</button>
             {selected.image
-              ? <img className="map-partner-photo" src={selected.image} alt={selected.name} />
+              ? <a href={`/team#${partnerId(selected.name)}`} aria-label={`Read ${selected.name}’s bio`}><img className="map-partner-photo" src={selected.image} alt={selected.name} /></a>
               : <span className="map-partner-initials" aria-hidden="true">{selected.name.split(" ").filter((part) => !part.endsWith(".")).map((part) => part[0]).slice(0, 2).join("")}</span>}
             <div className="map-partner-copy">
               <span className="map-partner-country">{selected.country}</span>
               <h3>{selected.name}</h3>
               <p>{selected.role}</p>
-              <a href={`/team#${partnerId(selected.name)}`}>View team profile →</a>
+              <a href={`/team#${partnerId(selected.name)}`}>View bio →</a>
             </div>
           </aside>
         )}
