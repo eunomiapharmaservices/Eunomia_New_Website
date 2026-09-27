@@ -15,10 +15,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       accent="blue"
-      video={{
-        src: "/videos/compliant-automation.mp4",
-        poster: "/videos/compliant-automation-poster.jpg",
-      }}
+      serviceImage={{ src: "/eunomia-workflow.png", alt: "Planning digital compliance workflows and automated processes" }}
       serviceTitleFirst
       hideScope
       kicker="Automation of Compliance Operations"
