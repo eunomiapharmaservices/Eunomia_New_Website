@@ -1139,3 +1139,6 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .map-partner-card .map-partner-photo{aspect-ratio:1/1;height:auto;object-fit:cover;object-position:center}
 
 .start-card{display:flex;flex-direction:column;background:#f4f4f4}.start-grid .start-card-primary{flex:1}.start-card:nth-child(even){box-shadow:inset 0 4px 0 var(--orange)}.start-grid .start-card-email{display:block;padding:14px 32px;color:var(--green);font-size:14px;text-decoration:underline}.map-link-text{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* Keep decorative thumbnails from determining resource card height. */
+.article-image,.featured-resource-image{position:relative;overflow:hidden;min-width:0}.article-image img,.featured-resource-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}.article-card h3{overflow-wrap:anywhere}

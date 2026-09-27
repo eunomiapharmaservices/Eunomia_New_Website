@@ -14,8 +14,7 @@ const featured = [
     type: "E-book",
     title: "From Compliance Bottlenecks to Business Breakthroughs",
     href: "/resources#articles",
-    image:
-      "https://eunomiapharmaservices.com/wp-content/uploads/2025/10/ebook.png",
+    image: "/eunomia-workflow.png",
     icon: BookOpen,
   },
   {
@@ -23,8 +22,7 @@ const featured = [
     title:
       "Faster Entry in European Markets — Compliance as the Competitive Edge",
     href: "/resources#articles",
-    image:
-      "https://eunomiapharmaservices.com/wp-content/uploads/2025/11/ebook-2.png",
+    image: "/market-representation.png",
     icon: PlayCircle,
   },
   {
@@ -32,60 +30,33 @@ const featured = [
     title:
       "Global Healthcare Compliance, Local Disclosure: Navigating Transparency Requirements Across APAC, Spain and Portugal",
     href: "https://drive.google.com/file/d/1sR6vAjm-F8O-DmHmPGVddq4ebrCkzPbI/view?usp=sharing",
-    image:
-      "https://eunomiapharmaservices.com/wp-content/uploads/2026/07/webinar.png",
+    image: "/compliance-collaboration.png",
     icon: PlayCircle,
   },
   {
     type: "Case study",
     title: "Materials Review, Shared Service and Streamlined Process",
     href: "/resources/materials-review-shared-service-case-study",
-    image:
-      "https://eunomiapharmaservices.com/wp-content/uploads/2026/08/Case-study-cover-page-723x1024.png",
+    image: "/home-compliance-team.jpeg",
     icon: FileText,
   },
   {
     type: "Methodology",
     title: "Fair Market Value Methodology",
     href: "/resources/fair-market-value-methodology",
-    image:
-      "https://eunomiapharmaservices.com/wp-content/uploads/2026/08/fairmarket-725x1024.png",
+    image: "/eunomia-workflow.png",
     icon: FileText,
   },
 ];
 
-const articleImages = [
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/07/How-Small-and-Mid-Sized-Pharma-Companies-Can-Build-an-Effective-Compliance-Risk-Assessment-Framework-Risk-Assesment-1_files-1-672x448.png",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/07/Top-Transparency-Reporting-Mistakes-Pharmaceutical-Companies-Should-Avoid-1536x864-1-672x448.png",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/06/PMCPAs-2026-Social-Media-Guidance-Compliance-Priorities-Companies-Should-Address-Now-672x448.jpeg",
-  "/compliance-collaboration.png",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/04/AI-in-Healthcare-Compliance-Navigating-Opportunities-Risks-and-Regulatory-Landscapes-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/04/Navigating-Country-Level-Accountability-in-Europe-A-Key-Pillar-of-Healthcare-Compliance-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-30-at-9.46.02-PM-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-27-at-7.25.37-PM-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-24-at-9.28.11-PM-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/02/Compliance-Gap-Analysis-Reducing-Risk-Without-Slowing-Growth-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/02/Featured-Image.jpg-2-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/02/Transparency-Reporting-in-the-Pharmaceutical-Industry-Legal-Compliance-Versus-Ethical-Responsibility-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/02/Featured-Image.jpg-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/12/How-Gap-Analysis-Strengthens-Healthcare-Compliance-Internal-Audits-min-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/12/Featured-Image-min-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/10/Staying-Ahead-of-the-Curve-Audit-Readiness-Best-Practices-Across-European-Life-Sciences-Markets-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/10/Top-10-Healthcare-Compliance-Challenges-in-Pharma-Industry-and-How-to-Solve-Them-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/10/What-Makes-Healthcare-Compliance-Training-Effective-1-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/09/How-to-Avoid-Common-Healthcare-Compliance-Mistakes-in-Pharmaceuticals-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2026/04/AI-in-Healthcare-Compliance-Navigating-Opportunities-Risks-and-Regulatory-Landscapes-672x448.jpeg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/08/standard-quality-control-collage-concept-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/08/still-life-business-roles-with-various-mechanism-pieces-min-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/06/stackeholder-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/06/Risk-Assessment-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/05/diversity-blog-1-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/06/dataanalytics-blog-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/06/healthcare-blog-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2025/06/risk-blog.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2024/07/ensure-blog-1-672x448.jpg",
-  "https://eunomiapharmaservices.com/wp-content/uploads/2024/07/aiblog-672x448.jpg",
-];
+function articleImage(title: string) {
+  if (/AI |technology|digital|automation/i.test(title)) return "/ai-governance.png";
+  if (/market|country|europe|global/i.test(title)) return "/market-representation.png";
+  if (/transparency|disclosure|data|fair market/i.test(title)) return "/eunomia-workflow.png";
+  if (/training|stakeholder|team/i.test(title)) return "/resources-rashmi-team.png";
+  return "/compliance-collaboration.png";
+}
+
 
 const articles = [
   [
@@ -277,7 +248,7 @@ export default function Resources() {
               data-resource-search={`${type} ${title}`}
             >
               <div className="featured-resource-image">
-                <img src={image} alt={`${title} cover`} />
+                <img src={image} alt="" loading="lazy" />
                 <div className="resource-icon">
                   <Icon />
                 </div>
@@ -314,8 +285,8 @@ export default function Resources() {
               >
                 <div className="article-image">
                   <img
-                    src={articleImages[i]}
-                    alt={`${title} article illustration`}
+                    src={articleImage(title)}
+                    alt=""
                     loading="lazy"
                   />
                 </div>
