@@ -206,8 +206,7 @@ export default function Home() {
             <span>“</span>
             <p>Rashmi and the team are very attentive and strategic.</p>
             <footer>
-              <b>Global Head of Medical Affairs</b>Pharmaceutical company ·
-              Verified review
+              <b>Global Head of Medical Affairs</b>Pharmaceutical company · Anonymous on Clutch
             </footer>
           </blockquote>
           <blockquote>
@@ -217,15 +216,14 @@ export default function Home() {
               collaborative, and pragmatic.
             </p>
             <footer>
-              <b>Senior Director of Compliance</b>Pharmaceutical company ·
-              Verified review
+              <b>Senior Director of Compliance</b>Pharmaceutical company · Anonymous on Clutch
             </footer>
           </blockquote>
           <blockquote>
             <span>“</span>
             <p>The deliverables exceeded expectations.</p>
             <footer>
-              <b>Co-Founder</b>Pharmaceutical company · Verified review
+              <b>R Garella · Co-Founder</b>Pharmaceutical company · Verified on Clutch
             </footer>
           </blockquote>
         </div>
