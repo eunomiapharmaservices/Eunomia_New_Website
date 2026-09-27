@@ -39,7 +39,7 @@ const featured = [
   {
     type: "Case study",
     title: "Materials Review, Shared Service and Streamlined Process",
-    href: "/resources/documents/materials-review-shared-service-case-study.pdf",
+    href: "/resources/materials-review-shared-service-case-study",
     image:
       "https://eunomiapharmaservices.com/wp-content/uploads/2026/08/Case-study-cover-page-723x1024.png",
     icon: FileText,
@@ -47,7 +47,7 @@ const featured = [
   {
     type: "Methodology",
     title: "Fair Market Value Methodology",
-    href: "/resources/documents/fair-market-value-methodology.pdf",
+    href: "/resources/fair-market-value-methodology",
     image:
       "https://eunomiapharmaservices.com/wp-content/uploads/2026/08/fairmarket-725x1024.png",
     icon: FileText,
