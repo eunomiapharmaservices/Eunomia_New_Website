@@ -73,7 +73,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload sizes="(max-width: 900px) 100vw, 38vw" /></div>
+        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
         <div className="hero-copy">
           <h1>
             <span className="hero-title-green">Global Healthcare Compliance Services</span>{" "}<span className="hero-title-orange">powered by Automation</span>
