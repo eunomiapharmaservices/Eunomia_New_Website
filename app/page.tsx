@@ -9,9 +9,8 @@ import { SiteFooter } from "../components/SiteChrome";
 import { CoverageMap } from "../components/CoverageMap";
 
 export const metadata: Metadata = {
-  title: "Eunomia Pharma Services | Healthcare compliance, globally",
-  description:
-    "Healthcare compliance programme design and implementation, automation of compliance operations, local legal representation and shared services for pharmaceutical and biotech companies.",
+  title: "Eunomia Pharma Services | Global Healthcare Compliance",
+  description: "Global healthcare compliance powered by automation. Programme design, compliance operations, local legal representation and shared services.",
 };
 
 const services = [
