@@ -1,3 +1,4 @@
+import { SiteImage } from "../../components/SiteImage";
 import { StructuredData } from "../../components/StructuredData";
 import { partnerId } from "../../data/compliancePartners";
 import type { Metadata } from "next";
@@ -47,7 +48,7 @@ export default function Team() {
 
       <section className="team-leadership section-pad" aria-label="Rashmi Papneja biography">
         <article className="founder-profile founder-profile-static">
-          <img src="/team-rashmi.jpeg" alt="Rashmi Papneja" />
+          <SiteImage src="/team-rashmi.jpeg" sizes="(max-width: 600px) 90vw, 400px" alt="Rashmi Papneja" />
           <div>
             <h3>Rashmi Papneja</h3>
             <p className="founder-role">Founder and Managing Director</p>

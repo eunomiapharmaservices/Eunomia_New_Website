@@ -1,3 +1,4 @@
+import { SiteImage } from "../../components/SiteImage";
 import { ArrowUpRight, BookOpen, FileText, PlayCircle } from "lucide-react";
 import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
@@ -212,6 +213,7 @@ export default function Resources() {
     <main>
       <SiteHeader />
       <section className="inner-hero resource-hero">
+        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill preload sizes="(max-width: 900px) 100vw, 44vw" /></div>
         <p className="section-kicker">Resources</p>
         <h1>
           Practical insight for
@@ -244,7 +246,7 @@ export default function Resources() {
               data-resource-search={`${type} ${title}`}
             >
               <div className="featured-resource-image">
-                <img src={image} alt="" loading="lazy" />
+                <SiteImage src={image} fill sizes="(max-width: 650px) 100vw, 33vw" alt="" loading="lazy" />
                 <div className="resource-icon">
                   <Icon />
                 </div>
@@ -280,8 +282,9 @@ export default function Resources() {
                 data-resource-search={`article ${date} ${title}`}
               >
                 <div className="article-image">
-                  <img
+                  <SiteImage
                     src={articleImage(title)}
+                    fill sizes="(max-width: 650px) 120px, 180px"
                     alt=""
                     loading="lazy"
                   />

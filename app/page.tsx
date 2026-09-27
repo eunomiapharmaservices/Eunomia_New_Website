@@ -1,3 +1,4 @@
+import { SiteImage } from "../components/SiteImage";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -66,12 +67,13 @@ export default function Home() {
           href="#top"
           aria-label="Eunomia Pharma Services home"
         >
-          <img src="/eunomia-logo.webp" alt="Eunomia Pharma Services" />
+          <SiteImage src="/eunomia-logo.webp" sizes="220px" loading="eager" alt="Eunomia Pharma Services" />
         </a>
         <PrimaryNav />
       </header>
 
       <section className="hero" id="top">
+        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload sizes="(max-width: 900px) 100vw, 38vw" /></div>
         <div className="hero-copy">
           <h1>
             <span className="hero-title-green">Global Healthcare Compliance Services</span>{" "}<span className="hero-title-orange">powered by Automation</span>
@@ -179,8 +181,9 @@ export default function Home() {
                     className="client-logo-card"
                     key={`${duplicate ? "duplicate-" : ""}${company.name}`}
                   >
-                    <img
+                    <SiteImage
                       src={company.logo}
+                      sizes="(max-width: 600px) 212px, 306px"
                       alt={duplicate ? "" : `${company.name} logo`}
                       loading="lazy"
                     />
@@ -287,8 +290,9 @@ export default function Home() {
       </section>
 
       <section className="image-story">
-        <img
+        <SiteImage
           src="/home-hero-consultation.jpeg"
+          sizes="(max-width: 900px) 100vw, 60vw"
           alt="Eunomia specialists collaborating on a compliance project"
         />
         <div>

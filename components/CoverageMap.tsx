@@ -59,7 +59,7 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
         onPointerLeave={(event) => { if (event.pointerType === "mouse") setZoomed(false); }}>
         <div className="map-viewport"><div className={`map-geography${zoomed ? " is-zoomed" : ""}`}>
 
-        <img className="world-map-base" src="/world-map.svg" alt="" aria-hidden="true" />
+        <img className="world-map-base" src="/world-map.svg" width={940} height={477} loading="lazy" decoding="async" alt="" aria-hidden="true" />
         {showOfficers && partnerMarkers.map(([name, left, top]) => {
           const partner = partnerByName.get(name);
           if (!partner) return null;

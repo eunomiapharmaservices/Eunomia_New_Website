@@ -1,3 +1,4 @@
+import { SiteImage } from "./SiteImage";
 import { StructuredData } from "./StructuredData";
 import type { ReactNode } from "react";
 import { ArrowLeft, ArrowUpRight, Check } from "lucide-react";
@@ -85,8 +86,9 @@ export function ServiceSubpage({
             Your browser does not support video. <a href={video.src}>Download the video</a>.
           </video>
         ) : (
-          <img
+          <SiteImage
             src={serviceImage.src}
+            sizes="(max-width: 1000px) 90vw, 960px"
             alt={serviceImage.alt}
             style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }}
           />
@@ -123,7 +125,7 @@ export function ServiceSubpage({
       {detailSection}
       {lead && (
         <section className="service-lead section-pad">
-          <img src={lead.image} alt={lead.name} />
+          <SiteImage src={lead.image} sizes="(max-width: 950px) 90vw, 40vw" alt={lead.name} />
           <div>
             <p className="section-kicker">Your named lead</p>
             <h2>{lead.name}</h2>

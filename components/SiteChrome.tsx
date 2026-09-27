@@ -1,3 +1,4 @@
+import { SiteImage } from "./SiteImage";
 export function PrimaryNav() {
   return (
     <nav aria-label="Primary navigation">
@@ -24,7 +25,7 @@ export function SiteHeader() {
   return (
     <header className="site-header inner-header">
       <a className="wordmark" href="/">
-        <img src="/eunomia-logo.webp" alt="Eunomia Pharma Services" />
+        <SiteImage src="/eunomia-logo.webp" sizes="220px" loading="eager" alt="Eunomia Pharma Services" />
       </a>
       <PrimaryNav />
     </header>
@@ -34,7 +35,7 @@ export function SiteFooter() {
   return (
     <footer>
       <a className="wordmark footer-logo" href="/">
-        <img src="/eunomia-logo.webp" alt="Eunomia Pharma Services" />
+        <SiteImage src="/eunomia-logo.webp" sizes="220px" alt="Eunomia Pharma Services" />
       </a>
       <div className="footer-details">
         <span>

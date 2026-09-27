@@ -1,0 +1,254 @@
+{
+  "/ai-governance-european-female.png": {
+    "width": 1579,
+    "height": 996
+  },
+  "/ai-governance.png": {
+    "width": 1205,
+    "height": 760
+  },
+  "/compliance-collaboration.png": {
+    "width": 1814,
+    "height": 867
+  },
+  "/current-hero.webp": {
+    "width": 1280,
+    "height": 640
+  },
+  "/current-team.webp": {
+    "width": 1024,
+    "height": 576
+  },
+  "/eunomia-logo.webp": {
+    "width": 831,
+    "height": 282
+  },
+  "/eunomia-team.png": {
+    "width": 1586,
+    "height": 992
+  },
+  "/eunomia-workflow.png": {
+    "width": 1536,
+    "height": 1024
+  },
+  "/home-compliance-team.jpeg": {
+    "width": 1376,
+    "height": 768
+  },
+  "/home-hero-consultation.jpeg": {
+    "width": 1376,
+    "height": 768
+  },
+  "/homepage-team-women.png": {
+    "width": 1691,
+    "height": 930
+  },
+  "/market-representation.png": {
+    "width": 1774,
+    "height": 887
+  },
+  "/og-default.jpg": {
+    "width": 1200,
+    "height": 630
+  },
+  "/rashmi-hero.png": {
+    "width": 1691,
+    "height": 930
+  },
+  "/resources-rashmi-team.png": {
+    "width": 1586,
+    "height": 992
+  },
+  "/team-agyat.jpeg": {
+    "width": 896,
+    "height": 1088
+  },
+  "/team-alexandre.jpg": {
+    "width": 800,
+    "height": 800
+  },
+  "/team-hans.jpeg": {
+    "width": 600,
+    "height": 600
+  },
+  "/team-himani.jpg": {
+    "width": 1254,
+    "height": 1254
+  },
+  "/team-jalmira-mulchande.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/team-kaja.jpg": {
+    "width": 500,
+    "height": 500
+  },
+  "/team-kaveri.jpeg": {
+    "width": 1275,
+    "height": 1233
+  },
+  "/team-mohamed-afir.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/team-nishant-chaturvedi.png": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/team-rashmi.jpeg": {
+    "width": 1122,
+    "height": 1402
+  },
+  "/team-sulabh.jpg": {
+    "width": 600,
+    "height": 600
+  },
+  "/client-logos/axunio-provided.png": {
+    "width": 396,
+    "height": 386
+  },
+  "/client-logos/axunio.png": {
+    "width": 192,
+    "height": 192
+  },
+  "/client-logos/biophytis-provided.png": {
+    "width": 1206,
+    "height": 606
+  },
+  "/client-logos/biophytis.png": {
+    "width": 256,
+    "height": 256
+  },
+  "/client-logos/essential-pharma-provided.png": {
+    "width": 789,
+    "height": 438
+  },
+  "/client-logos/essential-pharma.png": {
+    "width": 192,
+    "height": 192
+  },
+  "/client-logos/hipra-provided.png": {
+    "width": 486,
+    "height": 258
+  },
+  "/client-logos/jcr-provided.png": {
+    "width": 628,
+    "height": 414
+  },
+  "/client-logos/jcr.png": {
+    "width": 192,
+    "height": 192
+  },
+  "/client-logos/khondrion-provided.png": {
+    "width": 736,
+    "height": 308
+  },
+  "/client-logos/khondrion.png": {
+    "width": 256,
+    "height": 256
+  },
+  "/client-logos/mereo-biopharma-provided.png": {
+    "width": 396,
+    "height": 394
+  },
+  "/client-logos/mereo-biopharma.png": {
+    "width": 180,
+    "height": 180
+  },
+  "/client-logos/mytomorrows-provided.png": {
+    "width": 562,
+    "height": 214
+  },
+  "/client-logos/mytomorrows.png": {
+    "width": 192,
+    "height": 192
+  },
+  "/client-logos/prime-global-provided.png": {
+    "width": 1546,
+    "height": 562
+  },
+  "/client-logos/prime-global.png": {
+    "width": 65,
+    "height": 54
+  },
+  "/client-logos/roche-provided.png": {
+    "width": 978,
+    "height": 524
+  },
+  "/client-logos/roche.png": {
+    "width": 256,
+    "height": 256
+  },
+  "/client-logos/rovi-biotech.png": {
+    "width": 32,
+    "height": 32
+  },
+  "/client-logos/rovi-provided.png": {
+    "width": 400,
+    "height": 401
+  },
+  "/videos/compliant-automation-poster.jpg": {
+    "width": 1280,
+    "height": 720
+  },
+  "/videos/healthcare-compliance-programme-poster.jpg": {
+    "width": 1280,
+    "height": 720
+  },
+  "/favicon.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/world-map.svg": {
+    "width": 940,
+    "height": 477
+  },
+  "/consultants/alexandre-guillaume.svg": {
+    "width": 600,
+    "height": 800
+  },
+  "/consultants/dr-hans-joachim-hutt.svg": {
+    "width": 400,
+    "height": 400
+  },
+  "/consultants/dunja-hu.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/ilaria-franchini.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/jalmira-mulchande.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/karen-glade.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/maria-diaz.svg": {
+    "width": 427,
+    "height": 427
+  },
+  "/consultants/miroslaw-zapala.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/mohamed-afir.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/nishant-chaturvedi.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/rashmi-papneja.svg": {
+    "width": 600,
+    "height": 600
+  },
+  "/consultants/rohit-kumar.svg": {
+    "width": 600,
+    "height": 600
+  }
+}
