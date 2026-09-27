@@ -1203,3 +1203,16 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .inner-hero>.resource-hero-media{position:relative;grid-column:1;grid-row:1/5;margin:0;min-height:390px}
 .resource-hero-media img{object-fit:cover;object-position:center}
 @media(max-width:600px){.inner-hero>.resource-hero-media{min-height:310px}}
+/* Homepage performance: the hero photo is served by next/image, so don't also download the full JPEG as a CSS background */
+.hero-media{background-image:none!important;position:relative;overflow:hidden}
+.hero-media img{object-fit:cover}
+/* Accessibility: text contrast (WCAG AA) */
+.client-logos-heading .section-kicker,.people .section-kicker{color:#3f7a1d}
+.review-heading .section-kicker,.start>.section-kicker{color:#c2410c}
+.image-story .section-kicker{color:#8fcf5f}
+.coverage-copy .section-kicker{color:#ff8a4c}
+#home-services-title span{color:#d9581a}
+.impact-grid article strong{color:#3d8c14}
+.start-card-primary>span{color:#566f55}
+/* Accessibility: map markers need a 24px+ touch target */
+.market-marker{min-width:28px;min-height:28px;justify-content:center}
