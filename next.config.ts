@@ -11,6 +11,16 @@ const nextConfig: NextConfig = {
   async redirects() {
     const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
     return [
+      { source: "/resources/articles/healthcare-compliance-services", destination: "/services", permanent: true },
+      { source: "/resources/articles/compliancetraining", destination: "/services/governance-assurance", permanent: true },
+      { source: "/resources/articles/sop", destination: "/services/governance-assurance", permanent: true },
+      { source: "/resources/articles/monitoring-and-auditing", destination: "/services/governance-assurance", permanent: true },
+      { source: "/resources/articles/audits", destination: "/services/governance-assurance", permanent: true },
+      { source: "/resources/articles/risk-assessment-framework-and-internal-controls", destination: "/services/governance-assurance", permanent: true },
+      { source: "/resources/articles/fmv", destination: "/resources/fair-market-value-methodology", permanent: true },
+      { source: "/resources/articles/material", destination: "/services/shared-services", permanent: true },
+      { source: "/resources/articles/transparency", destination: "/services/shared-services", permanent: true },
+      { source: "/resources/articles/contact", destination: "/contact", permanent: true },
       // Duplicate of /resources/articles/ai-in-healthcare-compliance; send both old URLs to the original.
       { source: `/resources/articles/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
       { source: `/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
