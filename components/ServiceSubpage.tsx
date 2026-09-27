@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { ArrowLeft, ArrowUpRight, Check, PlayCircle } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Check } from "lucide-react";
 import { SiteHeader, SiteFooter } from "./SiteChrome";
 type FAQ = { question: string; answer: string };
 type Props = {
@@ -12,6 +12,7 @@ type Props = {
   faqs: FAQ[];
   accent?: string;
   lead?: { name: string; role: string; image: string };
+  serviceImage?: { src: string; alt: string };
   video?: { src: string; poster: string; captions?: string };
   heroDetail?: ReactNode;
   detailSection?: ReactNode;
@@ -29,6 +30,7 @@ export function ServiceSubpage({
   accent = "green",
   lead,
   video,
+  serviceImage = { src: "/compliance-collaboration.png", alt: "Compliance specialists reviewing documents together" },
   heroDetail,
   detailSection,
   hideScope = false,
@@ -62,7 +64,7 @@ export function ServiceSubpage({
           Discuss this service <ArrowUpRight />
         </a>
       </section>
-      <section className="service-video section-pad" aria-label={`${kicker} video`}>
+      <section className="service-video section-pad" aria-label={`${kicker} ${video ? "video" : "overview"}`}>
         {video ? (
           <video
             controls
@@ -77,14 +79,11 @@ export function ServiceSubpage({
             Your browser does not support video. <a href={video.src}>Download the video</a>.
           </video>
         ) : (
-        <div className="service-video-frame">
-          <PlayCircle aria-hidden="true" />
-          <div>
-            <p className="section-kicker">Service video</p>
-            <h2>{kicker}</h2>
-            <span>Video coming soon</span>
-          </div>
-        </div>
+          <img
+            src={serviceImage.src}
+            alt={serviceImage.alt}
+            style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }}
+          />
         )}
       </section>
       {heroDetail}
