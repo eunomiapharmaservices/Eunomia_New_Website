@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/services/automation-of-compliance-operations" },
   title: "Automation of healthcare compliance operations | Eunomia",
   description:
     "Compliance expertise with automation built into existing pharmaceutical review, monitoring and governance processes.",

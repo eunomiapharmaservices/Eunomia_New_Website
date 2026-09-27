@@ -5,6 +5,7 @@ import { TeamProfile, type TeamPerson } from "../../components/TeamProfiles";
 import { compliancePartners } from "../../data/compliancePartners";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/team" },
   title: "Our team | Eunomia Pharma Services",
   description: "Meet Eunomia's global compliance business partners and healthcare compliance operations specialists.",
 };

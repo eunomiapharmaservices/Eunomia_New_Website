@@ -36,6 +36,7 @@ const mandates = [
   },
 ];
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/services/local-legal-mandates" },
   title: "Local legal mandates and representation | Eunomia Pharma Services",
   description:
     "In-market compliance representation and local-code support without the need to build in-country headcount.",

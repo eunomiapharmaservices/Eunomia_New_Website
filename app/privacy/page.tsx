@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/privacy" },
   title: "Privacy notice and cookies | Eunomia Pharma Services",
   description:
     "How Eunomia Pharma Services collects, uses and protects personal data submitted through this website, and what cookies the site sets.",

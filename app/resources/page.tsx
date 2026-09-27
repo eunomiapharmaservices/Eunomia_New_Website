@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ResourceSearch } from "../../components/ResourceSearch";
 export const metadata: Metadata = {
-  title:
-    "Compliance resources — case studies, webinars and articles | Eunomia Pharma Services",
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
+  title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
     "Case studies, webinars, e-books and 30 articles on pharmaceutical compliance: transparency reporting, fair market value, audit readiness, AI governance and market entry.",
 };

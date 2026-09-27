@@ -9,6 +9,7 @@ import { SiteFooter } from "../components/SiteChrome";
 import { CoverageMap } from "../components/CoverageMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/" },
   title: "Eunomia Pharma Services | Global Healthcare Compliance",
   description: "Global healthcare compliance powered by automation. Programme design, compliance operations, local legal representation and shared services.",
 };

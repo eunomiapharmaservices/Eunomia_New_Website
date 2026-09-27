@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { ArrowUpRight, Bot, MapPinned, ShieldCheck, UsersRound } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 export const metadata: Metadata = {
-  title:
-    "Compliance services for pharma — programme design, automation, local representation and shared services | Eunomia",
-  description:
-    "Four healthcare compliance services for pharmaceutical and biotech companies: healthcare compliance programme design and implementation, automation of compliance operations, local legal mandates and representation, and Shared Services / GBS / GCC.",
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/services" },
+  title: "Healthcare Compliance Services for Pharma & Biotech | Eunomia",
+  description: "Healthcare compliance programme design, compliance automation, local legal representation and shared services for pharmaceutical and biotech companies.",
 };
 const services = [
   {

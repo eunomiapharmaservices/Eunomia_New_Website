@@ -1,7 +1,22 @@
+import type { Metadata } from "next";
+import articleSeo from "../../../../data/article-seo.json";
 import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "../../../../components/SiteChrome";
 import resourceArticles from "../../../../data/resource-articles.json";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const article = articleSeo.find((item) => item.slug === slug);
+  if (!article) return {};
+  const url = "https://www.eunomiapharmaservices.com/resources/articles/" + slug;
+  return {
+    title: article.title + " | Eunomia",
+    description: article.description,
+    alternates: { canonical: url },
+    openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services" },
+  };
+}
 
 type Article = (typeof resourceArticles)[number];
 

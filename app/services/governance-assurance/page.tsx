@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = {
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance" },
   title: "Healthcare compliance programme design and implementation | Eunomia",
   description:
     "Compliance programme design, audit readiness, policy, monitoring and training with a defensible evidence trail.",
