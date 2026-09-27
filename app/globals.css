@@ -1131,8 +1131,8 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 
 .hero-copy h1 .hero-title-green{color:var(--green)}
 .hero-copy h1 .hero-title-orange{color:var(--site-orange)}
-.hero-copy .hero-lede{color:#294c30}
-.hero-copy .hero-lede strong{color:#ad4818;font-weight:700}
+.hero-copy .hero-lede{color:var(--ink)}
+.hero-copy .hero-lede strong{color:var(--green);font-weight:700}
 
 .team-profile-grid-partners .profile-photo img{object-fit:cover;object-position:center 30%}
 .map-partner-card>a{flex:none}
