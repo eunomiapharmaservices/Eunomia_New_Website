@@ -75,7 +75,7 @@ export default function Home() {
           <h1>
             <span className="hero-title-green">Global Healthcare Compliance Services</span>{" "}<span className="hero-title-orange">powered by Automation</span>
           </h1>
-          <p className="hero-lede">We don’t just build the compliance framework, <strong>we operationalise it for you.</strong></p>
+          <p className="hero-lede">We don’t just build the commercial compliance framework, <strong>we operationalise it for you.</strong></p>
 
         </div>
         <div className="hero-signal" aria-label="Eunomia delivery model">
