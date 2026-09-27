@@ -3,6 +3,7 @@ import { withSocial } from "../../../lib/seo";
 import { Bot, FileCheck2, Globe2, Scale, ShieldCheck, Sparkles } from "lucide-react";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 import { CoverageMap } from "../../../components/CoverageMap";
+import { markets } from "../../../data/markets";
 
 const mandates = [
   {
@@ -110,6 +111,14 @@ export default function Page() {
               <a href="https://eur-lex.europa.eu/eli/reg/2023/2854/oj" target="_blank" rel="noreferrer">EU Data Act</a>
               <a href="https://eur-lex.europa.eu/eli/reg/2017/745/oj" target="_blank" rel="noreferrer">MDR</a>
               <a href="https://eur-lex.europa.eu/eli/reg/2017/746/oj" target="_blank" rel="noreferrer">IVDR</a>
+            </div>
+          </div>
+          <div className="mandate-sources market-guides">
+            <h3>Country guides</h3>
+            <div className="source-links">
+              {markets.map((m) => (
+                <a key={m.slug} href={`/markets/${m.slug}`}>{m.country}</a>
+              ))}
             </div>
           </div>
           <p className="legal-note">

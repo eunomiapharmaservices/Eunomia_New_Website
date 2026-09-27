@@ -7,6 +7,7 @@ import resourceArticles from "../../../../data/resource-articles.json";
 import { StructuredData } from "../../../../components/StructuredData";
 import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 import articleServices from "../../../../data/article-services.json";
+import relatedGroups from "../../../../data/article-related.json";
 
 const SERVICES: Record<string, { name: string; summary: string }> = {
   "governance-assurance": { name: "Healthcare Compliance Programme Design and Implementation", summary: "Frameworks, controls, audit readiness and implementation" },
@@ -74,6 +75,14 @@ export default async function ResourceArticle({
   const relatedServiceSlug = (articleServices as Record<string, string>)[slug];
   const relatedService = relatedServiceSlug ? SERVICES[relatedServiceSlug] : undefined;
 
+  const relatedSlugs = Array.from(
+    new Set((relatedGroups as string[][]).filter((g) => g.includes(slug)).flat()),
+  ).filter((s) => s !== slug);
+  const relatedArticles = relatedSlugs
+    .map((s) => resourceArticles.find((a) => a.slug === s))
+    .filter((a): a is Article => Boolean(a))
+    .slice(0, 3);
+
   const seo = articleSeo.find((item) => item.slug === slug);
   const url = `${SITE}/resources/articles/${slug}`;
   // Dates come from the article record; author and publisher resolve to the
@@ -113,6 +122,18 @@ export default async function ResourceArticle({
             __html: promoteSectionHeadings(localiseArticleLinks(article.content)),
           }}
         />
+        {relatedArticles.length > 0 && (
+          <aside className="article-related-reading">
+            <p className="section-kicker">Related reading</p>
+            <ul>
+              {relatedArticles.map((a) => (
+                <li key={a.slug}>
+                  <a href={`/resources/articles/${a.slug}`} dangerouslySetInnerHTML={{ __html: a.title }} />
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
         {relatedService && (
           <aside className="article-related-service">
             <p className="section-kicker">Related service</p>
