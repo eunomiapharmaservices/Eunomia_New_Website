@@ -94,8 +94,9 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <h1>
-            Global Healthcare Compliance for the Pharmaceutical and Biotech Industry
+            Global Healthcare Compliance Services powered by Automation
           </h1>
+          <p className="hero-lede">We don’t just build the compliance framework, we operationalise it for you.</p>
           <ul className="hero-points" aria-label="Our approach">
             <li>Powered by life sciences compliance expertise</li>
             <li>No bloated retainers</li>
