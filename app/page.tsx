@@ -86,11 +86,11 @@ export default function Home() {
       </section>
 
       <section className="home-service-summary section-pad" id="services" aria-labelledby="home-services-title">
-        <h2 id="home-services-title">End-to-end Global Compliance Services</h2>
+        <h2 id="home-services-title"><span>End-to-end</span> Compliance Solutions</h2>
         <ul className="home-service-summary-row">
           {services.map((service) => (
             <li key={service.title}>
-              <a href={service.href}><strong>{service.title}</strong></a>
+              <a href={service.href}><strong>{service.title}</strong><ArrowUpRight aria-hidden="true" /></a>
             </li>
           ))}
         </ul>
