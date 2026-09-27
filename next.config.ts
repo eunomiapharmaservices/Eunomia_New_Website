@@ -9,7 +9,14 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
-    return articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true }));
+    return [
+      { source: "/fmv", destination: "/resources/fair-market-value-methodology", permanent: true },
+      { source: "/transparency", destination: "/services/shared-services", permanent: true },
+      { source: "/compliancetraining", destination: "/services/governance-assurance", permanent: true },
+      { source: "/systems-automation", destination: "/services/automation-of-compliance-operations", permanent: true },
+      { source: "/category/blog", destination: "/resources#articles", permanent: true },
+      ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true })),
+    ];
   },
 };
 
