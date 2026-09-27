@@ -9,7 +9,11 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
+    const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
     return [
+      // Duplicate of /resources/articles/ai-in-healthcare-compliance; send both old URLs to the original.
+      { source: `/resources/articles/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
+      { source: `/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
       { source: "/fmv", destination: "/resources/fair-market-value-methodology", permanent: true },
       { source: "/transparency", destination: "/services/shared-services", permanent: true },
       { source: "/compliancetraining", destination: "/services/governance-assurance", permanent: true },
