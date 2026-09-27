@@ -9,7 +9,13 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
-    return articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true }));
+    const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
+    return [
+      // Duplicate of /resources/articles/ai-in-healthcare-compliance; send both old URLs to the original.
+      { source: `/resources/articles/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
+      { source: `/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
+      ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true })),
+    ];
   },
 };
 
