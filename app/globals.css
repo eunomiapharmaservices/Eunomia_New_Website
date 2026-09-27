@@ -1126,3 +1126,12 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .home-service-summary-row a:hover{color:var(--green)}
 @media(max-width:700px){.home-service-summary-row{grid-template-columns:1fr 1fr;gap:24px 12px}.home-service-summary-row li{padding:0 10px}.home-service-summary-row li:nth-child(2){border-right:0}}
 @media(max-width:420px){.home-service-summary-row{grid-template-columns:1fr}.home-service-summary-row li{border-right:0}}
+
+.hero-copy h1 .hero-title-green{color:var(--green)}
+.hero-copy h1 .hero-title-orange{color:var(--site-orange)}
+.hero-copy .hero-lede{color:#294c30}
+.hero-copy .hero-lede strong{color:#ad4818;font-weight:700}
+
+.team-profile-grid-partners .profile-photo img{object-fit:cover;object-position:center 30%}
+.map-partner-card>a{flex:none}
+.map-partner-card .map-partner-photo{aspect-ratio:1/1;height:auto;object-fit:cover;object-position:center}
