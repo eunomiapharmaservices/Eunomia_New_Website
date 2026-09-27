@@ -40,7 +40,7 @@ export function TeamProfile({ person, featured = false, bioEnabled = true }: { p
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger id={profileId} className={`profile-card${featured ? " profile-card-featured" : ""}`} aria-label={`Read ${person.name}'s bio`}>
-        <span className="profile-photo">{person.image ? <img src={person.image} alt="" /> : <span className="profile-photo-placeholder" aria-hidden="true">{person.name.split(" ").map((part) => part[0]).slice(0, 2).join("")}</span>}</span>
+        <span className="profile-photo">{person.image ? <img src={person.image} alt={person.role ? `${person.name}, ${person.role}` : person.name} /> : <span className="profile-photo-placeholder" aria-hidden="true">{person.name.split(" ").map((part) => part[0]).slice(0, 2).join("")}</span>}</span>
         <span className="profile-copy">
           {person.country && <span className="profile-country">{person.country}</span>}
           <strong>{person.name}</strong>

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "../../../lib/seo";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial("/services/governance-assurance", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance" },
   title: "Pharmaceutical Compliance Consultancy UK | Eunomia",
   description: "UK pharmaceutical compliance consultancy for programme design, ABPI Code compliance support, ABAC risk assessment, policies, training and monitoring.",
-};
+});
 export default function Page() {
   return (
     <ServiceSubpage

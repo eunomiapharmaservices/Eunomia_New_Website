@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSocial } from "../../../lib/seo";
 import { Bot, FileCheck2, Globe2, Scale, ShieldCheck, Sparkles } from "lucide-react";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 import { CoverageMap } from "../../../components/CoverageMap";
@@ -35,11 +36,11 @@ const mandates = [
     body: "Regulation (EU) 2024/1689, read alongside the GDPR, EU Data Act and, where AI forms part of a medical device or diagnostic, the MDR and IVDR—covering risk classification, data governance, transparency, human oversight, technical documentation, post-market monitoring and accountability.",
   },
 ];
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial("/services/local-legal-mandates", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/local-legal-mandates" },
   title: "Local Legal Representative for Pharma | Eunomia",
   description: "Local legal representative and compliance support for pharma market entry, country-specific codes, HCP engagement and transparency obligations.",
-};
+});
 export default function Page() {
   return (
     <ServiceSubpage

@@ -1,13 +1,14 @@
 import { ArrowUpRight, BookOpen, FileText, PlayCircle } from "lucide-react";
 import type { Metadata } from "next";
+import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ResourceSearch } from "../../components/ResourceSearch";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial("/resources", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
     "Case studies, webinars, e-books and 29 articles on pharmaceutical compliance: transparency reporting, fair market value, audit readiness, AI governance and market entry.",
-};
+});
 
 const featured = [
   {
