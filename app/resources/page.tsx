@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
-    "Case studies, webinars, e-books and 30 articles on pharmaceutical compliance: transparency reporting, fair market value, audit readiness, AI governance and market entry.",
+    "Case studies, webinars, e-books and 29 articles on pharmaceutical compliance: transparency reporting, fair market value, audit readiness, AI governance and market entry.",
 };
 
 const featured = [
@@ -82,7 +82,7 @@ const articles = [
   [
     "30 Apr 2026",
     "AI in Healthcare Compliance: Navigating Opportunities, Risks, and Regulatory Landscapes",
-    "https://eunomiapharmaservices.com/ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes/",
+    "https://eunomiapharmaservices.com/ai-in-healthcare-compliance/",
   ],
   [
     "30 Apr 2026",
@@ -153,11 +153,6 @@ const articles = [
     "16 Sep 2025",
     "How to Avoid Common Healthcare Compliance Mistakes in Pharmaceuticals",
     "https://eunomiapharmaservices.com/how-to-avoid-common-healthcare-compliance-mistakes-in-pharmaceuticals/",
-  ],
-  [
-    "04 Sep 2025",
-    "AI in Healthcare Compliance: Navigating Opportunities, Risks, and Regulatory Landscapes",
-    "https://eunomiapharmaservices.com/ai-in-healthcare-compliance/",
   ],
   [
     "26 Aug 2025",
