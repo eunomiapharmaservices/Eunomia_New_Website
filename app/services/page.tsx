@@ -1,11 +1,12 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import type { Metadata } from "next";
 import { ArrowUpRight, Bot, MapPinned, ShieldCheck, UsersRound } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocialMetadata({
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services" },
   title: "Healthcare Compliance Services for Pharma & Biotech | Eunomia",
   description: "Healthcare compliance programme design, compliance automation, local legal representation and shared services for pharmaceutical and biotech companies.",
-};
+});
 const services = [
   {
     number: "01",

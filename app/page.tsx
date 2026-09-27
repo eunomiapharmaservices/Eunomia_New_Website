@@ -1,3 +1,4 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -8,11 +9,11 @@ import type { Metadata } from "next";
 import { SiteFooter } from "../components/SiteChrome";
 import { CoverageMap } from "../components/CoverageMap";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocialMetadata({
   alternates: { canonical: "https://www.eunomiapharmaservices.com/" },
   title: "Eunomia Pharma Services | Global Healthcare Compliance",
   description: "Global healthcare compliance powered by automation. Programme design, compliance operations, local legal representation and shared services.",
-};
+});
 
 const services = [
   {

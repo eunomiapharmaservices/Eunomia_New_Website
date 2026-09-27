@@ -1,3 +1,4 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import type { Metadata } from "next";
 import {
   Braces,
@@ -6,11 +7,11 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocialMetadata({
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/automation-of-compliance-operations" },
   title: "Pharma Compliance Automation & EFPIA Disclosure | Eunomia",
   description: "Automate pharma compliance workflows, EFPIA disclosure data and monitoring with SharePoint, Power BI and controlled AI, supported by compliance specialists.",
-};
+});
 export default function Page() {
   return (
     <ServiceSubpage

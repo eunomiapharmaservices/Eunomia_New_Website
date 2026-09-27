@@ -1,3 +1,4 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import { StructuredData } from "../../components/StructuredData";
 import { partnerId } from "../../data/compliancePartners";
 import type { Metadata } from "next";
@@ -6,11 +7,11 @@ import { SiteFooter, SiteHeader } from "../../components/SiteChrome";
 import { TeamProfile, type TeamPerson } from "../../components/TeamProfiles";
 import { compliancePartners } from "../../data/compliancePartners";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocialMetadata({
   alternates: { canonical: "https://www.eunomiapharmaservices.com/team" },
   title: "Our team | Eunomia Pharma Services",
   description: "Meet Eunomia's global compliance business partners and healthcare compliance operations specialists.",
-};
+});
 
 const agyat: TeamPerson = {
   name: "Agyat Suri",

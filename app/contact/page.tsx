@@ -1,13 +1,14 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import type { Metadata } from "next";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ContactForm } from "../../components/ContactForm";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocialMetadata({
   alternates: { canonical: "https://www.eunomiapharmaservices.com/contact" },
   title: "Contact Eunomia Pharma Services — start a compliance conversation",
   description:
     "Tell us about your company, markets and the compliance question on your desk. No obligation and no pressure — we will listen and say how we see it.",
-};
+});
 export default function Contact() {
   return (
     <main>

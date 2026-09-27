@@ -1,3 +1,4 @@
+import { withSocialMetadata } from "@/lib/social-metadata";
 import type { Metadata } from "next";
 import articleSeo from "../../../../data/article-seo.json";
 import { ArrowLeft } from "lucide-react";
@@ -10,12 +11,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = articleSeo.find((item) => item.slug === slug);
   if (!article) return {};
   const url = "https://www.eunomiapharmaservices.com/resources/articles/" + slug;
-  return {
+  return withSocialMetadata({
     title: article.title + " | Eunomia",
     description: article.description,
     alternates: { canonical: url },
     openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services" },
-  };
+  });
 }
 
 type Article = (typeof resourceArticles)[number];
