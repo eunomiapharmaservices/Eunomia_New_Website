@@ -46,18 +46,34 @@ export function generateStaticParams() {
   return resourceArticles.map(({ slug }) => ({ slug }));
 }
 
+const legacyDestinations: Record<string, string> = {
+  "healthcare-compliance-services": "/services",
+  "compliancetraining": "/services/governance-assurance",
+  "sop": "/services/governance-assurance",
+  "monitoring-and-auditing": "/services/governance-assurance",
+  "audits": "/services/governance-assurance",
+  "risk-assessment-framework-and-internal-controls": "/services/governance-assurance",
+  "fmv": "/resources/fair-market-value-methodology",
+  "material": "/services/shared-services",
+  "transparency": "/services/shared-services",
+  "contact": "/contact"
+};
+const articleSlugs = new Set(resourceArticles.map(({ slug }) => slug));
+
 function localiseArticleLinks(html: string) {
   return html
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
-    .replace(
-      /href="https?:\/\/(?:www\.)?eunomiapharmaservices\.com\/([^"?#]+)\/?"/gi,
-      (_match, path: string) => {
-        const slug = path.split("/").filter(Boolean).at(-1);
-        return slug
-          ? `href="/resources/articles/${slug}"`
-          : 'href="/resources"';
-      },
-    );
+    .replace(/href=(["'])([^"']+)\1/gi, (match, quote: string, href: string) => {
+      // Rewrite only known destinations on our own site. Preserve other URLs.
+      if (!href.startsWith("/") && !/^https?:\/\//i.test(href)) return match;
+      const url = new URL(href, SITE);
+      if (!/^(www\.)?eunomiapharmaservices\.com$/i.test(url.hostname)) return match;
+      const path = url.pathname.replace(/\/+$/, "") || "/";
+      const key = path.replace(/^\/resources\/articles\//, "").replace(/^\//, "");
+      const destination = legacyDestinations[key.toLowerCase()]
+        ?? (articleSlugs.has(key) ? `/resources/articles/${key}` : path);
+      return `href=${quote}${destination}${url.search}${url.hash}${quote}`;
+    });
 }
 
 export default async function ResourceArticle({
