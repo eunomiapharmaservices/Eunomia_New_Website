@@ -5,6 +5,23 @@ import { notFound } from "next/navigation";
 import { SiteFooter, SiteHeader } from "../../../../components/SiteChrome";
 import resourceArticles from "../../../../data/resource-articles.json";
 import { StructuredData } from "../../../../components/StructuredData";
+import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
+import articleServices from "../../../../data/article-services.json";
+
+const SERVICES: Record<string, { name: string; summary: string }> = {
+  "governance-assurance": { name: "Healthcare Compliance Programme Design and Implementation", summary: "Frameworks, controls, audit readiness and implementation" },
+  "automation-of-compliance-operations": { name: "Automation of Compliance Operations", summary: "SharePoint, Power BI and AI automation" },
+  "local-legal-mandates": { name: "Local Legal Mandates and Representation", summary: "In-market presence and local-code support" },
+  "shared-services": { name: "Shared Services / GBS / GCC", summary: "A named compliance function, shaped around the work" },
+};
+
+// Section headings in the imported articles are mostly <h3>. Promote them to
+// <h2> when an article has none, so each section is a top-level heading under
+// the <h1>; data-level keeps the original size in CSS.
+function promoteSectionHeadings(html: string) {
+  if (/<h2\b/i.test(html)) return html;
+  return html.replace(/<h3\b/gi, '<h2 data-level="3"').replace(/<\/h3>/gi, "</h2>");
+}
 
 const SITE = "https://www.eunomiapharmaservices.com";
 
@@ -17,7 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: article.title + " | Eunomia",
     description: article.description,
     alternates: { canonical: url },
-    openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services" },
+    openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services", locale: "en_GB", images: [DEFAULT_OG_IMAGE] },
+    twitter: { card: "summary_large_image", title: article.title, description: article.description, images: [DEFAULT_OG_IMAGE.url] },
   };
 }
 
@@ -52,6 +70,9 @@ export default async function ResourceArticle({
     | undefined;
 
   if (!article) notFound();
+
+  const relatedServiceSlug = (articleServices as Record<string, string>)[slug];
+  const relatedService = relatedServiceSlug ? SERVICES[relatedServiceSlug] : undefined;
 
   const seo = articleSeo.find((item) => item.slug === slug);
   const url = `${SITE}/resources/articles/${slug}`;
@@ -89,9 +110,18 @@ export default async function ResourceArticle({
         <div
           className="standalone-resource-body"
           dangerouslySetInnerHTML={{
-            __html: localiseArticleLinks(article.content),
+            __html: promoteSectionHeadings(localiseArticleLinks(article.content)),
           }}
         />
+        {relatedService && (
+          <aside className="article-related-service">
+            <p className="section-kicker">Related service</p>
+            <a href={`/services/${relatedServiceSlug}`}>
+              <strong>{relatedService.name}</strong>
+              <span>{relatedService.summary}</span>
+            </a>
+          </aside>
+        )}
       </article>
       <SiteFooter />
     </main>

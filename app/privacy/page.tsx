@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial("/privacy", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/privacy" },
   title: "Privacy notice and cookies | Eunomia Pharma Services",
   description:
     "How Eunomia Pharma Services collects, uses and protects personal data submitted through this website, and what cookies the site sets.",
-};
+});
 const sections = [
   [
     "Who we are",

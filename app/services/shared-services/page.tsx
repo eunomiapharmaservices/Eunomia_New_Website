@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "../../../lib/seo";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
-export const metadata: Metadata = {
+export const metadata: Metadata = withSocial("/services/shared-services", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/shared-services" },
   title: "Outsourced Pharma Compliance & Shared Services | Eunomia",
   description: "Outsourced pharma compliance for materials review, HCP fair market value, EFPIA disclosure and daily operations through shared services, GBS and GCC support.",
-};
+});
 export default function Page() {
   return (
     <ServiceSubpage
