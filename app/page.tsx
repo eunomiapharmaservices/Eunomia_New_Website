@@ -1,12 +1,7 @@
 import {
-  ArrowDownRight,
   ArrowRight,
   ArrowUpRight,
-  Bot,
   Check,
-  MapPinned,
-  ShieldCheck,
-  UsersRound,
 } from "lucide-react";
 import { PrimaryNav } from "../components/SiteChrome";
 import type { Metadata } from "next";
@@ -21,36 +16,20 @@ export const metadata: Metadata = {
 
 const services = [
   {
-    number: "01",
     title: "Healthcare Compliance Programme Design and Implementation",
-    line: "A practical programme, built to work day to day.",
-    body: "Frameworks, policies, controls, training, audit readiness and implementation connected through one evidence trail.",
     href: "/services/governance-assurance",
-    icon: <ShieldCheck aria-hidden="true" />,
   },
   {
-    number: "02",
     title: "Automation of Compliance Operations",
-    line: "Technical build, project delivery and compliance expertise.",
-    body: "SharePoint, Power BI and AI automation designed around compliant workflows, accountable review and practical deployment.",
     href: "/services/automation-of-compliance-operations",
-    icon: <Bot aria-hidden="true" />,
   },
   {
-    number: "03",
     title: "Local Legal Mandates and Representation",
-    line: "In-market presence without unnecessary headcount.",
-    body: "Named local support, code interpretation, association liaison and cross-border compliance review.",
     href: "/services/local-legal-mandates",
-    icon: <MapPinned aria-hidden="true" />,
   },
   {
-    number: "04",
     title: "Shared Services / GBS / GCC",
-    line: "A named compliance team, shaped around the work.",
-    body: "Operational capacity across materials, activities, HCP engagement, fair market value and transparency reporting.",
     href: "/services/shared-services",
-    icon: <UsersRound aria-hidden="true" />,
   },
 ];
 
@@ -97,29 +76,24 @@ export default function Home() {
             Global Healthcare Compliance Services powered by Automation
           </h1>
           <p className="hero-lede">We don’t just build the compliance framework, we operationalise it for you.</p>
-          <ul className="hero-points" aria-label="Our approach">
-            <li>Powered by life sciences compliance expertise</li>
-            <li>No bloated retainers</li>
-            <li>No one size fits all</li>
-          </ul>
-          <div className="hero-actions">
-            <a className="primary-button" href="/contact">
-              Let’s talk… <ArrowUpRight />
-            </a>
-            <a className="text-link" href="/services">
-              What we do… <ArrowDownRight />
-            </a>
-          </div>
-          <p className="hero-reassurance">
-            No obligation and no pressure. Tell us what’s on your desk and we’ll
-            say whether we can help.
-          </p>
+
         </div>
         <div className="hero-signal" aria-label="Eunomia delivery model">
           <span>Expert-led</span>
           <span>Tech-enabled</span>
           <span>Globally connected</span>
         </div>
+      </section>
+
+      <section className="home-service-summary section-pad" id="services" aria-labelledby="home-services-title">
+        <h2 id="home-services-title">End-to-end Global Compliance Services</h2>
+        <ul className="home-service-summary-row">
+          {services.map((service) => (
+            <li key={service.title}>
+              <a href={service.href}><strong>{service.title}</strong></a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="impact-metrics" aria-label="Eunomia at a glance">
@@ -264,42 +238,6 @@ export default function Home() {
           <ClutchBrand /> <span>Read the independent reviews</span>{" "}
           <ArrowUpRight />
         </a>
-      </section>
-
-      <section className="services section-pad" id="services">
-        <div className="section-heading">
-          <div>
-            <p className="section-kicker">Integrated compliance services</p>
-            <h2>
-              From one decision to a complete <em>operating model.</em>
-            </h2>
-          </div>
-          <p>
-            Engage Eunomia for a defined question, a fixed project, a
-            centralised process or a full shared service—without losing
-            ownership or visibility.
-          </p>
-        </div>
-        <div className="service-hub-grid home-service-hub">
-          {services.map((service) => (
-            <a
-              href={service.href}
-              className="service-hub-card"
-              key={service.title}
-            >
-              <span>{service.number}</span>
-              <span className="service-hub-icon">{service.icon}</span>
-              <div>
-                <p className="section-kicker">{service.title}</p>
-                <h2>{service.line}</h2>
-                <p>{service.body}</p>
-              </div>
-              <b>
-                Explore service <ArrowUpRight />
-              </b>
-            </a>
-          ))}
-        </div>
       </section>
 
       <section className="start section-pad">
