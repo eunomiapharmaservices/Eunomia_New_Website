@@ -29,6 +29,12 @@ const nextConfig: NextConfig = {
       { source: "/compliancetraining", destination: "/services/governance-assurance", permanent: true },
       { source: "/systems-automation", destination: "/services/automation-of-compliance-operations", permanent: true },
       { source: "/category/blog", destination: "/resources#articles", permanent: true },
+      // Old WordPress URLs still indexed by Bing / Google (found 28 Sep 2026)
+      { source: "/healthcare-compliance-services", destination: "/services", permanent: true },
+      { source: "/engagement-with-external-stakeholders", destination: "/services/governance-assurance", permanent: true },
+      { source: "/bespoke-compliance-trainings", destination: "/services/governance-assurance", permanent: true },
+      { source: "/compilencetraining", destination: "/services/governance-assurance", permanent: true },
+      { source: "/index", destination: "/", permanent: true },
       ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true })),
     ];
   },
