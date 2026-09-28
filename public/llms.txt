@@ -1,0 +1,32 @@
+# Eunomia Pharma Services
+
+> Boutique healthcare compliance consultancy for pharmaceutical and biotech companies, registered in the UK (Woking) and delivering globally. We design commercial compliance frameworks and operationalise them: programme design and audit readiness, compliance automation, local legal mandates and representation, and shared compliance services (GBS/GCC). 20+ companies worked with, 30 countries covered, 4.9 rating on Clutch.
+
+Eunomia Pharma Services is a trading name of Mivigilance Limited, registered in England and Wales (company number 12912269). Registered office: Rough Way, Heath House Road, Woking, GU22 0QU. Contact: hello@eunomiapharmaservices.com, +44 7584 567018.
+
+## Services
+
+- [Healthcare Compliance Programme Design and Implementation](https://www.eunomiapharmaservices.com/services/governance-assurance): Frameworks, controls, ABPI Code compliance support, ABAC risk assessment, policies, training, monitoring and audit readiness.
+- [Automation of Compliance Operations](https://www.eunomiapharmaservices.com/services/automation-of-compliance-operations): Compliance workflows, EFPIA disclosure data and monitoring built with SharePoint, Power BI and controlled AI.
+- [Local Legal Mandates and Representation](https://www.eunomiapharmaservices.com/services/local-legal-mandates): Named in-market compliance support, local-code interpretation and market-entry assessments.
+- [Shared Services / GBS / GCC](https://www.eunomiapharmaservices.com/services/shared-services): Outsourced compliance operations including materials review, HCP fair market value and EFPIA disclosure.
+
+## Country guides
+
+- [Pharmaceutical compliance in Germany](https://www.eunomiapharmaservices.com/markets/germany): FSA codes, the HWG, §§ 299a–299b StGB and transparency.
+- [Pharmaceutical compliance in France](https://www.eunomiapharmaservices.com/markets/france): Anti-gift regime, Loi Bertrand / Transparence Santé, ANSM advertising visas, Sapin II and LEEM.
+- [Pharmaceutical compliance in Portugal](https://www.eunomiapharmaservices.com/markets/portugal): INFARMED transparency declarations, advertising and the APIFARMA code.
+- [Legal mandates overview](https://www.eunomiapharmaservices.com/legal-mandates): The laws and industry codes behind pharmaceutical compliance, with official sources.
+
+## Case studies
+
+- [Fair Market Value Methodology for HCP Compensation](https://www.eunomiapharmaservices.com/resources/fair-market-value-methodology)
+- [Pharmaceutical Materials Review: Shared Services Case Study](https://www.eunomiapharmaservices.com/resources/materials-review-shared-service-case-study)
+
+## Company
+
+- [About Eunomia](https://www.eunomiapharmaservices.com/about)
+- [Team and local compliance partners](https://www.eunomiapharmaservices.com/team)
+- [Articles and resources](https://www.eunomiapharmaservices.com/resources)
+- [Contact](https://www.eunomiapharmaservices.com/contact)
+- [Client reviews on Clutch](https://clutch.co/profile/eunomia-pharma-services)
