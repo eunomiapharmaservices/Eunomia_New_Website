@@ -1,0 +1,215 @@
+{
+  "right-sized-compliance-support-for-biotech-and-global-pharma": {
+    "updated": "2026-09-28",
+    "question": "How can a biotech company outsource compliance without losing oversight?",
+    "answer": "A biotech can outsource defined compliance activities, such as material review, HCP engagement administration or disclosure preparation, while retaining a named internal owner and clear decision rights. Start with the activities and markets you actually operate in, agree the provider’s scope, and establish approval, escalation and reporting arrangements. The service should fit the company’s risks and stage of development.",
+    "stepsHeading": "What to agree before outsourcing",
+    "steps": [
+      "Define the work: list markets, activities, expected volumes, exclusions and the evidence each completed task must produce.",
+      "Name the owners: record who prepares, reviews, approves and escalates each activity, including decisions retained by the company.",
+      "Test the handover: walk through a representative engagement or material from request to approval and record any gaps.",
+      "Monitor delivery: agree turnaround measures, quality checks, exceptions reporting and a route for changing scope as the business grows."
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Justice: Bribery Act 2010 guidance",
+        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+        "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
+      }
+    ],
+    "links": [
+      {
+        "label": "See the materials-review shared-service case study",
+        "href": "/resources/materials-review-shared-service-case-study"
+      },
+      {
+        "label": "Explore outsourced compliance and shared services",
+        "href": "/services/shared-services"
+      }
+    ]
+  },
+  "fair-market-value-fmv-in-healthcare-compliance": {
+    "updated": "2026-09-28",
+    "question": "How should pharmaceutical companies determine HCP fair market value?",
+    "answer": "An HCP fair market value assessment should connect a genuine service need with the expertise, time and market context needed to deliver it. Document the benchmarking method, rate rationale, approvals and any exceptions. A rate card supports consistent decisions; it does not replace assessing whether an engagement is appropriate. Eunomia’s published case study describes one methodology across five European markets, rather than a universal HCP tariff.",
+    "stepsHeading": "What a documented FMV decision should explain",
+    "steps": [
+      "Service: the business or scientific need, expected contribution, deliverables and reasonable time commitment.",
+      "Expertise: why the selected person meets the engagement’s requirements and how any tier was assigned.",
+      "Rate: the relevant market data, calculation method, assumptions and date of the benchmark.",
+      "Governance: the approved fee, supporting contract, exception rationale where needed, and record of the work delivered."
+    ],
+    "sources": [
+      {
+        "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+        "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
+      }
+    ],
+    "links": [
+      {
+        "label": "Read the five-market FMV methodology case study",
+        "href": "/resources/fair-market-value-methodology"
+      },
+      {
+        "label": "Discuss FMV operational support",
+        "href": "/services/shared-services"
+      }
+    ]
+  },
+  "transparency-reporting-in-pharmaceutical-industry": {
+    "updated": "2026-09-28",
+    "question": "What does pharmaceutical transparency reporting involve?",
+    "answer": "Transparency reporting involves identifying, reconciling and disclosing reportable transfers of value under the rules applicable to a company, recipient and market. Those rules can arise from legislation or industry-code commitments, and they are not identical across countries. An operational process connects engagement records and finance data to the relevant disclosure categories, with documented checks before publication.",
+    "stepsHeading": "Build disclosure into the engagement workflow",
+    "steps": [
+      "Confirm scope for each market: applicable law or code, covered entities and recipients, reporting categories and current deadlines.",
+      "Collect usable records at source: recipient details, engagement purpose, payment or benefit, dates and supporting identifiers.",
+      "Reconcile the records: compare engagement systems, finance and agency data; investigate missing entries and duplicate payments.",
+      "Approve and retain: document corrections, the reporting methodology and final sign-off, then preserve the evidence behind the disclosure."
+    ],
+    "sources": [
+      {
+        "title": "EFPIA: Code of Practice and supporting guidance",
+        "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+        "context": "European industry-code framework. Check the relevant national implementation and any additional statutory requirements."
+      },
+      {
+        "title": "CMS: Open Payments",
+        "url": "https://www.cms.gov/priorities/key-initiatives/open-payments",
+        "context": "The US programme provides a separate statutory reporting example. Its scope and processes should not be substituted for European requirements."
+      }
+    ],
+    "links": [
+      {
+        "label": "Connect disclosure with FMV governance",
+        "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
+      },
+      {
+        "label": "Explore compliance automation and disclosure workflows",
+        "href": "/services/automation-of-compliance-operations"
+      }
+    ]
+  },
+  "pharma-compliance-risk-assessment-framework": {
+    "updated": "2026-09-28",
+    "question": "How do you build a practical pharma compliance risk assessment?",
+    "answer": "Begin with the company’s actual activities, markets and third parties. Describe what could go wrong, assess the exposure and existing controls, then prioritise gaps with named owners and completion dates. Review the assessment when activities or risks change. A useful risk register explains decisions and drives action; a score alone does not show that a risk is controlled.",
+    "stepsHeading": "A practical starting structure for your risk register",
+    "steps": [
+      "Activity and exposure: record the process, country, stakeholders and a specific risk scenario.",
+      "Existing controls and evidence: identify the control owner and evidence that the control operates in practice.",
+      "Priority and response: explain the likelihood and impact assessment, remaining exposure and proposed action.",
+      "Follow-up: assign an accountable owner, target date and a check to establish whether the action worked."
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Justice: Bribery Act 2010 guidance",
+        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+        "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
+      }
+    ],
+    "links": [
+      {
+        "label": "Use gap analysis to test your controls",
+        "href": "/resources/articles/healthcare-compliance-internal-audits"
+      },
+      {
+        "label": "Explore compliance programme design and implementation",
+        "href": "/services/governance-assurance"
+      }
+    ]
+  },
+  "healthcare-compliance-internal-audits": {
+    "updated": "2026-09-28",
+    "question": "How does gap analysis improve a healthcare compliance internal audit?",
+    "answer": "Gap analysis compares the controls a company needs with what its teams actually do. An internal audit can use it to test selected activities, examine evidence and prioritise weaknesses rather than only confirm that policies exist. Findings should connect to a specific risk, an accountable owner and a follow-up check. The scope here is commercial healthcare compliance, not a substitute for a GxP inspection programme.",
+    "stepsHeading": "Questions to test an engagement from start to finish",
+    "steps": [
+      "Was the purpose recorded and the activity routed to the appropriate reviewers before it began?",
+      "Do the contract, approved scope, payment and evidence of delivery agree with one another?",
+      "Were exceptions recognised, explained and escalated to the right decision-maker?",
+      "Can the team demonstrate that corrective actions addressed the cause, using a follow-up sample or other evidence?"
+    ],
+    "sources": [
+      {
+        "title": "Serious Fraud Office: Evaluating a Corporate Compliance Programme",
+        "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+        "context": "UK enforcement guidance discussing programme effectiveness and the operation of preventive procedures. It is not a pharmaceutical certification standard."
+      }
+    ],
+    "links": [
+      {
+        "label": "Build the underlying risk assessment",
+        "href": "/resources/articles/pharma-compliance-risk-assessment-framework"
+      },
+      {
+        "label": "Explore compliance governance and assurance",
+        "href": "/services/governance-assurance"
+      }
+    ]
+  },
+  "fair-market-value-methodology": {
+    "updated": "2026-09-28",
+    "question": "What did Eunomia’s five-market FMV project deliver?",
+    "answer": "Eunomia developed a documented FMV methodology, stakeholder tiering and rate cards for a pharmaceutical company operating in the UK, Germany, France, Italy and Spain. The published August 2026 case study covers six stakeholder categories and reports improvements in payment consistency and contracting time. Its figures describe that engagement; they are not recommended HCP rates or predictions for another organisation.",
+    "stepsHeading": "What the published evidence covers",
+    "steps": [
+      "Scope: five European markets and six stakeholder categories, with a common methodology and documented inputs.",
+      "Implementation: independent benchmarking, objective tiering and validation sessions with Compliance, Medical Affairs, Finance and Legal.",
+      "Reported results: payments within the defensible FMV range rose from 66% to 98%; average hourly rates moved from £520 to £385; contracting time fell from 14 to 6 days.",
+      "Evidence limits: the public case study does not provide the underlying transaction dataset, sample size or measurement window. The reported rates should not be reused as a market benchmark."
+    ],
+    "sources": [
+      {
+        "title": "Eunomia FMV case study — original August 2026 PDF",
+        "url": "/resources/documents/fair-market-value-methodology.pdf",
+        "context": "Source for the project scope, methodology and reported outcomes on this page."
+      },
+      {
+        "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+        "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
+      }
+    ],
+    "links": [
+      {
+        "label": "Understand HCP fair market value decisions",
+        "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
+      },
+      {
+        "label": "Meet the Eunomia team",
+        "href": "/team"
+      }
+    ]
+  },
+  "materials-review-shared-service-case-study": {
+    "updated": "2026-09-28",
+    "question": "How did shared services improve this pharmaceutical materials-review process?",
+    "answer": "Eunomia integrated specialist reviewers, documented workflows, templates and operational support into the client’s existing systems. The August 2026 case study reports that review turnaround fell from five days to two and review cycles from four to two. The client was a UK-headquartered pharmaceutical company expanding in Europe; these are engagement-specific results, not a standard service-level promise.",
+    "stepsHeading": "What readers can take from the engagement",
+    "steps": [
+      "Clarify the workflow: define the route from submission through review, feedback and approval.",
+      "Provide practical feedback: help material owners understand what needs to change and why.",
+      "Monitor the process: track turnaround, review cycles and recurring issues to identify operational improvements.",
+      "Interpret the figures in context: the public case study does not state the number of materials measured, the measurement period or a breakdown by material complexity."
+    ],
+    "sources": [
+      {
+        "title": "Eunomia materials-review case study — original August 2026 PDF",
+        "url": "/resources/documents/materials-review-shared-service-case-study.pdf",
+        "context": "Source for the client context, delivery model and reported outcomes. The PDF includes a statement from Agyat Suri, Healthcare Compliance Operations Lead; it does not identify an individual article author or reviewer."
+      }
+    ],
+    "links": [
+      {
+        "label": "Choosing compliance support for a growing biotech",
+        "href": "/resources/articles/right-sized-compliance-support-for-biotech-and-global-pharma"
+      },
+      {
+        "label": "Meet our Healthcare Compliance Operations team",
+        "href": "/team"
+      }
+    ]
+  }
+}

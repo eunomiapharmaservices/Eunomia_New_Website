@@ -1,0 +1,10 @@
+.summary{border-left:4px solid #ee6b22;background:#f5f8f2;padding:clamp(20px,4vw,36px);margin-bottom:40px;color:#162318}
+.summary h2{margin-top:18px;color:#15351b}
+.summary h3,.sources h2,.sources h3{color:#15351b}
+.summary p,.summary li,.sources p,.sources li{line-height:1.7}
+.summary li,.sources li{margin-bottom:12px}
+.credit,.scope{font-size:14px}
+.sources{border-top:2px solid #ee6b22;padding-top:24px;margin-top:36px}
+.sources a,.summary a{color:#285c2d;text-decoration:underline;text-underline-offset:3px}
+.sources a:focus-visible,.summary a:focus-visible{outline:2px solid #ee6b22;outline-offset:4px}
+.sources li p{margin-top:5px;font-size:15px}

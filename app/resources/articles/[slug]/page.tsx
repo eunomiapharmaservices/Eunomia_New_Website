@@ -1,3 +1,4 @@
+import { editorialEntry, EditorialSummary, EditorialSources } from "../../../../components/EditorialEnhancement";
 import type { Metadata } from "next";
 import articleSeo from "../../../../data/article-seo.json";
 import { ArrowLeft } from "lucide-react";
@@ -99,6 +100,7 @@ export default async function ResourceArticle({
     .filter((a): a is Article => Boolean(a))
     .slice(0, 3);
 
+  const enhancement = editorialEntry(slug);
   const seo = articleSeo.find((item) => item.slug === slug);
   const url = `${SITE}/resources/articles/${slug}`;
   // Dates come from the article record; author and publisher resolve to the
@@ -111,7 +113,8 @@ export default async function ResourceArticle({
     headline: seo?.title ?? article.title,
     ...(seo?.description ? { description: seo.description } : {}),
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: enhancement?.updated ?? article.date,
+    ...(enhancement ? { citation: enhancement.sources.map(source => source.url) } : {}),
     inLanguage: "en-GB",
     author: { "@id": `${SITE}/#organization` },
     publisher: { "@id": `${SITE}/#organization` },
@@ -132,12 +135,14 @@ export default async function ResourceArticle({
           </p>
           <h1 dangerouslySetInnerHTML={{ __html: article.title }} />
         </header>
+        {enhancement && <div className="standalone-resource-body"><EditorialSummary entry={enhancement} /></div>}
         <div
           className="standalone-resource-body"
           dangerouslySetInnerHTML={{
             __html: promoteSectionHeadings(localiseArticleLinks(article.content)),
           }}
         />
+        {enhancement && <div className="standalone-resource-body"><EditorialSources entry={enhancement} /></div>}
         {relatedArticles.length > 0 && (
           <aside className="article-related-reading">
             <p className="section-kicker">Related reading</p>
