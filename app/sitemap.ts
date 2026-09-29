@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import articles from "../data/resource-articles.json";
 import { markets } from "../data/markets";
 import { populatedCategories } from "../data/article-categories";
+import { leadMagnets } from "../data/lead-magnets";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.eunomiapharmaservices.com";
