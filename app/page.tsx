@@ -9,31 +9,14 @@ import type { Metadata } from "next";
 import { withSocial } from "../lib/seo";
 import { SiteFooter } from "../components/SiteChrome";
 import { CoverageMap } from "../components/CoverageMap";
+import { FaqSchema } from "../components/FaqSchema";
+import { homeServices, homeCaseStudies, homeIndustries, homeLocations, homeFaqs } from "../data/home";
 
 export const metadata: Metadata = withSocial("/", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/" },
-  title: "Eunomia Pharma Services | Global Healthcare Compliance",
-  description: "Global healthcare compliance powered by automation. Programme design, compliance operations, local legal representation and shared services.",
+  title: "Pharmaceutical Compliance Consultancy, UK & Europe | Eunomia",
+  description: "UK-based pharmaceutical compliance consultancy for pharma and biotech: programme design, compliance automation, local legal representation and shared services across Europe.",
 });
-
-const services = [
-  {
-    title: "Healthcare Compliance Programme Design and Implementation",
-    href: "/services/governance-assurance",
-  },
-  {
-    title: "Automation of Compliance Operations",
-    href: "/services/automation-of-compliance-operations",
-  },
-  {
-    title: "Local Legal Mandates and Representation",
-    href: "/services/local-legal-mandates",
-  },
-  {
-    title: "Shared Services / GBS / GCC",
-    href: "/services/shared-services",
-  },
-];
 
 const clientCompanies = [
   { name: "JCR Pharmaceuticals", logo: "/client-logos/jcr-provided.png" },
@@ -76,9 +59,14 @@ export default function Home() {
         <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
         <div className="hero-copy">
           <h1>
-            <span className="hero-title-green">Global Healthcare Compliance Services</span>{" "}<span className="hero-title-orange">powered by Automation</span>
+            <span className="hero-title-green">Pharmaceutical Compliance Consultancy</span>{" "}<span className="hero-title-orange">UK-based, across Europe and beyond</span>
           </h1>
           <p className="hero-lede">We don’t just build the commercial compliance framework, <strong>we operationalise it for you.</strong></p>
+          <p className="hero-subtext">Senior compliance practitioners and named local partners, supported by automation. We design programmes, run compliance operations and act as your local presence under the ABPI, EFPIA and national codes.</p>
+          <div className="hero-ctas">
+            <a className="primary-button" href="/contact">Book a discovery call <ArrowUpRight aria-hidden="true" /></a>
+            <a className="text-link" href="/services">Explore our services <ArrowRight aria-hidden="true" /></a>
+          </div>
 
         </div>
         <div className="hero-signal" aria-label="Eunomia delivery model">
@@ -86,17 +74,6 @@ export default function Home() {
           <span>Tech-enabled</span>
           <span>Globally connected</span>
         </div>
-      </section>
-
-      <section className="home-service-summary section-pad" id="services" aria-labelledby="home-services-title">
-        <h2 id="home-services-title"><span>End-to-end</span> Compliance Solutions</h2>
-        <ul className="home-service-summary-row">
-          {services.map((service) => (
-            <li key={service.title}>
-              <a href={service.href}><strong>{service.title}</strong><ArrowUpRight aria-hidden="true" /></a>
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section className="impact-metrics" aria-label="Eunomia at a glance">
@@ -109,6 +86,14 @@ export default function Home() {
             <strong>30</strong>
             <span>countries covered globally</span>
           </article>
+          <article>
+            <strong>15+</strong>
+            <span>years&apos; senior pharma compliance leadership</span>
+          </article>
+          <article>
+            <strong>12</strong>
+            <span>named local compliance partners</span>
+          </article>
           <a
             className="clutch-metric"
             href="https://clutch.co/profile/eunomia-pharma-services#reviews"
@@ -120,6 +105,35 @@ export default function Home() {
             <span>verified review rating</span>
           </a>
         </div>
+      </section>
+
+      <section className="home-brief section-pad" aria-labelledby="home-brief-title">
+        <p className="section-kicker">Who we are</p>
+        <h2 id="home-brief-title">A boutique compliance partner for pharma and biotech</h2>
+        <p>
+          Eunomia Pharma Services is a healthcare compliance consultancy registered in the UK and working
+          globally. We help pharmaceutical and biotech companies design their commercial compliance
+          frameworks and then run them day to day, from programme design and audit readiness to compliance
+          automation, local representation and shared compliance services. Senior practitioners with
+          hands-on industry experience lead every engagement, working with named compliance partners in
+          the markets you operate in.
+        </p>
+        <a className="text-link" href="/about">More about Eunomia <ArrowRight aria-hidden="true" /></a>
+      </section>
+
+      <section className="home-service-summary section-pad" id="services" aria-labelledby="home-services-title">
+        <h2 id="home-services-title"><span>End-to-end</span> Compliance Solutions</h2>
+        <ul className="home-service-summary-row">
+          {homeServices.map((service) => (
+            <li key={service.title}>
+              <a href={service.href}>
+                <strong>{service.title}</strong>
+                <span className="home-service-outcome">{service.outcome}</span>
+                <span className="home-service-cta">{service.cta} <ArrowUpRight aria-hidden="true" /></span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="trust section-pad">
@@ -242,6 +256,34 @@ export default function Home() {
         </a>
       </section>
 
+      <section className="home-cases section-pad" aria-labelledby="home-cases-title">
+        <p className="section-kicker">Case studies</p>
+        <h2 id="home-cases-title">Proof of outcomes</h2>
+        <div className="home-cases-grid">
+          {homeCaseStudies.map((c) => (
+            <a key={c.href} href={c.href} className="home-case">
+              <span>{c.label}</span>
+              <h3>{c.title}</h3>
+              <p>{c.result}</p>
+              <b>Read the case study <ArrowUpRight aria-hidden="true" /></b>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="home-industries section-pad" aria-labelledby="home-industries-title">
+        <p className="section-kicker">Who we work with</p>
+        <h2 id="home-industries-title">Industries we serve</h2>
+        <div className="home-industries-grid">
+          {homeIndustries.map((i) => (
+            <article key={i.title}>
+              <h3>{i.title}</h3>
+              <p>{i.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="start section-pad">
         <p className="section-kicker">Start here</p>
         <h2>
@@ -323,6 +365,38 @@ export default function Home() {
           </p>
         </div>
         <CoverageMap />
+      </section>
+
+      <section className="home-locations section-pad" aria-labelledby="home-locations-title">
+        <p className="section-kicker">Locations served</p>
+        <h2 id="home-locations-title">Country compliance guides</h2>
+        <p>
+          Local rules, codes and regulators, summarised from official sources, with the named partner
+          who supports you in each market. We also support clients across Europe, MENA, the US,
+          Brazil and South America, India, Southeast Asia and Japan.
+        </p>
+        <div className="home-locations-links">
+          {homeLocations.map((l) => (
+            <a key={l.href} href={l.href}>{l.label} <ArrowUpRight aria-hidden="true" /></a>
+          ))}
+          <a href="/legal-mandates">All legal mandates <ArrowUpRight aria-hidden="true" /></a>
+        </div>
+      </section>
+
+      <section className="home-faq section-pad" aria-labelledby="home-faq-title">
+        <FaqSchema items={homeFaqs} url="https://www.eunomiapharmaservices.com/" />
+        <div>
+          <p className="section-kicker">Questions, answered</p>
+          <h2 id="home-faq-title">Frequently asked questions</h2>
+        </div>
+        <div className="faq-list">
+          {homeFaqs.map(({ question, answer }) => (
+            <details key={question}>
+              <summary>{question}</summary>
+              <p>{answer}</p>
+            </details>
+          ))}
+        </div>
       </section>
 
       <section className="people section-pad">

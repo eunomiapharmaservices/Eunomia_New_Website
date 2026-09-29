@@ -1,5 +1,6 @@
 import { SiteImage } from "./SiteImage";
 import { StructuredData } from "./StructuredData";
+import { FaqSchema } from "./FaqSchema";
 import type { ReactNode } from "react";
 import { ArrowLeft, ArrowUpRight, Check } from "lucide-react";
 import { SiteHeader, SiteFooter } from "./SiteChrome";
@@ -45,6 +46,7 @@ export function ServiceSubpage({
   return (
     <main className={`service-subpage ${accent}`}>
       <StructuredData data={{ "@context": "https://schema.org", "@type": "Service", "@id": `https://www.eunomiapharmaservices.com${servicePath}#service`, name: kicker, description: intro, url: `https://www.eunomiapharmaservices.com${servicePath}`, provider: { "@id": "https://www.eunomiapharmaservices.com/#organization" } }} />
+      <FaqSchema items={faqs} url={`https://www.eunomiapharmaservices.com${servicePath}`} />
       <SiteHeader />
       <section className="subservice-hero section-pad">
         <a href="/services" className="back-link">
