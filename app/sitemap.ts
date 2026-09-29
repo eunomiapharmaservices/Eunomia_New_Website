@@ -2,6 +2,7 @@ import enhancements from "../data/editorial-enhancements.json";
 import type { MetadataRoute } from "next";
 import articles from "../data/resource-articles.json";
 import { markets } from "../data/markets";
+import { populatedCategories } from "../data/article-categories";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.eunomiapharmaservices.com";

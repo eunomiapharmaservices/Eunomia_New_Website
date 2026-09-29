@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ResourceSearch } from "../../components/ResourceSearch";
+import { populatedCategories } from "../../data/article-categories";
 export const metadata: Metadata = withSocial("/resources", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
@@ -271,6 +272,11 @@ export default function Resources() {
             transparency, governance and technology.
           </p>
         </div>
+        <nav className="category-chips" aria-label="Browse articles by category">
+          {populatedCategories.map((c) => (
+            <a key={c.slug} href={`/resources/category/${c.slug}`}>{c.name}</a>
+          ))}
+        </nav>
         <div className="article-grid">
           {articles.map(([date, title, href], i) => {
             const slug = href.split("/").filter(Boolean).at(-1);
