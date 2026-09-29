@@ -96,7 +96,7 @@ export function ServiceSubpage({
       </section>
       {heroDetail}
       {!hideScope && (
-        <section className="subservice-scope section-pad">
+        <section id="scope-of-support" className="subservice-scope section-pad">
           <div>
             <p className="section-kicker">What we can take on</p>
             <h2>{kicker}: scope of support</h2>

@@ -20,6 +20,7 @@ export default function Page() {
       services={[
         "Compliance programme design and implementation",
         "Policy and SOP development",
+        "Data Protection",
         "Risk assessment and monitoring",
         "Gap analysis, audits and inspections",
         "CAPA and remediation support",

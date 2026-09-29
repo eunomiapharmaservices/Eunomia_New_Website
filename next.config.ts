@@ -40,6 +40,7 @@ const nextConfig: NextConfig = {
       { source: "/blog", destination: "/resources", permanent: true },
       { source: "/ai-governance", destination: "/services/automation-of-compliance-operations", permanent: true },
       { source: "/audits", destination: "/services/governance-assurance", permanent: true },
+      { source: "/dataprotection", destination: "/services/governance-assurance#scope-of-support", permanent: true },
       { source: "/sop", destination: "/services/governance-assurance", permanent: true },
       // Old WordPress URLs still indexed by Bing / Google (found 28 Sep 2026)
       { source: "/healthcare-compliance-services", destination: "/services", permanent: true },
