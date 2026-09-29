@@ -50,7 +50,7 @@ export default async function ChecklistPage({ params }: { params: Promise<{ slug
           <p className="legal-note">{m.note}</p>
           {m.source && <p className="checklist-source">Based on the <a href={m.source.href} target="_blank" rel="noreferrer">{m.source.label}</a>.</p>}
         </div>
-        <LeadMagnetForm title={m.title} file={m.file} noun={noun} />
+        <LeadMagnetForm title={m.title} file={m.file} resourceSlug={m.slug} noun={noun} />
       </section>
       <SiteFooter />
     </main>

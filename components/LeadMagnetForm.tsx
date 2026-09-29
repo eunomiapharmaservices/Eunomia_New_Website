@@ -1,11 +1,12 @@
 "use client";
 import { FormEvent, useRef, useState } from "react";
 import { Download } from "lucide-react";
+import { trackConversion } from "../lib/conversion-tracking";
 import { ContactCaptcha } from "./ContactCaptcha";
 
 // Sends the request through the existing enquiry pipeline (/api/contact),
 // so each download reaches hello@eunomiapharmaservices.com as a lead.
-export function LeadMagnetForm({ title, file, noun = "checklist" }: { title: string; file: string; noun?: string }) {
+export function LeadMagnetForm({ title, file, resourceSlug, noun = "checklist" }: { title: string; file: string; resourceSlug: string; noun?: string }) {
   const [token, setToken] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -40,6 +41,7 @@ export function LeadMagnetForm({ title, file, noun = "checklist" }: { title: str
       const result = await response.json();
       if (!response.ok || result.success !== true) throw new Error(result.error || "Something went wrong. Please try again.");
       setDone(true);
+      trackConversion("resource_requested", resourceSlug);
     } catch (failure) {
       setError(failure instanceof Error && failure.name !== "TimeoutError" && failure.name !== "TypeError"
         ? failure.message
@@ -56,7 +58,7 @@ export function LeadMagnetForm({ title, file, noun = "checklist" }: { title: str
       <div className="lead-form lead-form-done" role="status">
         <h2>Your {noun} is ready</h2>
         <p>Thank you. Download it below. We may follow up once to ask whether it was useful.</p>
-        <a className="primary-button" href={file} download>
+        <a className="primary-button" href={file} download onClick={() => trackConversion("resource_download_clicked", resourceSlug)}>
           <Download aria-hidden="true" /> Download the PDF
         </a>
       </div>
