@@ -5,7 +5,7 @@ import { ContactCaptcha } from "./ContactCaptcha";
 
 // Sends the request through the existing enquiry pipeline (/api/contact),
 // so each download reaches hello@eunomiapharmaservices.com as a lead.
-export function LeadMagnetForm({ title, file }: { title: string; file: string }) {
+export function LeadMagnetForm({ title, file, noun = "checklist" }: { title: string; file: string; noun?: string }) {
   const [token, setToken] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -54,7 +54,7 @@ export function LeadMagnetForm({ title, file }: { title: string; file: string })
   if (done) {
     return (
       <div className="lead-form lead-form-done" role="status">
-        <h2>Your checklist is ready</h2>
+        <h2>Your {noun} is ready</h2>
         <p>Thank you. Download it below. We may follow up once to ask whether it was useful.</p>
         <a className="primary-button" href={file} download>
           <Download aria-hidden="true" /> Download the PDF
@@ -65,18 +65,18 @@ export function LeadMagnetForm({ title, file }: { title: string; file: string })
 
   return (
     <form className="lead-form enquiry-form" onSubmit={submit}>
-      <h2>Get the free checklist</h2>
+      <h2>Get the free {noun}</h2>
       <label><span className="field-label">Your name <b aria-hidden="true">*</b></span><input disabled={busy} name="name" required maxLength={120} autoComplete="name" /></label>
       <label><span className="field-label">Work email <b aria-hidden="true">*</b></span><input disabled={busy} name="email" type="email" required maxLength={254} autoComplete="email" /></label>
       <label><span className="field-label">Company <b aria-hidden="true">*</b></span><input disabled={busy} name="company" required maxLength={160} autoComplete="organization" /></label>
       <label><span className="field-label">Role (optional)</span><input disabled={busy} name="role" maxLength={120} autoComplete="organization-title" /></label>
       <label className="consent">
         <input disabled={busy} type="checkbox" name="consent" required />
-        <span>I agree that Eunomia may use these details to send me the checklist and follow up about it, as set out in the <a href="/privacy">privacy notice</a>.</span>
+        <span>I agree that Eunomia may use these details to send me the {noun} and follow up about it, as set out in the <a href="/privacy">privacy notice</a>.</span>
       </label>
       <ContactCaptcha key={attempt} onToken={setToken} />
       {error && <p role="alert" className="form-error">{error}</p>}
-      <button className="primary-button" type="submit" disabled={busy}>{busy ? "Sending…" : "Get the checklist"}</button>
+      <button className="primary-button" type="submit" disabled={busy}>{busy ? "Sending…" : `Get the ${noun}`}</button>
     </form>
   );
 }

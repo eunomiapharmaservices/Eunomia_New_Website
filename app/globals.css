@@ -1290,3 +1290,4 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .impact-grid article,.impact-grid>a{padding:26px 24px}
 @media(max-width:1100px){.impact-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.impact-grid>a.clutch-metric{grid-column:span 2}}
+.about-services h2 + p{margin-top:24px;line-height:1.6}

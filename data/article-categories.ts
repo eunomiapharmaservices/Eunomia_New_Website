@@ -16,6 +16,8 @@ export const articleCategories: ArticleCategory[] = [
 
 // Primary category first.
 export const articleCategoryMap: Record<string, string[]> = {
+  "gdpr-and-transparency-reporting-hcp-disclosure": ["gdpr-data-compliance", "hcp-engagement-transparency"],
+  "hcp-personal-data-gdpr-crm-fmv-engagement-records": ["gdpr-data-compliance", "hcp-engagement-transparency"],
   "a-definitive-guide-to-crafting-a-high-quality-policy-for-a-pharmaceutical-company": ["compliance-programmes"],
   "ai-in-healthcare-compliance": ["ai-digital-compliance", "regulatory-updates"],
   "audit-readiness-best-practices": ["compliance-programmes", "hcp-engagement-transparency"],
@@ -88,6 +90,11 @@ export const categoryFaqs: Record<string, { question: string; answer: string }[]
   "compliance-programmes": [
     { question: "What does a pharmaceutical compliance programme include?", answer: "Governance and roles, practical policies and SOPs, approval and monitoring processes, evidence requirements and role-based training, aligned to the obligations that apply to your activities and markets." },
     { question: "What is audit readiness?", answer: "A continuous state in which documentation, controls, evidence and governance are built into routine operations, rather than assembled immediately before an audit." },
+  ],
+  "gdpr-data-compliance": [
+    { question: "What lawful basis is needed to disclose an HCP’s transfers of value?", answer: "Naming an HCP is processing of personal data, so it needs a lawful basis under Article 6 of the GDPR. EFPIA’s training material identifies individual consent or legitimate interest, with a documented process." },
+    { question: "Is HCO disclosure data personal data?", answer: "The ABPI’s December 2025 Disclosure UK factsheet states that information about HCOs is not considered personal data, so a lawful basis is not required for it." },
+    { question: "How is legitimate interests documented?", answer: "The ICO describes a three-part test (purpose, necessity and balancing) and recommends recording the outcome in a legitimate interests assessment." },
   ],
   "ai-digital-compliance": [
     { question: "Can automation replace compliance reviewers?", answer: "No. Automation can improve routing, consistency, monitoring and evidence, while experienced people remain responsible for contextual judgement and accountable decisions." },

@@ -9,7 +9,7 @@ export const metadata: Metadata = withSocial("/resources", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
-    "Case studies, webinars, e-books and 29 articles on pharmaceutical compliance: transparency reporting, fair market value, audit readiness, AI governance and market entry.",
+    "Case studies, webinars, e-books and 31 articles on pharmaceutical compliance: transparency reporting, GDPR, fair market value, audit readiness, AI governance and market entry.",
 });
 
 const featured = [
@@ -25,6 +25,20 @@ const featured = [
     title: "EFPIA Code Self-Assessment Checklist",
     href: "/resources/checklists/efpia-code-self-assessment-checklist",
     image: "/eunomia-workflow.png",
+    icon: FileText,
+  },
+  {
+    type: "Guide",
+    title: "UK & EU Pharma Compliance Guide 2026",
+    href: "/resources/checklists/uk-eu-pharma-compliance-guide-2026",
+    image: "/home-compliance-team.jpeg",
+    icon: BookOpen,
+  },
+  {
+    type: "Case studies",
+    title: "Pharma Compliance Case Studies Pack",
+    href: "/resources/checklists/pharma-compliance-case-studies-pack",
+    image: "/compliance-collaboration.png",
     icon: FileText,
   },
   {

@@ -5,6 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { compliancePartners } from "../../data/compliancePartners";
+import { markets } from "../../data/markets";
 
 export const metadata: Metadata = withSocial("/about", {
   title: "About Eunomia | Global Healthcare Compliance Experts",
@@ -22,12 +23,24 @@ const values = [
   ["Delivery you can depend on", "Proven project management across Agile, PRINCE2 and leading PM tools — because compliance without execution is just paperwork."],
 ];
 
+// Restates the audiences described on each service page.
+const clients = [
+  ["Emerging biotechs", "Building a first commercial compliance programme or operating model, often ahead of a launch or a move into Phase III, without a full in-house team yet."],
+  ["Lean pharma compliance teams", "Growing portfolios or new markets putting pressure on review capacity, approval routes and records, where extra hands and a clear process matter most."],
+  ["Established global organisations", "Developing shared services, GBS or GCC functions, harmonising processes across markets, or automating workflows that still run on email and spreadsheets."],
+];
+
 const services = [
   ["/services/governance-assurance", "Healthcare Compliance Programme Design and Implementation", "Frameworks, controls, audit readiness and implementation"],
   ["/services/automation-of-compliance-operations", "Automation of Compliance Operations", "SharePoint, Power BI and AI automation"],
   ["/services/local-legal-mandates", "Local Legal Mandates and Representation", "In-market presence and local-code support"],
   ["/services/shared-services", "Shared Services / GBS / GCC", "A named compliance function, shaped around the work"],
 ];
+
+function summary(desc: string) {
+  const text = (desc.split(":")[1] ?? desc).trim();
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
 
 export default function About() {
   return (
@@ -86,6 +99,25 @@ export default function About() {
         </div>
       </section>
 
+      <section className="about-values section-pad" aria-labelledby="about-clients-title">
+        <div>
+          <p className="section-kicker">Who we work with</p>
+          <h2 id="about-clients-title">Built for teams at <em>different stages</em>…</h2>
+        </div>
+        <div className="about-values-list">
+          {clients.map(([title, body]) => (
+            <article key={title}>
+              <h3>{title}</h3>
+              <p>{body}</p>
+            </article>
+          ))}
+          <article>
+            <h3>How engagements start</h3>
+            <p>Usually with one activity, market or workstream. We agree scope, responsibilities and escalation routes first, then expand as your requirements change.</p>
+          </article>
+        </div>
+      </section>
+
       <figure className="wide-photo">
         <img src="/compliance-collaboration.png" alt="Eunomia compliance team collaborating in an office" />
         <figcaption>The people introduced to the work remain close to it.</figcaption>
@@ -101,6 +133,23 @@ export default function About() {
             <a key={href} href={href}>
               <strong>{name}</strong>
               <span>{summary}</span>
+              <ArrowUpRight aria-hidden="true" />
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="about-services section-pad" aria-labelledby="about-markets-title">
+        <div>
+          <p className="section-kicker">Where we work</p>
+          <h2 id="about-markets-title">UK-based. Working across <em>30 countries</em>…</h2>
+          <p>Our core team is based in the UK and works with twelve named compliance partners across Europe, the United States and Canada, MENA and APAC. Our country guides summarise the national laws and industry codes we work with, each linked to its official sources.</p>
+        </div>
+        <div className="about-services-list">
+          {markets.map((m) => (
+            <a key={m.slug} href={`/markets/${m.slug}`}>
+              <strong>Pharmaceutical compliance in {m.country}</strong>
+              <span>{summary(m.metaDescription)}</span>
               <ArrowUpRight aria-hidden="true" />
             </a>
           ))}

@@ -26,29 +26,31 @@ export default async function ChecklistPage({ params }: { params: Promise<{ slug
   const m = getLeadMagnet(slug);
   if (!m) notFound();
   const url = `${SITE}/resources/checklists/${slug}`;
+  const noun = m.kind === "guide" ? "guide" : m.kind === "pack" ? "pack" : "checklist";
+  const unit = m.kind === "checklist" || !m.kind ? "checks" : "points";
   return (
     <main>
       <StructuredData data={{ "@context": "https://schema.org", "@type": "DigitalDocument", "@id": `${url}#document`, name: m.title, description: m.metaDescription, url, inLanguage: "en-GB", publisher: { "@id": `${SITE}/#organization` }, encodingFormat: "application/pdf", isAccessibleForFree: true }} />
       <SiteHeader />
       <section className="checklist-hero section-pad">
         <a href="/resources" className="back-link"><ArrowLeft /> All resources</a>
-        <p className="section-kicker">Free checklist</p>
+        <p className="section-kicker">Free {noun}</p>
         <h1>{m.title}</h1>
         <p>{m.summary}</p>
         <p className="checklist-audience"><b>For:</b> {m.audience}</p>
       </section>
       <section className="checklist-body section-pad">
         <div className="checklist-contents">
-          <h2>What the checklist covers</h2>
+          <h2>What the {noun} covers</h2>
           <ul>
             {m.sections.map((s) => (
-              <li key={s.heading}><Check aria-hidden="true" /><span><b>{s.heading}</b> · {s.items.length} checks</span></li>
+              <li key={s.heading}><Check aria-hidden="true" /><span><b>{s.heading}</b> · {s.items.length} {unit}</span></li>
             ))}
           </ul>
           <p className="legal-note">{m.note}</p>
           {m.source && <p className="checklist-source">Based on the <a href={m.source.href} target="_blank" rel="noreferrer">{m.source.label}</a>.</p>}
         </div>
-        <LeadMagnetForm title={m.title} file={m.file} />
+        <LeadMagnetForm title={m.title} file={m.file} noun={noun} />
       </section>
       <SiteFooter />
     </main>
