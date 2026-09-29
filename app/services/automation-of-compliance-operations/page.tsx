@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/automation-of-compliance-operations"
-      heading="Pharma Compliance Automation and EFPIA Disclosure Support"
+      heading="Pharma Compliance Automation and EFPIA Disclosure Support, UK and Europe"
       accent="green"
       serviceImage={{ src: "/eunomia-workflow.png", alt: "Planning digital compliance workflows and automated processes" }}
       serviceTitleFirst

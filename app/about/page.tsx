@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { aboutFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
 import { ArrowUpRight } from "lucide-react";
 import { withSocial } from "../../lib/seo";
@@ -118,6 +120,7 @@ export default function About() {
         </div>
         <p className="about-team-link"><a href="/team">Meet the full team <ArrowUpRight aria-hidden="true" /></a></p>
       </section>
+      <PageFaqs faqs={aboutFaqs} title="About Eunomia: your questions answered" />
       <SiteFooter />
     </main>
   );

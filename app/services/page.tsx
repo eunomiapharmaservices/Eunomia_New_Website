@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { servicesFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
 import { ArrowUpRight, Bot, MapPinned, ShieldCheck, UsersRound } from "lucide-react";
@@ -122,6 +124,7 @@ export default function Services() {
           </ol>
         </div>
       </section>
+      <PageFaqs faqs={servicesFaqs} title="Choosing the right service" />
       <SiteFooter />
     </main>
   );
