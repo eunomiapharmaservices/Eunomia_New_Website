@@ -11,13 +11,156 @@ export type Market = {
   metaDescription: string;
   title: string;
   intro: string;
-  lead: { name: string; role: string; image: string; bio: string };
+  lead?: { name: string; role: string; image: string; bio: string };
+  approach?: { audience: string; challenge: string; delivery: string; priorities: string[] };
   rules: MarketRule[];
   sources: MarketSource[];
   faqs: { question: string; answer: string }[];
 };
 
 export const markets: Market[] = [
+{
+  "slug": "ireland",
+  "country": "Ireland",
+  "metaTitle": "Pharmaceutical Compliance Support in Ireland | Eunomia",
+  "metaDescription": "Plan pharma compliance in Ireland: HPRA advertising requirements, IPHA Code considerations, HCP engagements and transfers of value, connected to your operating model.",
+  "title": "Pharmaceutical compliance support in Ireland",
+  "intro": "Eunomia helps pharmaceutical and biotech teams plan compliance support for activities in Ireland. We connect programme design, review workflows and disclosure readiness with the Irish market context, agreeing the expertise and scope needed before work begins.",
+  "approach": {
+    "audience": "For UK and international pharma teams entering Ireland, emerging biotechs preparing commercial activities and compliance leaders coordinating several European markets. Start with the activities you intend to undertake and the people who will approve them.",
+    "challenge": "An English-language campaign is not automatically ready for Ireland. Product information, target audiences, applicable codes and approval responsibilities need an Irish-market assessment. A combined UK and Ireland team also needs to distinguish the two jurisdictions when reviewing materials, organising engagements and recording payments.",
+    "delivery": "We can scope a gap assessment, map the applicable requirements into your SOPs and define review and escalation routes. The agreed output can include an activity register, a responsibility matrix and a prioritised action plan. Where Irish legal advice, specialist review or a formal appointment is required, we identify that need and confirm appropriate expertise before delivery.",
+    "priorities": [
+      "Inventory Irish-facing websites, social posts and materials; identify the audience, product status and approval owner for each.",
+      "Prepare an engagement file for advisory boards and consultancy: purpose, selection rationale, agreement, fee rationale and evidence of the work delivered.",
+      "Map payments from affiliates and agencies into the disclosure process, with clear recipient data and reconciliation ownership.",
+      "Test one planned activity from request to approval, payment and retained evidence before extending the process."
+    ]
+  },
+  "rules": [
+    {
+      "title": "HPRA oversight of medicines advertising",
+      "body": "The HPRA supervises medicines advertising under S.I. No. 541/2007. It reviews advertisements, investigates complaints and inspects companies. Its guidance emphasises accurate, non-misleading information consistent with approved product information. Build the supporting evidence and approval trail into your review process."
+    },
+    {
+      "title": "Public communications and social media",
+      "body": "HPRA guidance prohibits promotion of prescription-only medicines to the public, including online. It also prohibits advertising unauthorised or unregistered human medicines. Review the purpose and audience of each communication; using a social platform or describing a service does not remove the advertising rules."
+    },
+    {
+      "title": "The IPHA Code and disclosure",
+      "body": "IPHA publishes its Code of Practice for the Pharmaceutical Industry alongside a separate Self-Care Advertising Code. Its code framework includes disclosure of financial interactions with healthcare professionals and organisations. Confirm which code commitments apply to your company and activity; statutory advertising obligations are a separate assessment."
+    },
+    {
+      "title": "Turning requirements into an operating process",
+      "body": "A useful implementation plan names the material owner, reviewer, approver and escalation contact. It connects engagement documentation to payment records and disclosure preparation. These are practical process recommendations: the exact controls should follow your activities, applicable requirements and internal governance."
+    }
+  ],
+  "sources": [
+    {
+      "label": "HPRA: advertising oversight and guidance",
+      "href": "https://www.hpra.ie/regulation/human-medicine/marketing-authorisation-holders/post-licensing/market-compliance-and-surveillance-of-medicines/advertising-human-medicines-in-ireland"
+    },
+    {
+      "label": "HPRA: public advertising and social media",
+      "href": "https://www.hpra.ie/regulation/human-medicine/patients-and-healthcare-professionals/promoting-medicines-to-the-public-on-social-media"
+    },
+    {
+      "label": "IPHA: codes of practice",
+      "href": "https://www.ipha.ie/codes-of-practice/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can we reuse UK-approved promotional material in Ireland?",
+      "answer": "Treat UK approval as an input, not Irish approval. Assess the Irish product information, intended audience, advertising requirements and applicable code before use. The review should record any local changes and the person authorised to approve them."
+    },
+    {
+      "question": "Does the IPHA Code replace HPRA advertising requirements?",
+      "answer": "No. HPRA supervises statutory advertising requirements. Assess the IPHA Code separately according to the commitments and activities of your organisation; a code assessment does not replace the legal review."
+    },
+    {
+      "question": "How should we prepare Irish transfers-of-value data?",
+      "answer": "First confirm the applicable disclosure framework and reporting scope. Then identify recipients and relevant payment sources, reconcile agency and affiliate records, and document review responsibilities and the reporting methodology."
+    },
+    {
+      "question": "Does Eunomia have a named consultant based in Ireland?",
+      "answer": "This page does not identify an Ireland-based consultant. Contact our UK-based team to agree the activities, expertise and delivery arrangements needed. Any local specialist or formal role must be confirmed as part of the engagement."
+    }
+  ]
+},
+{
+  "slug": "sweden",
+  "country": "Sweden",
+  "metaTitle": "Pharmaceutical Compliance Support in Sweden | Eunomia",
+  "metaDescription": "Plan pharma compliance in Sweden: Lif ethical rules (LER), medicines information, HCP collaboration and disclosure workflows with Eunomia.",
+  "title": "Pharmaceutical compliance support in Sweden",
+  "intro": "Eunomia helps pharmaceutical and biotech teams scope compliance support for Sweden, connecting medicines-information review, healthcare collaboration and transparency processes with global governance. We agree the expertise and delivery arrangements required for your activities.",
+  "approach": {
+    "audience": "For pharmaceutical companies planning Swedish activities, regional teams extending a Nordic operating model and biotech organisations building their first commercial compliance processes. The starting point is a defined activity scope, rather than assuming one Nordic approach fits every country.",
+    "challenge": "A global policy may not explain how Swedish healthcare collaboration, local medicines information and disclosure processes work in practice. Teams need clear ownership across headquarters, affiliates and third parties, including responsibility for local-language material and changes after initial approval.",
+    "delivery": "We can help structure a market-readiness review, identify gaps between global processes and Swedish activities, and build an action plan with accountable owners. Scope can include engagement workflows, material-review coordination, payment-data controls and monitoring. Swedish-language review, specialist advice and any designated role are confirmed before engagement, rather than assumed.",
+    "priorities": [
+      "Identify which Swedish rules and contractual code commitments apply to each activity and third party.",
+      "Map local-language assets and digital channels to a review owner, version history and escalation process.",
+      "Connect healthcare collaboration requests to documented purpose, agreements, compensation review and retained evidence.",
+      "Prepare disclosure data and a methodology note early, with responsibility for Swedish publication requirements and reconciliation."
+    ]
+  },
+  "rules": [
+    {
+      "title": "Medicines advertising and the national regulator",
+      "body": "The Swedish Medical Products Agency supervises medicines advertising. Its published overview states that advertising must not mislead or encourage misuse, and that only authorised or registered medicines may be advertised. Check the relevant product and audience before adapting a campaign for Sweden."
+    },
+    {
+      "title": "Lif ethical rules: LER",
+      "body": "LER complements legislation and covers human medicines. Its scope identifies Lif, ASCRO and FGL member companies and includes responsibilities for activities conducted through intermediaries. It addresses medicines information and healthcare collaboration. Check the applicable version and commitments before translating these requirements into an operating procedure."
+    },
+    {
+      "title": "Healthcare collaboration and transparency",
+      "body": "Lif’s published rules cover healthcare collaboration and disclosure of transfers of value. The disclosure section includes annual reporting, a methodology note and Swedish-language publication. It also specifies searchable, downloadable reports from the 2027 publication of 2026 transfers. Plan the data and publication workflow together."
+    },
+    {
+      "title": "Review and escalation",
+      "body": "LER describes the roles of IGN and NBL in industry self-regulation. For operational readiness, define who reviews local materials, assesses questions and coordinates a response if an issue arises. Keep the final approved version, supporting evidence and subsequent changes accessible to that team."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Swedish Medical Products Agency: advertising",
+      "href": "https://www.lakemedelsverket.se/en/trading-pharmaceuticals/advertising"
+    },
+    {
+      "label": "Lif: ethical rules and current versions",
+      "href": "https://www.lif.se/etik/etiska-regelverket/"
+    },
+    {
+      "label": "LER: English edition, 1 February 2026",
+      "href": "https://www.lif.se/globalassets/pdf/etik/final-version-ler-1-februari-2026-eng.pdf"
+    },
+    {
+      "label": "Lif: healthcare collaboration and disclosure rules",
+      "href": "https://www.lif.se/etik/etiska-regelverket/innehall/kapitel-2/"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a global EFPIA process enough for Sweden?",
+      "answer": "It is a starting point. Assess the Swedish legal requirements and applicable LER provisions, then identify local changes to your global process. Record ownership for local review, healthcare collaboration and disclosure."
+    },
+    {
+      "question": "Who is covered by LER?",
+      "answer": "The English LER edition effective 1 February 2026 identifies Lif, ASCRO and FGL member companies in its scope. It also addresses group-company activities and intermediaries. Confirm membership, contractual commitments and activity scope for your own organisation."
+    },
+    {
+      "question": "What should we prepare for Swedish disclosure?",
+      "answer": "Confirm reportable interactions, recipient information and reconciliation responsibilities. Lif’s disclosure rules address a methodology note and publication in Swedish; they also specify searchable and downloadable reports from the 2027 publication of 2026 transfers. Check the current rules when preparing the report."
+    },
+    {
+      "question": "Can Eunomia provide a Swedish office or named local representative?",
+      "answer": "This page does not claim a Swedish office or a named local representative. We agree support scope and confirm specialist expertise, language needs and any formal role before an engagement begins."
+    }
+  ]
+},
   {
     slug: "germany",
     country: "Germany",

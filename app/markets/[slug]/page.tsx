@@ -1,3 +1,4 @@
+import styles from "./market.module.css";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FileCheck2, Globe2, Scale, ShieldCheck } from "lucide-react";
@@ -35,7 +36,7 @@ export default async function MarketPage({ params }: { params: Promise<{ slug: s
       kicker={`Pharmaceutical compliance in ${market.country}`}
       title="Local rules, connected to your global model."
       serviceTitleFirst
-      accent="teal"
+      accent="green"
       intro={market.intro}
       serviceImage={{ src: "/market-representation.png", alt: `Compliance specialists discussing ${market.country} market requirements` }}
       services={[
@@ -44,14 +45,24 @@ export default async function MarketPage({ params }: { params: Promise<{ slug: s
         "Local transparency and disclosure requirements",
         "Promotional and non-promotional material review",
         "Market-entry compliance assessment",
-        "Responsible person and local representative support",
+        ...(market.lead ? ["Responsible person and local representative support"] : ["Specialist and language requirements assessment"]),
       ]}
       outcomes={[
         `${market.country} requirements built into your global processes`,
-        "A named local partner for questions and escalation",
+        market.lead ? "A named local partner for questions and escalation" : "Clear responsibilities for review and escalation",
         "Local support without unnecessary fixed headcount",
       ]}
-      lead={{ name: market.lead.name, role: market.lead.role, image: market.lead.image }}
+      lead={market.lead ? { name: market.lead.name, role: market.lead.role, image: market.lead.image } : undefined}
+      heroDetail={market.approach && (
+        <section className={`section-pad ${styles.approach}`}>
+          <h2>Who this support is for</h2><p>{market.approach.audience}</p>
+          <h2>The practical challenge in {market.country}</h2><p>{market.approach.challenge}</p>
+          <h2>How Eunomia can help</h2><p>{market.approach.delivery}</p>
+          <h3>Your first working priorities</h3><ul>{market.approach.priorities.map(item => <li key={item}>{item}</li>)}</ul>
+          <p><a href="/services/governance-assurance">Programme design and implementation</a> · <a href="/services/shared-services">Operational shared services</a> · <a href="/services/automation-of-compliance-operations">Compliance automation</a></p>
+          <p><a href="/resources/checklists/pharma-compliance-readiness-checklist">Use the Pharma Compliance Readiness Checklist →</a></p>
+        </section>
+      )}
       detailSection={
         <section className="mandates section-pad" id="rules">
           <div className="mandate-intro">
@@ -85,10 +96,10 @@ export default async function MarketPage({ params }: { params: Promise<{ slug: s
               ))}
             </div>
           </div>
-          <div className="market-lead-bio">
+          {market.lead && <div className="market-lead-bio">
             <p className="section-kicker">Your local partner</p>
             <p>{market.lead.bio}</p>
-          </div>
+          </div>}
           <p className="legal-note">
             This overview is informational and does not constitute legal advice.
             Scope and application should be confirmed for the organisation,
