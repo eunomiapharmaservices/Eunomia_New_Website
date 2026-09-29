@@ -46,7 +46,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/local-legal-mandates"
-      heading="Local Legal Representative and Compliance Support for Pharma"
+      heading="Local Legal Representative and Compliance Support for Pharma, across Europe and Beyond"
       accent="teal"
       serviceImage={{ src: "/market-representation.png", alt: "Local compliance representatives discussing market requirements" }}
       serviceTitleFirst
@@ -129,6 +129,25 @@ export default function Page() {
         </section>
         </>
       }
+      problem={{
+        heading: "Local expectations vary sharply from market to market",
+        body: [
+          "EMA harmonisation streamlines parts of the medicines system, but local expectations for representation do not. Some jurisdictions require formal legal representatives for regulatory engagement; others mandate statutory national roles across the product lifecycle.",
+          "A model that works in Germany may fall short in France, and local codes, anti-gift rules and transparency obligations all differ. Getting this wrong invites enforcement risk.",
+        ],
+      }}
+      audience={[
+        "Companies entering a European market without local staff",
+        "Global compliance teams that need local code interpretation",
+        "Companies running cross-border HCP engagements",
+        "Organisations with transparency obligations in several countries",
+      ]}
+      why={[
+        { title: "Named local partners", body: "Compliance partners in the UK, Germany, France, Spain, Portugal, Italy, Austria, Poland, the US and Canada, MENA and APAC." },
+        { title: "Connected to your global model", body: "Local requirements are mapped into your global processes, with clear ownership and escalation by market." },
+        { title: "Sourced country guides", body: "Our country guides summarise each market’s laws, codes and regulators from official sources." },
+        { title: "No unnecessary headcount", body: "Many representation and compliance-support needs can be met without opening a local office." },
+      ]}
       faqs={[
         {
           question: "What does local compliance representation mean?",

@@ -3,14 +3,14 @@ import { withSocial } from "../../../lib/seo";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = withSocial("/services/governance-assurance", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance" },
-  title: "Pharmaceutical Compliance Consultancy UK | Eunomia",
+  title: "Compliance Programme Design & Audit Readiness, UK & EU | Eunomia",
   description: "UK pharmaceutical compliance consultancy for programme design, ABPI Code compliance support, ABAC risk assessment, policies, training and monitoring.",
 });
 export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/governance-assurance"
-      heading="Pharmaceutical Compliance Consultancy UK"
+      heading="Pharmaceutical Compliance Programme Design and Audit Readiness, UK and Europe"
       accent="orange"
       serviceImage={{ src: "/home-compliance-team.jpeg", alt: "Compliance specialists discussing programme design and implementation" }}
       serviceTitleFirst
@@ -35,6 +35,31 @@ export default function Page() {
         "A practical framework with clear ownership",
         "Inspection-ready records and evidence",
         "Training, monitoring and remediation connected to real risks",
+      ]}
+      problem={{
+        heading: "Policies on paper are not the same as compliance in practice",
+        body: [
+          "Many pharmaceutical and biotech companies have policies, SOPs and approval workflows in place, yet still meet audit findings, operational friction or reputational exposure. The cause is rarely a lack of intent. More often it is the gap between how compliance was designed and how the business actually operates.",
+          "Regulators do not assess whether a checklist was completed. They assess whether risks were identified, understood and effectively managed, and whether the evidence shows it.",
+        ],
+      }}
+      audience={[
+        "Emerging biotechs approaching Phase III, launch and first commercial activity",
+        "Small and mid-sized pharma building or refreshing a compliance programme",
+        "Companies preparing for an audit, inspection or PMCPA scrutiny",
+        "Organisations remediating findings through a structured CAPA plan",
+      ]}
+      caseStudy={{
+        href: "/resources/fair-market-value-methodology",
+        label: "HCP engagement governance",
+        title: "A defensible fair market value methodology across five markets",
+        result: "A five-step FMV calculation framework, objective four-tier HCP classification and rate cards for six stakeholder categories in the UK, Germany, France, Italy and Spain, each traceable to its source data.",
+      }}
+      why={[
+        { title: "Built by practitioners", body: "Led by compliance professionals who have held senior roles inside pharmaceutical companies, not generalist consultants." },
+        { title: "Designed around your operations", body: "We start with an as-is and gap analysis and map workflows before drafting, so policies fit how your teams actually work." },
+        { title: "Delivered as a project", body: "PRINCE2 and Agile project management, with clear scope, owners and timelines, because compliance without execution is just paperwork." },
+        { title: "Local codes in one programme", body: "Named partners across Europe and beyond bring national codes and laws into a single, consistent framework." },
       ]}
       faqs={[
         {

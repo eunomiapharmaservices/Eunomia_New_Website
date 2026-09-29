@@ -23,6 +23,10 @@ type Props = {
   detailSection?: ReactNode;
   hideScope?: boolean;
   serviceTitleFirst?: boolean;
+  problem?: { heading: string; body: string[] };
+  audience?: string[];
+  caseStudy?: { href: string; label: string; title: string; result: string };
+  why?: { title: string; body: string }[];
 };
 export function ServiceSubpage({
   servicePath,
@@ -42,6 +46,10 @@ export function ServiceSubpage({
   detailSection,
   hideScope = false,
   serviceTitleFirst = false,
+  problem,
+  audience,
+  caseStudy,
+  why,
 }: Props) {
   return (
     <main className={`service-subpage ${accent}`}>
@@ -96,6 +104,15 @@ export function ServiceSubpage({
           />
         )}
       </section>
+      {problem && (
+        <section className="service-problem section-pad" aria-labelledby="service-problem-title">
+          <p className="section-kicker">The problem this solves</p>
+          <h2 id="service-problem-title">{problem.heading}</h2>
+          {problem.body.map((p) => (
+            <p key={p.slice(0, 32)}>{p}</p>
+          ))}
+        </section>
+      )}
       {heroDetail}
       {!hideScope && (
         <section id="scope-of-support" className="subservice-scope section-pad">
@@ -113,8 +130,19 @@ export function ServiceSubpage({
           </div>
         </section>
       )}
+      {audience && (
+        <section className="service-audience section-pad" aria-labelledby="service-audience-title">
+          <p className="section-kicker">Who it is for</p>
+          <h2 id="service-audience-title">Who this service is for</h2>
+          <ul>
+            {audience.map((a) => (
+              <li key={a}><Check aria-hidden="true" />{a}</li>
+            ))}
+          </ul>
+        </section>
+      )}
       <section className="subservice-outcomes section-pad">
-        <p className="section-kicker">What this gives you</p>
+        <p className="section-kicker">Business benefits</p>
         <div>
           {outcomes.map((outcome) => (
             <p key={outcome}>
@@ -124,6 +152,31 @@ export function ServiceSubpage({
           ))}
         </div>
       </section>
+      {caseStudy && (
+        <section className="service-case section-pad" aria-labelledby="service-case-title">
+          <p className="section-kicker">Case study</p>
+          <a href={caseStudy.href} className="home-case">
+            <span>{caseStudy.label}</span>
+            <h3 id="service-case-title">{caseStudy.title}</h3>
+            <p>{caseStudy.result}</p>
+            <b>Read the case study <ArrowUpRight aria-hidden="true" /></b>
+          </a>
+        </section>
+      )}
+      {why && (
+        <section className="service-why section-pad" aria-labelledby="service-why-title">
+          <p className="section-kicker">Why Eunomia</p>
+          <h2 id="service-why-title">Why choose Eunomia for this service</h2>
+          <div>
+            {why.map((w) => (
+              <article key={w.title}>
+                <h3>{w.title}</h3>
+                <p>{w.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
       {detailSection}
       {lead && (
         <section className="service-lead section-pad">

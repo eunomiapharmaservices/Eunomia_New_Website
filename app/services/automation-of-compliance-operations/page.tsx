@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/automation-of-compliance-operations"
-      heading="Pharma Compliance Automation and EFPIA Disclosure Support"
+      heading="Pharma Compliance Automation and EFPIA Disclosure Support, UK and Europe"
       accent="blue"
       serviceImage={{ src: "/eunomia-workflow.png", alt: "Planning digital compliance workflows and automated processes" }}
       serviceTitleFirst
@@ -87,6 +87,25 @@ export default function Page() {
           </div>
         </section>
       }
+      problem={{
+        heading: "Manual processes create risk as well as workload",
+        body: [
+          "Spreadsheet-driven reporting, email-based approvals and inconsistent master data create administrative burden, increase the risk of errors in transparency reporting and weaken audit readiness as organisations grow.",
+          "At the same time, AI tools are arriving faster than the governance around them, and the EU AI Act requires classification, documentation and human oversight.",
+        ],
+      }}
+      audience={[
+        "Compliance teams running review, disclosure or monitoring processes by email and spreadsheet",
+        "Companies preparing EFPIA and national transparency disclosures",
+        "Organisations assessing AI use cases under the EU AI Act",
+        "Leadership teams that need compliance dashboards and evidence for governance",
+      ]}
+      why={[
+        { title: "Three disciplines, one team", body: "Technical build, project management and compliance expertise combined in a single accountable deployment." },
+        { title: "Built on your stack", body: "We design the operational solution, configured around the tools you already use, rather than selling a software licence." },
+        { title: "Human oversight by design", body: "Automation improves routing, consistency and evidence, while experienced people keep the judgement and the decisions." },
+        { title: "Compliance-led risk assessment", body: "Every use case is evaluated by appropriate compliance officers before deployment." },
+      ]}
       faqs={[
         {
           question: "What is an AI compliance readiness assessment?",

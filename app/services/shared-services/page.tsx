@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/shared-services"
-      heading="Outsourced Pharma Compliance and Shared Services"
+      heading="Outsourced Pharma Compliance and Shared Services, UK and Europe"
       kicker="Shared Services / GBS / GCC"
       title="Your compliance function, run with you."
       serviceTitleFirst
@@ -27,6 +27,31 @@ export default function Page() {
         "Dependable capacity without building a full in-house team",
         "Consistent decisions, records and turnaround times",
         "A service that can scale by market, activity or workload",
+      ]}
+      problem={{
+        heading: "The work exists. The hours don’t.",
+        body: [
+          "Material volumes, HCP engagements and disclosure cycles keep growing while compliance teams stay lean. Review queues lengthen, decisions become inconsistent and records fall behind, especially as a business expands into new markets.",
+          "Building an equivalent in-house team takes time and fixed cost that many companies cannot justify for every process or market.",
+        ],
+      }}
+      audience={[
+        "Companies commercialising without a dedicated compliance function",
+        "Lean teams where one compliance manager is at capacity",
+        "Groups centralising compliance through GBS or GCC models",
+        "Companies expanding into new European markets",
+      ]}
+      caseStudy={{
+        href: "/resources/materials-review-shared-service-case-study",
+        label: "Shared services",
+        title: "Materials review for a UK pharma company expanding across Europe",
+        result: "Review turnaround cut from five days to two, and review cycles from four to two, through dedicated reviewers, actionable feedback and an integrated review framework.",
+      }}
+      why={[
+        { title: "A named team", body: "No resourcing pool and no rotating analyst: you work with the same experienced reviewers and signatories." },
+        { title: "Your SOPs, your systems", body: "The service runs within your approved procedures and technology, while you keep oversight and accountability." },
+        { title: "Start small, then scale", body: "Begin with one process, team or market and expand once the workflow and service levels are proven." },
+        { title: "Automation built in", body: "Workflows, dashboards and evidence trails from our automation practice support consistent turnaround and records." },
       ]}
       faqs={[
         {

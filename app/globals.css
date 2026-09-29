@@ -1251,3 +1251,20 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .home-faq{display:grid;grid-template-columns:1fr 2fr;gap:5vw;background:#fff}
 @media(max-width:900px){.home-cases-grid,.home-industries-grid,.home-faq{grid-template-columns:1fr}}
 @media(max-width:700px){.impact-grid>a.clutch-metric{grid-column:span 2}}
+/* Service page sections (agency outline) */
+.service-problem{background:#fff;max-width:1100px;margin:0 auto}
+.service-problem h2,.service-audience h2,.service-why h2{font:900 clamp(26px,3vw,42px)/1.08 var(--display);letter-spacing:-.03em;color:#17331b;margin:10px 0 20px}
+.service-problem p:not(.section-kicker){font-size:18px;line-height:1.75;color:#344137;max-width:900px}
+.service-audience{background:#f7f9f5}
+.service-audience ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 28px}
+.service-audience li{display:flex;gap:12px;align-items:flex-start;font-size:17px;line-height:1.5;color:#17331b}
+.service-audience li svg{flex:none;width:20px;height:20px;margin-top:3px;color:#4da017}
+.service-case{background:#f6f6f6}
+.service-case .home-case{max-width:760px;margin-top:14px}
+.service-why{background:#fff}
+.service-why>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.service-why article{padding:26px;border:1px solid #e1e7dd;border-left:5px solid #4da017;border-radius:10px;background:#f7f9f5}
+.service-why h3{font:800 18px/1.25 var(--display);margin:0 0 8px;color:#17331b}
+.service-why p{margin:0;line-height:1.6;color:#4d5a50}
+@media(max-width:800px){.service-audience ul,.service-why>div{grid-template-columns:1fr}}
+.service-problem p:not(.section-kicker)+p{margin-top:14px}
