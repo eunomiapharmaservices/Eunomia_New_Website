@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/shared-services"
-      heading="Outsourced Pharma Compliance and Shared Services"
+      heading="Outsourced Pharma Compliance and Shared Services for the UK and Europe"
       kicker="Shared Services / GBS / GCC"
       title="Your compliance function, run with you."
       serviceTitleFirst

@@ -106,6 +106,14 @@ export default function Home() {
             <strong>30</strong>
             <span>countries covered globally</span>
           </article>
+          <article>
+            <strong>15+</strong>
+            <span>years&apos; senior pharma compliance leadership</span>
+          </article>
+          <article>
+            <strong>12</strong>
+            <span>named local compliance partners</span>
+          </article>
           <a
             className="clutch-metric"
             href="https://clutch.co/profile/eunomia-pharma-services#reviews"

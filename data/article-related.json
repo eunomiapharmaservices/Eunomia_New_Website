@@ -1,11 +1,57 @@
 [
-  ["audit-readiness-best-practices", "ensure-audit-readiness-in-pharma-compliance", "healthcare-compliance-internal-audits"],
-  ["compliance-gap-analysis-reducing-risk-without-slowing-growth", "healthcare-compliance-internal-audits"],
-  ["pharma-compliance-risk-assessment-framework", "risk-assessment-in-healthcare-and-its-importance", "managing-compliance-risks-best-practices-strategies"],
-  ["compliance-training-beyond-the-code", "what-makes-healthcare-compliance-training-effective", "importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry"],
-  ["ai-in-healthcare-compliance", "staying-ahead-in-healthcare-compliance-navigating-ai-challenges-with-ethical-governance", "digitalisation-in-pharma-industry", "unleash-the-power-of-data-analytics-for-healthcare-compliance"],
-  ["top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid", "transparency-reporting-in-pharmaceutical-industry", "sunshine-act-in-france-transparency-healthcare-system"],
-  ["right-sized-compliance-support-for-biotech-and-global-pharma", "scalable-compliance-models-for-growing-pharma-in-the-age-of-ai", "entering-phase-iii-compliance-expectations-already-have"],
-  ["fair-market-value-fmv-in-healthcare-compliance", "stakeholder-engagement-vs-risk-efpia-ifpma-compliance", "how-to-avoid-common-healthcare-compliance-mistakes-in-pharmaceuticals"],
-  ["navigating-country-level-accountability-in-europe", "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage"]
+  [
+    "audit-readiness-best-practices",
+    "ensure-audit-readiness-in-pharma-compliance",
+    "healthcare-compliance-internal-audits"
+  ],
+  [
+    "compliance-gap-analysis-reducing-risk-without-slowing-growth",
+    "healthcare-compliance-internal-audits"
+  ],
+  [
+    "pharma-compliance-risk-assessment-framework",
+    "risk-assessment-in-healthcare-and-its-importance",
+    "managing-compliance-risks-best-practices-strategies"
+  ],
+  [
+    "compliance-training-beyond-the-code",
+    "what-makes-healthcare-compliance-training-effective",
+    "importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry"
+  ],
+  [
+    "ai-in-healthcare-compliance",
+    "staying-ahead-in-healthcare-compliance-navigating-ai-challenges-with-ethical-governance",
+    "digitalisation-in-pharma-industry",
+    "unleash-the-power-of-data-analytics-for-healthcare-compliance"
+  ],
+  [
+    "top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid",
+    "transparency-reporting-in-pharmaceutical-industry",
+    "sunshine-act-in-france-transparency-healthcare-system"
+  ],
+  [
+    "right-sized-compliance-support-for-biotech-and-global-pharma",
+    "scalable-compliance-models-for-growing-pharma-in-the-age-of-ai",
+    "entering-phase-iii-compliance-expectations-already-have"
+  ],
+  [
+    "fair-market-value-fmv-in-healthcare-compliance",
+    "stakeholder-engagement-vs-risk-efpia-ifpma-compliance",
+    "how-to-avoid-common-healthcare-compliance-mistakes-in-pharmaceuticals"
+  ],
+  [
+    "navigating-country-level-accountability-in-europe",
+    "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage"
+  ],
+  [
+    "gdpr-and-transparency-reporting-hcp-disclosure",
+    "hcp-personal-data-gdpr-crm-fmv-engagement-records",
+    "transparency-reporting-in-pharmaceutical-industry",
+    "top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid"
+  ],
+  [
+    "hcp-personal-data-gdpr-crm-fmv-engagement-records",
+    "fair-market-value-fmv-in-healthcare-compliance",
+    "unleash-the-power-of-data-analytics-for-healthcare-compliance"
+  ]
 ]

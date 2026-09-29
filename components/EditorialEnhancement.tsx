@@ -7,9 +7,15 @@ export function editorialEntry(slug: string) {
 
 type Entry = NonNullable<ReturnType<typeof editorialEntry>>;
 
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+function formatDate(iso: string) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${d} ${MONTHS[m - 1]} ${y}`;
+}
+
 export function EditorialSummary({ entry }: { entry: Entry }) {
   return <section className={styles.summary} aria-label="Article overview">
-    <p className={styles.credit}>Published by <a href="/about">Eunomia Pharma Services</a> · Updated <time dateTime={entry.updated}>28 September 2026</time></p>
+    <p className={styles.credit}>Published by <a href="/about">Eunomia Pharma Services</a> · Updated <time dateTime={entry.updated}>{formatDate(entry.updated)}</time></p>
     <h2>{entry.question}</h2>
     <p>{entry.answer}</p>
     <h3>{entry.stepsHeading}</h3>
@@ -24,7 +30,7 @@ export function EditorialSources({ entry }: { entry: Entry }) {
     <ul>{entry.sources.map(source => <li key={source.url}>
       <a href={source.url}>{source.title}</a><p>{source.context}</p>
     </li>)}</ul>
-    <p>External sources accessed 28 September 2026. Check the applicable country rules and current source text for a specific engagement.</p>
+    <p>External sources accessed {formatDate(entry.updated)}. Check the applicable country rules and current source text for a specific engagement.</p>
     <h3>Put this into practice</h3>
     <ul>{entry.links.map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
   </section>;

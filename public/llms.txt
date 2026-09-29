@@ -13,15 +13,40 @@ Eunomia Pharma Services is a trading name of Mivigilance Limited, registered in 
 
 ## Country guides
 
+Each guide summarises national law and industry codes, with links to official sources.
+
 - [Pharmaceutical compliance in Germany](https://www.eunomiapharmaservices.com/markets/germany): FSA codes, the HWG, §§ 299a–299b StGB and transparency.
 - [Pharmaceutical compliance in France](https://www.eunomiapharmaservices.com/markets/france): Anti-gift regime, Loi Bertrand / Transparence Santé, ANSM advertising visas, Sapin II and LEEM.
+- [Pharmaceutical compliance in Spain](https://www.eunomiapharmaservices.com/markets/spain): RDL 1/2015 incentives rules, RD 1416/1994 advertising and hospitality, the Farmaindustria Code and disclosure.
+- [Pharmaceutical compliance in Italy](https://www.eunomiapharmaservices.com/markets/italy): D.Lgs. 219/2006 gifts and AIFA congress notification, the Farmindustria Code, the Sunshine Act (Legge 62/2022) and D.Lgs. 231/2001.
+- [Pharmaceutical compliance in the Netherlands](https://www.eunomiapharmaservices.com/markets/netherlands): Geneesmiddelenwet Article 94, IGJ gift limits, the CGR code, Transparantieregister Zorg and KOAG/KAG.
 - [Pharmaceutical compliance in Portugal](https://www.eunomiapharmaservices.com/markets/portugal): INFARMED transparency declarations, advertising and the APIFARMA code.
+- [Pharmaceutical compliance in Ireland](https://www.eunomiapharmaservices.com/markets/ireland): HPRA advertising oversight, the IPHA Code and disclosure.
+- [Pharmaceutical compliance in Sweden](https://www.eunomiapharmaservices.com/markets/sweden): Swedish Medical Products Agency advertising rules, Lif ethical rules (LER) and disclosure.
 - [Legal mandates overview](https://www.eunomiapharmaservices.com/legal-mandates): The laws and industry codes behind pharmaceutical compliance, with official sources.
 
 ## Case studies
 
-- [Fair Market Value Methodology for HCP Compensation](https://www.eunomiapharmaservices.com/resources/fair-market-value-methodology)
-- [Pharmaceutical Materials Review: Shared Services Case Study](https://www.eunomiapharmaservices.com/resources/materials-review-shared-service-case-study)
+- [Fair Market Value Methodology for HCP Compensation](https://www.eunomiapharmaservices.com/resources/fair-market-value-methodology): Five-market FMV methodology, tiering and rate cards.
+- [Pharmaceutical Materials Review: Shared Services Case Study](https://www.eunomiapharmaservices.com/resources/materials-review-shared-service-case-study): Structured review service for a UK company expanding across Europe.
+
+## Free downloads
+
+- [Pharma Compliance Readiness Checklist](https://www.eunomiapharmaservices.com/resources/checklists/pharma-compliance-readiness-checklist)
+- [EFPIA Code Self-Assessment Checklist](https://www.eunomiapharmaservices.com/resources/checklists/efpia-code-self-assessment-checklist): Article-by-article checks against the EFPIA Code of Practice (2026).
+- [UK & EU Pharma Compliance Guide 2026](https://www.eunomiapharmaservices.com/resources/checklists/uk-eu-pharma-compliance-guide-2026): Key frameworks, dates and disclosure deadlines.
+- [Pharma Compliance Case Studies Pack](https://www.eunomiapharmaservices.com/resources/checklists/pharma-compliance-case-studies-pack)
+
+## Article topics
+
+- [EFPIA Code Compliance](https://www.eunomiapharmaservices.com/resources/category/efpia-code-compliance): Applying the EFPIA Code and national codes to interactions with healthcare professionals, organisations and patient groups.
+- [ABPI Code & PMCPA](https://www.eunomiapharmaservices.com/resources/category/abpi-code-pmcpa): UK promotional compliance under the ABPI Code of Practice and PMCPA guidance and cases.
+- [GDPR & Data Compliance in Pharma](https://www.eunomiapharmaservices.com/resources/category/gdpr-data-compliance): Data protection and data governance for pharmaceutical compliance.
+- [HCP Engagement & Transparency Reporting](https://www.eunomiapharmaservices.com/resources/category/hcp-engagement-transparency): Fair market value, transfers of value and disclosure under EFPIA and national transparency laws.
+- [Regulatory Updates & Compliance News](https://www.eunomiapharmaservices.com/resources/category/regulatory-updates): New guidance, legislation and developments affecting pharmaceutical compliance.
+- [Third-Party Due Diligence & Supply Chain Compliance](https://www.eunomiapharmaservices.com/resources/category/third-party-due-diligence): Managing compliance risk in distributors, vendors and other third parties.
+- [Compliance Programmes, Audits & Training](https://www.eunomiapharmaservices.com/resources/category/compliance-programmes): Designing, auditing and embedding healthcare compliance programmes, policies and training.
+- [AI & Digital Compliance](https://www.eunomiapharmaservices.com/resources/category/ai-digital-compliance): AI governance, automation and data analytics in healthcare compliance.
 
 ## Company
 

@@ -1,5 +1,5 @@
 import { FAQSchema } from "./FAQSchema";
-import { ServiceContext, ServiceEvidence } from "./ServicePositioning";
+import { ServiceContext, ServiceEvidence, ServiceFrameworksSection } from "./ServicePositioning";
 import { SiteImage } from "./SiteImage";
 import { StructuredData } from "./StructuredData";
 import type { ReactNode } from "react";
@@ -127,6 +127,7 @@ export function ServiceSubpage({
         </div>
       </section>
       <ServiceEvidence path={servicePath} />
+      <ServiceFrameworksSection path={servicePath} />
       {detailSection}
       {lead && (
         <section className="service-lead section-pad">

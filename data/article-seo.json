@@ -1,5 +1,15 @@
 [
   {
+    "slug": "gdpr-and-transparency-reporting-hcp-disclosure",
+    "title": "GDPR and Transparency Reporting for Pharma",
+    "description": "How GDPR applies to disclosing HCP transfers of value: consent or legitimate interests, privacy information, objections, accuracy and processor controls."
+  },
+  {
+    "slug": "hcp-personal-data-gdpr-crm-fmv-engagement-records",
+    "title": "HCP Personal Data under GDPR: CRM, FMV and Records",
+    "description": "Apply GDPR to HCP engagement data in pharma: purpose, lawful basis, data minimisation in FMV, accuracy, processors, transfers and retention."
+  },
+  {
     "slug": "pharma-compliance-risk-assessment-framework",
     "title": "Pharma Compliance Risk Assessment Framework",
     "description": "How small and mid-sized pharma can build a compliance risk assessment framework: focus on high-risk activities and make assessment continuous."

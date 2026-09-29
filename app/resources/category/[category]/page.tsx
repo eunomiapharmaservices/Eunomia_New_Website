@@ -6,7 +6,8 @@ import { StructuredData } from "../../../../components/StructuredData";
 import { withSocial } from "../../../../lib/seo";
 import resourceArticles from "../../../../data/resource-articles.json";
 import articleSeo from "../../../../data/article-seo.json";
-import { articlesIn, populatedCategories } from "../../../../data/article-categories";
+import { articlesIn, populatedCategories, categoryFaqs } from "../../../../data/article-categories";
+import { PageFaqs } from "../../../../components/PageFaqs";
 
 const SITE = "https://www.eunomiapharmaservices.com";
 
@@ -87,6 +88,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
           </a>
         ))}
       </section>
+      <PageFaqs faqs={categoryFaqs[c.slug] ?? []} title={`${c.name}: common questions`} />
       <SiteFooter />
     </main>
   );

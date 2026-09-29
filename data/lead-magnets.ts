@@ -4,6 +4,7 @@
 export type ChecklistSection = { heading: string; items: { text: string; ref?: string }[] };
 export type LeadMagnet = {
   slug: string;
+  kind?: "checklist" | "guide" | "pack";
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -140,6 +141,86 @@ export const leadMagnets: LeadMagnet[] = [
         { text: "Transfers of value are disclosed annually for each full calendar year, within six months of the year end.", ref: "Art. 22.01" },
         { text: "Disclosures stay public for at least three years, and records are kept for at least five years.", ref: "Art. 22.01" },
         { text: "Disclosures use the national template and platform that apply in each country.", ref: "Art. 22.03" },
+      ] },
+    ],
+  },
+  {
+    slug: "pharma-compliance-case-studies-pack",
+    kind: "pack",
+    title: "Pharma Compliance Case Studies Pack",
+    metaTitle: "Pharma Compliance Case Studies Pack (free download) | Eunomia",
+    metaDescription:
+      "Two Eunomia case studies in one download: a five-market HCP fair market value methodology and a shared-service materials review for a UK pharmaceutical company.",
+    summary:
+      "Two published Eunomia engagements in one document: how a five-market fair market value methodology was designed, and how a structured materials-review service supported a UK company expanding across Europe.",
+    audience: "Compliance, Medical Affairs, Finance and leadership teams comparing approaches to HCP compensation and promotional review capacity.",
+    file: "/downloads/eunomia-pharma-compliance-case-studies-pack.pdf",
+    note: "Results are those reported for each engagement in the August 2026 case studies. They are not general benchmarks or promised outcomes.",
+    sections: [
+      { heading: "Case study 1: Fair market value methodology for HCP compensation", items: [
+        { text: "Client and challenge: a multi-market pharmaceutical company needed a consistent FMV framework across the UK, Germany, France, Italy and Spain, covering general practitioners, specialists, nurses, pharmacists, payers and patient contributors. Fragmented benchmarks, inconsistent tiering and individually negotiated rates made decisions difficult to explain and audit." },
+        { text: "Methodology: a five-step calculation framework covering base compensation, available hours, practice displacement adjustment, a composite adjustment factor and tiering premia, with each rate traceable to the methodology and its source data." },
+        { text: "Benchmarking and tiering: independent compensation and working-hours sources, including NHS pay circulars, ONS ASHE, ERI, WTW and national sources, and a four-tier framework using documented criteria such as publications, trials, role and experience." },
+        { text: "Validation and deliverables: Compliance, Medical Affairs, Finance and Legal reviewed the inputs in structured working sessions. Deliverables included rate cards for six stakeholder categories across all five countries, an audit trail and an approach to annual indexed recalibration." },
+        { text: "Reported outcomes: payments within the defensible FMV range increased from 66% to 98%; the average hourly rate decreased from £520 to £385; time to contract fell from 14 days to 6 days." },
+      ] },
+      { heading: "Case study 2: Pharmaceutical materials review as a shared service", items: [
+        { text: "Client and challenge: a mid-sized UK-headquartered pharmaceutical company was expanding across Europe with a lean compliance organisation and no dedicated promotional review function. Rising material volumes and complexity put pressure on its review process." },
+        { text: "Service design: a review framework integrated into the client’s systems, with experienced reviewers and signatories, workflows, SOPs, review templates, governance, quality assurance and audit-ready documentation." },
+        { text: "Capacity and local expertise: global and UK promotional and medical review support, with access to local expertise as the business entered additional markets, designed to scale without building equivalent permanent infrastructure." },
+        { text: "Reporting: administrative support and reporting on review activity, turnaround, approval trends and recurring issues, used to monitor performance and improve material quality." },
+        { text: "Reported outcomes: review turnaround reduced from five days to two, and review cycles from four to two, attributed to dedicated reviewers, actionable feedback and communication between reviewers and material owners." },
+      ] },
+      { heading: "What the two engagements have in common", items: [
+        { text: "A documented method that makes each decision traceable to its inputs and approvals." },
+        { text: "Cross-functional validation, so Compliance, Medical, Finance and Legal work from the same basis." },
+        { text: "Reporting that shows how the process performs, so it can be improved over time." },
+      ] },
+    ],
+  },
+  {
+    slug: "uk-eu-pharma-compliance-guide-2026",
+    kind: "guide",
+    title: "UK & EU Pharma Compliance Guide 2026",
+    metaTitle: "UK & EU Pharma Compliance Guide 2026 (free download) | Eunomia",
+    metaDescription:
+      "Key UK and EU pharmaceutical compliance frameworks and dates for 2026 in one guide: ABPI and EFPIA Codes, anti-bribery, failure to prevent fraud, data protection and eight country summaries.",
+    summary:
+      "The frameworks, dates and disclosure deadlines that shape pharmaceutical compliance in the UK and Europe in 2026, with a one-line summary of each and a link to the official source.",
+    audience: "Compliance, legal and leadership teams planning the year ahead across the UK and European markets.",
+    file: "/downloads/eunomia-uk-eu-pharma-compliance-guide-2026.pdf",
+    note: "Informational summary based on official sources checked in September 2026, not legal advice. Confirm current requirements for your organisation, markets and activities.",
+    sections: [
+      { heading: "United Kingdom", items: [
+        { text: "The 2024 ABPI Code of Practice took effect on 1 October 2024, with a transition period to 31 December 2024. It is administered by the PMCPA independently of the ABPI.", ref: "PMCPA" },
+        { text: "The PMCPA’s social media guidance was updated in February 2026.", ref: "PMCPA" },
+        { text: "Industry payments to UK healthcare professionals and organisations are published on Disclosure UK, the ABPI’s database.", ref: "ABPI" },
+        { text: "Part 14 of the Human Medicines Regulations 2012 sets the legal rules on advertising medicines; the MHRA Blue Guide explains how the MHRA applies them.", ref: "legislation.gov.uk; MHRA" },
+        { text: "Section 7 of the Bribery Act 2010: a commercial organisation can be liable for failing to prevent bribery by associated persons, unless it had adequate procedures.", ref: "legislation.gov.uk" },
+        { text: "The failure to prevent fraud offence under the Economic Crime and Corporate Transparency Act 2023 has applied since 1 September 2025.", ref: "GOV.UK" },
+        { text: "The Data (Use and Access) Act 2025 amends, but does not replace, the UK GDPR, the Data Protection Act 2018 and PECR; its changes were phased in between June 2025 and June 2026.", ref: "ICO" },
+      ] },
+      { heading: "European Union", items: [
+        { text: "The EFPIA Code of Practice (2026 edition) sets standards for interactions with HCPs, HCOs and patient organisations. Member associations transpose it into national codes and may adopt stricter standards.", ref: "EFPIA" },
+        { text: "EFPIA disclosure: transfers of value are disclosed annually for each calendar year, within six months of the year end; disclosures stay public for at least three years and records are kept for at least five.", ref: "EFPIA Code" },
+        { text: "Directive 2001/83/EC sets the EU framework for medicines advertising and inducements that national laws implement.", ref: "EUR-Lex" },
+        { text: "The EU AI Act, Regulation (EU) 2024/1689, applies alongside the GDPR, the EU Data Act and, where AI forms part of a medical device or diagnostic, the MDR and IVDR.", ref: "EUR-Lex" },
+        { text: "Named disclosure of HCPs needs a lawful basis under the GDPR: EFPIA’s training material identifies individual consent or legitimate interest, with a documented process.", ref: "EFPIA" },
+      ] },
+      { heading: "Country notes", items: [
+        { text: "France: the anti-gift regime (Ordonnance 2017-49; decree 2020-730 applying since 1 October 2020), Loi Bertrand disclosure on Transparence Santé, prior ANSM advertising visas and Sapin II Article 17.", ref: "Légifrance; ANSM" },
+        { text: "Germany: the FSA codes for member companies, HWG § 7 on gifts and promotional benefits, and the healthcare anti-corruption offences in §§ 299a–299b StGB.", ref: "FSA; gesetze-im-internet.de" },
+        { text: "Spain: incentives prohibited under Article 4.6 of RDL 1/2015; RD 1416/1994 on HCP advertising and hospitality; Farmaindustria Code (2025 edition), with transfers of value published each June.", ref: "BOE; Farmaindustria" },
+        { text: "Italy: D.Lgs. 219/2006 on gifts (Art. 123) and AIFA notification of congresses at least 60 days ahead (Art. 124); Farmindustria disclosure by 30 June; the Sunshine Act (Legge 62/2022) register, whose operational status should be checked.", ref: "AIFA; Farmindustria" },
+        { text: "Netherlands: Geneesmiddelenwet Article 94 on inducements, IGJ low-value limits of €50 per gift and €150 a year, and Transparantieregister Zorg reporting before 1 June for relationships of at least €500 a year.", ref: "wetten.overheid.nl; IGJ; Transparantieregister" },
+        { text: "Portugal: declarations of economic advantages under Article 159 of the Estatuto do Medicamento through INFARMED’s transparency platform.", ref: "INFARMED" },
+        { text: "Ireland: HPRA supervision of medicines advertising and the IPHA Code of Practice, including disclosure of financial interactions.", ref: "HPRA; IPHA" },
+        { text: "Sweden: Lif’s ethical rules (LER), English edition effective 1 February 2026; searchable, downloadable disclosure reports from the 2027 publication of 2026 transfers.", ref: "Lif" },
+      ] },
+      { heading: "Disclosure calendar", items: [
+        { text: "Before 1 June: Netherlands, report to the Transparantieregister Zorg (published mid-July).", ref: "Transparantieregister" },
+        { text: "June: Spain, Farmaindustria Code disclosures published on company websites.", ref: "Farmaindustria" },
+        { text: "By 30 June: EFPIA Code disclosure deadline (six months after year end); Italy, Farmindustria disclosures.", ref: "EFPIA; Farmindustria" },
       ] },
     ],
   },

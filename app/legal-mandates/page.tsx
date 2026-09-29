@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { legalFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
 import { Bot, FileCheck2, Globe2, Scale, ShieldCheck, Sparkles, BookOpen, Landmark } from "lucide-react";
@@ -122,6 +124,7 @@ export default function Legal() {
           <a href="/services/governance-assurance">Healthcare Compliance Programme Design and Implementation</a>.
         </p>
       </section>
+      <PageFaqs faqs={legalFaqs} title="Pharmaceutical compliance rules: common questions" />
       <SiteFooter />
     </main>
   );

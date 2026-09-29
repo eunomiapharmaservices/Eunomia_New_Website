@@ -1281,3 +1281,13 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .service-subpage .service-lead p.section-kicker{color:#3f7a1d!important;font-size:12px!important}
 .about-hero .section-kicker{color:#3f7a1d!important}
 .about-hero>div>p:last-child{color:#5f6b61!important}
+/* Page FAQs (About, Services, Legal Mandates, categories) */
+.page-faqs{display:grid;grid-template-columns:1fr 2fr;gap:5vw;background:#fff}
+.page-faqs h2{font:900 clamp(26px,3vw,42px)/1.05 var(--display);letter-spacing:-.03em;color:#17331b;margin:10px 0 0}
+@media(max-width:900px){.page-faqs{grid-template-columns:1fr}}
+/* Five homepage proof points */
+.impact-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.impact-grid article,.impact-grid>a{padding:26px 24px}
+@media(max-width:1100px){.impact-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.impact-grid>a.clutch-metric{grid-column:span 2}}
+.about-services h2 + p{margin-top:24px;line-height:1.6}
