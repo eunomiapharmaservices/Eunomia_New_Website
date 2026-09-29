@@ -228,7 +228,7 @@ export default function Resources() {
     <main>
       <SiteHeader />
       <section className="inner-hero resource-hero">
-        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill loading="eager" fetchPriority="high" sizes="(max-width: 900px) 100vw, 44vw" /></div>
+        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill loading="eager" fetchPriority="high" decoding="sync" sizes="(max-width: 900px) 100vw, 44vw" /></div>
         <p className="section-kicker">Resources</p>
         <h1>
           Practical insight for
@@ -261,7 +261,7 @@ export default function Resources() {
               data-resource-search={`${type} ${title}`}
             >
               <div className="featured-resource-image">
-                <SiteImage src={image} fill sizes="(max-width: 650px) 100vw, 33vw" alt="" loading="lazy" />
+                <SiteImage src={image} fill sizes="(max-width: 650px) 100vw, 33vw" alt="" loading="lazy" fetchPriority="low" />
                 <div className="resource-icon">
                   <Icon />
                 </div>
@@ -306,7 +306,7 @@ export default function Resources() {
                     src={articleImage(title)}
                     fill sizes="(max-width: 650px) 120px, 180px"
                     alt=""
-                    loading="lazy"
+                    loading="lazy" fetchPriority="low"
                   />
                 </div>
                 <div>
