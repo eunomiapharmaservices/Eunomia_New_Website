@@ -228,7 +228,7 @@ export default function Resources() {
     <main>
       <SiteHeader />
       <section className="inner-hero resource-hero">
-        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill preload sizes="(max-width: 900px) 100vw, 44vw" /></div>
+        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill loading="eager" fetchPriority="high" sizes="(max-width: 900px) 100vw, 44vw" /></div>
         <p className="section-kicker">Resources</p>
         <h1>
           Practical insight for

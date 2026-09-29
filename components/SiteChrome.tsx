@@ -25,7 +25,7 @@ export function SiteHeader() {
   return (
     <header className="site-header inner-header">
       <a className="wordmark" href="/">
-        <SiteImage src="/eunomia-logo.webp" sizes="220px" loading="eager" alt="Eunomia Pharma Services" />
+        <SiteImage src="/eunomia-logo.webp" sizes="(max-width: 650px) 183px, (max-width: 1050px) 230px, 260px" loading="eager" alt="Eunomia Pharma Services" />
       </a>
       <PrimaryNav />
     </header>

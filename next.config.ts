@@ -2,6 +2,10 @@ import type { NextConfig } from 'next';
 import articles from './data/resource-articles.json';
 
 const nextConfig: NextConfig = {
+  images: {
+    // Small responsive variants avoid downloading a 640px logo on phones.
+    imageSizes: [32, 48, 64, 96, 128, 160, 192, 256, 320, 384],
+  },
   async headers() {
     return [
       { source: "/downloads/:file*", headers: [{ key: "X-Robots-Tag", value: "noindex" }] },
