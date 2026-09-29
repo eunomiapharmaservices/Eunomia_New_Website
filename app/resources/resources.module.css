@@ -1,0 +1,6 @@
+/* Put navigation and the page purpose ahead of decorative imagery on phones. */
+@media (max-width: 900px) {
+  .hero.hero { display: flex; flex-direction: column; }
+  .hero.hero > * { align-self: stretch; }
+  .hero.hero > .media { order: 1; width: 100%; flex: none; margin: 32px 0 0; }
+}

@@ -1,3 +1,4 @@
+import styles from "./resources.module.css";
 import { SiteImage } from "../../components/SiteImage";
 import { ArrowUpRight, BookOpen, FileText, PlayCircle } from "lucide-react";
 import type { Metadata } from "next";
@@ -227,8 +228,8 @@ export default function Resources() {
   return (
     <main>
       <SiteHeader />
-      <section className="inner-hero resource-hero">
-        <div className="resource-hero-media"><SiteImage src="/resources-rashmi-team.png" alt="" fill loading="eager" fetchPriority="high" decoding="sync" sizes="(max-width: 900px) 100vw, 44vw" /></div>
+      <section className={`inner-hero resource-hero ${styles.hero}`}>
+        <div className={`resource-hero-media ${styles.media}`}><SiteImage src="/resources-rashmi-team.png" alt="" fill loading="eager" fetchPriority="high" sizes="(max-width: 900px) 100vw, 44vw" /></div>
         <p className="section-kicker">Resources</p>
         <h1>
           Practical insight for
