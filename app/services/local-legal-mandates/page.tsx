@@ -47,7 +47,7 @@ export default function Page() {
     <ServiceSubpage
       servicePath="/services/local-legal-mandates"
       heading="Local Legal Representative and Compliance Support for Pharma"
-      accent="teal"
+      accent="green"
       serviceImage={{ src: "/market-representation.png", alt: "Local compliance representatives discussing market requirements" }}
       serviceTitleFirst
       kicker="Local Legal Mandates and Representation"

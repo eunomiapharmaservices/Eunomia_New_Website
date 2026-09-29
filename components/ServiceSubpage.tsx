@@ -1,3 +1,5 @@
+import { FAQSchema } from "./FAQSchema";
+import { ServiceContext, ServiceEvidence } from "./ServicePositioning";
 import { SiteImage } from "./SiteImage";
 import { StructuredData } from "./StructuredData";
 import type { ReactNode } from "react";
@@ -45,6 +47,7 @@ export function ServiceSubpage({
   return (
     <main className={`service-subpage ${accent}`}>
       <StructuredData data={{ "@context": "https://schema.org", "@type": "Service", "@id": `https://www.eunomiapharmaservices.com${servicePath}#service`, name: kicker, description: intro, url: `https://www.eunomiapharmaservices.com${servicePath}`, provider: { "@id": "https://www.eunomiapharmaservices.com/#organization" } }} />
+      <FAQSchema faqs={faqs} />
       <SiteHeader />
       <section className="subservice-hero section-pad">
         <a href="/services" className="back-link">
@@ -94,6 +97,7 @@ export function ServiceSubpage({
           />
         )}
       </section>
+      <ServiceContext path={servicePath} />
       {heroDetail}
       {!hideScope && (
         <section id="scope-of-support" className="subservice-scope section-pad">
@@ -122,6 +126,7 @@ export function ServiceSubpage({
           ))}
         </div>
       </section>
+      <ServiceEvidence path={servicePath} />
       {detailSection}
       {lead && (
         <section className="service-lead section-pad">
