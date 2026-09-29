@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ResourceSearch } from "../../components/ResourceSearch";
+import { populatedCategories } from "../../data/article-categories";
 export const metadata: Metadata = withSocial("/resources", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
@@ -12,6 +13,20 @@ export const metadata: Metadata = withSocial("/resources", {
 });
 
 const featured = [
+  {
+    type: "Checklist",
+    title: "Pharma Compliance Readiness Checklist",
+    href: "/resources/checklists/pharma-compliance-readiness-checklist",
+    image: "/compliance-collaboration.png",
+    icon: FileText,
+  },
+  {
+    type: "Checklist",
+    title: "EFPIA Code Self-Assessment Checklist",
+    href: "/resources/checklists/efpia-code-self-assessment-checklist",
+    image: "/eunomia-workflow.png",
+    icon: FileText,
+  },
   {
     type: "E-book",
     title: "From Compliance Bottlenecks to Business Breakthroughs",
@@ -240,7 +255,7 @@ export default function Resources() {
             <a
               className="featured-resource-card"
               href={href}
-              target="_blank"
+              target={href.startsWith("/") && !href.startsWith("/resources#") ? undefined : "_blank"}
               rel="noreferrer"
               key={title}
               data-resource-search={`${type} ${title}`}
@@ -271,6 +286,11 @@ export default function Resources() {
             transparency, governance and technology.
           </p>
         </div>
+        <nav className="category-chips" aria-label="Browse articles by category">
+          {populatedCategories.map((c) => (
+            <a key={c.slug} href={`/resources/category/${c.slug}`}>{c.name}</a>
+          ))}
+        </nav>
         <div className="article-grid">
           {articles.map(([date, title, href], i) => {
             const slug = href.split("/").filter(Boolean).at(-1);

@@ -9,6 +9,8 @@ import { StructuredData } from "../../../../components/StructuredData";
 import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 import articleServices from "../../../../data/article-services.json";
 import relatedGroups from "../../../../data/article-related.json";
+import { categoriesFor } from "../../../../data/article-categories";
+import { ExitIntentOffer } from "../../../../components/ExitIntentOffer";
 
 const SERVICES: Record<string, { name: string; summary: string }> = {
   "governance-assurance": { name: "Healthcare Compliance Programme Design and Implementation", summary: "Frameworks, controls, audit readiness and implementation" },
@@ -92,6 +94,20 @@ export default async function ResourceArticle({
   const relatedServiceSlug = (articleServices as Record<string, string>)[slug];
   const relatedService = relatedServiceSlug ? SERVICES[relatedServiceSlug] : undefined;
 
+  const cats = categoriesFor(slug);
+  const efpiaTopic = cats.some((c) => ["efpia-code-compliance", "hcp-engagement-transparency", "abpi-code-pmcpa"].includes(c.slug));
+  const checklist = efpiaTopic
+    ? { href: "/resources/checklists/efpia-code-self-assessment-checklist", title: "EFPIA Code Self-Assessment Checklist", blurb: "Check your processes against the EFPIA Code of Practice (2026), article by article." }
+    : { href: "/resources/checklists/pharma-compliance-readiness-checklist", title: "Pharma Compliance Readiness Checklist", blurb: "Test whether your compliance programme would stand up to an audit or inspection." };
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Resources", item: `${SITE}/resources` },
+      ...(cats[0] ? [{ "@type": "ListItem", position: 2, name: cats[0].name, item: `${SITE}/resources/category/${cats[0].slug}` }] : []),
+      { "@type": "ListItem", position: cats[0] ? 3 : 2, name: article.title.replace(/<[^>]+>/g, ""), item: `${SITE}/resources/articles/${slug}` },
+    ],
+  };
   const relatedSlugs = Array.from(
     new Set((relatedGroups as string[][]).filter((g) => g.includes(slug)).flat()),
   ).filter((s) => s !== slug);
@@ -124,6 +140,7 @@ export default async function ResourceArticle({
   return (
     <main>
       <StructuredData data={articleSchema} />
+      <StructuredData data={breadcrumb} />
       <SiteHeader />
       <article className="standalone-resource">
         <header className="standalone-resource-header section-pad">
@@ -132,6 +149,7 @@ export default async function ResourceArticle({
           </a>
           <p className="section-kicker">
             Eunomia perspective · {article.date.slice(0, 10)}
+            {cats.length > 0 && <> · {cats.map((c, i) => <span key={c.slug}>{i > 0 && ", "}<a href={`/resources/category/${c.slug}`}>{c.name}</a></span>)}</>}
           </p>
           <h1 dangerouslySetInnerHTML={{ __html: article.title }} />
         </header>
@@ -155,6 +173,13 @@ export default async function ResourceArticle({
             </ul>
           </aside>
         )}
+        <aside className="article-checklist-cta">
+          <p className="section-kicker">Free checklist</p>
+          <h2>{checklist.title}</h2>
+          <p>{checklist.blurb}</p>
+          <a className="primary-button" href={checklist.href}>Get the checklist</a>
+        </aside>
+        <ExitIntentOffer href={checklist.href} title={checklist.title} />
         {relatedService && (
           <aside className="article-related-service">
             <p className="section-kicker">Related service</p>
