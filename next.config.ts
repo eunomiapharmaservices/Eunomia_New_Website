@@ -29,6 +29,18 @@ const nextConfig: NextConfig = {
       { source: "/compliancetraining", destination: "/services/governance-assurance", permanent: true },
       { source: "/systems-automation", destination: "/services/automation-of-compliance-operations", permanent: true },
       { source: "/category/blog", destination: "/resources#articles", permanent: true },
+      // Legacy content URLs identified in Search Console exports (29 Sep 2026).
+      { source: "/risk-assessment-framework-and-internal-controls", destination: "/resources/articles/pharma-compliance-risk-assessment-framework", permanent: true },
+      { source: "/third-party-vendor-management", destination: "/resources/articles/from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage", permanent: true },
+      { source: "/third‑party-vendor-management", destination: "/resources/articles/from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage", permanent: true },
+      { source: "/third%E2%80%91party-vendor-management", destination: "/resources/articles/from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage", permanent: true },
+      { source: "/monitoring-and-auditing", destination: "/services/governance-assurance", permanent: true },
+      { source: "/compliance", destination: "/services", permanent: true },
+      { source: "/material", destination: "/services/shared-services", permanent: true },
+      { source: "/blog", destination: "/resources", permanent: true },
+      { source: "/ai-governance", destination: "/services/automation-of-compliance-operations", permanent: true },
+      { source: "/audits", destination: "/services/governance-assurance", permanent: true },
+      { source: "/sop", destination: "/services/governance-assurance", permanent: true },
       // Old WordPress URLs still indexed by Bing / Google (found 28 Sep 2026)
       { source: "/healthcare-compliance-services", destination: "/services", permanent: true },
       { source: "/engagement-with-external-stakeholders", destination: "/services/governance-assurance", permanent: true },
