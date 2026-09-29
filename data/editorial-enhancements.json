@@ -1,215 +1,1031 @@
 {
-  "right-sized-compliance-support-for-biotech-and-global-pharma": {
-    "updated": "2026-09-28",
-    "question": "How can a biotech company outsource compliance without losing oversight?",
-    "answer": "A biotech can outsource defined compliance activities, such as material review, HCP engagement administration or disclosure preparation, while retaining a named internal owner and clear decision rights. Start with the activities and markets you actually operate in, agree the provider’s scope, and establish approval, escalation and reporting arrangements. The service should fit the company’s risks and stage of development.",
-    "stepsHeading": "What to agree before outsourcing",
-    "steps": [
-      "Define the work: list markets, activities, expected volumes, exclusions and the evidence each completed task must produce.",
-      "Name the owners: record who prepares, reviews, approves and escalates each activity, including decisions retained by the company.",
-      "Test the handover: walk through a representative engagement or material from request to approval and record any gaps.",
-      "Monitor delivery: agree turnaround measures, quality checks, exceptions reporting and a route for changing scope as the business grows."
-    ],
-    "sources": [
-      {
-        "title": "Ministry of Justice: Bribery Act 2010 guidance",
-        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
-        "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
-      }
-    ],
-    "links": [
-      {
-        "label": "See the materials-review shared-service case study",
-        "href": "/resources/materials-review-shared-service-case-study"
-      },
-      {
-        "label": "Explore outsourced compliance and shared services",
-        "href": "/services/shared-services"
-      }
-    ]
-  },
-  "fair-market-value-fmv-in-healthcare-compliance": {
-    "updated": "2026-09-28",
-    "question": "How should pharmaceutical companies determine HCP fair market value?",
-    "answer": "An HCP fair market value assessment should connect a genuine service need with the expertise, time and market context needed to deliver it. Document the benchmarking method, rate rationale, approvals and any exceptions. A rate card supports consistent decisions; it does not replace assessing whether an engagement is appropriate. Eunomia’s published case study describes one methodology across five European markets, rather than a universal HCP tariff.",
-    "stepsHeading": "What a documented FMV decision should explain",
-    "steps": [
-      "Service: the business or scientific need, expected contribution, deliverables and reasonable time commitment.",
-      "Expertise: why the selected person meets the engagement’s requirements and how any tier was assigned.",
-      "Rate: the relevant market data, calculation method, assumptions and date of the benchmark.",
-      "Governance: the approved fee, supporting contract, exception rationale where needed, and record of the work delivered."
-    ],
-    "sources": [
-      {
-        "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
-        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
-        "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
-      }
-    ],
-    "links": [
-      {
-        "label": "Read the five-market FMV methodology case study",
-        "href": "/resources/fair-market-value-methodology"
-      },
-      {
-        "label": "Discuss FMV operational support",
-        "href": "/services/shared-services"
-      }
-    ]
-  },
-  "transparency-reporting-in-pharmaceutical-industry": {
-    "updated": "2026-09-28",
-    "question": "What does pharmaceutical transparency reporting involve?",
-    "answer": "Transparency reporting involves identifying, reconciling and disclosing reportable transfers of value under the rules applicable to a company, recipient and market. Those rules can arise from legislation or industry-code commitments, and they are not identical across countries. An operational process connects engagement records and finance data to the relevant disclosure categories, with documented checks before publication.",
-    "stepsHeading": "Build disclosure into the engagement workflow",
-    "steps": [
-      "Confirm scope for each market: applicable law or code, covered entities and recipients, reporting categories and current deadlines.",
-      "Collect usable records at source: recipient details, engagement purpose, payment or benefit, dates and supporting identifiers.",
-      "Reconcile the records: compare engagement systems, finance and agency data; investigate missing entries and duplicate payments.",
-      "Approve and retain: document corrections, the reporting methodology and final sign-off, then preserve the evidence behind the disclosure."
-    ],
-    "sources": [
-      {
-        "title": "EFPIA: Code of Practice and supporting guidance",
-        "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
-        "context": "European industry-code framework. Check the relevant national implementation and any additional statutory requirements."
-      },
-      {
-        "title": "CMS: Open Payments",
-        "url": "https://www.cms.gov/priorities/key-initiatives/open-payments",
-        "context": "The US programme provides a separate statutory reporting example. Its scope and processes should not be substituted for European requirements."
-      }
-    ],
-    "links": [
-      {
-        "label": "Connect disclosure with FMV governance",
-        "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
-      },
-      {
-        "label": "Explore compliance automation and disclosure workflows",
-        "href": "/services/automation-of-compliance-operations"
-      }
-    ]
-  },
-  "pharma-compliance-risk-assessment-framework": {
-    "updated": "2026-09-28",
-    "question": "How do you build a practical pharma compliance risk assessment?",
-    "answer": "Begin with the company’s actual activities, markets and third parties. Describe what could go wrong, assess the exposure and existing controls, then prioritise gaps with named owners and completion dates. Review the assessment when activities or risks change. A useful risk register explains decisions and drives action; a score alone does not show that a risk is controlled.",
-    "stepsHeading": "A practical starting structure for your risk register",
-    "steps": [
-      "Activity and exposure: record the process, country, stakeholders and a specific risk scenario.",
-      "Existing controls and evidence: identify the control owner and evidence that the control operates in practice.",
-      "Priority and response: explain the likelihood and impact assessment, remaining exposure and proposed action.",
-      "Follow-up: assign an accountable owner, target date and a check to establish whether the action worked."
-    ],
-    "sources": [
-      {
-        "title": "Ministry of Justice: Bribery Act 2010 guidance",
-        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
-        "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
-      }
-    ],
-    "links": [
-      {
-        "label": "Use gap analysis to test your controls",
-        "href": "/resources/articles/healthcare-compliance-internal-audits"
-      },
-      {
-        "label": "Explore compliance programme design and implementation",
-        "href": "/services/governance-assurance"
-      }
-    ]
-  },
-  "healthcare-compliance-internal-audits": {
-    "updated": "2026-09-28",
-    "question": "How does gap analysis improve a healthcare compliance internal audit?",
-    "answer": "Gap analysis compares the controls a company needs with what its teams actually do. An internal audit can use it to test selected activities, examine evidence and prioritise weaknesses rather than only confirm that policies exist. Findings should connect to a specific risk, an accountable owner and a follow-up check. The scope here is commercial healthcare compliance, not a substitute for a GxP inspection programme.",
-    "stepsHeading": "Questions to test an engagement from start to finish",
-    "steps": [
-      "Was the purpose recorded and the activity routed to the appropriate reviewers before it began?",
-      "Do the contract, approved scope, payment and evidence of delivery agree with one another?",
-      "Were exceptions recognised, explained and escalated to the right decision-maker?",
-      "Can the team demonstrate that corrective actions addressed the cause, using a follow-up sample or other evidence?"
-    ],
-    "sources": [
-      {
-        "title": "Serious Fraud Office: Evaluating a Corporate Compliance Programme",
-        "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
-        "context": "UK enforcement guidance discussing programme effectiveness and the operation of preventive procedures. It is not a pharmaceutical certification standard."
-      }
-    ],
-    "links": [
-      {
-        "label": "Build the underlying risk assessment",
-        "href": "/resources/articles/pharma-compliance-risk-assessment-framework"
-      },
-      {
-        "label": "Explore compliance governance and assurance",
-        "href": "/services/governance-assurance"
-      }
-    ]
-  },
-  "fair-market-value-methodology": {
-    "updated": "2026-09-28",
-    "question": "What did Eunomia’s five-market FMV project deliver?",
-    "answer": "Eunomia developed a documented FMV methodology, stakeholder tiering and rate cards for a pharmaceutical company operating in the UK, Germany, France, Italy and Spain. The published August 2026 case study covers six stakeholder categories and reports improvements in payment consistency and contracting time. Its figures describe that engagement; they are not recommended HCP rates or predictions for another organisation.",
-    "stepsHeading": "What the published evidence covers",
-    "steps": [
-      "Scope: five European markets and six stakeholder categories, with a common methodology and documented inputs.",
-      "Implementation: independent benchmarking, objective tiering and validation sessions with Compliance, Medical Affairs, Finance and Legal.",
-      "Reported results: payments within the defensible FMV range rose from 66% to 98%; average hourly rates moved from £520 to £385; contracting time fell from 14 to 6 days.",
-      "Evidence limits: the public case study does not provide the underlying transaction dataset, sample size or measurement window. The reported rates should not be reused as a market benchmark."
-    ],
-    "sources": [
-      {
-        "title": "Eunomia FMV case study — original August 2026 PDF",
-        "url": "/resources/documents/fair-market-value-methodology.pdf",
-        "context": "Source for the project scope, methodology and reported outcomes on this page."
-      },
-      {
-        "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
-        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
-        "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
-      }
-    ],
-    "links": [
-      {
-        "label": "Understand HCP fair market value decisions",
-        "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
-      },
-      {
-        "label": "Meet the Eunomia team",
-        "href": "/team"
-      }
-    ]
-  },
-  "materials-review-shared-service-case-study": {
-    "updated": "2026-09-28",
-    "question": "How did shared services improve this pharmaceutical materials-review process?",
-    "answer": "Eunomia integrated specialist reviewers, documented workflows, templates and operational support into the client’s existing systems. The August 2026 case study reports that review turnaround fell from five days to two and review cycles from four to two. The client was a UK-headquartered pharmaceutical company expanding in Europe; these are engagement-specific results, not a standard service-level promise.",
-    "stepsHeading": "What readers can take from the engagement",
-    "steps": [
-      "Clarify the workflow: define the route from submission through review, feedback and approval.",
-      "Provide practical feedback: help material owners understand what needs to change and why.",
-      "Monitor the process: track turnaround, review cycles and recurring issues to identify operational improvements.",
-      "Interpret the figures in context: the public case study does not state the number of materials measured, the measurement period or a breakdown by material complexity."
-    ],
-    "sources": [
-      {
-        "title": "Eunomia materials-review case study — original August 2026 PDF",
-        "url": "/resources/documents/materials-review-shared-service-case-study.pdf",
-        "context": "Source for the client context, delivery model and reported outcomes. The PDF includes a statement from Agyat Suri, Healthcare Compliance Operations Lead; it does not identify an individual article author or reviewer."
-      }
-    ],
-    "links": [
-      {
-        "label": "Choosing compliance support for a growing biotech",
-        "href": "/resources/articles/right-sized-compliance-support-for-biotech-and-global-pharma"
-      },
-      {
-        "label": "Meet our Healthcare Compliance Operations team",
-        "href": "/team"
-      }
-    ]
-  }
+ "right-sized-compliance-support-for-biotech-and-global-pharma": {
+  "updated": "2026-09-28",
+  "question": "How can a biotech company outsource compliance without losing oversight?",
+  "answer": "A biotech can outsource defined compliance activities, such as material review, HCP engagement administration or disclosure preparation, while retaining a named internal owner and clear decision rights. Start with the activities and markets you actually operate in, agree the provider’s scope, and establish approval, escalation and reporting arrangements. The service should fit the company’s risks and stage of development.",
+  "stepsHeading": "What to agree before outsourcing",
+  "steps": [
+   "Define the work: list markets, activities, expected volumes, exclusions and the evidence each completed task must produce.",
+   "Name the owners: record who prepares, reviews, approves and escalates each activity, including decisions retained by the company.",
+   "Test the handover: walk through a representative engagement or material from request to approval and record any gaps.",
+   "Monitor delivery: agree turnaround measures, quality checks, exceptions reporting and a route for changing scope as the business grows."
+  ],
+  "sources": [
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
+   }
+  ],
+  "links": [
+   {
+    "label": "See the materials-review shared-service case study",
+    "href": "/resources/materials-review-shared-service-case-study"
+   },
+   {
+    "label": "Explore outsourced compliance and shared services",
+    "href": "/services/shared-services"
+   }
+  ]
+ },
+ "fair-market-value-fmv-in-healthcare-compliance": {
+  "updated": "2026-09-28",
+  "question": "How should pharmaceutical companies determine HCP fair market value?",
+  "answer": "An HCP fair market value assessment should connect a genuine service need with the expertise, time and market context needed to deliver it. Document the benchmarking method, rate rationale, approvals and any exceptions. A rate card supports consistent decisions; it does not replace assessing whether an engagement is appropriate. Eunomia’s published case study describes one methodology across five European markets, rather than a universal HCP tariff.",
+  "stepsHeading": "What a documented FMV decision should explain",
+  "steps": [
+   "Service: the business or scientific need, expected contribution, deliverables and reasonable time commitment.",
+   "Expertise: why the selected person meets the engagement’s requirements and how any tier was assigned.",
+   "Rate: the relevant market data, calculation method, assumptions and date of the benchmark.",
+   "Governance: the approved fee, supporting contract, exception rationale where needed, and record of the work delivered."
+  ],
+  "sources": [
+   {
+    "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+    "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
+   }
+  ],
+  "links": [
+   {
+    "label": "Read the five-market FMV methodology case study",
+    "href": "/resources/fair-market-value-methodology"
+   },
+   {
+    "label": "Discuss FMV operational support",
+    "href": "/services/shared-services"
+   }
+  ]
+ },
+ "transparency-reporting-in-pharmaceutical-industry": {
+  "updated": "2026-09-28",
+  "question": "What does pharmaceutical transparency reporting involve?",
+  "answer": "Transparency reporting involves identifying, reconciling and disclosing reportable transfers of value under the rules applicable to a company, recipient and market. Those rules can arise from legislation or industry-code commitments, and they are not identical across countries. An operational process connects engagement records and finance data to the relevant disclosure categories, with documented checks before publication.",
+  "stepsHeading": "Build disclosure into the engagement workflow",
+  "steps": [
+   "Confirm scope for each market: applicable law or code, covered entities and recipients, reporting categories and current deadlines.",
+   "Collect usable records at source: recipient details, engagement purpose, payment or benefit, dates and supporting identifiers.",
+   "Reconcile the records: compare engagement systems, finance and agency data; investigate missing entries and duplicate payments.",
+   "Approve and retain: document corrections, the reporting methodology and final sign-off, then preserve the evidence behind the disclosure."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: Code of Practice and supporting guidance",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "European industry-code framework. Check the relevant national implementation and any additional statutory requirements."
+   },
+   {
+    "title": "CMS: Open Payments",
+    "url": "https://www.cms.gov/priorities/key-initiatives/open-payments",
+    "context": "The US programme provides a separate statutory reporting example. Its scope and processes should not be substituted for European requirements."
+   }
+  ],
+  "links": [
+   {
+    "label": "Connect disclosure with FMV governance",
+    "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
+   },
+   {
+    "label": "Explore compliance automation and disclosure workflows",
+    "href": "/services/automation-of-compliance-operations"
+   }
+  ]
+ },
+ "pharma-compliance-risk-assessment-framework": {
+  "updated": "2026-09-28",
+  "question": "How do you build a practical pharma compliance risk assessment?",
+  "answer": "Begin with the company’s actual activities, markets and third parties. Describe what could go wrong, assess the exposure and existing controls, then prioritise gaps with named owners and completion dates. Review the assessment when activities or risks change. A useful risk register explains decisions and drives action; a score alone does not show that a risk is controlled.",
+  "stepsHeading": "A practical starting structure for your risk register",
+  "steps": [
+   "Activity and exposure: record the process, country, stakeholders and a specific risk scenario.",
+   "Existing controls and evidence: identify the control owner and evidence that the control operates in practice.",
+   "Priority and response: explain the likelihood and impact assessment, remaining exposure and proposed action.",
+   "Follow-up: assign an accountable owner, target date and a check to establish whether the action worked."
+  ],
+  "sources": [
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on proportionate bribery-prevention procedures; it is not a universal healthcare compliance checklist."
+   }
+  ],
+  "links": [
+   {
+    "label": "Use gap analysis to test your controls",
+    "href": "/resources/articles/healthcare-compliance-internal-audits"
+   },
+   {
+    "label": "Explore compliance programme design and implementation",
+    "href": "/services/governance-assurance"
+   }
+  ]
+ },
+ "healthcare-compliance-internal-audits": {
+  "updated": "2026-09-28",
+  "question": "How does gap analysis improve a healthcare compliance internal audit?",
+  "answer": "Gap analysis compares the controls a company needs with what its teams actually do. An internal audit can use it to test selected activities, examine evidence and prioritise weaknesses rather than only confirm that policies exist. Findings should connect to a specific risk, an accountable owner and a follow-up check. The scope here is commercial healthcare compliance, not a substitute for a GxP inspection programme.",
+  "stepsHeading": "Questions to test an engagement from start to finish",
+  "steps": [
+   "Was the purpose recorded and the activity routed to the appropriate reviewers before it began?",
+   "Do the contract, approved scope, payment and evidence of delivery agree with one another?",
+   "Were exceptions recognised, explained and escalated to the right decision-maker?",
+   "Can the team demonstrate that corrective actions addressed the cause, using a follow-up sample or other evidence?"
+  ],
+  "sources": [
+   {
+    "title": "Serious Fraud Office: Evaluating a Corporate Compliance Programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "UK enforcement guidance discussing programme effectiveness and the operation of preventive procedures. It is not a pharmaceutical certification standard."
+   }
+  ],
+  "links": [
+   {
+    "label": "Build the underlying risk assessment",
+    "href": "/resources/articles/pharma-compliance-risk-assessment-framework"
+   },
+   {
+    "label": "Explore compliance governance and assurance",
+    "href": "/services/governance-assurance"
+   }
+  ]
+ },
+ "fair-market-value-methodology": {
+  "updated": "2026-09-28",
+  "question": "What did Eunomia’s five-market FMV project deliver?",
+  "answer": "Eunomia developed a documented FMV methodology, stakeholder tiering and rate cards for a pharmaceutical company operating in the UK, Germany, France, Italy and Spain. The published August 2026 case study covers six stakeholder categories and reports improvements in payment consistency and contracting time. Its figures describe that engagement; they are not recommended HCP rates or predictions for another organisation.",
+  "stepsHeading": "What the published evidence covers",
+  "steps": [
+   "Scope: five European markets and six stakeholder categories, with a common methodology and documented inputs.",
+   "Implementation: independent benchmarking, objective tiering and validation sessions with Compliance, Medical Affairs, Finance and Legal.",
+   "Reported results: payments within the defensible FMV range rose from 66% to 98%; average hourly rates moved from £520 to £385; contracting time fell from 14 to 6 days.",
+   "Evidence limits: the public case study does not provide the underlying transaction dataset, sample size or measurement window. The reported rates should not be reused as a market benchmark."
+  ],
+  "sources": [
+   {
+    "title": "Eunomia FMV case study — original August 2026 PDF",
+    "url": "/resources/documents/fair-market-value-methodology.pdf",
+    "context": "Source for the project scope, methodology and reported outcomes on this page."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code, Clause 24 — Contracted Services",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+    "context": "For arrangements within the Code’s scope, Clause 24.2 addresses legitimate need, selection, advance contracting and reasonable remuneration reflecting fair market value."
+   }
+  ],
+  "links": [
+   {
+    "label": "Understand HCP fair market value decisions",
+    "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
+   },
+   {
+    "label": "Meet the Eunomia team",
+    "href": "/team"
+   }
+  ]
+ },
+ "materials-review-shared-service-case-study": {
+  "updated": "2026-09-28",
+  "question": "How did shared services improve this pharmaceutical materials-review process?",
+  "answer": "Eunomia integrated specialist reviewers, documented workflows, templates and operational support into the client’s existing systems. The August 2026 case study reports that review turnaround fell from five days to two and review cycles from four to two. The client was a UK-headquartered pharmaceutical company expanding in Europe; these are engagement-specific results, not a standard service-level promise.",
+  "stepsHeading": "What readers can take from the engagement",
+  "steps": [
+   "Clarify the workflow: define the route from submission through review, feedback and approval.",
+   "Provide practical feedback: help material owners understand what needs to change and why.",
+   "Monitor the process: track turnaround, review cycles and recurring issues to identify operational improvements.",
+   "Interpret the figures in context: the public case study does not state the number of materials measured, the measurement period or a breakdown by material complexity."
+  ],
+  "sources": [
+   {
+    "title": "Eunomia materials-review case study — original August 2026 PDF",
+    "url": "/resources/documents/materials-review-shared-service-case-study.pdf",
+    "context": "Source for the client context, delivery model and reported outcomes. The PDF includes a statement from Agyat Suri, Healthcare Compliance Operations Lead; it does not identify an individual article author or reviewer."
+   }
+  ],
+  "links": [
+   {
+    "label": "Choosing compliance support for a growing biotech",
+    "href": "/resources/articles/right-sized-compliance-support-for-biotech-and-global-pharma"
+   },
+   {
+    "label": "Meet our Healthcare Compliance Operations team",
+    "href": "/team"
+   }
+  ]
+ },
+ "top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid": {
+  "updated": "2026-09-29",
+  "question": "What are the most common transparency reporting mistakes in pharma?",
+  "answer": "The most common mistakes are treating transparency as a year-end exercise, missing HCP details, contracts or FMV documentation, siloed working between Medical, Commercial, Finance, Procurement and Compliance, overlooking local disclosure rules, relying on spreadsheets with weak master data, and misclassifying transfers of value such as consultancy fees, sponsorships and grants. Most stem from fragmented processes rather than deliberate non-compliance.",
+  "stepsHeading": "How to avoid them",
+  "steps": [
+   "Capture transfer-of-value data when the engagement is planned, not when the disclosure is due.",
+   "Keep the HCP record, contract and FMV rationale together for every payment.",
+   "Agree one owner per function for disclosure data, with a reconciliation step before submission.",
+   "Document classification rules and map each country’s disclosure requirements."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "ABPI: Disclosure UK",
+    "url": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "context": "The UK database of industry payments and benefits in kind to HCPs and HCOs, part of a Europe-wide transparency initiative."
+   }
+  ],
+  "links": [
+   {
+    "label": "Use the EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   }
+  ]
+ },
+ "pmcpas-2026-social-media-guidance": {
+  "updated": "2026-09-29",
+  "question": "What does the PMCPA’s 2026 social media guidance mean for pharmaceutical companies?",
+  "answer": "The PMCPA’s updated guidance reinforces that compliance obligations under the ABPI Code do not diminish online. Companies need clear governance for employee activity, corporate accounts, influencer and third-party collaborations, user-generated content and adverse event monitoring, supported by policies, training, monitoring and documentation.",
+  "stepsHeading": "Where to start",
+  "steps": [
+   "Review your social media policy against the updated PMCPA guidance.",
+   "Brief employees on what they can share, like or comment on about company products.",
+   "Put influencer and agency content through the same review and certification route as other materials.",
+   "Make sure adverse events spotted on social media are recognised and reported."
+  ],
+  "sources": [
+   {
+    "title": "PMCPA: Social media guidance",
+    "url": "https://www.pmcpa.org.uk/guidance-and-qas/guidance/pmcpa-social-media-guidance/",
+    "context": "The PMCPA’s guidance on applying the ABPI Code to social media, updated in February 2026."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   }
+  ],
+  "links": [
+   {
+    "label": "Use the EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   }
+  ]
+ },
+ "navigating-country-level-accountability-in-europe": {
+  "updated": "2026-09-29",
+  "question": "Which country-level compliance roles do pharmaceutical companies need in Europe?",
+  "answer": "Requirements vary by country. The article gives three examples: a local legal representative for authority communications in Spain, the Pharmacien Responsable in France, and the Information Officer in Germany. These roles go beyond administration: they typically oversee material review, scientific communication and alignment with the SmPC, and must be built into global governance.",
+  "stepsHeading": "Practical steps",
+  "steps": [
+   "Map local role requirements during market-entry planning.",
+   "Decide whether each role is staffed locally, outsourced or covered by a power of attorney.",
+   "Connect each role to material review, pharmacovigilance and escalation routes.",
+   "Check that the role-holder can review materials in the local language."
+  ],
+  "sources": [
+   {
+    "title": "Directive 2001/83/EC",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+    "context": "The EU medicines directive, including the rules on advertising medicinal products."
+   },
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore local legal mandates and representation",
+    "href": "/services/local-legal-mandates"
+   },
+   {
+    "label": "Read the France compliance guide",
+    "href": "/markets/france"
+   }
+  ]
+ },
+ "scalable-compliance-models-for-growing-pharma-in-the-age-of-ai": {
+  "updated": "2026-09-29",
+  "question": "How can a growing pharma company scale compliance?",
+  "answer": "By choosing a model that fits its current stage and can expand with it. The article describes four tiers: advisory support for defined questions; outsourcing, where a provider takes end-to-end accountability; shared services, where the company keeps ownership but gains operational execution; and centralisation of processes across markets. Any use of AI should sit on a strong ethical and regulatory backbone.",
+  "stepsHeading": "Choosing the right model",
+  "steps": [
+   "List the activities, markets and volumes your compliance function handles today.",
+   "Decide which decisions you must keep in-house and which work can be delegated.",
+   "Start with the model that fits now, with a defined route to expand.",
+   "Assess any AI use case for governance and human oversight before scaling it."
+  ],
+  "sources": [
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   },
+   {
+    "title": "Regulation (EU) 2024/1689 (EU AI Act)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "context": "The EU regulation on artificial intelligence; how it applies depends on the AI system and its use."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore outsourced compliance and shared services",
+    "href": "/services/shared-services"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "entering-phase-iii-compliance-expectations-already-have": {
+  "updated": "2026-09-29",
+  "question": "What compliance does a biotech need before Phase III and launch?",
+  "answer": "At Phase III, regulators, partners and investors start assuming a functioning compliance system. The foundations are proportionate policies aligned to real activities, a defensible FMV methodology, structured third-party risk assessment, transparency tracking across markets, governance for HCP and patient organisation engagement, and practical escalation routes between medical and promotional activity.",
+  "stepsHeading": "Foundations to put in place",
+  "steps": [
+   "Document FMV justification for advisory boards and consultancy.",
+   "Run due diligence on distributors, especially in higher-risk jurisdictions.",
+   "Track transfers of value consistently across affiliates and vendors.",
+   "Assign clear ownership for local requirements, such as French transparency obligations."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "PMCPA: ABPI Code Clause 24 – contracted services",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+    "context": "UK requirements for contracting HCPs and others for services, including legitimate need and fair market value."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage": {
+  "updated": "2026-09-29",
+  "question": "Why does third-party risk management matter for pharma expanding into Europe?",
+  "answer": "Because responsibility does not transfer with outsourcing. Distributors, agents and vendors make market entry possible, but obligations under national transparency rules, the ABPI and EFPIA Codes, GDPR and anti-bribery law stay with the company. Without structured oversight, third-party execution can drift from company standards.",
+  "stepsHeading": "Building third-party oversight",
+  "steps": [
+   "Risk-rate third parties by country, activity and interaction with HCPs.",
+   "Carry out proportionate due diligence before onboarding.",
+   "Include compliance, audit and termination clauses in contracts.",
+   "Monitor higher-risk third parties after onboarding and capture their transfers of value."
+  ],
+  "sources": [
+   {
+    "title": "UK Bribery Act 2010, section 7",
+    "url": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "context": "The corporate offence of failing to prevent bribery by associated persons."
+   },
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "compliance-gap-analysis-reducing-risk-without-slowing-growth": {
+  "updated": "2026-09-29",
+  "question": "What is a compliance gap analysis and how does it reduce risk?",
+  "answer": "A compliance gap analysis compares regulatory obligations, industry standards and internal commitments with how the business actually operates. Unlike an audit, which validates past adherence, it looks at current effectiveness and future readiness. It often removes redundant controls while strengthening areas of genuine vulnerability.",
+  "stepsHeading": "Questions a gap analysis should answer",
+  "steps": [
+   "Do our processes reflect regulatory expectations in practice?",
+   "Where do informal shortcuts introduce exposure?",
+   "Which controls exist only on paper?",
+   "Is compliance effort aligned with actual risk?"
+  ],
+  "sources": [
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   },
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "sunshine-act-in-france-transparency-healthcare-system": {
+  "updated": "2026-09-29",
+  "question": "What is the French Sunshine Act and who must report?",
+  "answer": "The French Sunshine Act, established under the Loi Bertrand, requires companies producing or marketing health products to publicly disclose agreements with, benefits given to and remuneration paid to healthcare stakeholders. Disclosures are published on the government-managed Transparence Santé database, making France one of the most stringent transparency regimes in Europe.",
+  "stepsHeading": "Getting French reporting right",
+  "steps": [
+   "Identify every French recipient, including HCPs, HCOs, students and patient associations.",
+   "Link each benefit and payment to its underlying agreement.",
+   "Validate identifiers and amounts before submission.",
+   "Plan to the French reporting calendar, separately from EFPIA disclosure."
+  ],
+  "sources": [
+   {
+    "title": "Transparence Santé",
+    "url": "https://www.transparence.sante.gouv.fr/",
+    "context": "France’s public transparency database, managed by the Direction générale de la santé."
+   },
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   }
+  ],
+  "links": [
+   {
+    "label": "Read the France compliance guide",
+    "href": "/markets/france"
+   },
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   }
+  ]
+ },
+ "digitalisation-in-pharma-industry": {
+  "updated": "2026-09-29",
+  "question": "How does digitalisation strengthen pharmaceutical compliance?",
+  "answer": "By replacing fragmented, manual processes with centralised and standardised ones. Digital workflows can centralise approvals of materials and activities, standardise HCP and HCO engagement from needs assessment to payment, embed documented FMV logic, remove version-control problems, and improve data quality for transparency reporting and audit readiness.",
+  "stepsHeading": "Where to start",
+  "steps": [
+   "Map where approvals, contracts and evidence currently live.",
+   "Move material approval into one controlled workflow with an audit trail.",
+   "Build HCP engagement workflows that carry data through to disclosure.",
+   "Hold SOPs, templates and decision frameworks in one governed hub."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   },
+   {
+    "label": "See the materials-review case study",
+    "href": "/resources/materials-review-shared-service-case-study"
+   }
+  ]
+ },
+ "audit-readiness-best-practices": {
+  "updated": "2026-09-29",
+  "question": "How can European life sciences companies stay audit-ready?",
+  "answer": "By treating audit readiness as a continuous discipline rather than an annual checkpoint. The article sets out four practices: harmonise SOPs and policies across markets, adopt real-time monitoring of payments and engagements, apply a consistent FMV framework, and train and empower teams.",
+  "stepsHeading": "Four practices",
+  "steps": [
+   "Standardise policies and SOPs across markets, documenting local variations.",
+   "Monitor payments, sponsorships and engagements as they happen.",
+   "Apply one documented FMV framework everywhere.",
+   "Give teams role-based training and a safe route to raise concerns."
+  ],
+  "sources": [
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   },
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "healthcare-compliance-challenges-in-pharma-industry": {
+  "updated": "2026-09-29",
+  "question": "What are the biggest healthcare compliance challenges in pharma?",
+  "answer": "The article identifies ten: promotional compliance and material review, HCP engagement and fair market value, clinical trial transparency, third-party risk, patient organisation support, anti-bribery controls, cross-border compliance, patient safety and pharmacovigilance, documentation and record-keeping, and training and culture. Each can be managed through clear governance, practical processes and a strong compliance culture.",
+  "stepsHeading": "Where most companies should start",
+  "steps": [
+   "Put material review on a structured process with clear roles and timelines.",
+   "Anchor HCP engagements in documented FMV and standard contracts.",
+   "Assess third parties and document the rationale.",
+   "Make training practical and linked to real decisions."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "what-makes-healthcare-compliance-training-effective": {
+  "updated": "2026-09-29",
+  "question": "What makes healthcare compliance training effective?",
+  "answer": "Effective training reaches beyond memorising rules. It uses a mix of formats for different learning styles and aims for at least the ‘apply’ level of Bloom’s taxonomy, so people can use the EFPIA or ABPI Code in real situations such as reviewing materials or planning HCP events. It should be clear, bite-sized, tailored to roles and practical.",
+  "stepsHeading": "Design principles",
+  "steps": [
+   "Tailor content to each role’s real decisions.",
+   "Use scenarios, case studies and role-play, not only e-learning.",
+   "Keep modules short and focused.",
+   "Measure whether behaviour changes, not just completion rates."
+  ],
+  "sources": [
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "how-to-avoid-common-healthcare-compliance-mistakes-in-pharmaceuticals": {
+  "updated": "2026-09-29",
+  "question": "What are the most common healthcare compliance mistakes in pharma?",
+  "answer": "The article lists six: misleading or unbalanced communications, activities that blur the line with promotion, hospitality and meetings without clear justification, transparency gaps in financial disclosures, weak third-party oversight, and incentives that drive the wrong behaviours. Most arise because teams lack time, tools or capacity to close gaps, not from a lack of effort.",
+  "stepsHeading": "How to prevent them",
+  "steps": [
+   "Require medical and compliance sign-off before any external material is used.",
+   "Define clear principles separating scientific exchange from promotion.",
+   "Set venue, spending and hospitality rules and document each meeting’s purpose.",
+   "Align incentives with compliant behaviour."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "MHRA: Blue Guide – advertising and promoting medicines",
+    "url": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+    "context": "The MHRA’s guidance on the UK legal requirements for advertising medicines."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore outsourced compliance and shared services",
+    "href": "/services/shared-services"
+   },
+   {
+    "label": "Use the EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   }
+  ]
+ },
+ "ai-in-healthcare-compliance": {
+  "updated": "2026-09-29",
+  "question": "How can AI be used in healthcare compliance, and what are the risks?",
+  "answer": "AI can support compliance audits and monitoring, material review and regulatory change tracking. The risks include algorithmic bias and poor data quality, over-reliance on automation, and AI summaries of legal texts that omit important detail. Adoption should follow due diligence, favour solutions fitted to the organisation and consider the EU AI Act.",
+  "stepsHeading": "Adopting AI safely",
+  "steps": [
+   "Carry out due diligence on any AI tool before adoption.",
+   "Keep a person accountable for every compliance decision.",
+   "Check AI summaries against the source legal text.",
+   "Classify each use case and document its governance."
+  ],
+  "sources": [
+   {
+    "title": "Regulation (EU) 2024/1689 (EU AI Act)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "context": "The EU regulation on artificial intelligence; how it applies depends on the AI system and its use."
+   },
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   },
+   {
+    "label": "See the legal mandates overview",
+    "href": "/legal-mandates"
+   }
+  ]
+ },
+ "compliance-training-beyond-the-code": {
+  "updated": "2026-09-29",
+  "question": "Why does compliance training fail, and how can it change behaviour?",
+  "answer": "Training fails when it is a checkbox exercise. The article cites a PMCPA case in which prescribing information went un-updated because role clarity, escalation and cross-functional accountability were missing. Effective training is scenario-based, cross-functional, interactive and grounded in real rulings.",
+  "stepsHeading": "Making training change behaviour",
+  "steps": [
+   "Clarify who owns each critical responsibility.",
+   "Build an escalation culture where concerns are acted on.",
+   "Train across functions using real PMCPA cases.",
+   "Measure behaviour, not just attendance."
+  ],
+  "sources": [
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   },
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "a-definitive-guide-to-crafting-a-high-quality-policy-for-a-pharmaceutical-company": {
+  "updated": "2026-09-29",
+  "question": "How do you write an effective pharmaceutical compliance policy?",
+  "answer": "Start with structure, not a blank document. Eunomia’s approach runs from an as-is analysis and a gap analysis against EFPIA, EMA, ABPI and EU requirements, through workflow mapping, to tailored drafting with clear purpose and scope, principles, roles, process, monitoring and links to SOPs.",
+  "stepsHeading": "The policy development process",
+  "steps": [
+   "Analyse current documentation, workflows and governance.",
+   "Benchmark against the applicable codes and regulations.",
+   "Map the policy to real workflows so it can be enforced.",
+   "Draft lean, practical text with owners and review cycles."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "stakeholder-engagement-vs-risk-efpia-ifpma-compliance": {
+  "updated": "2026-09-29",
+  "question": "How can pharma balance stakeholder engagement with EFPIA compliance?",
+  "answer": "Engagement with HCPs and patient organisations is valuable but carries risk under codes such as EFPIA and IFPMA. The article works through real dilemmas, including excessive hospitality at an international conference and sponsorship of patient organisations. The balance comes from proportionate hospitality, transparent agreements and documented rationale.",
+  "stepsHeading": "Getting the balance right",
+  "steps": [
+   "Keep hospitality reasonable and limited to the event’s purpose.",
+   "Put support for patient organisations under a written agreement.",
+   "Document the need and selection rationale for every engagement.",
+   "Disclose transfers of value as the national code requires."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "PMCPA: ABPI Code Clause 24 – contracted services",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+    "context": "UK requirements for contracting HCPs and others for services, including legitimate need and fair market value."
+   }
+  ],
+  "links": [
+   {
+    "label": "Use the EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   }
+  ]
+ },
+ "risk-assessment-in-healthcare-and-its-importance": {
+  "updated": "2026-09-29",
+  "question": "What is risk assessment in healthcare and why does it matter?",
+  "answer": "It is the structured process of identifying, analysing and evaluating risks to patient safety, regulatory compliance, reputation or operations. It asks what could go wrong, how likely it is and what the impact would be. It helps align activities with codes such as EFPIA and ABPI, protects data, and prioritises resources.",
+  "stepsHeading": "Building blocks",
+  "steps": [
+   "Identify risks across promotion, HCP engagement, data and disclosure.",
+   "Rate likelihood and impact consistently.",
+   "Assign owners and mitigations to the highest risks.",
+   "Review the assessment when the business changes."
+  ],
+  "sources": [
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   },
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "the-future-of-diversity-inclusion-in-pharma-compliance": {
+  "updated": "2026-09-29",
+  "question": "Why is diversity and inclusion a compliance issue for pharma in Europe?",
+  "answer": "The article argues that in Europe, non-discrimination and fair engagement are legal and ethical obligations rather than preferences, grounded in the EU Charter of Fundamental Rights and data-protection law. For compliance teams, that means non-discriminatory HCP engagement, inclusive governance and diversity considerations in compliance KPIs.",
+  "stepsHeading": "Practical steps",
+  "steps": [
+   "Review speaker and advisory board selection criteria for fairness.",
+   "Build inclusion into compliance governance.",
+   "Track inclusive metrics alongside other compliance KPIs.",
+   "Handle sensitive personal data in line with the GDPR."
+  ],
+  "sources": [
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   },
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "unleash-the-power-of-data-analytics-for-healthcare-compliance": {
+  "updated": "2026-09-29",
+  "question": "How can data analytics strengthen healthcare compliance?",
+  "answer": "Analytics helps compliance teams move from reactive monitoring to proactive risk detection, supporting risk assessment, monitoring, investigations, policy, training and reporting. The main obstacles are data silos, integration gaps, unstructured data, manual validation and data quality.",
+  "stepsHeading": "Getting started",
+  "steps": [
+   "Identify the compliance data held across medical, commercial, regulatory and legal systems.",
+   "Agree data owners and quality checks.",
+   "Start with one high-value use case, such as payment monitoring.",
+   "Build dashboards that support decisions and evidence."
+  ],
+  "sources": [
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   },
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry": {
+  "updated": "2026-09-29",
+  "question": "Why should pharma compliance training be bespoke?",
+  "answer": "Generic training struggles with complex content, information overload, different learning styles and relevance to each role. Training tailored to your codes, markets and job roles, delivered in short practical modules with measured outcomes, builds ethical decision-making rather than box-ticking.",
+  "stepsHeading": "What bespoke training includes",
+  "steps": [
+   "Content mapped to the codes and markets each role works under.",
+   "Bite-size modules with practical examples.",
+   "Formats for visual, auditory and hands-on learners.",
+   "Measures that show changes in behaviour and risk."
+  ],
+  "sources": [
+   {
+    "title": "EFPIA: The EFPIA Code of Practice",
+    "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "context": "The European industry code for promotion and for interactions with HCPs, HCOs and patient organisations, implemented through national codes."
+   },
+   {
+    "title": "PMCPA: 2024 ABPI Code of Practice",
+    "url": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "context": "The UK industry code, in effect from 1 October 2024 and administered by the PMCPA independently of the ABPI."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "managing-compliance-risks-best-practices-strategies": {
+  "updated": "2026-09-29",
+  "question": "How can pharmaceutical companies manage compliance risk?",
+  "answer": "Key risks include off-label promotion, weak controls, bribery and corruption, conflicts of interest and data privacy breaches. Consequences range from audits and fines to material recalls, public reprimands and suspension from self-regulatory bodies. Management starts with an ethical culture, a robust compliance framework and ongoing monitoring.",
+  "stepsHeading": "Core strategies",
+  "steps": [
+   "Show visible leadership commitment to ethics.",
+   "Encourage people to raise concerns without fear of retaliation.",
+   "Document policies and procedures aligned to local and international rules.",
+   "Train regularly and monitor for issues."
+  ],
+  "sources": [
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   },
+   {
+    "title": "UK Bribery Act 2010, section 7",
+    "url": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "context": "The corporate offence of failing to prevent bribery by associated persons."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "ensure-audit-readiness-in-pharma-compliance": {
+  "updated": "2026-09-29",
+  "question": "How do you make audit readiness part of everyday compliance?",
+  "answer": "By embedding it into operations rather than preparing when an audit is announced. That means robust SOPs, documented roles and escalation paths, automated approvals and version control, centralised documentation, real-time tracking of risks, a strong compliance culture and regular mock inspections.",
+  "stepsHeading": "Always-on audit readiness",
+  "steps": [
+   "Centralise documentation so evidence is retrievable.",
+   "Automate approval workflows and version control.",
+   "Run mock inspections and act on findings.",
+   "Give people a safe route to report issues early."
+  ],
+  "sources": [
+   {
+    "title": "SFO: Evaluating a corporate compliance programme",
+    "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
+   },
+   {
+    "title": "Ministry of Justice: Bribery Act 2010 guidance",
+    "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+    "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore programme design and implementation",
+    "href": "/services/governance-assurance"
+   },
+   {
+    "label": "Use the Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   }
+  ]
+ },
+ "staying-ahead-in-healthcare-compliance-navigating-ai-challenges-with-ethical-governance": {
+  "updated": "2026-09-29",
+  "question": "How should healthcare compliance teams govern their use of AI?",
+  "answer": "AI in compliance must meet the GDPR, the EFPIA and local codes, anti-bribery law and the EU AI Act, and should be transparent, fair, accountable and privacy-protective. Organisations should document AI decision-making, keep audit trails, maintain human oversight and use risk assessments for each AI use case.",
+  "stepsHeading": "Governance essentials",
+  "steps": [
+   "Assess each AI use case for data, bias and regulatory exposure.",
+   "Assign a person accountable for AI-supported decisions.",
+   "Keep audit trails of how AI outputs were used.",
+   "Review AI tools whenever they change."
+  ],
+  "sources": [
+   {
+    "title": "Regulation (EU) 2024/1689 (EU AI Act)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "context": "The EU regulation on artificial intelligence; how it applies depends on the AI system and its use."
+   },
+   {
+    "title": "Regulation (EU) 2016/679 (GDPR)",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "context": "The EU General Data Protection Regulation, which governs processing of personal data, including HCP and patient data."
+   }
+  ],
+  "links": [
+   {
+    "label": "Explore compliance automation",
+    "href": "/services/automation-of-compliance-operations"
+   },
+   {
+    "label": "See the legal mandates overview",
+    "href": "/legal-mandates"
+   }
+  ]
+ }
 }
