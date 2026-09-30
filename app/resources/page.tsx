@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { resourcesFaqs } from "../../data/page-faqs";
 import { SiteImage } from "../../components/SiteImage";
 import { ArrowUpRight, BookOpen, FileText, PlayCircle } from "lucide-react";
 import type { Metadata } from "next";
@@ -179,6 +181,7 @@ export default function Resources() {
           })}
         </div>
       </section>
+      <PageFaqs faqs={resourcesFaqs} title="About our resources" />
       <SiteFooter />
     </main>
   );

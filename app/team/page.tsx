@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { teamFaqs } from "../../data/page-faqs";
 import { SiteImage } from "../../components/SiteImage";
 import { StructuredData } from "../../components/StructuredData";
 import { partnerId } from "../../data/compliancePartners";
@@ -74,6 +76,7 @@ export default function Team() {
         <p className="section-kicker">Work with us</p><h2>A senior team, shaped around your need.</h2>
         <a className="primary-button" href="/contact">Start a conversation <ArrowUpRight /></a>
       </section>
+      <PageFaqs faqs={teamFaqs} title="Working with our team: common questions" />
       <SiteFooter />
     </main>
   );

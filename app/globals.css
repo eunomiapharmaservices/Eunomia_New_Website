@@ -1291,3 +1291,10 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 @media(max-width:1100px){.impact-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.impact-grid>a.clutch-metric{grid-column:span 2}}
 .about-services h2 + p{margin-top:24px;line-height:1.6}
+.scroll-offer{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;display:flex;align-items:center;gap:8px;padding:12px 8px 12px 16px;background:#fff;border-radius:10px;border-left:5px solid #4da017;box-shadow:0 10px 30px rgba(0,0,0,.2);animation:scroll-offer-in .3s ease-out}
+.scroll-offer a{flex:1;display:grid;gap:2px;color:#17331b;font-size:15px;line-height:1.3}
+.scroll-offer a span{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3f7a1d}
+.scroll-offer a b{text-decoration:underline;text-decoration-color:#e7652b;text-underline-offset:3px}
+.scroll-offer button{flex:none;min-width:44px;min-height:44px;background:none;border:0;color:#596259;font-size:18px;cursor:pointer}
+@keyframes scroll-offer-in{from{transform:translateY(20px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.scroll-offer{animation:none}}
