@@ -16,6 +16,7 @@ export const metadata: Metadata = withSocial("/resources", {
 });
 
 const featured = [
+  { type: "Worksheet", title: "HCP FMV Assessment Guide and Worksheet", href: "/resources/hcp-fmv-assessment", image: "/eunomia-workflow.png", icon: FileText },
   {
     type: "Checklist",
     title: "Pharma Compliance Readiness Checklist",

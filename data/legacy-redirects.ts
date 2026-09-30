@@ -21,7 +21,7 @@ export const legacyRedirects: LegacyRedirect[] = [
       // Duplicate of /resources/articles/ai-in-healthcare-compliance; send both old URLs to the original.
       { source: `/resources/articles/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
       { source: `/${duplicateAiArticle}`, destination: "/resources/articles/ai-in-healthcare-compliance", permanent: true },
-      { source: "/fmv", destination: "/resources/fair-market-value-methodology", permanent: true },
+      { source: "/fmv", destination: "/services/governance-assurance/fmv-consulting", permanent: true },
       { source: "/transparency", destination: "/services/shared-services", permanent: true },
       { source: "/compliancetraining", destination: "/services/governance-assurance/pharma-compliance-training", permanent: true },
       { source: "/systems-automation", destination: "/services/automation-of-compliance-operations", permanent: true },
