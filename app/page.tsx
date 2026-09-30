@@ -107,10 +107,6 @@ export default function Home() {
             <span>countries covered globally</span>
           </article>
           <article>
-            <strong>15+</strong>
-            <span>years&apos; senior pharma compliance leadership</span>
-          </article>
-          <article>
             <strong>12</strong>
             <span>named local compliance partners</span>
           </article>
