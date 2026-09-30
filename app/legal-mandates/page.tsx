@@ -87,6 +87,12 @@ export default function Legal() {
           This page summarises the main frameworks we work with, with links to
           the official sources. Our country guides go into local detail.
         </p>
+        <p className="legal-intro">
+          For European compliance support, our country guides cover Germany,
+          France, Spain, Italy, the Netherlands, Portugal, Ireland and Sweden,
+          each summarising national law and industry codes with links to the
+          official sources.
+        </p>
         {rules.map((rule) => (
           <article key={rule.title}>
             <span>{rule.icon}</span>

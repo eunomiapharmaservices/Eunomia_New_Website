@@ -16,6 +16,7 @@ Specialist UK services within Programme Design and Implementation:
 - [Pharmaceutical compliance training in the UK](https://www.eunomiapharmaservices.com/services/governance-assurance/pharma-compliance-training): Bespoke ABPI Code, anti-bribery and HCP engagement training by role.
 - [Pharmaceutical risk assessment services in the UK](https://www.eunomiapharmaservices.com/services/governance-assurance/pharma-risk-assessment): ABAC, fraud and commercial compliance risk assessments with owned actions.
 - [SOP and policy development for pharma in the UK](https://www.eunomiapharmaservices.com/services/governance-assurance/sop-policy-development): Practical compliance policies and SOPs mapped to real workflows.
+- [Pharma compliance monitoring services in the UK](https://www.eunomiapharmaservices.com/services/governance-assurance/pharma-compliance-monitoring): Risk-based monitoring of HCP engagements, events, materials and payments.
 - [Pharma compliance audits in the UK](https://www.eunomiapharmaservices.com/services/governance-assurance/pharma-compliance-audits): ABPI Code and commercial compliance audits, gap analysis and CAPA.
 
 ## Country guides
@@ -37,11 +38,27 @@ Each guide summarises national law and industry codes, with links to official so
 - [Fair Market Value Methodology for HCP Compensation](https://www.eunomiapharmaservices.com/resources/fair-market-value-methodology): Five-market FMV methodology, tiering and rate cards.
 - [Pharmaceutical Materials Review: Shared Services Case Study](https://www.eunomiapharmaservices.com/resources/materials-review-shared-service-case-study): Structured review service for a UK company expanding across Europe.
 
+## Reference pages
+
+- [Transparency disclosure deadlines by country](https://www.eunomiapharmaservices.com/resources/disclosure-deadlines): EFPIA, UK, Germany, Ireland, Spain, Italy, Netherlands, Portugal, Sweden and France, with official sources.
+- [PMCPA case library](https://www.eunomiapharmaservices.com/resources/pmcpa-cases): Recent completed PMCPA cases, with clauses ruled in breach.
+- [Pharmaceutical compliance glossary](https://www.eunomiapharmaservices.com/resources/glossary): Plain-English definitions of key compliance terms.
+
+## Key guides
+
+- [Lessons from recent PMCPA cases](https://www.eunomiapharmaservices.com/resources/articles/pmcpa-case-lessons-2026)
+- [The ABPI signatory: certification requirements](https://www.eunomiapharmaservices.com/resources/articles/abpi-signatory-certification-requirements)
+- [Failure to prevent fraud for pharma](https://www.eunomiapharmaservices.com/resources/articles/failure-to-prevent-fraud-pharma)
+- [EFPIA disclosure requirements and template](https://www.eunomiapharmaservices.com/resources/articles/efpia-disclosure-requirements-template)
+- [Disclosure UK guide](https://www.eunomiapharmaservices.com/resources/articles/disclosure-uk-guide)
+- [The EU AI Act for pharmaceutical companies](https://www.eunomiapharmaservices.com/resources/articles/eu-ai-act-pharma)
+
 ## Free downloads
 
 - [Pharma Compliance Readiness Checklist](https://www.eunomiapharmaservices.com/resources/checklists/pharma-compliance-readiness-checklist)
 - [EFPIA Code Self-Assessment Checklist](https://www.eunomiapharmaservices.com/resources/checklists/efpia-code-self-assessment-checklist): Article-by-article checks against the EFPIA Code of Practice (2026).
 - [UK & EU Pharma Compliance Guide 2026](https://www.eunomiapharmaservices.com/resources/checklists/uk-eu-pharma-compliance-guide-2026): Key frameworks, dates and disclosure deadlines.
+- [EFPIA Disclosure Methodology Note Template](https://www.eunomiapharmaservices.com/resources/checklists/efpia-methodology-note-template): Follows the mandatory Annex B structure.
 - [Pharma Compliance Case Studies Pack](https://www.eunomiapharmaservices.com/resources/checklists/pharma-compliance-case-studies-pack)
 
 ## Article topics

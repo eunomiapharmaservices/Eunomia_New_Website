@@ -5,7 +5,6 @@
   "compliance-gap-analysis-reducing-risk-without-slowing-growth": "governance-assurance",
   "compliance-training-beyond-the-code": "governance-assurance",
   "digitalisation-in-pharma-industry": "automation-of-compliance-operations",
-  "ensure-audit-readiness-in-pharma-compliance": "governance-assurance",
   "entering-phase-iii-compliance-expectations-already-have": "governance-assurance",
   "fair-market-value-fmv-in-healthcare-compliance": "shared-services",
   "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage": "governance-assurance",
@@ -29,5 +28,11 @@
   "unleash-the-power-of-data-analytics-for-healthcare-compliance": "automation-of-compliance-operations",
   "what-makes-healthcare-compliance-training-effective": "governance-assurance",
   "gdpr-and-transparency-reporting-hcp-disclosure": "shared-services",
-  "hcp-personal-data-gdpr-crm-fmv-engagement-records": "governance-assurance"
+  "hcp-personal-data-gdpr-crm-fmv-engagement-records": "governance-assurance",
+  "pmcpa-case-lessons-2026": "governance-assurance",
+  "abpi-signatory-certification-requirements": "shared-services",
+  "failure-to-prevent-fraud-pharma": "governance-assurance",
+  "efpia-disclosure-requirements-template": "shared-services",
+  "disclosure-uk-guide": "shared-services",
+  "eu-ai-act-pharma": "automation-of-compliance-operations"
 }

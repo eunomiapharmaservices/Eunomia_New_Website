@@ -77,6 +77,10 @@ export const downloadFaqs: Record<string, Faq[]> = {
     { question: "What is in the case studies pack?", answer: "Two published Eunomia engagements: a five-market fair market value methodology and a shared-service materials review for a UK pharmaceutical company, with the results each case study reported." },
     { question: "Are the results typical?", answer: "They are the results reported for each engagement. They are not general benchmarks or promised outcomes." },
   ],
+  "efpia-methodology-note-template": [
+    { question: "Is the methodology note structure mandatory?", answer: "Yes, for EFPIA member companies’ HCP/HCO disclosures. The EFPIA Code of Practice 2026 requires methodology notes to follow the structure in Annex B, at the latest for the 2026 disclosure of 2025 transfers of value." },
+    { question: "Does this template work for Disclosure UK?", answer: "The ABPI Code also requires a methodology note. This template follows the EFPIA Annex B structure; check the ABPI Code and Disclosure UK guidance for any UK-specific points." },
+  ],
   "uk-eu-pharma-compliance-guide-2026": [
     { question: "What does the 2026 guide cover?", answer: "The main UK and EU frameworks and dates for 2026, eight country summaries and a disclosure calendar, each with its official source." },
     { question: "How current is it?", answer: "It is based on official sources checked in September 2026. We plan to refresh it as a 2027 edition." },

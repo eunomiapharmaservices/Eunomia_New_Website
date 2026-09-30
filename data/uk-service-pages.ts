@@ -94,6 +94,20 @@ const efpiaRecords: Framework = {
   label: "EFPIA Code",
 };
 
+
+const briberyMonitoring: Framework = {
+  title: "Bribery Act guidance, Principle 6",
+  body: "The Ministry of Justice guidance expects a commercial organisation to monitor and review the procedures designed to prevent bribery by persons associated with it, and to make improvements where necessary.",
+  href: "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+  label: "MoJ Bribery Act guidance",
+};
+const ecctaMonitoring: Framework = {
+  title: "Failure to prevent fraud guidance, monitoring and review",
+  body: "The ECCTA 2023 guidance expects organisations to monitor and review their fraud detection and prevention procedures and make improvements where necessary, including learning from investigations and whistleblowing incidents.",
+  href: "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+  label: "GOV.UK: ECCTA guidance",
+};
+
 const readiness = { label: "Pharma Compliance Readiness Checklist", href: "/resources/checklists/pharma-compliance-readiness-checklist" };
 const parent = { label: "Programme Design and Implementation", href: UK_SERVICE_BASE };
 
@@ -234,6 +248,7 @@ export const ukServicePages: UkServicePage[] = [
       { question: "What makes compliance training effective?", answer: "Content tailored to each role’s real decisions, scenarios and case studies rather than only e-learning, short focused modules, and measures that show whether behaviour changes, not just completion rates." },
       { question: "Do you use real PMCPA cases?", answer: "Yes. Scenario-based sessions grounded in real rulings help teams see how role clarity, escalation and cross-functional accountability work in practice." },
       { question: "Is anti-bribery training part of adequate procedures?", answer: "The Ministry of Justice guidance on the Bribery Act 2010 lists communication, including training, as one of six principles of adequate procedures, proportionate to the risks the organisation faces." },
+      { question: "Which compliance training modules do you offer?", answer: "Modules include the ABPI Code of Practice, anti-bribery and anti-corruption, HCP and HCO engagement, hospitality and fair market value, materials review and certification, transparency and disclosure, and policy and SOP roll-out. Each can be tailored by role, market and system." },
       { question: "Do you train teams outside the UK?", answer: "Yes. Training can be mapped to the codes and markets each role works under, with input from our local compliance partners across Europe and other regions." },
     ],
     positioning: {
@@ -441,7 +456,67 @@ export const ukServicePages: UkServicePage[] = [
       ],
       resources: [
         { label: "Compliance gap analysis", href: "/resources/articles/compliance-gap-analysis-reducing-risk-without-slowing-growth" },
-        { label: "Ensuring audit readiness in pharma compliance", href: "/resources/articles/ensure-audit-readiness-in-pharma-compliance" },
+        { label: "Audit readiness best practices", href: "/resources/articles/audit-readiness-best-practices" },
+        readiness,
+        parent,
+      ],
+    },
+  },
+  {
+    slug: "pharma-compliance-monitoring",
+    topic: "compliance monitoring",
+    metaTitle: "Pharma Compliance Monitoring Services UK | Eunomia",
+    metaDescription: "Pharmaceutical compliance monitoring in the UK: risk-based monitoring of HCP engagements, events, materials and payments, with findings, trends and follow-up.",
+    heading: "Pharma Compliance Monitoring Services in the UK",
+    kicker: "Pharma Compliance Monitoring",
+    title: "Know that your controls work, between audits.",
+    intro: "Eunomia designs and runs risk-based compliance monitoring for pharmaceutical and biotech companies in the UK. We monitor HCP engagements, meetings and hospitality, materials, grants and payments against the ABPI Code, anti-bribery expectations and your own procedures, and report findings and trends so issues are fixed before they become audit findings.",
+    image: { src: "/compliance-collaboration.png", alt: "Compliance specialists reviewing monitoring results" },
+    services: [
+      "Risk-based monitoring plan design",
+      "HCP engagement and contracted services monitoring",
+      "Meetings, events and hospitality monitoring, including live attendance checks",
+      "Promotional materials and certification sample checks",
+      "Grants, donations and sponsorship monitoring",
+      "Payment and transfer-of-value data monitoring",
+      "Monitoring dashboards and trend reporting",
+      "Findings follow-up, CAPA tracking and effectiveness checks",
+    ],
+    outcomes: [
+      "Evidence that controls operate in practice, not only on paper",
+      "Early warning of recurring issues, by activity, team or market",
+      "A monitoring record that supports audits and management reporting",
+    ],
+    faqs: [
+      { question: "Is compliance monitoring expected in the UK?", answer: "The Ministry of Justice guidance on the Bribery Act 2010 lists monitoring and review as one of its six principles of adequate procedures. The failure to prevent fraud guidance under ECCTA 2023 also lists monitoring and review, including learning from investigations and whistleblowing incidents." },
+      { question: "What is the difference between monitoring and auditing?", answer: "Monitoring is continuous or periodic checking by, or on behalf of, the business, so issues are found and fixed as work happens. An audit is an independent, point-in-time test of whether the programme works. They complement each other." },
+      { question: "What should a pharma monitoring plan cover?", answer: "The highest-risk activities from your risk assessment, typically HCP engagements and contracted services, meetings and hospitality, promotional materials, grants and donations, and payments. The plan sets the sample, frequency, owner and what counts as a finding." },
+      { question: "Can monitoring be automated?", answer: "Parts of it can. Workflows and dashboards, for example in SharePoint and Power BI, can flag exceptions and track findings, while experienced people review the results and decide what action is needed." },
+      { question: "What happens to monitoring findings?", answer: "Each finding is recorded with its root cause, an accountable owner and a due date, tracked through governance, and checked later to confirm the action worked." },
+    ],
+    positioning: {
+      problemTitle: "Controls that nobody checks drift",
+      problem: "Policies, approvals and training are in place, but nobody checks whether meetings, payments and materials follow them until an audit, a complaint or a PMCPA case. By then the same issue has often happened many times.",
+      audience: "For compliance leaders in pharmaceutical and biotech companies in the UK who need assurance between audits: a first monitoring programme for a growing company, extra capacity for an existing plan, or a refresh after new risks or a Code ruling.",
+      delivery: "We build a monitoring plan from your risk assessment, agree samples, frequency and owners, then carry out the checks, including desk reviews and live attendance at meetings where agreed. Findings, trends and follow-up are reported through your governance.",
+      difference: "Monitoring connects to the rest of the programme: findings feed training, SOP updates and CAPA, and routine checks can be automated where that improves consistency, with people making the judgement calls.",
+      evidenceLabel: "Related article",
+      evidenceTitle: "Managing compliance risks: best practices and strategies",
+      evidence: "Our article covers how to prioritise and manage compliance risks in practice, including where monitoring fits alongside risk assessment, controls and follow-up.",
+      href: "/resources/articles/managing-compliance-risks-best-practices-strategies",
+    },
+    frameworks: {
+      intro: "UK anti-bribery and fraud guidance both treat monitoring and review as a core part of adequate (bribery) and reasonable (fraud) prevention procedures. These are the main references we design monitoring around.",
+      frameworks: [briberyMonitoring, ecctaMonitoring, sfo],
+      steps: [
+        { title: "Plan", body: "Build a risk-based plan: activities, samples, frequency, owners and what counts as a finding." },
+        { title: "Check", body: "Carry out desk reviews, sample testing and live attendance checks where agreed." },
+        { title: "Report", body: "Report findings and trends by activity, team and market through your governance." },
+        { title: "Follow up", body: "Track actions to closure and check they worked, then update the plan." },
+      ],
+      resources: [
+        { label: "Compliance monitoring and data analytics", href: "/resources/articles/unleash-the-power-of-data-analytics-for-healthcare-compliance" },
+        { label: "Pharma Compliance Audits in the UK", href: "/services/governance-assurance/pharma-compliance-audits" },
         readiness,
         parent,
       ],

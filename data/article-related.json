@@ -1,7 +1,6 @@
 [
   [
     "audit-readiness-best-practices",
-    "ensure-audit-readiness-in-pharma-compliance",
     "healthcare-compliance-internal-audits"
   ],
   [
@@ -53,5 +52,27 @@
     "hcp-personal-data-gdpr-crm-fmv-engagement-records",
     "fair-market-value-fmv-in-healthcare-compliance",
     "unleash-the-power-of-data-analytics-for-healthcare-compliance"
+  ],
+  [
+    "pmcpa-case-lessons-2026",
+    "abpi-signatory-certification-requirements",
+    "pmcpas-2026-social-media-guidance",
+    "compliance-training-beyond-the-code"
+  ],
+  [
+    "efpia-disclosure-requirements-template",
+    "disclosure-uk-guide",
+    "gdpr-and-transparency-reporting-hcp-disclosure",
+    "transparency-reporting-in-pharmaceutical-industry"
+  ],
+  [
+    "failure-to-prevent-fraud-pharma",
+    "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage",
+    "pharma-compliance-risk-assessment-framework"
+  ],
+  [
+    "eu-ai-act-pharma",
+    "ai-in-healthcare-compliance",
+    "staying-ahead-in-healthcare-compliance-navigating-ai-challenges-with-ethical-governance"
   ]
 ]
