@@ -8,6 +8,7 @@ import type { Framework } from "./service-frameworks";
 type Faq = { question: string; answer: string };
 export type UkServicePage = {
   slug: string;
+  topic: string;
   metaTitle: string;
   metaDescription: string;
   heading: string;
@@ -99,6 +100,7 @@ const parent = { label: "Programme Design and Implementation", href: UK_SERVICE_
 export const ukServicePages: UkServicePage[] = [
   {
     slug: "pharma-compliance-training",
+    topic: "compliance training",
     metaTitle: "Pharmaceutical Compliance Training UK | Eunomia",
     metaDescription: "Bespoke pharmaceutical compliance training in the UK: ABPI Code, anti-bribery and HCP engagement training tailored by role, with scenarios and effectiveness measures.",
     heading: "Pharmaceutical Compliance Training in the UK",
@@ -160,6 +162,7 @@ export const ukServicePages: UkServicePage[] = [
   },
   {
     slug: "pharma-risk-assessment",
+    topic: "risk assessment",
     metaTitle: "Pharmaceutical Risk Assessment Services UK | Eunomia",
     metaDescription: "Pharmaceutical compliance risk assessment in the UK: ABAC, fraud and commercial compliance risk assessments with documented controls, owners and follow-up.",
     heading: "Pharmaceutical Risk Assessment Services in the UK",
@@ -220,6 +223,7 @@ export const ukServicePages: UkServicePage[] = [
   },
   {
     slug: "sop-policy-development",
+    topic: "SOPs and policies",
     metaTitle: "SOP and Policy Development for Pharma UK | Eunomia",
     metaDescription: "Compliance SOP and policy development for pharma in the UK: practical policies and SOPs for promotion, HCP engagement, certification and disclosure, mapped to real workflows.",
     heading: "SOP and Policy Development for Pharma in the UK",
@@ -280,6 +284,7 @@ export const ukServicePages: UkServicePage[] = [
   },
   {
     slug: "pharma-compliance-audits",
+    topic: "compliance audits",
     metaTitle: "Pharma Compliance Audits UK | Eunomia",
     metaDescription: "Pharmaceutical compliance audits in the UK: ABPI Code and commercial compliance audits, gap analysis, audit readiness and CAPA support with risk-rated findings.",
     heading: "Pharma Compliance Audits in the UK",
