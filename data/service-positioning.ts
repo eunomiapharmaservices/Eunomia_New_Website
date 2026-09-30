@@ -1,3 +1,4 @@
+import { ukServicePages, UK_SERVICE_BASE } from "./uk-service-pages";
 export const servicePositioning: Record<string, {
   problemTitle: string; problem: string; audience: string; delivery: string;
   difference: string; evidenceLabel: string; evidenceTitle: string; evidence: string; href: string;
@@ -47,3 +48,5 @@ export const servicePositioning: Record<string, {
     href: "/resources/materials-review-shared-service-case-study",
   },
 };
+
+for (const page of ukServicePages) servicePositioning[`${UK_SERVICE_BASE}/${page.slug}`] = page.positioning;
