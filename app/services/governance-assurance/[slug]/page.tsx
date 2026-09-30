@@ -6,6 +6,7 @@ import { withSocial } from "../../../../lib/seo";
 import { ServiceSubpage } from "../../../../components/ServiceSubpage";
 import { StructuredData } from "../../../../components/StructuredData";
 import { compliancePartners } from "../../../../data/compliancePartners";
+import { priorityServiceDetails } from "../../../../data/priority-service-details";
 import { ukServicePages, getUkServicePage, UK_SERVICE_BASE } from "../../../../data/uk-service-pages";
 
 const SITE = "https://www.eunomiapharmaservices.com";
@@ -35,6 +36,7 @@ export default async function UkServicePage({ params }: { params: Promise<{ slug
   const path = `${UK_SERVICE_BASE}/${slug}`;
   const others = ukServicePages.filter((p) => p.slug !== slug);
   const { positioning: pos, frameworks: fw } = page;
+  const details = priorityServiceDetails[slug];
   const sources = fw.frameworks.filter((f, i, all) => all.findIndex((x) => x.href === f.href) === i);
   return (
     <>
@@ -75,15 +77,47 @@ export default async function UkServicePage({ params }: { params: Promise<{ slug
             <div className={styles.delivery}>
               <article>
                 <p className={styles.eyebrow}>From requirements to action</p>
-                <h2>How Eunomia can help</h2>
-                <p>{pos.delivery}</p>
-                <p style={{ marginTop: 16 }}>{pos.difference}</p>
+                {details ? (
+                  <>
+                    <h2>What you receive</h2>
+                    <p>Depending on the agreed scope, deliverables can include:</p>
+                    <ul>{details.deliverables.map((item) => <li key={item}>{item}</li>)}</ul>
+                    <h3>{details.planningTitle}</h3>
+                    <p>{details.planning}</p>
+                  </>
+                ) : (
+                  <>
+                    <h2>How Eunomia can help</h2>
+                    <p>{pos.delivery}</p>
+                    <p style={{ marginTop: 16 }}>{pos.difference}</p>
+                  </>
+                )}
               </article>
               <aside className={styles.priorities}>
                 <h3>How an engagement runs</h3>
                 <ul>{fw.steps.map((s) => <li key={s.title}><b>{s.title}.</b> {s.body}</li>)}</ul>
               </aside>
             </div>
+            {details && (
+              <>
+                <div className={styles.delivery}>
+                  <article>
+                    <h2>What to bring to the first conversation</h2>
+                    <p>{details.inputs}</p>
+                    <a className={styles.checklist} href={`/contact?service=${encodeURIComponent(page.kicker)}`}>Discuss your requirements <span aria-hidden="true">→</span></a>
+                  </article>
+                  <aside className={styles.priorities}>
+                    <h3>Meet your UK compliance lead</h3>
+                    <p>Rashmi Papneja is Eunomia’s founder, Managing Director and UK Compliance Lead. Her published profile describes her work in pharmaceutical compliance, transformation and HCP engagement.</p>
+                    <a className={styles.checklist} href="/team#rashmi-papneja">Read Rashmi’s profile <span aria-hidden="true">→</span></a>
+                  </aside>
+                </div>
+                <nav className={styles.related} aria-label="Service resources and related support">
+                  <h3>Tools, examples and related support</h3>
+                  <div>{details.links.map((link) => <a key={link.href} href={link.href}>{link.label} <span aria-hidden="true">↗</span></a>)}</div>
+                </nav>
+              </>
+            )}
             <nav className={styles.related} aria-label="Related UK compliance services">
               <h3>Explore the support you need</h3>
               <div>
