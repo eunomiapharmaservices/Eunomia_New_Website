@@ -1325,3 +1325,44 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .standalone-resource-body table{width:100%;border-collapse:collapse;font:15px/1.5 Arial,Helvetica,sans-serif;margin:24px 0;display:block;overflow-x:auto}
 .standalone-resource-body th,.standalone-resource-body td{border:1px solid #e1e7dd;padding:10px 12px;text-align:left;vertical-align:top}
 .standalone-resource-body th{background:#f4f7f1;color:#17331b}
+
+/* Consistent high-contrast resource downloads and resource actions. */
+main a[download],
+.standalone-resource .primary-button,
+.reference-body .primary-button,
+.lead-form .primary-button,
+.article-checklist-cta .primary-button,
+.exit-offer .primary-button,
+a.primary-button[href*="/resources/checklists/"] {
+  background: #17331b;
+  color: #fff !important;
+  border: 2px solid #f26a21;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  padding: 14px 22px;
+  border-radius: 3px;
+}
+main a[download]:hover,
+.standalone-resource .primary-button:hover,
+.reference-body .primary-button:hover,
+.lead-form .primary-button:hover,
+.article-checklist-cta .primary-button:hover,
+.exit-offer .primary-button:hover,
+a.primary-button[href*="/resources/checklists/"]:hover {
+  background: #f26a21;
+  color: #102b15 !important;
+  border-color: #17331b;
+}
+main a[download]:focus-visible,
+.standalone-resource .primary-button:focus-visible,
+.reference-body .primary-button:focus-visible,
+.lead-form .primary-button:focus-visible,
+.article-checklist-cta .primary-button:focus-visible,
+.exit-offer .primary-button:focus-visible,
+a.primary-button[href*="/resources/checklists/"]:focus-visible {
+  outline: 3px solid #17331b;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px #fff;
+}

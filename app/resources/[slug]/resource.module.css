@@ -4,8 +4,8 @@
 .hero h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,3.8rem);line-height:1.08;max-width:1050px;letter-spacing:-.035em;margin:20px 0}
 .intro{font-size:1.2rem;line-height:1.65;max-width:880px;margin:20px 0 28px}
 .meta{font-size:.9rem;margin:22px 0 0}
-.button{display:inline-flex;align-items:center;justify-content:center;background:var(--orange,#f26a21);color:#17331b!important;border:2px solid #17331b;padding:14px 22px;font-weight:750;line-height:1.4;text-decoration:none!important;max-width:100%;text-align:center;border-radius:3px}
-.button:hover{background:#17331b;color:#fff!important}
+.button{display:inline-flex;align-items:center;justify-content:center;background:#17331b;color:#fff!important;border:2px solid #f26a21;padding:14px 22px;font-weight:750;line-height:1.4;text-decoration:none!important;max-width:100%;text-align:center;border-radius:3px}
+.button:hover{background:#f26a21;color:#102b15!important;border-color:#17331b}
 .layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:clamp(28px,5vw,72px);max-width:1240px;margin:auto;padding:56px 24px 80px}
 .contents{align-self:start;position:sticky;top:110px;font-size:1rem;line-height:1.5}
 .contents h2{font-size:1.1rem;margin:0 0 20px}
