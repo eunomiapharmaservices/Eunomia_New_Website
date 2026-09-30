@@ -18,7 +18,7 @@ export default function Page() {
       detailSection={
         <section className="section-pad uk-related" aria-labelledby="uk-specialist-title">
           <p className="section-kicker">Specialist services in the UK</p>
-          <h2 id="uk-specialist-title">Training, risk assessment, SOPs and audits</h2>
+          <h2 id="uk-specialist-title">Training, risk assessment, SOPs, audits and FMV</h2>
           <ul>
             {ukServicePages.map((p) => <li key={p.slug}><a href={`${UK_SERVICE_BASE}/${p.slug}`}>{p.heading}</a></li>)}
           </ul>

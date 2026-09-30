@@ -98,6 +98,110 @@ const readiness = { label: "Pharma Compliance Readiness Checklist", href: "/reso
 const parent = { label: "Programme Design and Implementation", href: UK_SERVICE_BASE };
 
 export const ukServicePages: UkServicePage[] = [
+{
+  "slug": "fmv-consulting",
+  "topic": "fair market value assessment",
+  "metaTitle": "FMV Consulting Services for Pharma UK | Eunomia",
+  "metaDescription": "FMV consulting for UK pharma and biotech: HCP compensation methodology, benchmarking review, tiering, rate-card governance and engagement approval workflows.",
+  "heading": "FMV Consulting Services for Pharma in the UK",
+  "kicker": "Fair Market Value Consulting",
+  "title": "A documented basis for HCP compensation.",
+  "intro": "Eunomia helps pharmaceutical and biotech teams develop and operationalise fair market value (FMV) frameworks for healthcare professional engagements. Our UK FMV consulting support connects compensation methodology, documented expertise, engagement scope and approval records with the way your teams contract and pay for services.",
+  "image": {
+    "src": "/eunomia-workflow.png",
+    "alt": "Compliance specialists reviewing an engagement workflow"
+  },
+  "services": [
+    "FMV methodology design and review",
+    "Benchmark source assessment and documented assumptions",
+    "HCP tiering criteria and supporting evidence",
+    "Rate-card governance and review processes",
+    "Engagement-level fee rationale and exception workflows",
+    "FMV policies, templates and stakeholder training",
+    "Connections between contracts, approvals and payment records"
+  ],
+  "outcomes": [
+    "A traceable explanation of compensation decisions",
+    "Consistent assessment and escalation across teams",
+    "An FMV framework connected to everyday engagement workflows"
+  ],
+  "faqs": [
+    {
+      "question": "What does pharma FMV consulting cover?",
+      "answer": "The scope can include methodology, source-data review, documented tiering, rate-card governance and engagement-level assessment. We agree the countries, stakeholder groups, activities and deliverables before work begins."
+    },
+    {
+      "question": "Is there one universal UK HCP hourly rate?",
+      "answer": "This service does not provide a universal rate. An assessment needs a documented methodology and relevant evidence for the specific services and market. The accompanying worksheet records the rationale and approvals; it does not calculate or certify an FMV rate."
+    },
+    {
+      "question": "Can you review an existing FMV framework?",
+      "answer": "Yes. We can review the methodology, evidence, tiering approach, exceptions and operating process, then agree priorities for updating and implementing the framework."
+    },
+    {
+      "question": "Does an FMV assessment approve the whole engagement?",
+      "answer": "No. Compensation is one part of an engagement decision. The applicable requirements, business need, selection, contracting and other controls still need their own review."
+    },
+    {
+      "question": "Can FMV workflows be automated?",
+      "answer": "Defined steps such as collecting evidence, routing approvals, recording exceptions and reporting can be supported through controlled workflows. Accountable reviewers retain the decisions and approved methodology."
+    },
+    {
+      "question": "How do we start?",
+      "answer": "Bring your current methodology, engagement types, countries, rate cards and known concerns. We agree a focused review or a wider framework project. Share confidential records only through an agreed secure channel."
+    }
+  ],
+  "positioning": {
+    "problemTitle": "When compensation decisions are difficult to explain",
+    "problem": "Different spreadsheets, inconsistent tiering and undocumented exceptions can leave teams unable to reconstruct why a fee was selected. A rate card alone does not explain the service, the time commitment or the evidence behind a decision.",
+    "audience": "Compliance, Medical Affairs, Legal, Finance and operational teams in emerging biotech and established pharmaceutical companies. Support can be scoped for a UK engagement model or a multi-market framework with country-specific inputs.",
+    "delivery": "We review the existing approach and identify the evidence and decisions needed for a usable FMV framework. Agreed outputs can include a methodology document, tiering criteria, an assessment template, approval responsibilities and an implementation plan.",
+    "difference": "Our focus includes operational delivery: how requests arrive, who checks the evidence, how exceptions are escalated and how the approved rationale remains connected to the contract and payment record. Benchmark availability and licensing are confirmed during scoping.",
+    "evidenceLabel": "Related project",
+    "evidenceTitle": "Fair Market Value Methodology for HCP Compensation",
+    "evidence": "Read the published project account for an example of methodology, tiering and rate-card work. The case study is not a public rate schedule or a guarantee of future results.",
+    "href": "/resources/fair-market-value-methodology"
+  },
+  "frameworks": {
+    "intro": "Confirm the applicable code and market scope before using an FMV process. The following UK reference informs the engagement review.",
+    "frameworks": [
+      {
+        "title": "ABPI Code, Clause 24: Contracted services",
+        "body": "For arrangements within its scope, Clause 24.2 connects documented need and selection, advance written agreement, appropriate records and reasonable remuneration reflecting fair market value. It also addresses the risk of using an engagement as an inducement.",
+        "href": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-24-contracted-services/",
+        "label": "PMCPA: Clause 24"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Agree scope",
+        "body": "Identify markets, stakeholder groups, engagement types and the decisions the framework must support."
+      },
+      {
+        "title": "Review evidence",
+        "body": "Assess existing sources, assumptions, tiering and gaps against the agreed methodology."
+      },
+      {
+        "title": "Design controls",
+        "body": "Define documentation, responsibilities, exception handling and review triggers."
+      },
+      {
+        "title": "Implement",
+        "body": "Pilot templates and workflows, train users and agree ongoing ownership."
+      }
+    ],
+    "resources": [
+      {
+        "label": "HCP FMV assessment guide and worksheet",
+        "href": "/resources/hcp-fmv-assessment"
+      },
+      {
+        "label": "FMV methodology case study",
+        "href": "/resources/fair-market-value-methodology"
+      }
+    ]
+  }
+},
   {
     slug: "pharma-compliance-training",
     topic: "compliance training",
