@@ -5,6 +5,7 @@ import { FileCheck2, Globe2, Scale, ShieldCheck } from "lucide-react";
 import { withSocial } from "../../../../lib/seo";
 import { ServiceSubpage } from "../../../../components/ServiceSubpage";
 import { StructuredData } from "../../../../components/StructuredData";
+import { TrainingLearningExamples } from "../../../../components/TrainingLearningExamples";
 import { compliancePartners } from "../../../../data/compliancePartners";
 import { priorityServiceDetails } from "../../../../data/priority-service-details";
 import { ukServicePages, getUkServicePage, UK_SERVICE_BASE } from "../../../../data/uk-service-pages";
@@ -98,6 +99,7 @@ export default async function UkServicePage({ params }: { params: Promise<{ slug
                 <ul>{fw.steps.map((s) => <li key={s.title}><b>{s.title}.</b> {s.body}</li>)}</ul>
               </aside>
             </div>
+            {slug === "pharma-compliance-training" && <TrainingLearningExamples />}
             {details && (
               <>
                 <div className={styles.delivery}>
