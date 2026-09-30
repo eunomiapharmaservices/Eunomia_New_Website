@@ -54,13 +54,38 @@ export default async function MarketPage({ params }: { params: Promise<{ slug: s
       ]}
       lead={market.lead ? { name: market.lead.name, role: market.lead.role, image: market.lead.image } : undefined}
       heroDetail={market.approach && (
-        <section className={`section-pad ${styles.approach}`}>
-          <h2>Who this support is for</h2><p>{market.approach.audience}</p>
-          <h2>The practical challenge in {market.country}</h2><p>{market.approach.challenge}</p>
-          <h2>How Eunomia can help</h2><p>{market.approach.delivery}</p>
-          <h3>Your first working priorities</h3><ul>{market.approach.priorities.map(item => <li key={item}>{item}</li>)}</ul>
-          <p><a href="/services/governance-assurance">Programme design and implementation</a> · <a href="/services/shared-services">Operational shared services</a> · <a href="/services/automation-of-compliance-operations">Compliance automation</a></p>
-          <p><a href="/resources/checklists/pharma-compliance-readiness-checklist">Use the Pharma Compliance Readiness Checklist →</a></p>
+        <section className={styles.approach} aria-label={`${market.country} compliance support`}>
+          <div className={styles.overview}>
+            <article className={styles.audience}>
+              <p className={styles.eyebrow}>Local expertise · Global delivery</p>
+              <h2>Who this support is for</h2>
+              <p>{market.approach.audience}</p>
+            </article>
+            <article className={styles.challenge}>
+              <h2>The practical challenge in {market.country}</h2>
+              <p>{market.approach.challenge}</p>
+            </article>
+          </div>
+          <div className={styles.delivery}>
+            <article>
+              <p className={styles.eyebrow}>From requirements to action</p>
+              <h2>How Eunomia can help</h2>
+              <p>{market.approach.delivery}</p>
+            </article>
+            <aside className={styles.priorities}>
+              <h3>Your first working priorities</h3>
+              <ul>{market.approach.priorities.map(item => <li key={item}>{item}</li>)}</ul>
+            </aside>
+          </div>
+          <nav className={styles.related} aria-label="Related compliance services">
+            <h3>Explore the support you need</h3>
+            <div>
+              <a href="/services/governance-assurance">Programme design and implementation <span aria-hidden="true">↗</span></a>
+              <a href="/services/shared-services">Operational shared services <span aria-hidden="true">↗</span></a>
+              <a href="/services/automation-of-compliance-operations">Compliance automation <span aria-hidden="true">↗</span></a>
+            </div>
+          </nav>
+          <a className={styles.checklist} href="/resources/checklists/pharma-compliance-readiness-checklist">Use the Pharma Compliance Readiness Checklist <span aria-hidden="true">→</span></a>
         </section>
       )}
       detailSection={
