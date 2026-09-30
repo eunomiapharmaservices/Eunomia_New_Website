@@ -15,7 +15,7 @@ function formatDate(iso: string) {
 
 export function EditorialSummary({ entry }: { entry: Entry }) {
   return <section className={styles.summary} aria-label="Article overview">
-    <p className={styles.credit}>Published by <a href="/about">Eunomia Pharma Services</a> · Updated <time dateTime={entry.updated}>{formatDate(entry.updated)}</time></p>
+    <p className={styles.credit}>Published by <a href="/team">Eunomia Pharma Services</a> · Updated <time dateTime={entry.updated}>{formatDate(entry.updated)}</time></p>
     <h2>{entry.question}</h2>
     <p>{entry.answer}</p>
     <h3>{entry.stepsHeading}</h3>

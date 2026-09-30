@@ -46,7 +46,7 @@ export function SiteFooter() {
           Registered office: Rough Way, Heath House Road, Woking, GU22 0QU
         </span>
         <span>+44 7584 567018</span>
-        <a href="/about">About Eunomia</a>
+        <a href="/team">Our team</a>
         <a href="/privacy">Privacy &amp; cookies</a>
         <span>© 2026 Eunomia Pharma Services</span>
       </div>

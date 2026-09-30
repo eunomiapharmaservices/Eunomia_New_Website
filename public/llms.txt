@@ -74,7 +74,6 @@ Each guide summarises national law and industry codes, with links to official so
 
 ## Company
 
-- [About Eunomia](https://www.eunomiapharmaservices.com/about)
 - [Team and local compliance partners](https://www.eunomiapharmaservices.com/team)
 - [Articles and resources](https://www.eunomiapharmaservices.com/resources)
 - [Contact](https://www.eunomiapharmaservices.com/contact)
