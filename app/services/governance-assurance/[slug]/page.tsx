@@ -1,11 +1,16 @@
+import styles from "../../../markets/[slug]/market.module.css";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { FileCheck2, Globe2, Scale, ShieldCheck } from "lucide-react";
 import { withSocial } from "../../../../lib/seo";
 import { ServiceSubpage } from "../../../../components/ServiceSubpage";
 import { StructuredData } from "../../../../components/StructuredData";
+import { compliancePartners } from "../../../../data/compliancePartners";
 import { ukServicePages, getUkServicePage, UK_SERVICE_BASE } from "../../../../data/uk-service-pages";
 
 const SITE = "https://www.eunomiapharmaservices.com";
+const ICONS = [<ShieldCheck key="a" />, <Scale key="b" />, <Globe2 key="c" />, <FileCheck2 key="d" />];
+const rashmi = compliancePartners.find((p) => p.name === "Rashmi Papneja");
 
 export const dynamicParams = false;
 
@@ -21,12 +26,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return withSocial(path, { title: page.metaTitle, description: page.metaDescription, alternates: { canonical: SITE + path } });
 }
 
+// Same layout as the country guides (/markets/[slug]): approach block under
+// the hero, then the rules with official sources, a named lead and FAQs.
 export default async function UkServicePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const page = getUkServicePage(slug);
   if (!page) notFound();
   const path = `${UK_SERVICE_BASE}/${slug}`;
   const others = ukServicePages.filter((p) => p.slug !== slug);
+  const { positioning: pos, frameworks: fw } = page;
+  const sources = fw.frameworks.filter((f, i, all) => all.findIndex((x) => x.href === f.href) === i);
   return (
     <>
       <StructuredData data={{
@@ -41,25 +50,88 @@ export default async function UkServicePage({ params }: { params: Promise<{ slug
       <ServiceSubpage
         servicePath={path}
         heading={page.heading}
-        serviceTitleFirst
-        accent="orange"
         kicker={page.kicker}
         title={page.title}
+        serviceTitleFirst
+        accent="green"
         intro={page.intro}
         serviceImage={page.image}
         services={page.services}
         outcomes={page.outcomes}
-        faqs={page.faqs}
-        detailSection={
-          <section className="section-pad uk-related" aria-labelledby="uk-related-title">
-            <p className="section-kicker">Related UK services</p>
-            <h2 id="uk-related-title">Part of Programme Design and Implementation</h2>
-            <ul>
-              {others.map((p) => <li key={p.slug}><a href={`${UK_SERVICE_BASE}/${p.slug}`}>{p.heading}</a></li>)}
-              <li><a href={UK_SERVICE_BASE}>Healthcare Compliance Programme Design and Implementation</a></li>
-            </ul>
+        lead={rashmi ? { name: rashmi.name, role: "Founder, Managing Director and UK Compliance Lead", image: rashmi.image ?? "/consultants/rashmi-papneja.svg" } : undefined}
+        heroDetail={
+          <section className={styles.approach} aria-label={`${page.kicker} in the UK`}>
+            <div className={styles.overview}>
+              <article>
+                <p className={styles.eyebrow}>UK expertise · Practical delivery</p>
+                <h2>Who this support is for</h2>
+                <p>{pos.audience}</p>
+              </article>
+              <article className={styles.challenge}>
+                <h2>{pos.problemTitle}</h2>
+                <p>{pos.problem}</p>
+              </article>
+            </div>
+            <div className={styles.delivery}>
+              <article>
+                <p className={styles.eyebrow}>From requirements to action</p>
+                <h2>How Eunomia can help</h2>
+                <p>{pos.delivery}</p>
+                <p style={{ marginTop: 16 }}>{pos.difference}</p>
+              </article>
+              <aside className={styles.priorities}>
+                <h3>How an engagement runs</h3>
+                <ul>{fw.steps.map((s) => <li key={s.title}><b>{s.title}.</b> {s.body}</li>)}</ul>
+              </aside>
+            </div>
+            <nav className={styles.related} aria-label="Related UK compliance services">
+              <h3>Explore the support you need</h3>
+              <div>
+                {others.map((p) => <a key={p.slug} href={`${UK_SERVICE_BASE}/${p.slug}`}>{p.heading} <span aria-hidden="true">↗</span></a>)}
+              </div>
+            </nav>
+            <a className={styles.checklist} href="/resources/checklists/pharma-compliance-readiness-checklist">Use the Pharma Compliance Readiness Checklist <span aria-hidden="true">→</span></a>
           </section>
         }
+        detailSection={
+          <section className="mandates section-pad" id="rules">
+            <div className="mandate-intro">
+              <p className="section-kicker">The rules in the UK</p>
+              <h2>
+                What shapes {page.topic} in the <em>UK</em>…
+              </h2>
+              <p>{fw.intro} Each summary links to its official source below.</p>
+            </div>
+            <div className="mandate-list">
+              {fw.frameworks.map((f, i) => (
+                <article key={f.title}>
+                  <span>{ICONS[i % ICONS.length]}</span>
+                  <div>
+                    <h3>{f.title}</h3>
+                    <p>{f.body}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <div className="mandate-sources">
+              <h3>Primary references</h3>
+              <div className="source-links">
+                {sources.map((s) => <a key={s.href} href={s.href} target="_blank" rel="noreferrer">{s.label}</a>)}
+              </div>
+            </div>
+            <div className="market-lead-bio">
+              <p className="section-kicker">{pos.evidenceLabel}</p>
+              <p><a href={pos.href}>{pos.evidenceTitle}</a>. {pos.evidence}</p>
+              <p>More reading: {fw.resources.filter((r) => r.href !== UK_SERVICE_BASE).map((r, i, a) => <span key={r.href}><a href={r.href}>{r.label}</a>{i < a.length - 1 ? " · " : ""}</span>)}</p>
+            </div>
+            <p className="legal-note">
+              This overview is informational and does not constitute legal advice.
+              Scope and application should be confirmed for the organisation,
+              activity and counterparty in question. Sources checked September 2026.
+            </p>
+          </section>
+        }
+        faqs={page.faqs}
       />
     </>
   );

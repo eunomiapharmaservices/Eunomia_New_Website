@@ -1304,3 +1304,6 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .uk-related a{display:block;padding:18px 20px;border:1px solid #e1e7dd;border-left:5px solid #4da017;background:#f7f9f5;color:#17331b;font-weight:700;line-height:1.35}
 .uk-related a:hover,.uk-related a:focus-visible{background:#eaf3e3}
 .uk-related li{display:flex}.uk-related li a{flex:1}
+.market-lead-bio a{color:#fff;text-decoration:underline;text-decoration-color:#bddd94;text-underline-offset:4px}
+.market-lead-bio a:hover,.market-lead-bio a:focus-visible{color:#bddd94}
+.market-lead-bio p{font-size:16px;line-height:1.7;color:rgba(255,255,255,.86)}
