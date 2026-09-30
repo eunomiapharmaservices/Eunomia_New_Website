@@ -51,11 +51,11 @@ export function generateStaticParams() {
 
 const legacyDestinations: Record<string, string> = {
   "healthcare-compliance-services": "/services",
-  "compliancetraining": "/services/governance-assurance",
-  "sop": "/services/governance-assurance",
-  "monitoring-and-auditing": "/services/governance-assurance",
-  "audits": "/services/governance-assurance",
-  "risk-assessment-framework-and-internal-controls": "/services/governance-assurance",
+  "compliancetraining": "/services/governance-assurance/pharma-compliance-training",
+  "sop": "/services/governance-assurance/sop-policy-development",
+  "monitoring-and-auditing": "/services/governance-assurance/pharma-compliance-audits",
+  "audits": "/services/governance-assurance/pharma-compliance-audits",
+  "risk-assessment-framework-and-internal-controls": "/services/governance-assurance/pharma-risk-assessment",
   "fmv": "/resources/fair-market-value-methodology",
   "material": "/services/shared-services",
   "transparency": "/services/shared-services",

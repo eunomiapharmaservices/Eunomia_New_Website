@@ -1,6 +1,8 @@
 // "Rules behind this service" blocks for service pages. Each summary restates
 // the linked official source (the same sources used on /legal-mandates and in
 // article source notes). Add new facts only with a source link.
+import { ukServicePages, UK_SERVICE_BASE } from "./uk-service-pages";
+
 export type Framework = { title: string; body: string; href: string; label: string };
 export type ServiceFrameworks = {
   intro: string;
@@ -121,3 +123,5 @@ export const serviceFrameworks: Record<string, ServiceFrameworks> = {
     resources: [{ label: "Materials-review case study", href: "/resources/materials-review-shared-service-case-study" }, { label: "Fair market value case study", href: "/resources/fair-market-value-methodology" }, { label: "HCP engagement and transparency articles", href: "/resources/category/hcp-engagement-transparency" }],
   },
 };
+
+for (const page of ukServicePages) serviceFrameworks[`${UK_SERVICE_BASE}/${page.slug}`] = page.frameworks;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { withSocial } from "../../../lib/seo";
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
+import { ukServicePages, UK_SERVICE_BASE } from "../../../data/uk-service-pages";
 export const metadata: Metadata = withSocial("/services/governance-assurance", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance" },
   title: "Pharmaceutical Compliance Consultancy UK | Eunomia",
@@ -14,6 +15,15 @@ export default function Page() {
       accent="orange"
       serviceImage={{ src: "/home-compliance-team.jpeg", alt: "Compliance specialists discussing programme design and implementation" }}
       serviceTitleFirst
+      detailSection={
+        <section className="section-pad uk-related" aria-labelledby="uk-specialist-title">
+          <p className="section-kicker">Specialist services in the UK</p>
+          <h2 id="uk-specialist-title">Training, risk assessment, SOPs and audits</h2>
+          <ul>
+            {ukServicePages.map((p) => <li key={p.slug}><a href={`${UK_SERVICE_BASE}/${p.slug}`}>{p.heading}</a></li>)}
+          </ul>
+        </section>
+      }
       kicker="Healthcare Compliance Programme Design and Implementation"
       title="A practical programme, built to work day to day."
       intro="Our UK pharmaceutical compliance consultancy helps pharma and biotech companies design and implement practical healthcare compliance programmes. We support ABPI Code compliance and anti-bribery and anti-corruption (ABAC) controls through policies, risk assessments, training and monitoring tailored to your activities and markets."
