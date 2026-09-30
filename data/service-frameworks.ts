@@ -97,7 +97,7 @@ export const serviceFrameworks: Record<string, ServiceFrameworks> = {
       { title: "Build", body: "Configure workflows, reporting and connected data in your existing technology, such as SharePoint and Power BI." },
       { title: "Hand over", body: "Test with real cases, train users and agree ownership, change control and monitoring." },
     ],
-    resources: [{ label: "EFPIA Code Self-Assessment Checklist", href: "/resources/checklists/efpia-code-self-assessment-checklist" }, { label: "AI and digital compliance articles", href: "/resources/category/ai-digital-compliance" }],
+    resources: [{ label: "Disclosure preparation and methodological-note guide", href: "/resources/disclosure-preparation-checklist" }, { label: "Promotional review workflow guide", href: "/resources/promotional-review-workflow" }, { label: "EFPIA Code Self-Assessment Checklist", href: "/resources/checklists/efpia-code-self-assessment-checklist" }, { label: "AI and digital compliance articles", href: "/resources/category/ai-digital-compliance" }],
   },
   "/services/local-legal-mandates": {
     intro: "Local support sits between European frameworks and national rules. These are the European layers; our country guides cover the national detail.",
@@ -119,7 +119,7 @@ export const serviceFrameworks: Record<string, ServiceFrameworks> = {
       { title: "Deliver", body: "Carry out the agreed reviews, assessments and reporting within your processes." },
       { title: "Review performance", body: "Report volumes, turnaround, exceptions and recurring issues through regular governance." },
     ],
-    resources: [{ label: "Materials-review case study", href: "/resources/materials-review-shared-service-case-study" }, { label: "Fair market value case study", href: "/resources/fair-market-value-methodology" }, { label: "HCP engagement and transparency articles", href: "/resources/category/hcp-engagement-transparency" }],
+    resources: [{ label: "Disclosure preparation and methodological-note guide", href: "/resources/disclosure-preparation-checklist" }, { label: "Promotional review workflow guide", href: "/resources/promotional-review-workflow" }, { label: "Materials-review case study", href: "/resources/materials-review-shared-service-case-study" }, { label: "Fair market value case study", href: "/resources/fair-market-value-methodology" }, { label: "HCP engagement and transparency articles", href: "/resources/category/hcp-engagement-transparency" }],
   },
 };
 

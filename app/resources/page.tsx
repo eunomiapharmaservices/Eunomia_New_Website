@@ -1,3 +1,4 @@
+import { practicalResources } from "../../data/practical-resources";
 import { PageFaqs } from "../../components/PageFaqs";
 import { resourcesFaqs } from "../../data/page-faqs";
 import { SiteImage } from "../../components/SiteImage";
@@ -16,6 +17,7 @@ export const metadata: Metadata = withSocial("/resources", {
 });
 
 const featured = [
+  ...practicalResources.map(resource => ({ type: "Guide + template", title: resource.title, href: `/resources/${resource.slug}`, image: "/eunomia-workflow.png", icon: FileText })),
   { type: "Worksheet", title: "HCP FMV Assessment Guide and Worksheet", href: "/resources/hcp-fmv-assessment", image: "/eunomia-workflow.png", icon: FileText },
   {
     type: "Checklist",

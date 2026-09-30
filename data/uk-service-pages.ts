@@ -257,6 +257,7 @@ export const ukServicePages: UkServicePage[] = [
         { title: "Measure", body: "Check whether behaviour changes, using agreed measures, and refresh content as rules and risks change." },
       ],
       resources: [
+        { label: "Role-based compliance training matrix", href: "/resources/role-based-compliance-training-matrix" },
         { label: "Compliance training beyond the Code", href: "/resources/articles/compliance-training-beyond-the-code" },
         { label: "Why bespoke compliance training matters", href: "/resources/articles/importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry" },
         readiness,

@@ -65,3 +65,9 @@ Each guide summarises national law and industry codes, with links to official so
 
 - [FMV consulting for UK pharma](https://www.eunomiapharmaservices.com/services/governance-assurance/fmv-consulting): Methodology, tiering and operational support.
 - [HCP FMV assessment guide](https://www.eunomiapharmaservices.com/resources/hcp-fmv-assessment): Evidence worksheet and assessment process.
+
+## Practical workflow guides
+
+- [Role-based compliance training matrix](https://www.eunomiapharmaservices.com/resources/role-based-compliance-training-matrix): Role mapping and editable learning plan.
+- [Disclosure preparation checklist](https://www.eunomiapharmaservices.com/resources/disclosure-preparation-checklist): Reconciliation workflow and methodological-note drafting guide.
+- [Promotional review workflow](https://www.eunomiapharmaservices.com/resources/promotional-review-workflow): Review, certification and release hand-offs with an editable checklist.
