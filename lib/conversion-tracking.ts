@@ -1,7 +1,7 @@
 "use client";
 import { track } from "@vercel/analytics";
 
-type ConversionEvent = "enquiry_submitted" | "resource_requested" | "resource_download_clicked";
+type ConversionEvent = "enquiry_submitted" | "resource_requested" | "resource_download_clicked" | "resource_consultation_clicked";
 
 // Only static resource identifiers belong here; never send form fields or contact details.
 export function trackConversion(event: ConversionEvent, resourceSlug?: string): void {

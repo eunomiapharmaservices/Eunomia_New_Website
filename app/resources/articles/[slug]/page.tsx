@@ -1,3 +1,4 @@
+import { articlePracticalResources } from "../../../../data/article-practical-resources";
 import { editorialEntry, EditorialSummary, EditorialSources } from "../../../../components/EditorialEnhancement";
 import type { Metadata } from "next";
 import articleSeo from "../../../../data/article-seo.json";
@@ -96,9 +97,10 @@ export default async function ResourceArticle({
 
   const cats = categoriesFor(slug);
   const efpiaTopic = cats.some((c) => ["efpia-code-compliance", "hcp-engagement-transparency", "abpi-code-pmcpa"].includes(c.slug));
-  const checklist = efpiaTopic
+  const practicalResource = articlePracticalResources[slug];
+  const checklist = practicalResource ?? (efpiaTopic
     ? { href: "/resources/checklists/efpia-code-self-assessment-checklist", title: "EFPIA Code Self-Assessment Checklist", blurb: "Check your processes against the EFPIA Code of Practice (2026), article by article." }
-    : { href: "/resources/checklists/pharma-compliance-readiness-checklist", title: "Pharma Compliance Readiness Checklist", blurb: "Test whether your compliance programme would stand up to an audit or inspection." };
+    : { href: "/resources/checklists/pharma-compliance-readiness-checklist", title: "Pharma Compliance Readiness Checklist", blurb: "Test whether your compliance programme would stand up to an audit or inspection." });
   const breadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -174,10 +176,10 @@ export default async function ResourceArticle({
           </aside>
         )}
         <aside className="article-checklist-cta">
-          <p className="section-kicker">Free checklist</p>
+          <p className="section-kicker">{practicalResource ? "Practical guide and Excel template" : "Free checklist"}</p>
           <h2>{checklist.title}</h2>
           <p>{checklist.blurb}</p>
-          <a className="primary-button" href={checklist.href}>Get the checklist</a>
+          <a className="primary-button" href={checklist.href}>{practicalResource ? "Open the guide and template" : "Get the checklist"}</a>
         </aside>
         <ExitIntentOffer href={checklist.href} title={checklist.title} />
         {relatedService && (

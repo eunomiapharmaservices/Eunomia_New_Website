@@ -50,6 +50,7 @@ export default async function ChecklistPage({ params }: { params: Promise<{ slug
             ))}
           </ul>
           <p className="legal-note">{m.note}</p>
+          {slug === "efpia-methodology-note-template" && <p>This PDF focuses on drafting the public methodological note. For the wider preparation process, use our <a href="/resources/disclosure-preparation-checklist">disclosure preparation guide and editable Excel checklist</a>, covering owners, source data and reconciliation.</p>}
           {m.source && <p className="checklist-source">Based on the <a href={m.source.href} target="_blank" rel="noreferrer">{m.source.label}</a>.</p>}
         </div>
         <LeadMagnetForm title={m.title} file={m.file} resourceSlug={m.slug} noun={noun} />

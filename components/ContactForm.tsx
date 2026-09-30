@@ -1,6 +1,7 @@
 "use client";
 import { FormEvent, useRef, useState } from "react";
 import { trackConversion } from "../lib/conversion-tracking";
+import { trackedResource } from "../lib/resource-attribution";
 import { ContactCaptcha } from "./ContactCaptcha";
 export function ContactForm() {
   const [token, setToken] = useState("");
@@ -43,7 +44,7 @@ export function ContactForm() {
       form.reset();
       requestIdentity.current = { fingerprint: "", id: "" };
       setSent(true);
-      trackConversion("enquiry_submitted");
+      trackConversion("enquiry_submitted", trackedResource(new URLSearchParams(window.location.search).get("resource")));
     } catch (failure) {
       setError(failure instanceof Error && failure.name !== "TimeoutError" && failure.name !== "TypeError"
         ? failure.message
