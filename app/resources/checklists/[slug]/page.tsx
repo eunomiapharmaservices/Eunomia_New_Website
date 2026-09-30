@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../../../components/PageFaqs";
+import { downloadFaqs } from "../../../../data/page-faqs";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Check } from "lucide-react";
@@ -52,6 +54,7 @@ export default async function ChecklistPage({ params }: { params: Promise<{ slug
         </div>
         <LeadMagnetForm title={m.title} file={m.file} resourceSlug={m.slug} noun={noun} />
       </section>
+      <PageFaqs faqs={downloadFaqs[slug] ?? []} title={`${m.title}: common questions`} />
       <SiteFooter />
     </main>
   );

@@ -1,3 +1,5 @@
+import { PageFaqs } from "../../components/PageFaqs";
+import { contactFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
 import { withSocial } from "../../lib/seo";
 import { Mail, MapPin, Phone } from "lucide-react";
@@ -59,6 +61,7 @@ export default function Contact() {
           </div>
         </aside>
       </section>
+      <PageFaqs faqs={contactFaqs} title="Getting in touch: common questions" />
       <SiteFooter />
     </main>
   );

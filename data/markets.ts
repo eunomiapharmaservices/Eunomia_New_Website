@@ -322,7 +322,7 @@ export const markets: Market[] = [
     },
     approach: {
       "audience": "For pharmaceutical and biotech companies with Portuguese activities, regional teams covering Iberia or Lusophone markets, and companies setting up their first Portuguese operations. Start with the entities involved and the economic advantages they grant or receive.",
-      "challenge": "Portugal's transparency obligation is statutory and applies to any entity working in the medicines circuit, with declarations made through INFARMED's platform. Companies used to annual code-based disclosure need a process that captures qualifying advantages and makes each declaration, with evidence, rather than one year-end report.",
+      "challenge": "Portugal's transparency obligation is statutory and applies to any entity working in the medicines circuit, with declarations made through INFARMED's platform. Companies used to annual code-based disclosure need a process that captures each benefit as it is granted and declares it within 30 days, with evidence, rather than one year-end report. Recipients then validate the entries, so recipient data must be accurate.",
       "delivery": "With local input from our Portugal-based partner, we can map your activities against Article 159 of the Estatuto do Medicamento, INFARMED advertising requirements and the APIFARMA code, and build the declaration process into your approval and payment workflows. Outputs can include an activity register, a responsibility matrix and a prioritised action plan. Where Portuguese legal advice is required, we identify that need before delivery.",
       "priorities": [
         "Identify which Portuguese interactions involve economic advantages in scope of Article 159.",
@@ -333,44 +333,77 @@ export const markets: Market[] = [
     },
     rules: [
       {
-        title: "Transparency: Article 159 of the Estatuto do Medicamento",
-        body: "Decreto-Lei n.º 176/2006 of 30 August (the Estatuto do Medicamento), as amended by Decreto-Lei n.º 20/2013 and Decreto-Lei n.º 128/2013, requires any entity working in the medicines circuit to declare any economic advantage granted or received.",
+        "title": "Advertising of medicines: Chapter IX of the Estatuto do Medicamento",
+        "body": "Decreto-Lei n.º 176/2006 (the Estatuto do Medicamento) sets the advertising rules in Chapter IX (Articles 150–164). Advertising prescription-only medicines to the general public is prohibited, as is public advertising of narcotic or psychotropic medicines and of medicines reimbursed by the SNS (Article 152). Prescription-only medicines may be advertised only in technical publications or media intended for, and accessible only to, healthcare professionals (Article 154)."
       },
       {
-        title: "INFARMED's transparency platform",
-        body: "Declarations are made through INFARMED's Plataforma de Comunicações – Transparência e Publicidade, which records sponsorships granted or received and produces a public listing from the declarations made.",
+        "title": "INFARMED supervision of advertising",
+        "body": "INFARMED, Portugal’s national authority for medicines and health products, registers and assesses medicines advertising. Companies must send INFARMED a copy of each advertisement within 10 days (Article 164)."
       },
       {
-        title: "Advertising of medicines",
-        body: "Advertising of medicines for human use is supervised by INFARMED, Portugal's national authority for medicines and health products.",
+        "title": "Gifts, benefits and hospitality",
+        "body": "Companies and wholesalers may not give healthcare professionals prizes, gifts or benefits, except items of insignificant value that are relevant to the practice of medicine or pharmacy, and healthcare professionals may not ask for or accept them (Article 158). Fees for active participation, such as presentations, are allowed if they are not linked to prescribing. Hospitality at scientific events is limited to registration, travel and accommodation, from the day before to the day after the event (Article 161)."
       },
       {
-        title: "Industry code: APIFARMA",
-        body: "APIFARMA, the Portuguese pharmaceutical industry association, publishes a Código Deontológico covering promotional practices and interactions with healthcare professionals, and has its own ethics council (Conselho Deontológico).",
+        "title": "Declaring benefits: Article 159",
+        "body": "Any entity covered by the Estatuto must report any benefit it grants to any person or organisation, including healthcare professionals, SNS staff, patient associations and scientific societies, on INFARMED’s website within 30 days of granting it (Article 159(5)). A benefit means any advantage, value, good or right that can be valued in money. Sponsoring an event must be notified to INFARMED in advance, and event records kept for five years."
       },
+      {
+        "title": "INFARMED’s transparency platform",
+        "body": "Declarations are made through INFARMED’s Plataforma de Comunicações – Transparência e Publicidade, used both to report benefits granted and to validate benefits received. Recipients are notified and have 30 days to confirm or dispute an entry; if they do nothing it is treated as tacitly valid. The resulting public listing is published immediately and automatically."
+      },
+      {
+        "title": "Industry code: APIFARMA",
+        "body": "APIFARMA’s Código Deontológico covers promotion and interactions with healthcare professionals and healthcare organisations. The current version was approved on 25 November 2022 and has applied since 1 January 2023. Patient organisations are covered by a separate APIFARMA code of conduct. The Conselho Deontológico, made up of three independent people elected by the General Assembly, enforces the code, and sanctions are published."
+      }
     ],
     sources: [
-      { label: "INFARMED transparency platform", href: "https://www.infarmed.pt/web/infarmed/transparencia-e-publicidade-plataforma-de-comunicacoes" },
-      { label: "INFARMED advertising", href: "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/publicidade-de-medicamentos" },
-      { label: "APIFARMA ethics", href: "https://apifarma.pt/deontologia-apifarma/" },
-      { label: "EFPIA Code", href: "https://www.efpia.eu/relationships-code/the-efpia-code/" },
+      {
+        "label": "Estatuto do Medicamento (INFARMED consolidated text)",
+        "href": "https://www.infarmed.pt/documents/15786/1068535/035-E_DL_176_2006_12ALT/d2ae048e-547e-4c5c-873e-b41004b9027f"
+      },
+      {
+        "label": "INFARMED transparency platform",
+        "href": "https://placotrans.infarmed.pt/"
+      },
+      {
+        "label": "INFARMED circular on the platform (2017)",
+        "href": "https://www.infarmed.pt/documents/15786/1878988/Plataforma+de+Comunica%C3%A7%C3%B5es+Transpar%C3%AAncia+e+Publicidade/c9e66942-2746-4193-b579-7e5949bfb8d5"
+      },
+      {
+        "label": "INFARMED advertising",
+        "href": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/publicidade-de-medicamentos"
+      },
+      {
+        "label": "APIFARMA Código Deontológico (2022)",
+        "href": "https://apifarma.pt/storage/2023/02/Codigo-Deontologico-V11112022.pdf"
+      },
+      {
+        "label": "EFPIA Code",
+        "href": "https://www.efpia.eu/relationships-code/the-efpia-code/"
+      }
     ],
     faqs: [
       {
-        question: "What has to be declared to INFARMED?",
-        answer:
-          "Article 159 of the Estatuto do Medicamento covers economic advantages granted or received by entities in the medicines circuit. We help identify which interactions are in scope and set up the process and evidence behind each declaration.",
+        "question": "What has to be declared to INFARMED, and when?",
+        "answer": "Under Article 159 of the Estatuto do Medicamento, any benefit granted to a person or organisation, including healthcare professionals, must be reported on INFARMED’s platform within 30 days of granting it. Event sponsorship must be notified in advance."
       },
       {
-        question: "Can you review promotional materials for Portugal?",
-        answer:
-          "Yes. We review materials and HCP interactions against Portuguese requirements, the APIFARMA code and your global standards, with local input from our Portugal-based partner.",
+        "question": "Do recipients have to do anything?",
+        "answer": "Yes. Recipients are notified and have 30 days to confirm or dispute the entry on INFARMED’s platform. If they do not respond, the entry is treated as tacitly valid."
       },
       {
-        question: "Can Portugal be covered as part of a wider European model?",
-        answer:
-          "Yes. Local requirements are mapped into your global processes so Portugal is handled consistently with your other European markets.",
+        "question": "Can we give gifts to healthcare professionals in Portugal?",
+        "answer": "Only items of insignificant value that are relevant to the practice of medicine or pharmacy (Article 158). Any benefit granted must still be declared under Article 159."
       },
+      {
+        "question": "Does APIFARMA have its own disclosure deadline?",
+        "answer": "No. The APIFARMA code requires disclosure of transfers of value under national law, so the 30-day declaration rule in Article 159 applies."
+      },
+      {
+        "question": "Can Portugal be covered as part of a wider European model?",
+        "answer": "Yes. We map Portuguese requirements into your global processes, with local input from our Portugal-based partner, so Portugal is handled consistently with your other European markets."
+      }
     ],
   },
 {
