@@ -9,21 +9,21 @@ import {
 import { ServiceSubpage } from "../../../components/ServiceSubpage";
 export const metadata: Metadata = withSocial("/services/automation-of-compliance-operations", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/automation-of-compliance-operations" },
-  title: "Pharma Compliance Automation & EFPIA Disclosure | Eunomia",
+  title: "Pharma Automation Compliance Consulting | UK & Europe | Eunomia",
   description: "Automate pharma compliance workflows, EFPIA disclosure data and monitoring with SharePoint, Power BI and controlled AI, supported by compliance specialists.",
 });
 export default function Page() {
   return (
     <ServiceSubpage
       servicePath="/services/automation-of-compliance-operations"
-      heading="Pharma Compliance Automation and EFPIA Disclosure Support, UK and Europe"
+      heading="Pharma Automation Compliance Consulting, UK and Europe"
       accent="green"
       serviceImage={{ src: "/eunomia-workflow.png", alt: "Planning digital compliance workflows and automated processes" }}
       serviceTitleFirst
       hideScope
       kicker="Automation of Compliance Operations"
       title="Compliant automation deployment, from build to business-as-usual."
-      intro="Our pharma compliance automation services streamline review workflows, monitoring and EFPIA disclosure data processes. Eunomia combines compliance expertise with SharePoint, Power BI and controlled AI to support traceable decisions, human oversight and business-as-usual operations."
+      intro="Our pharma automation compliance consultants streamline review workflows, monitoring and EFPIA disclosure data processes. Eunomia combines compliance expertise with SharePoint, Power BI and controlled AI to support traceable decisions, human oversight and business-as-usual operations."
       services={[
         "AI compliance readiness assessment",
         "SharePoint workflow design and implementation",

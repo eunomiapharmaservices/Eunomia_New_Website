@@ -13,7 +13,7 @@ export const metadata: Metadata = withSocial("/resources", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
-    "Case studies, webinars, e-books and 31 articles on pharmaceutical compliance: transparency reporting, GDPR, fair market value, audit readiness, AI governance and market entry.",
+    "Case studies, webinars, e-books and 36 articles on pharmaceutical compliance: transparency reporting, GDPR, fair market value, audit readiness, AI governance and market entry.",
 });
 
 const featured = [
@@ -38,6 +38,34 @@ const featured = [
     title: "UK & EU Pharma Compliance Guide 2026",
     href: "/resources/checklists/uk-eu-pharma-compliance-guide-2026",
     image: "/home-compliance-team.jpeg",
+    icon: BookOpen,
+  },
+  {
+    type: "Template",
+    title: "EFPIA Disclosure Methodology Note Template",
+    href: "/resources/checklists/efpia-methodology-note-template",
+    image: "/eunomia-workflow.png",
+    icon: FileText,
+  },
+  {
+    type: "Reference",
+    title: "Transparency Disclosure Deadlines by Country",
+    href: "/resources/disclosure-deadlines",
+    image: "/compliance-collaboration.png",
+    icon: BookOpen,
+  },
+  {
+    type: "Reference",
+    title: "PMCPA Case Library",
+    href: "/resources/pmcpa-cases",
+    image: "/home-compliance-team.jpeg",
+    icon: BookOpen,
+  },
+  {
+    type: "Reference",
+    title: "Pharmaceutical Compliance Glossary",
+    href: "/resources/glossary",
+    image: "/eunomia-workflow.png",
     icon: BookOpen,
   },
   {

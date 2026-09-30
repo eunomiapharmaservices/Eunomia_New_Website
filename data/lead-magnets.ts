@@ -4,7 +4,7 @@
 export type ChecklistSection = { heading: string; items: { text: string; ref?: string }[] };
 export type LeadMagnet = {
   slug: string;
-  kind?: "checklist" | "guide" | "pack";
+  kind?: "checklist" | "guide" | "pack" | "template";
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -221,6 +221,47 @@ export const leadMagnets: LeadMagnet[] = [
         { text: "Before 1 June: Netherlands, report to the Transparantieregister Zorg (published mid-July).", ref: "Transparantieregister" },
         { text: "June: Spain, Farmaindustria Code disclosures published on company websites.", ref: "Farmaindustria" },
         { text: "By 30 June: EFPIA Code disclosure deadline (six months after year end); Italy, Farmindustria disclosures.", ref: "EFPIA; Farmindustria" },
+      ] },
+    ],
+  },
+  {
+    slug: "efpia-methodology-note-template",
+    kind: "template",
+    title: "EFPIA Disclosure Methodology Note Template",
+    metaTitle: "EFPIA Methodology Note Template (free download) | Eunomia",
+    metaDescription: "A free template for your EFPIA transfers-of-value methodology note, following the mandatory Annex B structure of the EFPIA Code of Practice 2026.",
+    summary: "A working template for the methodology note that must accompany HCP/HCO disclosures, laid out in the mandatory Annex B structure of the EFPIA Code of Practice 2026, with prompts for what to cover under each heading.",
+    audience: "Compliance, finance and transparency reporting teams preparing EFPIA-based disclosures, including Disclosure UK.",
+    file: "/downloads/eunomia-efpia-methodology-note-template.pdf",
+    note: "The headings follow Annex B of the EFPIA Code of Practice 2026. The prompts under each heading are Eunomia’s practical suggestions; national codes may add requirements. Not legal advice.",
+    source: { label: "EFPIA Code of Practice 2026", href: "https://www.efpia.eu/media/uzqpperi/efpia-code-of-practice-2026.pdf" },
+    sections: [
+      { heading: "1. Definitions", items: [
+        { text: "Define recipients (HCP, HCO) and transfers of value as used in your disclosure, consistent with the applicable national code.", ref: "Annex B" },
+        { text: "Explain any company-specific terms used in the report." },
+      ] },
+      { heading: "2. Disclosure scope", items: [
+        { text: "State the reporting period (a full calendar year) and the legal entities and countries covered.", ref: "Art. 22.01" },
+        { text: "List the categories disclosed: donations and grants to HCOs, contributions to costs related to events, and fees for service and consultancy, with fees and expenses shown separately.", ref: "Art. 23.03" },
+        { text: "Explain how research and development transfers of value are identified and disclosed in aggregate." },
+      ] },
+      { heading: "3. Specific considerations", items: [
+        { text: "Describe how cross-border transfers of value and payments through third parties are handled." },
+        { text: "Explain the treatment of multi-year contracts, cancelled events and partial attendance." },
+      ] },
+      { heading: "4. Data protection legal basis", items: [
+        { text: "State whether you rely on consent or legitimate interest for naming HCPs.", ref: "Annex B" },
+        { text: "If consent: describe how consent is collected and withdrawn, and how refusals are disclosed in aggregate." },
+        { text: "If legitimate interest: summarise the balancing test and how recipients can exercise the right to object." },
+      ] },
+      { heading: "5. Form of disclosure", items: [
+        { text: "Give the date of publication and the platform (company website or central platform).", ref: "Art. 22.03" },
+        { text: "State the language and currency, and whether amounts include or exclude VAT.", ref: "Annex B" },
+        { text: "Explain calculation rules, for example exchange rates and the date used to allocate a transfer to a period." },
+        { text: "Confirm the report is machine-readable, downloadable and searchable by recipient name.", ref: "Annex B" },
+      ] },
+      { heading: "6. Additional information", items: [
+        { text: "Add any national requirements and a contact point for questions about the disclosure." },
       ] },
     ],
   },

@@ -28,7 +28,7 @@ export default async function ChecklistPage({ params }: { params: Promise<{ slug
   const m = getLeadMagnet(slug);
   if (!m) notFound();
   const url = `${SITE}/resources/checklists/${slug}`;
-  const noun = m.kind === "guide" ? "guide" : m.kind === "pack" ? "pack" : "checklist";
+  const noun = m.kind === "guide" ? "guide" : m.kind === "pack" ? "pack" : m.kind === "template" ? "template" : "checklist";
   const unit = m.kind === "checklist" || !m.kind ? "checks" : "points";
   return (
     <main>

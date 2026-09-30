@@ -16,6 +16,12 @@ export const articleCategories: ArticleCategory[] = [
 
 // Primary category first.
 export const articleCategoryMap: Record<string, string[]> = {
+  "pmcpa-case-lessons-2026": ["abpi-code-pmcpa", "regulatory-updates"],
+  "abpi-signatory-certification-requirements": ["abpi-code-pmcpa", "compliance-programmes"],
+  "failure-to-prevent-fraud-pharma": ["regulatory-updates", "third-party-due-diligence"],
+  "efpia-disclosure-requirements-template": ["efpia-code-compliance", "hcp-engagement-transparency"],
+  "disclosure-uk-guide": ["hcp-engagement-transparency", "abpi-code-pmcpa"],
+  "eu-ai-act-pharma": ["ai-digital-compliance", "regulatory-updates"],
   "gdpr-and-transparency-reporting-hcp-disclosure": ["gdpr-data-compliance", "hcp-engagement-transparency"],
   "hcp-personal-data-gdpr-crm-fmv-engagement-records": ["gdpr-data-compliance", "hcp-engagement-transparency"],
   "a-definitive-guide-to-crafting-a-high-quality-policy-for-a-pharmaceutical-company": ["compliance-programmes"],
@@ -24,7 +30,6 @@ export const articleCategoryMap: Record<string, string[]> = {
   "compliance-gap-analysis-reducing-risk-without-slowing-growth": ["compliance-programmes"],
   "compliance-training-beyond-the-code": ["abpi-code-pmcpa", "compliance-programmes"],
   "digitalisation-in-pharma-industry": ["ai-digital-compliance"],
-  "ensure-audit-readiness-in-pharma-compliance": ["compliance-programmes"],
   "entering-phase-iii-compliance-expectations-already-have": ["compliance-programmes", "efpia-code-compliance"],
   "fair-market-value-fmv-in-healthcare-compliance": ["hcp-engagement-transparency"],
   "from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage": ["third-party-due-diligence"],

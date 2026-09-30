@@ -6,8 +6,8 @@ import { ArrowUpRight, Bot, MapPinned, ShieldCheck, UsersRound } from "lucide-re
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 export const metadata: Metadata = withSocial("/services", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services" },
-  title: "Healthcare Compliance Services for Pharma & Biotech | Eunomia",
-  description: "Healthcare compliance programme design, compliance automation, local legal representation and shared services for pharmaceutical and biotech companies.",
+  title: "Pharma Compliance Services & Consulting | UK and Europe | Eunomia",
+  description: "Pharma compliance services and healthcare compliance consulting for pharmaceutical and biotech companies: programme design, automation, local legal mandates and shared services.",
 });
 const services = [
   {
@@ -55,7 +55,9 @@ export default function Services() {
           <p className="section-kicker">Our services</p>
           <h1>Four services. One connected compliance model.</h1>
           <p>
-            Each service has its own scope, delivery team and guidance. Use one
+            Pharma compliance services and healthcare compliance consulting for
+            pharmaceutical and biotech companies in the UK and Europe. Each
+            service has its own scope, delivery team and guidance. Use one
             independently or connect them as your organisation grows across
             markets.
           </p>

@@ -58,7 +58,7 @@
     ]
   },
   "transparency-reporting-in-pharmaceutical-industry": {
-    "updated": "2026-09-28",
+    "updated": "2026-09-30",
     "question": "What does pharmaceutical transparency reporting involve?",
     "answer": "Transparency reporting involves identifying, reconciling and disclosing reportable transfers of value under the rules applicable to a company, recipient and market. Those rules can arise from legislation or industry-code commitments, and they are not identical across countries. An operational process connects engagement records and finance data to the relevant disclosure categories, with documented checks before publication.",
     "stepsHeading": "Build disclosure into the engagement workflow",
@@ -81,6 +81,14 @@
       }
     ],
     "links": [
+      {
+        "label": "EFPIA disclosure requirements and template",
+        "href": "/resources/articles/efpia-disclosure-requirements-template"
+      },
+      {
+        "label": "Disclosure deadlines by country",
+        "href": "/resources/disclosure-deadlines"
+      },
       {
         "label": "Connect disclosure with FMV governance",
         "href": "/resources/articles/fair-market-value-fmv-in-healthcare-compliance"
@@ -213,7 +221,7 @@
     ]
   },
   "top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid": {
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "question": "What are the most common transparency reporting mistakes in pharma?",
     "answer": "The most common mistakes are treating transparency as a year-end exercise, missing HCP details, contracts or FMV documentation, siloed working between Medical, Commercial, Finance, Procurement and Compliance, overlooking local disclosure rules, relying on spreadsheets with weak master data, and misclassifying transfers of value such as consultancy fees, sponsorships and grants. Most stem from fragmented processes rather than deliberate non-compliance.",
     "stepsHeading": "How to avoid them",
@@ -236,6 +244,10 @@
       }
     ],
     "links": [
+      {
+        "label": "Disclosure UK guide",
+        "href": "/resources/articles/disclosure-uk-guide"
+      },
       {
         "label": "Use the EFPIA Code Self-Assessment Checklist",
         "href": "/resources/checklists/efpia-code-self-assessment-checklist"
@@ -451,7 +463,7 @@
     ]
   },
   "sunshine-act-in-france-transparency-healthcare-system": {
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "question": "What is the French Sunshine Act and who must report?",
     "answer": "The French Sunshine Act, established under the Loi Bertrand, requires companies producing or marketing health products to publicly disclose agreements with, benefits given to and remuneration paid to healthcare stakeholders. Disclosures are published on the government-managed Transparence Santé database, making France one of the most stringent transparency regimes in Europe.",
     "stepsHeading": "Getting French reporting right",
@@ -519,7 +531,7 @@
     ]
   },
   "audit-readiness-best-practices": {
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "question": "How can European life sciences companies stay audit-ready?",
     "answer": "By treating audit readiness as a continuous discipline rather than an annual checkpoint. The article sets out four practices: harmonise SOPs and policies across markets, adopt real-time monitoring of payments and engagements, apply a consistent FMV framework, and train and empower teams.",
     "stepsHeading": "Four practices",
@@ -960,40 +972,6 @@
       }
     ]
   },
-  "ensure-audit-readiness-in-pharma-compliance": {
-    "updated": "2026-09-29",
-    "question": "How do you make audit readiness part of everyday compliance?",
-    "answer": "By embedding it into operations rather than preparing when an audit is announced. That means robust SOPs, documented roles and escalation paths, automated approvals and version control, centralised documentation, real-time tracking of risks, a strong compliance culture and regular mock inspections.",
-    "stepsHeading": "Always-on audit readiness",
-    "steps": [
-      "Centralise documentation so evidence is retrievable.",
-      "Automate approval workflows and version control.",
-      "Run mock inspections and act on findings.",
-      "Give people a safe route to report issues early."
-    ],
-    "sources": [
-      {
-        "title": "SFO: Evaluating a corporate compliance programme",
-        "url": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
-        "context": "How the UK Serious Fraud Office assesses whether a compliance programme works in practice."
-      },
-      {
-        "title": "Ministry of Justice: Bribery Act 2010 guidance",
-        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
-        "context": "UK guidance on adequate procedures to prevent bribery; it is not a healthcare-specific checklist."
-      }
-    ],
-    "links": [
-      {
-        "label": "Explore programme design and implementation",
-        "href": "/services/governance-assurance"
-      },
-      {
-        "label": "Use the Pharma Compliance Readiness Checklist",
-        "href": "/resources/checklists/pharma-compliance-readiness-checklist"
-      }
-    ]
-  },
   "staying-ahead-in-healthcare-compliance-navigating-ai-challenges-with-ethical-governance": {
     "updated": "2026-09-29",
     "question": "How should healthcare compliance teams govern their use of AI?",
@@ -1138,6 +1116,265 @@
       {
         "label": "GDPR and transparency reporting",
         "href": "/resources/articles/gdpr-and-transparency-reporting-hcp-disclosure"
+      }
+    ]
+  },
+  "pmcpa-case-lessons-2026": {
+    "updated": "2026-09-30",
+    "question": "What do recent PMCPA cases tell pharma compliance teams?",
+    "answer": "In 12 cases completed between February and August 2026, the recurring themes were social media (including employees’ own LinkedIn posts), press releases and media coverage, certification lapses, prescribing information and whether company involvement was made clear. Four of the 12 included a breach of Clause 2.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "Bring personal social media and job adverts into your review scope.",
+      "Treat press releases that can reach the UK as in scope for UK review.",
+      "Give every live material an owner and a recertification date.",
+      "Check prescribing information against the current SmPC at each certification.",
+      "Use real cases in training and monitoring."
+    ],
+    "sources": [
+      {
+        "title": "PMCPA: completed cases",
+        "url": "https://www.pmcpa.org.uk/cases/completed-cases/",
+        "context": "The published case reports summarised in this article; each case is linked in the table."
+      },
+      {
+        "title": "PMCPA: 2024 ABPI Code of Practice",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/",
+        "context": "The clauses referred to in the case rulings."
+      }
+    ],
+    "links": [
+      {
+        "label": "PMCPA case library",
+        "href": "/resources/pmcpa-cases"
+      },
+      {
+        "label": "Pharma Compliance Audits in the UK",
+        "href": "/services/governance-assurance/pharma-compliance-audits"
+      },
+      {
+        "label": "Pharmaceutical Compliance Training in the UK",
+        "href": "/services/governance-assurance/pharma-compliance-training"
+      }
+    ]
+  },
+  "abpi-signatory-certification-requirements": {
+    "updated": "2026-09-30",
+    "question": "What are the ABPI Code requirements for signatories?",
+    "answer": "Under Clause 8 of the 2024 ABPI Code, promotional material must be certified in its final form by a nominated signatory who is a registered medical practitioner or a UK-registered pharmacist (or dentist for dental-only products) and did not create the material. Signatories must be notified to the MHRA and PMCPA, material in use must be recertified at least every two years, and records kept for at least three years after final use.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "Keep the list of nominated signatories current and notify changes.",
+      "Certify only the final form of material.",
+      "Set recertification dates of no more than two years.",
+      "Keep certificates with the certified material and distribution details.",
+      "Examine non-certified material such as press releases."
+    ],
+    "sources": [
+      {
+        "title": "PMCPA: Clause 8 – Certification and Examination",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-8-certification-and-examination/",
+        "context": "Clauses 8.1–8.6 and supplementary information on signatories, certification and records."
+      },
+      {
+        "title": "PMCPA: Clause 9 – Training",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-9-training/",
+        "context": "Requirement for relevant personnel to be fully conversant with the Code."
+      },
+      {
+        "title": "PMCPA: Nominated signatories form",
+        "url": "https://www.pmcpa.org.uk/training/nominated-signatories-form/",
+        "context": "How companies notify the PMCPA of signatories."
+      }
+    ],
+    "links": [
+      {
+        "label": "Shared Services: materials review",
+        "href": "/services/shared-services"
+      },
+      {
+        "label": "SOP and Policy Development for Pharma in the UK",
+        "href": "/services/governance-assurance/sop-policy-development"
+      },
+      {
+        "label": "Lessons from recent PMCPA cases",
+        "href": "/resources/articles/pmcpa-case-lessons-2026"
+      }
+    ]
+  },
+  "failure-to-prevent-fraud-pharma": {
+    "updated": "2026-09-30",
+    "question": "What does the failure to prevent fraud offence mean for pharma companies?",
+    "answer": "Since 1 September 2025, a large organisation can be liable if an associated person, such as an employee, agent, subsidiary or service provider, commits a specified fraud intending to benefit it or its clients, unless it had reasonable fraud prevention procedures. Under ECCTA, large means meeting two of: more than 250 employees, £36 million turnover or £18 million assets.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "Check scope at group level using the previous financial year.",
+      "Extend the risk assessment to fraud risks in scope.",
+      "Add fraud risk to third-party due diligence and contracts.",
+      "Update policies and training.",
+      "Monitor, review and document decisions."
+    ],
+    "sources": [
+      {
+        "title": "Home Office: Offence of failure to prevent fraud introduced by ECCTA",
+        "url": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+        "context": "Guidance on scope, associated persons, base fraud offences and the six principles of reasonable procedures."
+      },
+      {
+        "title": "Ministry of Justice: Bribery Act 2010 guidance",
+        "url": "https://www.gov.uk/government/publications/bribery-act-2010-guidance",
+        "context": "The six principles of adequate procedures that the fraud guidance mirrors."
+      }
+    ],
+    "links": [
+      {
+        "label": "Pharmaceutical Risk Assessment Services in the UK",
+        "href": "/services/governance-assurance/pharma-risk-assessment"
+      },
+      {
+        "label": "Pharma Compliance Monitoring Services in the UK",
+        "href": "/services/governance-assurance/pharma-compliance-monitoring"
+      },
+      {
+        "label": "Third-party risk management",
+        "href": "/resources/articles/from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage"
+      }
+    ]
+  },
+  "efpia-disclosure-requirements-template": {
+    "updated": "2026-09-30",
+    "question": "What does the EFPIA Code require for disclosure of transfers of value?",
+    "answer": "Annual disclosure for each calendar year within six months of year end, with a common publication window of 20–30 June under the 2026 Code; individual disclosure unless legally impossible; R&D in aggregate; the binding Annex A templates; and a methodology note following the mandatory Annex B structure. Disclosures stay public for three years and records are kept for five.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "Map every ToV source to the right category.",
+      "Document the data protection basis for naming HCPs.",
+      "Separate fees from expenses and R&D from other ToVs.",
+      "Draft the methodology note in the Annex B structure.",
+      "Plan publication inside the 20–30 June window and national deadlines."
+    ],
+    "sources": [
+      {
+        "title": "EFPIA Code of Practice 2026 (PDF)",
+        "url": "https://www.efpia.eu/media/uzqpperi/efpia-code-of-practice-2026.pdf",
+        "context": "Chapter 5, Articles 22–24, Annex A templates and Annex B methodology note structure."
+      },
+      {
+        "title": "EFPIA: The EFPIA Code",
+        "url": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+        "context": "Overview of the Code and its national transposition."
+      }
+    ],
+    "links": [
+      {
+        "label": "EFPIA methodology note template",
+        "href": "/resources/checklists/efpia-methodology-note-template"
+      },
+      {
+        "label": "Disclosure deadlines by country",
+        "href": "/resources/disclosure-deadlines"
+      },
+      {
+        "label": "Shared Services: transparency reporting",
+        "href": "/services/shared-services"
+      }
+    ]
+  },
+  "disclosure-uk-guide": {
+    "updated": "2026-09-30",
+    "question": "How does Disclosure UK work?",
+    "answer": "Disclosure UK is the ABPI’s central platform for UK disclosure of transfers of value under Clause 28 of the ABPI Code. For 2026 data, companies submit by 31 March 2027 and data is published on 30 June 2027. HCPs can review data before publication and object; most companies rely on consent, while the ABPI champions legitimate interests.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "Capture transfers of value at source, including agencies.",
+      "Keep one record of each HCP’s consent or objection.",
+      "Reconcile before the March submission deadline.",
+      "Assign an owner for queries during review.",
+      "Submit gateway links for patient organisation and public disclosures on time."
+    ],
+    "sources": [
+      {
+        "title": "ABPI: Disclosure UK",
+        "url": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+        "context": "The 2027 timeline for 2026 disclosure data."
+      },
+      {
+        "title": "PMCPA: Clause 28 – Annual disclosure",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-28-annual-disclosure-of-transfers-of-value-to-health-professionals-other-relevant-decision-makers-and-healthcare-organisations/",
+        "context": "What must be disclosed and the requirement to use Disclosure UK."
+      },
+      {
+        "title": "PMCPA: Clause 31 – Timings, duration and retention",
+        "url": "https://www.pmcpa.org.uk/the-code/2024-interactive-abpi-code-of-practice/clause-31-timings-duration-and-retention-of-disclosure-information/",
+        "context": "Annual disclosure within six months; three years public; five years records."
+      },
+      {
+        "title": "ABPI: Disclosure UK – What is Legitimate Interests? (December 2025)",
+        "url": "https://www.abpi.org.uk/media/xlxffupt/abpi-legitimate-interests-factsheet-december-2025.pdf",
+        "context": "Consent, legitimate interests, objections and HCO data."
+      }
+    ],
+    "links": [
+      {
+        "label": "GDPR and transparency reporting",
+        "href": "/resources/articles/gdpr-and-transparency-reporting-hcp-disclosure"
+      },
+      {
+        "label": "Disclosure deadlines by country",
+        "href": "/resources/disclosure-deadlines"
+      },
+      {
+        "label": "Shared Services: transparency reporting",
+        "href": "/services/shared-services"
+      }
+    ]
+  },
+  "eu-ai-act-pharma": {
+    "updated": "2026-09-30",
+    "question": "What does the EU AI Act mean for pharmaceutical companies?",
+    "answer": "The Act entered into force on 1 August 2024. Prohibitions and AI literacy apply from 2 February 2025 and general-purpose AI rules from 2 August 2025. After the 2026 AI Omnibus, high-risk rules apply from 2 December 2027 for Annex III uses such as recruitment, and 2 August 2028 for AI in regulated products such as medical devices.",
+    "stepsHeading": "Practical steps",
+    "steps": [
+      "List the AI systems you use or plan to use.",
+      "Classify each by risk category.",
+      "Put AI literacy measures and human oversight in place.",
+      "Add AI disclosures where Article 50 applies.",
+      "Connect AI governance to GDPR, vendor due diligence and promotional review."
+    ],
+    "sources": [
+      {
+        "title": "Regulation (EU) 2024/1689 (EU AI Act)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+        "context": "Articles 4, 5, 6, 26, 50 and 113, and Annexes I and III."
+      },
+      {
+        "title": "Regulation (EU) 2026/1744 (AI Omnibus)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744",
+        "context": "Amended application dates and Article 4."
+      },
+      {
+        "title": "European Commission: AI Act regulatory framework",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "context": "Entry into force, application timeline and Omnibus status."
+      },
+      {
+        "title": "EMA: Reflection paper on AI in the medicinal product lifecycle",
+        "url": "https://www.ema.europa.eu/en/use-artificial-intelligence-ai-medicinal-product-lifecycle-scientific-guideline",
+        "context": "Principles for AI across the medicines lifecycle, adopted September 2024."
+      }
+    ],
+    "links": [
+      {
+        "label": "Automation of Compliance Operations",
+        "href": "/services/automation-of-compliance-operations"
+      },
+      {
+        "label": "AI in healthcare compliance",
+        "href": "/resources/articles/ai-in-healthcare-compliance"
+      },
+      {
+        "label": "HCP personal data under GDPR",
+        "href": "/resources/articles/hcp-personal-data-gdpr-crm-fmv-engagement-records"
       }
     ]
   }
