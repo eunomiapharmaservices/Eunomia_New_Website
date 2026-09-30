@@ -161,6 +161,14 @@ export const ukServicePages: UkServicePage[] = [
       "answer": "Defined steps such as collecting evidence, routing approvals, recording exceptions and reporting can be supported through controlled workflows. Accountable reviewers retain the decisions and approved methodology."
     },
     {
+      "question": "How long does an FMV project take?",
+      "answer": "Eunomia’s FMV projects typically take one to three months, depending on the number of countries covered. We agree the scope, required inputs and delivery timeline before work begins."
+    },
+    {
+      "question": "Does Eunomia provide FMV assessments for clinical-trial budgets or pricing?",
+      "answer": "No. Our FMV services focus on HCP compensation and engagement frameworks. We do not provide clinical-trial budget or pricing assessments."
+    },
+    {
       "question": "How do we start?",
       "answer": "Bring your current methodology, engagement types, countries, rate cards and known concerns. We agree a focused review or a wider framework project. Share confidential records only through an agreed secure channel."
     }
