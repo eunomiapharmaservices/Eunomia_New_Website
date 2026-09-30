@@ -8,6 +8,7 @@ export type LegacyRedirect = { source: string; destination: string; permanent: t
 const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
 
 export const legacyRedirects: LegacyRedirect[] = [
+  { source: "/about", destination: "/team", permanent: true },
   // Merged into audit-readiness-best-practices (30 Sep 2026).
   { source: "/resources/articles/ensure-audit-readiness-in-pharma-compliance", destination: "/resources/articles/audit-readiness-best-practices", permanent: true },
   { source: "/ensure-audit-readiness-in-pharma-compliance", destination: "/resources/articles/audit-readiness-best-practices", permanent: true },

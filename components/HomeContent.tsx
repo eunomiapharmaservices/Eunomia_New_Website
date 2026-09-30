@@ -14,7 +14,7 @@ export function CompanyBrief() {
   return <section className={`${styles.section} section-pad`} aria-labelledby="company-brief-title">
     <div className={styles.split}>
       <div><p className="section-kicker">Who we are</p><h2 id="company-brief-title">Pharmaceutical compliance expertise. Practical operational support.</h2></div>
-      <div><p>Eunomia Pharma Services is a UK-based healthcare compliance provider supporting pharmaceutical and biotech organisations across international markets. We bring compliance specialists, operational teams and technical expertise together around the work your organisation needs to deliver.</p><p>We can help build the framework, put it into practice and provide capacity to run it. Whether you are preparing for commercialisation, expanding into a new market or improving an established function, we agree the scope around your activities, people and systems.</p><a className={styles.link} href="/about">Get to know Eunomia →</a></div>
+      <div><p>Eunomia Pharma Services is a UK-based healthcare compliance provider supporting pharmaceutical and biotech organisations across international markets. We bring compliance specialists, operational teams and technical expertise together around the work your organisation needs to deliver.</p><p>We can help build the framework, put it into practice and provide capacity to run it. Whether you are preparing for commercialisation, expanding into a new market or improving an established function, we agree the scope around your activities, people and systems.</p><a className={styles.link} href="/team">Get to know Eunomia →</a></div>
     </div>
   </section>;
 }

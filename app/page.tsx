@@ -81,7 +81,7 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
         <div className="hero-copy">
-          <p className="home-location-line">UK-based pharmaceutical compliance expertise. Global delivery.</p>
+          <p className="home-location-line">Headquartered in the UK with global coverage</p>
           <h1>
             <span className="hero-title-green">Global Healthcare Compliance Services</span>{" "}<span className="hero-title-orange">powered by Automation</span>
           </h1>
