@@ -5,8 +5,8 @@ import { disclosureDeadlines } from "../../../data/reference-pages";
 
 const PATH = "/resources/disclosure-deadlines";
 export const metadata: Metadata = withSocial(PATH, {
-  title: "Pharma Transparency Disclosure Deadlines by Country | Eunomia",
-  description: "Transfer of value disclosure deadlines and platforms by country: EFPIA, UK Disclosure UK, Germany, Ireland, Spain, Italy, the Netherlands, Portugal, Sweden and France.",
+  title: "Pharma Disclosure Deadlines by Country | Eunomia",
+  description: "Compare pharma transfer-of-value disclosure deadlines and reporting platforms across the UK and Europe, with links to country-specific requirements.",
   alternates: { canonical: `https://www.eunomiapharmaservices.com${PATH}` },
 });
 

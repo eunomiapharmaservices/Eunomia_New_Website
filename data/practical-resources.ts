@@ -46,7 +46,7 @@ export const practicalResources: PracticalResource[] = [
   {
     slug: "disclosure-preparation-checklist",
     title: "Disclosure preparation checklist and methodological-note guide",
-    metaTitle: "EFPIA Disclosure Checklist & Methodological Note Guide | Eunomia",
+    metaTitle: "EFPIA Disclosure Checklist & Methodology Guide | Eunomia",
     description: "Prepare HCP and HCO transfer-of-value disclosures with a reconciliation checklist, methodological-note drafting guide and editable preparation workbook.",
     intro: "Disclosure preparation connects source transactions, recipient records, classification decisions and publication. This HCP/HCO checklist helps finance, compliance and shared-service teams organise that work and explain their approach in a methodological note.",
     download: "eunomia-disclosure-preparation.xlsx", downloadLabel: "Download the disclosure workbook (.xlsx)",
@@ -82,7 +82,7 @@ export const practicalResources: PracticalResource[] = [
     slug: "promotional-review-workflow",
     title: "Pharmaceutical promotional review workflow guide",
     metaTitle: "Pharma Promotional Review Workflow & Checklist | Eunomia",
-    description: "Map pharmaceutical promotional review from submission to certification, release and withdrawal, with an editable checklist and automation and shared-service guidance.",
+    description: "Map pharma promotional review from submission to withdrawal with an editable checklist, automation guidance and shared-service support.",
     intro: "A promotional review workflow should make the material, its intended use, the decision and the authorised version easy to trace. This guide helps UK pharmaceutical teams organise submissions, specialist review, certification and release, with clear hand-offs for shared services and automation.",
     download: "eunomia-promotional-review-workflow.xlsx", downloadLabel: "Download the workflow checklist (.xlsx)",
     scope: "Suggested operating workflow for adaptation to company SOPs and applicable local rules. The checklist records preparation and hand-offs; it is not a certification record or an approval system.",

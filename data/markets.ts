@@ -23,7 +23,7 @@ export const markets: Market[] = [
   "slug": "ireland",
   "country": "Ireland",
   "metaTitle": "Pharmaceutical Compliance Support in Ireland | Eunomia",
-  "metaDescription": "Plan pharma compliance in Ireland: HPRA advertising requirements, IPHA Code considerations, HCP engagements and transfers of value, connected to your operating model.",
+  "metaDescription": "Pharma compliance support in Ireland covering HPRA advertising rules, the IPHA Code, HCP engagements and transfer-of-value reporting.",
   "title": "Pharmaceutical compliance support in Ireland",
   "intro": "Eunomia helps pharmaceutical and biotech teams plan compliance support for activities in Ireland. We connect programme design, review workflows and disclosure readiness with the Irish market context, agreeing the expertise and scope needed before work begins.",
   "approach": {
@@ -310,7 +310,7 @@ export const markets: Market[] = [
     country: "Portugal",
     metaTitle: "Pharmaceutical Compliance Support in Portugal | Eunomia",
     metaDescription:
-      "Pharma compliance support in Portugal: INFARMED transparency declarations under Article 159 of the Estatuto do Medicamento, advertising rules and the APIFARMA code.",
+      "Pharma compliance support in Portugal covering INFARMED transparency declarations, medicines advertising rules and the APIFARMA Code.",
     title: "Pharmaceutical compliance support in Portugal",
     intro:
       "Local compliance support for pharmaceutical and biotech companies working in Portugal, covering INFARMED transparency declarations, advertising rules and the APIFARMA code, with a named Portuguese business partner.",
@@ -410,7 +410,7 @@ export const markets: Market[] = [
   "slug": "spain",
   "country": "Spain",
   "metaTitle": "Pharmaceutical Compliance Support in Spain | Eunomia",
-  "metaDescription": "Pharma compliance support in Spain: incentives and advertising rules under RDL 1/2015 and RD 1416/1994, the Farmaindustria Code and transfers-of-value disclosure.",
+  "metaDescription": "Pharma compliance support in Spain covering medicines advertising, incentives, the Farmaindustria Code and transfer-of-value disclosure.",
   "title": "Pharmaceutical compliance support in Spain",
   "intro": "Local compliance support for pharmaceutical and biotech companies working in Spain, connecting Spanish medicines law and the Farmaindustria Code of Good Practice to your global governance, with a named business partner for Spain.",
   "lead": {
@@ -501,7 +501,7 @@ export const markets: Market[] = [
   "slug": "italy",
   "country": "Italy",
   "metaTitle": "Pharmaceutical Compliance Support in Italy | Eunomia",
-  "metaDescription": "Pharma compliance support in Italy: advertising and gift rules under D.Lgs. 219/2006, AIFA notification of congresses, the Farmindustria Code, the Sunshine Act and D.Lgs. 231/2001.",
+  "metaDescription": "Pharma compliance support in Italy covering advertising, gifts, AIFA congress notifications, the Farmindustria Code and transparency requirements.",
   "title": "Pharmaceutical compliance support in Italy",
   "intro": "Local compliance support for pharmaceutical and biotech companies working in Italy, connecting Italian medicines law, AIFA procedures and the Farmindustria Code to your global governance, with a named business partner for Italy.",
   "lead": {
@@ -591,8 +591,8 @@ export const markets: Market[] = [
 {
   "slug": "netherlands",
   "country": "Netherlands",
-  "metaTitle": "Pharmaceutical Compliance Support in the Netherlands | Eunomia",
-  "metaDescription": "Plan pharma compliance in the Netherlands: Geneesmiddelenwet inducement rules, IGJ policy, the CGR code, Transparantieregister Zorg and public advertising review.",
+  "metaTitle": "Pharma Compliance Support in the Netherlands | Eunomia",
+  "metaDescription": "Pharma compliance support in the Netherlands: inducement rules, the CGR Code, transparency reporting and medicines advertising review.",
   "title": "Pharmaceutical compliance support in the Netherlands",
   "intro": "Eunomia helps pharmaceutical and biotech teams plan compliance support for activities in the Netherlands, connecting Dutch inducement and advertising rules, the CGR code and Transparantieregister Zorg reporting with your global governance. We agree the expertise and scope needed before work begins.",
   "approach": {

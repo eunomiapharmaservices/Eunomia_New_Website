@@ -20,9 +20,9 @@ export const leadMagnets: LeadMagnet[] = [
   {
     slug: "pharma-compliance-readiness-checklist",
     title: "Pharma Compliance Readiness Checklist",
-    metaTitle: "Pharma Compliance Readiness Checklist (free download) | Eunomia",
+    metaTitle: "Pharma Compliance Readiness Checklist | Eunomia",
     metaDescription:
-      "A practical checklist to test whether your pharmaceutical compliance programme is ready for audit, inspection and growth: governance, risk, HCP engagement, transparency and more.",
+      "Check pharma compliance readiness with a free checklist covering governance, risk, HCP engagement, transparency and evidence for audits and inspections.",
     summary:
       "A practical self-check for pharmaceutical and biotech companies: is your compliance programme working day to day, and would the evidence stand up to an audit or inspection?",
     audience: "Compliance leads, medical affairs and leadership teams at emerging biotech and small to mid-sized pharma.",
@@ -84,9 +84,9 @@ export const leadMagnets: LeadMagnet[] = [
   {
     slug: "efpia-code-self-assessment-checklist",
     title: "EFPIA Code Self-Assessment Checklist",
-    metaTitle: "EFPIA Code Self-Assessment Checklist 2026 (free download) | Eunomia",
+    metaTitle: "EFPIA Code Self-Assessment Checklist 2026 | Eunomia",
     metaDescription:
-      "A self-assessment checklist against the EFPIA Code of Practice (2026): promotion, events and hospitality, gifts, contracted services, samples, patient organisations and disclosure.",
+      "Assess your processes against the EFPIA Code with a free checklist covering promotion, hospitality, services, samples, patient groups and disclosure.",
     summary:
       "Check your processes against the main requirements of the EFPIA Code of Practice (2026 edition), article by article: promotion, events and hospitality, gifts, donations, contracted services, samples, patient organisations and disclosure.",
     audience: "Compliance, medical and commercial teams at companies operating under EFPIA-member national codes.",
@@ -148,7 +148,7 @@ export const leadMagnets: LeadMagnet[] = [
     slug: "pharma-compliance-case-studies-pack",
     kind: "pack",
     title: "Pharma Compliance Case Studies Pack",
-    metaTitle: "Pharma Compliance Case Studies Pack (free download) | Eunomia",
+    metaTitle: "Pharma Compliance Case Studies Pack | Eunomia",
     metaDescription:
       "Two Eunomia case studies in one download: a five-market HCP fair market value methodology and a shared-service materials review for a UK pharmaceutical company.",
     summary:
@@ -182,9 +182,9 @@ export const leadMagnets: LeadMagnet[] = [
     slug: "uk-eu-pharma-compliance-guide-2026",
     kind: "guide",
     title: "UK & EU Pharma Compliance Guide 2026",
-    metaTitle: "UK & EU Pharma Compliance Guide 2026 (free download) | Eunomia",
+    metaTitle: "UK & EU Pharma Compliance Guide 2026 | Eunomia",
     metaDescription:
-      "Key UK and EU pharmaceutical compliance frameworks and dates for 2026 in one guide: ABPI and EFPIA Codes, anti-bribery, failure to prevent fraud, data protection and eight country summaries.",
+      "Download a UK and EU pharma compliance guide covering ABPI, EFPIA, anti-bribery, fraud prevention, data protection and country-specific frameworks.",
     summary:
       "The frameworks, dates and disclosure deadlines that shape pharmaceutical compliance in the UK and Europe in 2026, with a one-line summary of each and a link to the official source.",
     audience: "Compliance, legal and leadership teams planning the year ahead across the UK and European markets.",
@@ -228,7 +228,7 @@ export const leadMagnets: LeadMagnet[] = [
     slug: "efpia-methodology-note-template",
     kind: "template",
     title: "EFPIA Disclosure Methodology Note Template",
-    metaTitle: "EFPIA Methodology Note Template (free download) | Eunomia",
+    metaTitle: "EFPIA Methodology Note Template | Eunomia",
     metaDescription: "A free template for your EFPIA transfers-of-value methodology note, following the mandatory Annex B structure of the EFPIA Code of Practice 2026.",
     summary: "A working template for the methodology note that must accompany HCP/HCO disclosures, laid out in the mandatory Annex B structure of the EFPIA Code of Practice 2026, with prompts for what to cover under each heading.",
     audience: "Compliance, finance and transparency reporting teams preparing EFPIA-based disclosures, including Disclosure UK.",

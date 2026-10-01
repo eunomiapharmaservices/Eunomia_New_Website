@@ -79,7 +79,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="" fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
+        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt="Compliance specialists reviewing documents together" fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
         <div className="hero-copy">
           <p className="home-location-line">Headquartered in the UK with global coverage</p>
           <h1>

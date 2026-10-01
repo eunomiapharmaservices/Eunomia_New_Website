@@ -7,7 +7,7 @@ const PATH = "/resources/pmcpa-cases";
 const cases = [...pmcpaCases].sort((a, b) => Date.parse(b.completed) - Date.parse(a.completed));
 
 export const metadata: Metadata = withSocial(PATH, {
-  title: "PMCPA Case Library: Recent Completed Cases Summarised | Eunomia",
+  title: "PMCPA Case Library: Summaries & Lessons | Eunomia",
   description: "Short summaries of recent completed PMCPA cases under the ABPI Code: topic, company and clauses ruled in breach, each linked to the official case report.",
   alternates: { canonical: `https://www.eunomiapharmaservices.com${PATH}` },
 });

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!c) return {};
   const path = `/resources/category/${c.slug}`;
   return withSocial(path, {
-    title: `${c.name} | Pharmaceutical Compliance Insights | Eunomia`,
+    title: `${c.slug === "third-party-due-diligence" ? "Pharma Third-Party Due Diligence" : c.name} | Eunomia`,
     description: c.description,
     alternates: { canonical: SITE + path },
   });

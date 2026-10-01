@@ -9,7 +9,7 @@ import { markets } from "../../data/markets";
 export const metadata: Metadata = withSocial("/legal-mandates", {
   title: "Pharmaceutical Compliance Rules & Legal Mandates | Eunomia",
   description:
-    "A guide to the laws and industry codes behind pharmaceutical compliance: medicines advertising, the EFPIA and ABPI Codes, anti-bribery, transparency and the EU AI Act.",
+    "Explore pharma compliance laws and codes covering medicines advertising, ABPI, EFPIA, anti-bribery, transparency and AI governance.",
   alternates: { canonical: "https://www.eunomiapharmaservices.com/legal-mandates" },
 });
 

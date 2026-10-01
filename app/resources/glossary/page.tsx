@@ -10,7 +10,7 @@ const terms = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
 
 export const metadata: Metadata = withSocial(PATH, {
   title: "Pharma Compliance Glossary: Key Terms Explained | Eunomia",
-  description: "Plain-English definitions of pharmaceutical compliance terms: transfers of value, HCO, certification, signatory, Disclosure UK, methodology note, FMV, adequate procedures and more.",
+  description: "Understand pharma compliance terms including HCP, HCO, fair market value, transfers of value, certification, Disclosure UK and adequate procedures.",
   alternates: { canonical: `${SITE}${PATH}` },
 });
 
