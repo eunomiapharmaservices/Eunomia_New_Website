@@ -29,7 +29,7 @@
     ]
   },
   "fair-market-value-fmv-in-healthcare-compliance": {
-    "updated": "2026-09-28",
+    "updated": "2026-10-01",
     "question": "How should pharmaceutical companies determine HCP fair market value?",
     "answer": "An HCP fair market value assessment should connect a genuine service need with the expertise, time and market context needed to deliver it. Document the benchmarking method, rate rationale, approvals and any exceptions. A rate card supports consistent decisions; it does not replace assessing whether an engagement is appropriate. Eunomia’s published case study describes one methodology across five European markets, rather than a universal HCP tariff.",
     "stepsHeading": "What a documented FMV decision should explain",
@@ -55,7 +55,8 @@
         "label": "Discuss FMV operational support",
         "href": "/services/shared-services"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-28"
   },
   "transparency-reporting-in-pharmaceutical-industry": {
     "updated": "2026-09-30",
@@ -100,7 +101,7 @@
     ]
   },
   "pharma-compliance-risk-assessment-framework": {
-    "updated": "2026-09-28",
+    "updated": "2026-10-01",
     "question": "How do you build a practical pharma compliance risk assessment?",
     "answer": "Begin with the company’s actual activities, markets and third parties. Describe what could go wrong, assess the exposure and existing controls, then prioritise gaps with named owners and completion dates. Review the assessment when activities or risks change. A useful risk register explains decisions and drives action; a score alone does not show that a risk is controlled.",
     "stepsHeading": "A practical starting structure for your risk register",
@@ -126,7 +127,8 @@
         "label": "Explore compliance programme design and implementation",
         "href": "/services/governance-assurance"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-28"
   },
   "healthcare-compliance-internal-audits": {
     "updated": "2026-09-28",
@@ -293,7 +295,7 @@
     ]
   },
   "navigating-country-level-accountability-in-europe": {
-    "updated": "2026-09-29",
+    "updated": "2026-10-01",
     "question": "Which country-level compliance roles do pharmaceutical companies need in Europe?",
     "answer": "Requirements vary by country. The article gives three examples: a local legal representative for authority communications in Spain, the Pharmacien Responsable in France, and the Information Officer in Germany. These roles go beyond administration: they typically oversee material review, scientific communication and alignment with the SmPC, and must be built into global governance.",
     "stepsHeading": "Practical steps",
@@ -324,12 +326,13 @@
         "label": "Read the France compliance guide",
         "href": "/markets/france"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-29"
   },
   "scalable-compliance-models-for-growing-pharma-in-the-age-of-ai": {
-    "updated": "2026-09-29",
+    "updated": "2026-10-01",
     "question": "How can a growing pharma company scale compliance?",
-    "answer": "By choosing a model that fits its current stage and can expand with it. The article describes four tiers: advisory support for defined questions; outsourcing, where a provider takes end-to-end accountability; shared services, where the company keeps ownership but gains operational execution; and centralisation of processes across markets. Any use of AI should sit on a strong ethical and regulatory backbone.",
+    "answer": "A growing pharma company can combine advisory support for defined questions, projects for specific changes, shared services for recurring work and centralised processes across markets. Choose the model around workload, local requirements and retained decision-making. Delegating work does not automatically transfer the company’s legal obligations or oversight responsibilities. Define human review and exception routes before introducing automation.",
     "stepsHeading": "Choosing the right model",
     "steps": [
       "List the activities, markets and volumes your compliance function handles today.",
@@ -358,7 +361,8 @@
         "label": "Use the Pharma Compliance Readiness Checklist",
         "href": "/resources/checklists/pharma-compliance-readiness-checklist"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-29"
   },
   "entering-phase-iii-compliance-expectations-already-have": {
     "updated": "2026-09-29",
@@ -701,7 +705,7 @@
     ]
   },
   "compliance-training-beyond-the-code": {
-    "updated": "2026-09-29",
+    "updated": "2026-10-01",
     "question": "Why does compliance training fail, and how can it change behaviour?",
     "answer": "Training fails when it is a checkbox exercise. The article cites a PMCPA case in which prescribing information went un-updated because role clarity, escalation and cross-functional accountability were missing. Effective training is scenario-based, cross-functional, interactive and grounded in real rulings.",
     "stepsHeading": "Making training change behaviour",
@@ -732,10 +736,11 @@
         "label": "Use the Pharma Compliance Readiness Checklist",
         "href": "/resources/checklists/pharma-compliance-readiness-checklist"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-29"
   },
   "a-definitive-guide-to-crafting-a-high-quality-policy-for-a-pharmaceutical-company": {
-    "updated": "2026-09-29",
+    "updated": "2026-10-01",
     "question": "How do you write an effective pharmaceutical compliance policy?",
     "answer": "Start with structure, not a blank document. Eunomia’s approach runs from an as-is analysis and a gap analysis against EFPIA, EMA, ABPI and EU requirements, through workflow mapping, to tailored drafting with clear purpose and scope, principles, roles, process, monitoring and links to SOPs.",
     "stepsHeading": "The policy development process",
@@ -766,7 +771,8 @@
         "label": "Use the Pharma Compliance Readiness Checklist",
         "href": "/resources/checklists/pharma-compliance-readiness-checklist"
       }
-    ]
+    ],
+    "sourcesAccessed": "2026-09-29"
   },
   "stakeholder-engagement-vs-risk-efpia-ifpma-compliance": {
     "updated": "2026-09-29",

@@ -1,3 +1,4 @@
+import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuide";
 import { PageFaqs } from "../../components/PageFaqs";
 import { servicesFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
@@ -126,6 +127,7 @@ export default function Services() {
           </ol>
         </div>
       </section>
+      <ComplianceDecisionGuide page="services" />
       <PageFaqs faqs={servicesFaqs} title="Choosing the right service" />
       <SiteFooter />
     </main>

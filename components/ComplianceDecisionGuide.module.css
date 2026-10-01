@@ -1,0 +1,14 @@
+.section{background:#fff;color:var(--ink);border-top:3px solid var(--orange)}
+.section h2{font-family:var(--display);font-size:clamp(28px,3vw,42px);line-height:1.15;color:var(--forest);max-width:950px}
+.section h3{font-family:var(--display);font-size:23px;color:var(--forest);margin-top:28px}
+.section p{font-size:17px;line-height:1.75;max-width:960px}
+.section a{color:var(--forest);text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.section a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.tableWrap{overflow-x:auto;margin:28px 0;border:1px solid var(--forest)}
+.tableWrap table{border-collapse:collapse;width:100%;min-width:580px;font-size:16px;line-height:1.6}
+.tableWrap caption{text-align:left;padding:16px;color:var(--forest);font-weight:700}
+.tableWrap th,.tableWrap td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--forest)}
+.tableWrap thead th{background:var(--forest);color:white}
+.tableWrap tbody th{width:27%}
+@media(max-width:700px){.grid{grid-template-columns:1fr;gap:0}.tableWrap th,.tableWrap td{padding:12px}}

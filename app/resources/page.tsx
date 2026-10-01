@@ -1,3 +1,4 @@
+import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuide";
 import { practicalResources } from "../../data/practical-resources";
 import { PageFaqs } from "../../components/PageFaqs";
 import { resourcesFaqs } from "../../data/page-faqs";
@@ -134,6 +135,7 @@ export default function Resources() {
           <a href="#articles">Articles</a>
         </div>
       </section>
+      <ComplianceDecisionGuide page="resources" />
       <ResourceSearch />
       <section className="resource-library section-pad" id="featured">
         <div className="resource-heading">

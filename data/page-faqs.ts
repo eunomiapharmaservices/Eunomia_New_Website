@@ -41,7 +41,7 @@ export const contactFaqs: Faq[] = [
 ];
 
 export const resourcesFaqs: Faq[] = [
-  { question: "Are the resources free?", answer: "Yes. Articles and case studies are free to read. Checklists, the case studies pack and the annual guide are free downloads; we ask for your name and email so we can send the file." },
+  { question: "Are the resources free?", answer: "Yes. Articles and case studies are free to read. The practical Excel worksheets can be downloaded directly. Some PDF checklists and guides use a request form so we can send the file." },
   { question: "How are the articles sourced?", answer: "Each article opens with a short answer and ends with its sources. Legal and code statements link to the official text, such as EUR-Lex, legislation.gov.uk, the PMCPA or EFPIA." },
   { question: "Are these resources legal advice?", answer: "No. They are practical, informational guidance. Requirements depend on your organisation, markets and activities, and should be confirmed for your situation." },
   { question: "Where can I find country-specific rules?", answer: "Our country guides cover Germany, France, Spain, Italy, the Netherlands, Portugal, Ireland and Sweden, each with links to official sources. They are listed on the Legal Mandates page." },

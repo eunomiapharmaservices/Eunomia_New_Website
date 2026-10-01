@@ -1,3 +1,4 @@
+import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuide";
 import { PageFaqs } from "../../components/PageFaqs";
 import { contactFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
@@ -61,6 +62,7 @@ export default function Contact() {
           </div>
         </aside>
       </section>
+      <ComplianceDecisionGuide page="contact" />
       <PageFaqs faqs={contactFaqs} title="Getting in touch: common questions" />
       <SiteFooter />
     </main>

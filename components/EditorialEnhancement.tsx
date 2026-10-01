@@ -30,7 +30,7 @@ export function EditorialSources({ entry }: { entry: Entry }) {
     <ul>{entry.sources.map(source => <li key={source.url}>
       <a href={source.url}>{source.title}</a><p>{source.context}</p>
     </li>)}</ul>
-    <p>External sources accessed {formatDate(entry.updated)}. Check the applicable country rules and current source text for a specific engagement.</p>
+    <p>External sources accessed {formatDate("sourcesAccessed" in entry ? entry.sourcesAccessed : entry.updated)}. Check the applicable country rules and current source text for a specific engagement.</p>
     <h3>Put this into practice</h3>
     <ul>{entry.links.map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
   </section>;
