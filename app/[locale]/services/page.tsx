@@ -70,7 +70,7 @@ export default async function LocalizedServices({ params }: { params: Promise<{ 
               <h2>{service.title}</h2>
               <p><strong>{service.line}</strong></p>
               <p>{service.body}</p>
-              <a href={service.href}>{nav.exploreEveryService} →</a>
+              <a href={`/${selected}${service.href}`}>{nav.exploreEveryService} →</a>
             </article>
           ))}
         </div>
