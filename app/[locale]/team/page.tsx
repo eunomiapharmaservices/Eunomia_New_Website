@@ -7,6 +7,7 @@ import { TeamProfile, type TeamPerson } from "../../../components/TeamProfiles";
 import { compliancePartners, partnerId } from "../../../data/compliancePartners";
 import { StructuredData } from "../../../components/StructuredData";
 import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
+import { founderBio, localizeTeamPerson } from "../../../data/i18n/team-content";
 
 type TeamCopy = {
   kicker: string; title: string; intro: string; founderRole: string; operationsTitle: string;
@@ -51,7 +52,7 @@ export default async function LocalizedTeamPage({ params }: { params: Promise<{ 
   const selected = locale as Exclude<Locale, "en">;
   const text = copy[selected];
   const direction = locales[selected].dir;
-  const people = [...compliancePartners, agyat, ...operations];
+  const people = [...compliancePartners, agyat, ...operations].map((person) => localizeTeamPerson(person, selected));
   return (
     <main className="team-page" lang={selected} dir={direction}>
       <StructuredData data={{ "@context": "https://schema.org", "@graph": people.map((person) => ({ "@type": "Person", "@id": `https://www.eunomiapharmaservices.com/${selected}/team#${partnerId(person.name)}`, name: person.name, jobTitle: person.role, image: person.image ? `https://www.eunomiapharmaservices.com${person.image}` : undefined, affiliation: { "@id": "https://www.eunomiapharmaservices.com/#organization" }, url: `https://www.eunomiapharmaservices.com/${selected}/team` })) }} />
@@ -64,20 +65,20 @@ export default async function LocalizedTeamPage({ params }: { params: Promise<{ 
         <article className="founder-profile founder-profile-static">
           <SiteImage src="/team-rashmi.jpeg" sizes="(max-width: 600px) 90vw, 400px" alt="Rashmi Papneja" />
           <div><h3>Rashmi Papneja</h3><p className="founder-role">{text.founderRole}</p>
-            <p>Rashmi Papneja is the founder and Managing Director of Eunomia Pharma Services and a healthcare compliance leader with over fifteen years in the pharmaceutical industry. She has worked at the most senior levels of the compliance function inside small and mid-sized pharma, and has led the set-up of compliance functions for emerging biotechs.</p>
-            <p>A PRINCE2-qualified project manager, she has delivered transformation programmes across due diligence, transparency, investigations, monitoring, HCP engagement and AI-enabled compliance operations. She holds a Master's in International Healthcare Management and is INSEAD-qualified.</p>
+            <p>{founderBio[selected][0]}</p>
+            <p>{founderBio[selected][1]}</p>
           </div>
         </article>
       </section>
       <section className="team-group team-operations-lead section-pad">
         <div className="team-section-heading operations-section-heading"><h2>{text.operationsTitle}</h2></div>
-        <div className="operations-lead-profile"><TeamProfile person={agyat} featured readLabel={text.read} viewBioLabel={text.viewBio} /></div>
+        <div className="operations-lead-profile"><TeamProfile person={localizeTeamPerson(agyat, selected)} featured readLabel={text.read} viewBioLabel={text.viewBio} /></div>
         <div className="operations-team-heading"><span>{text.operations}</span></div>
-        <div className="team-profile-grid operations-team-grid">{operations.map((person) => <TeamProfile key={person.name} person={person} bioEnabled={false} readLabel={text.read} viewBioLabel={text.viewBio} />)}</div>
+        <div className="team-profile-grid operations-team-grid">{operations.map((person) => <TeamProfile key={person.name} person={localizeTeamPerson(person, selected)} bioEnabled={false} readLabel={text.read} viewBioLabel={text.viewBio} />)}</div>
       </section>
       <section className="team-group section-pad">
         <div className="team-section-heading business-partners-heading"><h2>{text.partnersTitle}</h2><p>{text.partnersIntro}</p></div>
-        <div className="team-profile-grid team-profile-grid-partners" id="global-compliance-business-partners">{compliancePartners.map((person) => <TeamProfile key={person.name} person={person} readLabel={text.read} viewBioLabel={text.viewBio} />)}</div>
+        <div className="team-profile-grid team-profile-grid-partners" id="global-compliance-business-partners">{compliancePartners.map((person) => <TeamProfile key={person.name} person={localizeTeamPerson(person, selected)} readLabel={text.read} viewBioLabel={text.viewBio} />)}</div>
       </section>
       <section className="team-cta section-pad">
         <p className="section-kicker">{text.ctaKicker}</p><h2>{text.ctaTitle}</h2>
