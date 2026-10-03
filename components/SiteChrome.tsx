@@ -1,6 +1,6 @@
 import { SiteImage } from "./SiteImage";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { locales, type Locale } from "../data/i18n/locales";
+import type { Locale } from "../data/i18n/locales";
 import chromeDraft from "../data/i18n/site-chrome.draft.json";
 
 type ChromeCopy = Record<string, string>;
