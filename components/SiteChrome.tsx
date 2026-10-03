@@ -23,7 +23,7 @@ export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
           <a href={localPath("/services/automation-of-compliance-operations")}><b>{copy.automationService}</b><small>{copy.automationSummary}</small></a>
           <a href={localPath("/services/local-legal-mandates")}><b>{copy.localMandatesService}</b><small>{copy.localMandatesSummary}</small></a>
           <a href={localPath("/services/shared-services")}><b>{copy.sharedServices}</b><small>{copy.sharedServicesSummary}</small></a>
-          <a href="/services#approach"><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
+          <a href={localPath("/services#approach")}><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
         </div>
       </details>
       <a href="/team">{copy.team}</a>
