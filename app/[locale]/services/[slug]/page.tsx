@@ -4,6 +4,7 @@ import { SiteHeader, SiteFooter } from "../../../../components/SiteChrome";
 import { SiteImage } from "../../../../components/SiteImage";
 import chromeStrings from "../../../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../../../data/i18n/locales";
+import { serviceDetailLabels, serviceFrameworks, servicePositioning, type ServicePath } from "../../../../data/i18n/service-copy";
 
 export const dynamicParams = false;
 type TranslatedLocale = Exclude<Locale, "en">;
@@ -105,6 +106,10 @@ export default async function LocalizedServicePage({ params }: { params: Promise
   const copy = text[selected];
   const service = services[slug];
   const localized = chrome[selected];
+  const servicePath = `/services/${slug}` as ServicePath;
+  const detail = servicePositioning[selected][servicePath];
+  const frameworkCopy = serviceFrameworks[selected][servicePath];
+  const detailLabels = serviceDetailLabels[selected];
   return (
     <main lang={selected} dir={locales[selected].dir} className={slug === "governance-assurance" ? "service-subpage orange" : "service-subpage green"}>
       <SiteHeader locale={selected} />
@@ -126,6 +131,33 @@ export default async function LocalizedServicePage({ params }: { params: Promise
       <section className="subservice-outcomes section-pad">
         <p className="section-kicker">{copy.outcomes}</p>
         <div>{copy.benefits.map((benefit) => <p key={benefit}>✓ {benefit}</p>)}</div>
+      </section>
+      <section className="subservice-scope section-pad">
+        <p className="section-kicker">{detail.problemTitle}</p>
+        <h2>{localized[service.title]}</h2>
+        <p>{detail.problem}</p>
+        <h3>{detailLabels.audience}</h3>
+        <p>{detail.audience}</p>
+        <h3>{detailLabels.delivery}</h3>
+        <p>{detail.delivery}</p>
+        <h3>{detailLabels.difference}</h3>
+        <p>{detail.difference}</p>
+      </section>
+      <section className="subservice-scope section-pad">
+        <p className="section-kicker">{detailLabels.frameworks}</p>
+        <p>{frameworkCopy.intro}</p>
+        <div className="scope-list">
+          {frameworkCopy.frameworks.map((item) => <article key={item.href}><h3>{item.title}</h3><p>{item.body}</p><a href={item.href} target="_blank" rel="noreferrer">{item.label}</a></article>)}
+        </div>
+      </section>
+      <section className="subservice-scope section-pad">
+        <p className="section-kicker">{detailLabels.steps}</p>
+        <div className="scope-list">{frameworkCopy.steps.map((step, index) => <article key={step.title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{step.title}</h3><p>{step.body}</p></article>)}</div>
+      </section>
+      <section className="subservice-outcomes section-pad">
+        <p className="section-kicker">{detail.evidenceLabel}</p>
+        <h2>{detail.evidenceTitle}</h2>
+        <p>{detail.evidence}</p>
       </section>
       <section className="subservice-cta section-pad">
         <h2>{copy.contact}</h2>
