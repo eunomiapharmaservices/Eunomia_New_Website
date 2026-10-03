@@ -114,7 +114,7 @@ export default async function LocalizedServicePage({ params }: { params: Promise
         <h1 className="subservice-primary-title">{localized[service.title]}</h1>
         <h2 className="subservice-tagline">{localized[service.summary]}</h2>
         <p>{localized[service.summary]}</p>
-        <a className="primary-button" href={`/contact?service=${encodeURIComponent(localized[service.title])}`}>{copy.contact}</a>
+        <a className="primary-button" href={`/${selected}/contact?service=${encodeURIComponent(localized[service.title])}`}>{copy.contact}</a>
       </section>
       <section className="service-video section-pad">
         <SiteImage src={service.image} sizes="(max-width: 1000px) 90vw, 960px" alt={localized[service.title]} style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }} />
