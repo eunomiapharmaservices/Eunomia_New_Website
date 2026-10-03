@@ -1,3 +1,6 @@
+import { headers } from "next/headers";
+import { LanguageSuggestion } from "../components/LanguageSuggestion";
+import { isLocale, type Locale } from "../data/i18n/locales";
 import { CompanyBrief, HomeCaseStudies, HomeAudience, HomeFAQs } from "../components/HomeContent";
 import { markets } from "../data/markets";
 import { SiteImage } from "../components/SiteImage";
@@ -64,9 +67,16 @@ const ClutchBrand = () => (
   </span>
 );
 
-export default function Home() {
+export default async function Home() {
+  const requestHeaders = await headers();
+  const suggestionCandidate = requestHeaders.get("x-eps-locale-suggestion");
+  const suggestion =
+    suggestionCandidate && isLocale(suggestionCandidate) && suggestionCandidate !== "en"
+      ? (suggestionCandidate as Exclude<Locale, "en">)
+      : null;
   return (
     <main>
+      <LanguageSuggestion locale={suggestion} />
       <header className="site-header">
         <a
           className="wordmark"
