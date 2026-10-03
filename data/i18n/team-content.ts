@@ -1,4 +1,5 @@
 import type { Locale } from "./locales";
+import { partnerBioTranslations } from "./partner-bios";
 
 type TeamTerms = { roles: Record<string, string>; countries: Record<string, string> };
 const terms: Partial<Record<Locale, TeamTerms>> = {
@@ -108,12 +109,13 @@ const biographyComingSoon: Partial<Record<Locale, string>> = {
 
 export function localizeTeamPerson<T extends { role: string; country?: string; bio?: string }>(person: T, locale: Locale): T {
   const dictionary = terms[locale];
-  if (!dictionary) return person;
+  const translatedBio = person.bio ? partnerBioTranslations[locale]?.[person.name as string] : undefined;
+  if (!dictionary && !translatedBio) return person;
   return {
     ...person,
-    role: dictionary.roles[person.role] ?? person.role,
-    country: person.country ? dictionary.countries[person.country] ?? person.country : person.country,
-    bio: person.bio === "Biography coming soon." ? biographyComingSoon[locale] ?? person.bio : person.bio,
+    role: dictionary?.roles[person.role] ?? person.role,
+    country: person.country ? dictionary?.countries[person.country] ?? person.country : person.country,
+    bio: person.bio === "Biography coming soon." ? biographyComingSoon[locale] ?? person.bio : translatedBio ?? person.bio,
   };
 }
 
