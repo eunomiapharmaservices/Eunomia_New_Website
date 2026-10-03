@@ -89,7 +89,7 @@ export function ContactForm({ locale = "en" }: { locale?: Locale }) {
       <label><span className="field-label">{copy.question} <b aria-hidden="true">*</b></span><textarea disabled={busy} name="question" rows={7} required maxLength={5000} /></label>
       <label className="consent">
         <input disabled={busy} type="checkbox" name="consent" required />
-        <span>{copy.consentBefore} <a href="/privacy">{copy.privacy}</a>{copy.consentAfter}</span>
+        <span>{copy.consentBefore} <a href={locale === "en" ? "/privacy" : `/${locale}/privacy`}>{copy.privacy}</a>{copy.consentAfter}</span>
       </label>
       <ContactCaptcha key={attempt} onToken={setToken} locale={locale} />
       {error && <p role="alert">{error}</p>}
