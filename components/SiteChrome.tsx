@@ -26,7 +26,7 @@ export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
           <a href={localPath("/services#approach")}><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
         </div>
       </details>
-      <a href="/team">{copy.team}</a>
+      <a href={localPath("/team")}>{copy.team}</a>
       <a href="/resources">{copy.resources}</a>
       <a href={localPath("/contact")}>{copy.contact}</a>
       <LanguageSwitcher locale={locale} />
@@ -46,6 +46,7 @@ export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
 }
 export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
   const copy = copyFor(locale);
+  const localPath = (path: string) => locale === "en" ? path : `/${locale}${path}`;
   return (
     <footer>
       <a className="wordmark footer-logo" href={locale === "en" ? "/" : `/${locale}`}>
@@ -55,7 +56,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         <span>{copy.tradingNameNotice}</span>
         <span>{copy.registeredOffice}</span>
         <span>+44 7584 567018</span>
-        <a href="/team">{copy.ourTeam}</a>
+        <a href={localPath("/team")}>{copy.ourTeam}</a>
         <a href="/privacy">{copy.privacyCookies}</a>
         <span>© 2026 Eunomia Pharma Services</span>
       </div>
