@@ -1,53 +1,63 @@
 import { SiteImage } from "./SiteImage";
-export function PrimaryNav() {
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import type { Locale } from "../data/i18n/locales";
+import chromeDraft from "../data/i18n/site-chrome.draft.json";
+
+type ChromeCopy = Record<string, string>;
+function copyFor(locale: Locale): ChromeCopy {
+  return chromeDraft[locale] as ChromeCopy;
+}
+
+export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
+  const copy = copyFor(locale);
+  const localPath = (path: string) => locale === "en" ? path : `/${locale}${path}`;
+  const servicesHref = localPath("/services");
   return (
-    <nav aria-label="Primary navigation">
-      <a href="/">Home</a>
+    <nav aria-label={locale === "en" ? "Primary navigation" : copy.services}>
+      <a href={locale === "en" ? "/" : `/${locale}`}>{copy.home}</a>
       <details className="services-menu">
-        <summary>Services</summary>
+        <summary>{copy.services}</summary>
         <div className="services-dropdown">
-          <a href="/services"><b>Services overview</b><small>Explore every service</small></a>
-          <a href="/services/governance-assurance"><b>Healthcare Compliance Programme Design and Implementation</b><small>Frameworks, controls, audit readiness and implementation</small></a>
-          <a href="/services/automation-of-compliance-operations"><b>Automation of Compliance Operations</b><small>SharePoint, Power BI and AI automation</small></a>
-          <a href="/services/local-legal-mandates"><b>Local Legal Mandates and Representation</b><small>In-market presence and local-code support</small></a>
-          <a href="/services/shared-services"><b>Shared Services / GBS / GCC</b><small>A named compliance function, shaped around the work</small></a>
-          <a href="/services#approach"><b>How We Deliver</b><small>Advice, projects, centralised functions and shared services</small></a>
+          <a href={servicesHref}><b>{copy.servicesOverview}</b><small>{copy.exploreEveryService}</small></a>
+          <a href={localPath("/services/governance-assurance")}><b>{copy.governanceService}</b><small>{copy.governanceSummary}</small></a>
+          <a href={localPath("/services/automation-of-compliance-operations")}><b>{copy.automationService}</b><small>{copy.automationSummary}</small></a>
+          <a href={localPath("/services/local-legal-mandates")}><b>{copy.localMandatesService}</b><small>{copy.localMandatesSummary}</small></a>
+          <a href={localPath("/services/shared-services")}><b>{copy.sharedServices}</b><small>{copy.sharedServicesSummary}</small></a>
+          <a href={localPath("/services#approach")}><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
         </div>
       </details>
-      <a href="/team">Team</a>
-      <a href="/resources">Resources</a>
-      <a href="/contact">Contact</a>
+      <a href={localPath("/team")}>{copy.team}</a>
+      <a href={localPath("/resources")}>{copy.resources}</a>
+      <a href={localPath("/contact")}>{copy.contact}</a>
+      <LanguageSwitcher locale={locale} />
     </nav>
   );
 }
 
-export function SiteHeader() {
+export function SiteHeader({ locale = "en" }: { locale?: Locale }) {
   return (
     <header className="site-header inner-header">
-      <a className="wordmark" href="/">
+      <a className="wordmark" href={locale === "en" ? "/" : `/${locale}`}>
         <SiteImage src="/eunomia-logo.webp" sizes="(max-width: 650px) 183px, (max-width: 1050px) 230px, 260px" loading="eager" alt="Eunomia Pharma Services" />
       </a>
-      <PrimaryNav />
+      <PrimaryNav locale={locale} />
     </header>
   );
 }
-export function SiteFooter() {
+export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
+  const copy = copyFor(locale);
+  const localPath = (path: string) => locale === "en" ? path : `/${locale}${path}`;
   return (
     <footer>
-      <a className="wordmark footer-logo" href="/">
+      <a className="wordmark footer-logo" href={locale === "en" ? "/" : `/${locale}`}>
         <SiteImage src="/eunomia-logo.webp" sizes="220px" alt="Eunomia Pharma Services" />
       </a>
       <div className="footer-details">
-        <span>
-          Eunomia Pharma Services is a trading name of Mivigilance Limited,
-          registered in England and Wales. Company number 12912269.
-        </span>
-        <span>
-          Registered office: Rough Way, Heath House Road, Woking, GU22 0QU
-        </span>
+        <span>{copy.tradingNameNotice}</span>
+        <span>{copy.registeredOffice}</span>
         <span>+44 7584 567018</span>
-        <a href="/team">Our team</a>
-        <a href="/privacy">Privacy &amp; cookies</a>
+        <a href={localPath("/team")}>{copy.ourTeam}</a>
+        <a href="/privacy">{copy.privacyCookies}</a>
         <span>© 2026 Eunomia Pharma Services</span>
       </div>
     </footer>
