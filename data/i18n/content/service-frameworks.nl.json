@@ -1,0 +1,252 @@
+{
+ "/services/governance-assurance": {
+  "intro": "Een Brits programma wordt gewoonlijk getoetst aan zowel branchecodes als wetgeving. Dit zijn de belangrijkste kaders waarrond wij beheersmaatregelen ontwerpen; de juiste set hangt af van uw activiteiten en markten.",
+  "frameworks": [
+   {
+    "title": "2024 ABPI Code of Practice",
+    "body": "Van kracht sinds 1 oktober 2024, met een overgangsperiode tot en met 31 december 2024, en wordt beheerd door de PMCPA, onafhankelijk van de ABPI. Clause 24 behandelt contractuele diensten, waaronder legitieme behoefte, selectie, contractering vooraf en een vergoeding die overeenstemt met de fair market value.",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA: 2024 ABPI Code"
+   },
+   {
+    "title": "UK Bribery Act 2010, section 7",
+    "body": "Een commerciële organisatie kan aansprakelijk zijn voor het niet voorkomen van omkoping door aan haar gelieerde personen, zoals agenten en dienstverleners. Het hebben van adequate procedures vormt een verweer.",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "Bribery Act, s.7"
+   },
+   {
+    "title": "Failure to prevent fraud (ECCTA 2023)",
+    "body": "Het strafbare feit voor bedrijven dat is ingevoerd door de Economic Crime and Corporate Transparency Act 2023 is sinds 1 september 2025 van toepassing en hoort thuis in de beoordeling van beheersmaatregelen voor derden en commerciële activiteiten.",
+    "href": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+    "label": "ECCTA-richtlijnen"
+   },
+   {
+    "title": "SFO-richtlijnen over complianceprogramma’s",
+    "body": "Legt uit hoe de Britse Serious Fraud Office beoordeelt of een complianceprogramma van een onderneming in de praktijk werkt. Het zijn handhavingsrichtlijnen en geen farmaceutische certificeringsnorm.",
+    "href": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "label": "SFO-richtlijnen"
+   }
+  ],
+  "steps": [
+   {
+    "title": "Afbakenen",
+    "body": "Stem de activiteiten, markten en verplichtingen die binnen de reikwijdte vallen af, en de mensen die ze beheren."
+   },
+   {
+    "title": "Beoordelen",
+    "body": "Toets bestaand beleid, goedkeuringen, dossiers en training aan die verplichtingen en beoordeel de risico’s van de hiaten."
+   },
+   {
+    "title": "Ontwerpen en implementeren",
+    "body": "Ontwikkel of actualiseer beleid, SOP’s, goedkeuringsroutes, bewijsvereisten en rolgebonden training."
+   },
+   {
+    "title": "Monitoren en verbeteren",
+    "body": "Zet monitoring, CAPA en governancerapportage op, zodat het programma in de dagelijkse praktijk wordt getoetst en verbeterd."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Checklist Pharma Compliance Readiness",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   },
+   {
+    "label": "Checklist EFPIA Code Self-Assessment",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Artikelen over complianceprogramma’s, audits en training",
+    "href": "/resources/category/compliance-programmes"
+   }
+  ]
+ },
+ "/services/automation-of-compliance-operations": {
+  "intro": "Geautomatiseerde workflows moeten nog steeds aan de onderliggende regels voldoen. Deze kaders bepalen wat de gegevens, beoordelingen en dossiers in een geautomatiseerd proces moeten tonen.",
+  "frameworks": [
+   {
+    "title": "EFPIA Code of Practice",
+    "body": "Stelt Europese normen voor interacties met zorgprofessionals, zorgorganisaties en patiëntenorganisaties, waaronder jaarlijkse openbaarmaking van waardeoverdrachten binnen zes maanden na afloop van elk kalenderjaar. Lidverenigingen zetten de code om in nationale codes en mogen strengere normen hanteren.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA Code"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "De openbare database van de ABPI met betalingen van de industrie aan Britse zorgprofessionals en zorgorganisaties, onderdeel van een Europees transparantie-initiatief.",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   },
+   {
+    "title": "GDPR",
+    "body": "Verordening (EU) 2016/679 regelt de verwerking van persoonsgegevens, waaronder gegevens van zorgprofessionals die worden bewaard voor samenwerking, betaling en openbaarmaking.",
+    "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "label": "GDPR"
+   },
+   {
+    "title": "EU AI Act",
+    "body": "Verordening (EU) 2024/1689, te lezen naast de GDPR, de EU Data Act en, wanneer AI deel uitmaakt van een medisch hulpmiddel of diagnosticum, de MDR en IVDR.",
+    "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "label": "EU AI Act"
+   }
+  ],
+  "steps": [
+   {
+    "title": "In kaart brengen",
+    "body": "Leg het huidige proces vast, met beslismomenten, eigenaren en het bewijs dat elke stap moet opleveren."
+   },
+   {
+    "title": "Definiëren",
+    "body": "Stem de vereisten af met compliance- en technische belanghebbenden, inclusief menselijke beoordeling en escalatie."
+   },
+   {
+    "title": "Bouwen",
+    "body": "Configureer workflows, rapportage en gekoppelde data in uw bestaande technologie, zoals SharePoint en Power BI."
+   },
+   {
+    "title": "Overdragen",
+    "body": "Test met echte casussen, train gebruikers en leg eigenaarschap, wijzigingsbeheer en monitoring vast."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Gids voor het voorbereiden van openbaarmaking en de methodologische toelichting",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "Gids voor de workflow voor beoordeling van promotiemateriaal",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "Checklist EFPIA Code Self-Assessment",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Artikelen over AI en digitale compliance",
+    "href": "/resources/category/ai-digital-compliance"
+   }
+  ]
+ },
+ "/services/local-legal-mandates": {
+  "intro": "Lokale ondersteuning bevindt zich tussen de Europese kaders en de nationale regels. Dit zijn de Europese lagen; onze landgidsen behandelen de nationale details.",
+  "frameworks": [
+   {
+    "title": "EU Directive 2001/83/EC",
+    "body": "De EU-code voor geneesmiddelen voor menselijk gebruik, inclusief het kader voor reclame en gunstbetoon dat nationale wetgeving implementeert.",
+    "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+    "label": "Directive 2001/83/EC"
+   },
+   {
+    "title": "EFPIA Code of Practice",
+    "body": "Stelt Europese normen voor interacties met zorgprofessionals, zorgorganisaties en patiëntenorganisaties, waaronder jaarlijkse openbaarmaking van waardeoverdrachten binnen zes maanden na afloop van elk kalenderjaar. Lidverenigingen zetten de code om in nationale codes en mogen strengere normen hanteren.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA Code"
+   },
+   {
+    "title": "UK Bribery Act 2010, section 7",
+    "body": "Een commerciële organisatie kan aansprakelijk zijn voor het niet voorkomen van omkoping door aan haar gelieerde personen, zoals agenten en dienstverleners. Het hebben van adequate procedures vormt een verweer.",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "Bribery Act, s.7"
+   }
+  ],
+  "steps": [
+   {
+    "title": "De activiteit bepalen",
+    "body": "Bevestig de landen, de geplande activiteiten en de betrokken entiteiten en personen."
+   },
+   {
+    "title": "Lokale vereisten in kaart brengen",
+    "body": "Stel vast welke nationale wetgeving en branchecode van toepassing zijn en waar die afwijken van uw wereldwijde beleid."
+   },
+   {
+    "title": "Verantwoordelijkheden afspreken",
+    "body": "Bevestig benoemde contactpersonen, beslissingsbevoegdheden, beoordelingsroutes en een eventuele formele rol voor de opdracht."
+   },
+   {
+    "title": "Uitvoeren en escaleren",
+    "body": "Beoordeel activiteiten zodra ze zich voordoen en escaleer vragen via de afgesproken routes naar uw centrale team."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Landgidsen voor compliance",
+    "href": "/legal-mandates"
+   },
+   {
+    "label": "Onze lokale compliancepartners",
+    "href": "/team"
+   },
+   {
+    "label": "Checklist EFPIA Code Self-Assessment",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   }
+  ]
+ },
+ "/services/shared-services": {
+  "intro": "Beoordelaars binnen shared services werken volgens dezelfde regels als uw interne team. Dit zijn de kaders die het vaakst ten grondslag liggen aan materiaalbeoordeling, samenwerking met zorgprofessionals en openbaarmaking.",
+  "frameworks": [
+   {
+    "title": "MHRA Blue Guide",
+    "body": "De richtlijnen van de MHRA over de wijze waarop zij de Britse wettelijke vereisten voor reclame voor geneesmiddelen in Part 14 van de Human Medicines Regulations 2012 toepast.",
+    "href": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+    "label": "MHRA Blue Guide"
+   },
+   {
+    "title": "2024 ABPI Code of Practice",
+    "body": "Van kracht sinds 1 oktober 2024, met een overgangsperiode tot en met 31 december 2024, en wordt beheerd door de PMCPA, onafhankelijk van de ABPI. Clause 24 behandelt contractuele diensten, waaronder legitieme behoefte, selectie, contractering vooraf en een vergoeding die overeenstemt met de fair market value.",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA: 2024 ABPI Code"
+   },
+   {
+    "title": "EFPIA Code of Practice",
+    "body": "Stelt Europese normen voor interacties met zorgprofessionals, zorgorganisaties en patiëntenorganisaties, waaronder jaarlijkse openbaarmaking van waardeoverdrachten binnen zes maanden na afloop van elk kalenderjaar. Lidverenigingen zetten de code om in nationale codes en mogen strengere normen hanteren.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA Code"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "De openbare database van de ABPI met betalingen van de industrie aan Britse zorgprofessionals en zorgorganisaties, onderdeel van een Europees transparantie-initiatief.",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   }
+  ],
+  "steps": [
+   {
+    "title": "De dienst afspreken",
+    "body": "Bepaal de activiteiten, volumes, beoordelingsverantwoordelijkheden, servicemaatstaven en escalatieroutes."
+   },
+   {
+    "title": "Inwerken",
+    "body": "Stem af op uw SOP’s, systemen, sjablonen en goedkeuringsbevoegdheden voordat de beoordelingen beginnen."
+   },
+   {
+    "title": "Leveren",
+    "body": "Voer de afgesproken beoordelingen, evaluaties en rapportage uit binnen uw processen."
+   },
+   {
+    "title": "Prestaties beoordelen",
+    "body": "Rapporteer volumes, doorlooptijd, uitzonderingen en terugkerende problemen via regelmatige governance."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Gids voor het voorbereiden van openbaarmaking en de methodologische toelichting",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "Gids voor de workflow voor beoordeling van promotiemateriaal",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "Casestudy over materiaalbeoordeling",
+    "href": "/resources/materials-review-shared-service-case-study"
+   },
+   {
+    "label": "Casestudy over fair market value",
+    "href": "/resources/fair-market-value-methodology"
+   },
+   {
+    "label": "Artikelen over samenwerking met zorgprofessionals en transparantie",
+    "href": "/resources/category/hcp-engagement-transparency"
+   }
+  ]
+ }
+}

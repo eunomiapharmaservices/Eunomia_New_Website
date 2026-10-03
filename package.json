@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prebuild": "node scripts/generate-content-index.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

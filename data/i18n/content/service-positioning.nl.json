@@ -1,0 +1,42 @@
+{
+ "/services/governance-assurance": {
+  "problemTitle": "Maak compliancebeleid tot dagelijkse praktijk",
+  "problem": "Een groeiend portfolio, nieuwe markten en concurrerende prioriteiten kunnen een kloof blootleggen tussen het vastgelegde beleid en wat teams daadwerkelijk doen. Onduidelijke goedkeuringsroutes, inconsistente dossiers en reactieve training maken het lastiger aan te tonen dat beheersmaatregelen werken. Wij helpen uw kader te verbinden met de activiteiten, de mensen en de beslissingen die het moet sturen.",
+  "audience": "Voor compliance- en juridische leidinggevenden, Medical Affairs-teams en bedrijfsverantwoordelijken bij farmaceutische en biotechbedrijven. De ondersteuning kan beginnen met een eerste complianceprogramma, een specifiek hiaat in de beheersing of de verbetering van een bestaand kader.",
+  "delivery": "Wij stemmen de reikwijdte af op uw activiteiten en markten, beoordelen bestaande beheersmaatregelen en prioriteren de hiaten. Het werk kan beleid en SOP’s, verantwoordelijkheden, risicobeoordelingen, training, monitoring en herstelmaatregelen combineren. De implementatie omvat de goedkeuringsroutes en bewijsvereisten die uw teams nodig hebben om het programma in de praktijk te gebruiken.",
+  "difference": "Eunomia combineert farmaceutische compliance-expertise met operationele uitvoering. Het programmaontwerp kan aansluiten op lokale marktondersteuning, shared-servicecapaciteit en automatisering, zodat het kader een praktische weg naar het dagelijkse werk heeft. Reikwijdte, verantwoordelijkheden en overdracht worden samen met uw team vastgesteld.",
+  "evidenceLabel": "Gerelateerde casestudy",
+  "evidenceTitle": "Een consistent FMV-kader in vijf markten",
+  "evidence": "Eunomia ontwikkelde een gedocumenteerde vergoedingsmethodiek, objectieve indeling in niveaus en tariefkaarten voor zes categorieën belanghebbenden in het Verenigd Koninkrijk, Duitsland, Frankrijk, Italië en Spanje. De casus laat zien hoe een afgebakend kader beslissingen gemakkelijker uitlegbaar en toetsbaar kan maken."
+ },
+ "/services/automation-of-compliance-operations": {
+  "problemTitle": "Beperk versnipperde complianceworkflows",
+  "problem": "Goedkeuringen per e-mail, losse spreadsheets en herhaalde gegevensinvoer maken het moeilijk te zien wie een beslissing bezit of welk bewijs compleet is. Technologie toevoegen zonder duidelijke verantwoordelijkheden kan dezelfde problemen in een nieuw systeem herhalen. Wij beginnen bij het proces en de beheersmaatregelen voordat we kiezen wat te automatiseren.",
+  "audience": "Voor teams in compliance-operations, IT, transformatie en shared services die meer inzicht en consistentie nodig hebben bij beoordelingen, monitoring en rapportage. Wij kunnen een afgebakende workflow ondersteunen of een breder programma rond uw bestaande technologie.",
+  "delivery": "Wij brengen het huidige proces in kaart, definiëren beslismomenten en stemmen de vereisten af met compliance- en technische belanghebbenden. De uitvoering kan bestaan uit SharePoint-workflows, Power BI-rapportage, beoordelingsplatforms, gekoppelde data en beheerste toepassingen van chatbots. Menselijke beoordeling, escalatieroutes en traceerbare dossiers maken deel uit van het operationele model.",
+  "difference": "Complianceexpertise, projectmanagement en technische uitvoering werken samen. Die combinatie helpt het systeemontwerp te verbinden met de mensen die het gebruiken en het bewijs dat zij nodig hebben. Automatisering ondersteunt verantwoord oordeelsvermogen, met reikwijdte en beheersmaatregelen die vóór de uitrol zijn overeengekomen.",
+  "evidenceLabel": "Gerelateerde operationele casestudy",
+  "evidenceTitle": "Het proces achter een sterkere dienst voor materiaalbeoordeling",
+  "evidence": "Onze casestudy over materiaalbeoordeling beschrijft hoe workflows, SOP’s, sjablonen, rapportage en gespecialiseerde beoordelaars samenwerken. Het is een voorbeeld van operationeel procesontwerp; de gerapporteerde resultaten worden niet gepresenteerd als een uitkomst van alleen automatisering."
+ },
+ "/services/local-legal-mandates": {
+  "problemTitle": "Verbind wereldwijde standaarden met lokale verantwoordelijkheden",
+  "problem": "Een wereldwijd beleid beantwoordt niet elke vraag op landniveau. Bij markttoetreding en grensoverschrijdende activiteiten kunnen teams onzeker zijn over welke vereisten gelden, wie een activiteit moet beoordelen en waar de verantwoordelijkheid ligt. Wij helpen de lokale ondersteuning en escalatieroutes te bepalen die voor de geplande activiteit nodig zijn.",
+  "audience": "Voor farmaceutische en biotechteams die een markt betreden, grensoverschrijdend werken of beperkte lokale compliancecapaciteit hebben. De ondersteuning wordt afgebakend op de betrokken landen, activiteiten en verantwoordelijkheden, zonder aan te nemen dat hetzelfde vertegenwoordigingsmodel in elke markt past.",
+  "delivery": "Wij beoordelen de context van de markttoetreding, stellen de relevante lokale vereisten vast en spreken benoemde contactpersonen en beslissingsbevoegdheden af. De ondersteuning kan bestaan uit interpretatie van codes, contact met branchevereniging, beoordeling van samenwerkingen met zorgprofessionals en transparantieprocessen. Een eventuele vertegenwoordigende rol en de bijbehorende verantwoordelijkheden worden voor de specifieke opdracht bevestigd.",
+  "difference": "Onze lokale compliancepartners verbinden landenkennis met uw centrale team. Afgesproken rapportage- en escalatieroutes helpen lokale beslissingen aan te laten sluiten op het bredere complianceprogramma. Landgidsen en teambiografieën vormen een startpunt om te bespreken welke expertise uw opdracht nodig heeft.",
+  "evidenceLabel": "Gerelateerde casestudy over meerdere markten",
+  "evidenceTitle": "Eén FMV-methode, met landspecifieke input",
+  "evidence": "Het FMV-project voor vijf markten combineerde een gemeenschappelijk berekeningskader met nationale gegevens en tariefkaarten per type belanghebbende. Het illustreert een aanpak van compliance over meerdere markten en is geen casestudy over de benoeming van een wettelijke vertegenwoordiger."
+ },
+ "/services/shared-services": {
+  "problemTitle": "Voeg capaciteit toe wanneer het compliancewerk het team ontgroeit",
+  "problem": "Toenemende beoordelingsvolumes en activiteiten in nieuwe markten kunnen een slank compliancedepartement onder druk zetten. Achterstanden, herhaalde beoordelingsrondes en inconsistente dossiers kosten tijd die niet naar toezicht gaat. Wij bieden operationele ondersteuning via afgesproken processen, zodat uw team de werklast kan beheersen en verantwoordelijk blijft.",
+  "audience": "Voor startende biotechbedrijven die hun operationele model opbouwen, farmaceutische teams met beperkte beoordelingscapaciteit en gevestigde organisaties die shared services-, GBS- of GCC-functies ontwikkelen. Een opdracht kan beginnen met één activiteit of markt en meegroeien naarmate de behoeften veranderen.",
+  "delivery": "Wij spreken de activiteiten, beoordelingsverantwoordelijkheden, servicemaatstaven en escalatieroutes af en werken vervolgens binnen uw SOP’s en systemen. De reikwijdte kan promotionele en medische materialen, samenwerkingen met zorgprofessionals, FMV-beoordeling, transparantierapportage en bijbehorende dossiers omvatten. Rapportage maakt volumes, doorlooptijd, uitzonderingen en terugkerende problemen zichtbaar voor uw team.",
+  "difference": "Gespecialiseerde beoordelingscapaciteit wordt ondersteund door workflowbeheer en operationele coördinatie. Wij brengen lokale expertise in wanneer de overeengekomen reikwijdte daarom vraagt en beoordelen de prestaties via regelmatige governance. Uw organisatie behoudt het toezicht en de beslissingsbevoegdheden die voor de opdracht zijn vastgesteld.",
+  "evidenceLabel": "Casestudy over de dienst",
+  "evidenceTitle": "Doorlooptijd van materiaalbeoordeling teruggebracht van vijf naar twee dagen",
+  "evidence": "Een Brits farmaceutisch bedrijf dat zich in Europa uitbreidde, kreeg een gestructureerde beoordelingsdienst met ervaren beoordelaars, workflows, SOP’s en rapportage. De gepubliceerde casestudy meldt dat het aantal beoordelingsrondes daalde van vier naar twee. Deze resultaten hebben betrekking op die opdracht en zijn geen beloofde uitkomst voor elke klant."
+ }
+}

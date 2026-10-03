@@ -1,4 +1,4 @@
-import styles from "../app/markets/[slug]/market.module.css";
+import styles from "./MarketView.module.css";
 
 const pathways = [
   { title: "Commercial teams: HCP interactions and meetings", body: "Practise a customer interaction or event-planning decision. Identify the approved material, missing engagement evidence and the point at which to escalate.", outcome: "Explain the decision, locate the relevant procedure and identify the records to retain." },

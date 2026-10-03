@@ -1,4 +1,4 @@
-import styles from "../../../markets/[slug]/market.module.css";
+import styles from "../../../../components/MarketView.module.css";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FileCheck2, Globe2, Scale, ShieldCheck } from "lucide-react";

@@ -1,0 +1,252 @@
+{
+  "/services/governance-assurance": {
+    "intro": "Un programme britannique est généralement évalué au regard à la fois des codes de l’industrie et de la loi. Voici les principaux référentiels autour desquels nous concevons les contrôles ; le bon ensemble dépend de vos activités et de vos marchés.",
+    "frameworks": [
+      {
+        "title": "Code de bonnes pratiques 2024 de l’ABPI",
+        "body": "Entré en vigueur le 1er octobre 2024, avec une période de transition jusqu’au 31 décembre 2024, il est administré par la PMCPA indépendamment de l’ABPI. La clause 24 traite des services sous contrat, notamment le besoin légitime, la sélection, la contractualisation préalable et une rémunération reflétant la juste valeur marchande.",
+        "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+        "label": "PMCPA : Code ABPI 2024"
+      },
+      {
+        "title": "UK Bribery Act 2010, article 7",
+        "body": "Une organisation commerciale peut être tenue responsable de ne pas avoir prévenu la corruption commise par des personnes qui lui sont associées, telles que des agents et des prestataires de services. La mise en place de procédures adéquates constitue un moyen de défense.",
+        "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+        "label": "Bribery Act, art. 7"
+      },
+      {
+        "title": "Défaut de prévention de la fraude (ECCTA 2023)",
+        "body": "L’infraction applicable aux entreprises, introduite par l’Economic Crime and Corporate Transparency Act 2023, s’applique depuis le 1er septembre 2025 et doit entrer dans l’évaluation des contrôles relatifs aux tiers et aux activités commerciales.",
+        "href": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+        "label": "Guide ECCTA"
+      },
+      {
+        "title": "Lignes directrices du SFO sur les programmes de conformité",
+        "body": "Expliquent comment le Serious Fraud Office britannique évalue l’efficacité concrète du programme de conformité d’une entreprise. Il s’agit de lignes directrices en matière de répression, et non d’une norme de certification pharmaceutique.",
+        "href": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+        "label": "Lignes directrices du SFO"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cadrer",
+        "body": "Convenir des activités, des marchés et des obligations concernés, ainsi que des personnes qui en sont responsables."
+      },
+      {
+        "title": "Évaluer",
+        "body": "Examiner les politiques, approbations, enregistrements et formations existants au regard de ces obligations, et noter les écarts selon leur niveau de risque."
+      },
+      {
+        "title": "Concevoir et mettre en œuvre",
+        "body": "Élaborer ou mettre à jour les politiques, SOP, circuits d’approbation, exigences de preuve et formations adaptées à chaque rôle."
+      },
+      {
+        "title": "Surveiller et améliorer",
+        "body": "Mettre en place la surveillance, les CAPA et le reporting de gouvernance afin que le programme soit testé et amélioré dans le fonctionnement courant."
+      }
+    ],
+    "resources": [
+      {
+        "label": "Checklist de préparation à la conformité pharmaceutique",
+        "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+      },
+      {
+        "label": "Checklist d’autoévaluation du Code de l’EFPIA",
+        "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+      },
+      {
+        "label": "Articles sur les programmes de conformité, les audits et la formation",
+        "href": "/resources/category/compliance-programmes"
+      }
+    ]
+  },
+  "/services/automation-of-compliance-operations": {
+    "intro": "Les flux de travail automatisés doivent toujours respecter les règles sous-jacentes. Ces référentiels déterminent ce que les données, les revues et les enregistrements d’un processus automatisé doivent démontrer.",
+    "frameworks": [
+      {
+        "title": "Code de bonnes pratiques de l’EFPIA",
+        "body": "Fixe les standards européens applicables aux interactions avec les professionnels de santé, les organisations de santé et les associations de patients, y compris la publication annuelle des transferts de valeur dans les six mois suivant la fin de chaque année civile. Les associations membres le transposent dans des codes nationaux et peuvent adopter des standards plus stricts.",
+        "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+        "label": "Code de l’EFPIA"
+      },
+      {
+        "title": "Disclosure UK",
+        "body": "Base de données publique de l’ABPI sur les paiements de l’industrie aux professionnels et organisations de santé du Royaume-Uni, élément d’une initiative de transparence à l’échelle européenne.",
+        "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+        "label": "Disclosure UK"
+      },
+      {
+        "title": "RGPD",
+        "body": "Le règlement (UE) 2016/679 encadre le traitement des données personnelles, y compris celles des professionnels de santé conservées à des fins de collaboration, de paiement et de publication.",
+        "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "label": "RGPD"
+      },
+      {
+        "title": "Règlement européen sur l’IA",
+        "body": "Règlement (UE) 2024/1689, à lire en parallèle du RGPD, du règlement européen sur les données et, lorsque l’IA fait partie d’un dispositif médical ou de diagnostic, des règlements MDR et IVDR.",
+        "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+        "label": "Règlement européen sur l’IA"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cartographier",
+        "body": "Documenter le processus actuel, les points de décision, les responsables et les preuves que chaque étape doit produire."
+      },
+      {
+        "title": "Définir",
+        "body": "Arrêter les exigences avec les parties prenantes de la conformité et de la technique, y compris la revue humaine et l’escalade."
+      },
+      {
+        "title": "Construire",
+        "body": "Configurer les workflows, le reporting et les données connectées dans votre environnement technologique existant, tel que SharePoint et Power BI."
+      },
+      {
+        "title": "Transmettre",
+        "body": "Tester sur des cas réels, former les utilisateurs et convenir de la responsabilité, de la maîtrise des changements et de la surveillance."
+      }
+    ],
+    "resources": [
+      {
+        "label": "Guide de préparation des publications et de la note méthodologique",
+        "href": "/resources/disclosure-preparation-checklist"
+      },
+      {
+        "label": "Guide du workflow de revue promotionnelle",
+        "href": "/resources/promotional-review-workflow"
+      },
+      {
+        "label": "Checklist d’autoévaluation du Code de l’EFPIA",
+        "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+      },
+      {
+        "label": "Articles sur l’IA et la conformité numérique",
+        "href": "/resources/category/ai-digital-compliance"
+      }
+    ]
+  },
+  "/services/local-legal-mandates": {
+    "intro": "L’accompagnement local se situe entre les référentiels européens et les règles nationales. Voici les niveaux européens ; nos guides pays détaillent le niveau national.",
+    "frameworks": [
+      {
+        "title": "Directive 2001/83/CE de l’UE",
+        "body": "Le code communautaire relatif aux médicaments à usage humain, y compris le cadre de la publicité et des incitations que les législations nationales mettent en œuvre.",
+        "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+        "label": "Directive 2001/83/CE"
+      },
+      {
+        "title": "Code de bonnes pratiques de l’EFPIA",
+        "body": "Fixe les standards européens applicables aux interactions avec les professionnels de santé, les organisations de santé et les associations de patients, y compris la publication annuelle des transferts de valeur dans les six mois suivant la fin de chaque année civile. Les associations membres le transposent dans des codes nationaux et peuvent adopter des standards plus stricts.",
+        "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+        "label": "Code de l’EFPIA"
+      },
+      {
+        "title": "UK Bribery Act 2010, article 7",
+        "body": "Une organisation commerciale peut être tenue responsable de ne pas avoir prévenu la corruption commise par des personnes qui lui sont associées, telles que des agents et des prestataires de services. La mise en place de procédures adéquates constitue un moyen de défense.",
+        "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+        "label": "Bribery Act, art. 7"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Définir l’activité",
+        "body": "Confirmer les pays, les activités prévues, ainsi que les entités et les personnes concernées."
+      },
+      {
+        "title": "Cartographier les exigences locales",
+        "body": "Identifier la législation nationale et le code sectoriel applicables, et les points sur lesquels ils diffèrent de votre politique globale."
+      },
+      {
+        "title": "Convenir des responsabilités",
+        "body": "Confirmer les interlocuteurs nommés, les pouvoirs de décision, les circuits de revue et tout rôle formel dans la mission."
+      },
+      {
+        "title": "Opérer et escalader",
+        "body": "Examiner les activités au fil de l’eau et faire remonter les questions à votre équipe centrale par les circuits convenus."
+      }
+    ],
+    "resources": [
+      {
+        "label": "Guides de conformité par pays",
+        "href": "/legal-mandates"
+      },
+      {
+        "label": "Nos partenaires locaux en conformité",
+        "href": "/team"
+      },
+      {
+        "label": "Checklist d’autoévaluation du Code de l’EFPIA",
+        "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+      }
+    ]
+  },
+  "/services/shared-services": {
+    "intro": "Les relecteurs des services partagés appliquent les mêmes règles que votre équipe interne. Voici les référentiels le plus souvent à l’œuvre dans la revue des supports, les interactions avec les professionnels de santé et les travaux de transparence.",
+    "frameworks": [
+      {
+        "title": "MHRA Blue Guide",
+        "body": "Les orientations de la MHRA sur la manière dont elle applique les exigences légales britanniques relatives à la publicité pour les médicaments, énoncées à la partie 14 des Human Medicines Regulations 2012.",
+        "href": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+        "label": "MHRA Blue Guide"
+      },
+      {
+        "title": "Code de bonnes pratiques 2024 de l’ABPI",
+        "body": "Entré en vigueur le 1er octobre 2024, avec une période de transition jusqu’au 31 décembre 2024, il est administré par la PMCPA indépendamment de l’ABPI. La clause 24 traite des services sous contrat, notamment le besoin légitime, la sélection, la contractualisation préalable et une rémunération reflétant la juste valeur marchande.",
+        "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+        "label": "PMCPA : Code ABPI 2024"
+      },
+      {
+        "title": "Code de bonnes pratiques de l’EFPIA",
+        "body": "Fixe les standards européens applicables aux interactions avec les professionnels de santé, les organisations de santé et les associations de patients, y compris la publication annuelle des transferts de valeur dans les six mois suivant la fin de chaque année civile. Les associations membres le transposent dans des codes nationaux et peuvent adopter des standards plus stricts.",
+        "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+        "label": "Code de l’EFPIA"
+      },
+      {
+        "title": "Disclosure UK",
+        "body": "Base de données publique de l’ABPI sur les paiements de l’industrie aux professionnels et organisations de santé du Royaume-Uni, élément d’une initiative de transparence à l’échelle européenne.",
+        "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+        "label": "Disclosure UK"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Convenir du service",
+        "body": "Définir les activités, les volumes, les responsabilités de revue, les indicateurs de service et les circuits d’escalade."
+      },
+      {
+        "title": "Intégrer",
+        "body": "S’aligner sur vos SOP, systèmes, modèles et pouvoirs d’approbation avant le début des revues."
+      },
+      {
+        "title": "Réaliser",
+        "body": "Effectuer les revues, évaluations et le reporting convenus dans le cadre de vos processus."
+      },
+      {
+        "title": "Évaluer la performance",
+        "body": "Rendre compte des volumes, délais de traitement, exceptions et problèmes récurrents dans le cadre d’une gouvernance régulière."
+      }
+    ],
+    "resources": [
+      {
+        "label": "Guide de préparation des publications et de la note méthodologique",
+        "href": "/resources/disclosure-preparation-checklist"
+      },
+      {
+        "label": "Guide du workflow de revue promotionnelle",
+        "href": "/resources/promotional-review-workflow"
+      },
+      {
+        "label": "Étude de cas sur la revue des supports",
+        "href": "/resources/materials-review-shared-service-case-study"
+      },
+      {
+        "label": "Étude de cas sur la juste valeur marchande",
+        "href": "/resources/fair-market-value-methodology"
+      },
+      {
+        "label": "Articles sur les interactions avec les professionnels de santé et la transparence",
+        "href": "/resources/category/hcp-engagement-transparency"
+      }
+    ]
+  }
+}

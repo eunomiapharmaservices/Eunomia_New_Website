@@ -1,0 +1,252 @@
+{
+ "/services/governance-assurance": {
+  "intro": "英国的合规体系通常既要对照行业准则，也要对照法律进行评估。以下是我们围绕其设计控制措施的主要框架；具体适用哪些，取决于您的活动和市场。",
+  "frameworks": [
+   {
+    "title": "2024 年 ABPI 行为准则",
+    "body": "自 2024 年 10 月 1 日起生效，过渡期至 2024 年 12 月 31 日，由 PMCPA 独立于 ABPI 负责管理。第 24 条规范外包服务，包括正当需求、遴选、事先签约，以及体现公平市场价值的报酬。",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA：2024 年 ABPI 准则"
+   },
+   {
+    "title": "英国《2010 年反贿赂法》第 7 条",
+    "body": "商业组织可能因未能防止与其有关联的人员（如代理人和服务提供商）实施贿赂而承担责任。建立充分的程序可作为抗辩理由。",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "《反贿赂法》第 7 条"
+   },
+   {
+    "title": "未能防止欺诈（ECCTA 2023）",
+    "body": "《2023 年经济犯罪与公司透明度法》（ECCTA）引入的公司犯罪规定自 2025 年 9 月 1 日起适用，应纳入对第三方和商业控制措施的评估之中。",
+    "href": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+    "label": "ECCTA 指南"
+   },
+   {
+    "title": "SFO 合规体系评估指南",
+    "body": "说明英国严重欺诈办公室（SFO）如何评估企业合规体系在实践中是否有效。这是执法指南，而非制药行业的认证标准。",
+    "href": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "label": "SFO 指南"
+   }
+  ],
+  "steps": [
+   {
+    "title": "确定范围",
+    "body": "明确范围内的活动、市场和义务，以及负责这些事项的人员。"
+   },
+   {
+    "title": "评估",
+    "body": "对照上述义务，审查现有政策、审批、记录和培训，并对差距进行风险评级。"
+   },
+   {
+    "title": "设计与实施",
+    "body": "建立或更新政策、SOP、审批路径、证据要求和基于岗位的培训。"
+   },
+   {
+    "title": "监控与改进",
+    "body": "建立监控、CAPA 和治理报告机制，使合规体系在日常运营中得到检验和改进。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "制药合规准备度清单",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   },
+   {
+    "label": "EFPIA 准则自评清单",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "合规体系、审计与培训文章",
+    "href": "/resources/category/compliance-programmes"
+   }
+  ]
+ },
+ "/services/automation-of-compliance-operations": {
+  "intro": "自动化工作流程仍须符合相关基础规则。这些框架决定了自动化流程中的数据、审查和记录必须体现的内容。",
+  "frameworks": [
+   {
+    "title": "EFPIA 行为准则",
+    "body": "为与医疗卫生专业人士、医疗机构和患者组织之间的互动设定欧洲标准，包括要求在每个日历年度结束后六个月内，披露年度价值转移。成员协会会将其转化为各国的国家准则，并可采用更严格的标准。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA 准则"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "ABPI 建立的公共数据库，公布行业向英国医疗卫生专业人士和机构支付的款项，是全欧洲透明度倡议的一部分。",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   },
+   {
+    "title": "GDPR",
+    "body": "欧盟第 2016/679 号条例规范个人数据的处理，包括为合作、付款和披露目的而持有的医疗卫生专业人士数据。",
+    "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "label": "GDPR"
+   },
+   {
+    "title": "欧盟《人工智能法案》",
+    "body": "欧盟第 2024/1689 号条例，应与 GDPR、欧盟《数据法案》一并适用；当人工智能构成医疗器械或诊断产品的一部分时，还应与 MDR 和 IVDR 一并适用。",
+    "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "label": "欧盟《人工智能法案》"
+   }
+  ],
+  "steps": [
+   {
+    "title": "梳理",
+    "body": "记录现有流程、决策节点、责任人，以及每个步骤必须产生的证据。"
+   },
+   {
+    "title": "定义",
+    "body": "与合规和技术相关方共同商定需求，包括人工审查和升级处理。"
+   },
+   {
+    "title": "构建",
+    "body": "在您现有的技术环境（如 SharePoint 和 Power BI）中配置工作流程、报告和互联数据。"
+   },
+   {
+    "title": "交接",
+    "body": "以真实案例进行测试，培训用户，并商定责任归属、变更控制和监控。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "披露准备与方法说明指南",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "推广材料审查工作流程指南",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "EFPIA 准则自评清单",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "人工智能与数字合规文章",
+    "href": "/resources/category/ai-digital-compliance"
+   }
+  ]
+ },
+ "/services/local-legal-mandates": {
+  "intro": "本地支持介于欧洲框架与各国规则之间。以下是欧洲层面的框架；我们的国别指南涵盖各国的具体规定。",
+  "frameworks": [
+   {
+    "title": "欧盟第 2001/83/EC 号指令",
+    "body": "欧盟人用药品法典，包括各国法律所转化适用的广告和不当利益框架。",
+    "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+    "label": "第 2001/83/EC 号指令"
+   },
+   {
+    "title": "EFPIA 行为准则",
+    "body": "为与医疗卫生专业人士、医疗机构和患者组织之间的互动设定欧洲标准，包括要求在每个日历年度结束后六个月内，披露年度价值转移。成员协会会将其转化为各国的国家准则，并可采用更严格的标准。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA 准则"
+   },
+   {
+    "title": "英国《2010 年反贿赂法》第 7 条",
+    "body": "商业组织可能因未能防止与其有关联的人员（如代理人和服务提供商）实施贿赂而承担责任。建立充分的程序可作为抗辩理由。",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "《反贿赂法》第 7 条"
+   }
+  ],
+  "steps": [
+   {
+    "title": "界定活动",
+    "body": "确认涉及的国家、拟开展的活动，以及相关的实体和人员。"
+   },
+   {
+    "title": "梳理本地要求",
+    "body": "确定适用的国家法律和行业准则，以及它们与您的全球政策存在差异之处。"
+   },
+   {
+    "title": "商定职责",
+    "body": "确认具名联系人、决策权限、审查路径，以及本项目所需的任何正式角色。"
+   },
+   {
+    "title": "运营与升级处理",
+    "body": "在活动出现时予以审查，并通过约定的路径向您的总部团队升级处理相关问题。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "各国合规指南",
+    "href": "/legal-mandates"
+   },
+   {
+    "label": "我们的本地合规合作伙伴",
+    "href": "/team"
+   },
+   {
+    "label": "EFPIA 准则自评清单",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   }
+  ]
+ },
+ "/services/shared-services": {
+  "intro": "共享服务审查人员与您的内部团队遵循相同的规则。以下是材料审查、医疗卫生专业人士合作和披露工作中最常涉及的框架。",
+  "frameworks": [
+   {
+    "title": "MHRA《蓝皮书》（Blue Guide）",
+    "body": "MHRA 就其如何适用英国《2012 年人用药品条例》第 14 部分中有关药品广告的法律要求所发布的指南。",
+    "href": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+    "label": "MHRA《蓝皮书》"
+   },
+   {
+    "title": "2024 年 ABPI 行为准则",
+    "body": "自 2024 年 10 月 1 日起生效，过渡期至 2024 年 12 月 31 日，由 PMCPA 独立于 ABPI 负责管理。第 24 条规范外包服务，包括正当需求、遴选、事先签约，以及体现公平市场价值的报酬。",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA：2024 年 ABPI 准则"
+   },
+   {
+    "title": "EFPIA 行为准则",
+    "body": "为与医疗卫生专业人士、医疗机构和患者组织之间的互动设定欧洲标准，包括要求在每个日历年度结束后六个月内，披露年度价值转移。成员协会会将其转化为各国的国家准则，并可采用更严格的标准。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA 准则"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "ABPI 建立的公共数据库，公布行业向英国医疗卫生专业人士和机构支付的款项，是全欧洲透明度倡议的一部分。",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   }
+  ],
+  "steps": [
+   {
+    "title": "商定服务内容",
+    "body": "明确活动、工作量、审查职责、服务指标和升级处理路径。"
+   },
+   {
+    "title": "导入",
+    "body": "在审查开始前，与您的 SOP、系统、模板和审批权限保持一致。"
+   },
+   {
+    "title": "交付",
+    "body": "在您的流程内开展约定的审查、评估和报告。"
+   },
+   {
+    "title": "绩效回顾",
+    "body": "通过定期的治理会议，报告工作量、周转时间、例外情况和反复出现的问题。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "披露准备与方法说明指南",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "推广材料审查工作流程指南",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "材料审查案例研究",
+    "href": "/resources/materials-review-shared-service-case-study"
+   },
+   {
+    "label": "公平市场价值案例研究",
+    "href": "/resources/fair-market-value-methodology"
+   },
+   {
+    "label": "医疗卫生专业人士合作与透明度文章",
+    "href": "/resources/category/hcp-engagement-transparency"
+   }
+  ]
+ }
+}

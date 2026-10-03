@@ -1,0 +1,42 @@
+{
+ "/services/governance-assurance": {
+  "problemTitle": "Compliance-Richtlinien im Arbeitsalltag verankern",
+  "problem": "Ein wachsendes Portfolio, neue Märkte und konkurrierende Prioritäten können Lücken zwischen schriftlichen Richtlinien und dem tatsächlichen Handeln der Teams offenlegen. Unklare Freigabewege, uneinheitliche Aufzeichnungen und reaktive Schulungen erschweren den Nachweis, dass Kontrollen wirken. Wir unterstützen Sie dabei, Ihr Regelwerk mit den Aktivitäten, Personen und Entscheidungen zu verbinden, die es steuern soll.",
+  "audience": "Für Compliance- und Rechtsverantwortliche, Medical-Affairs-Teams und Fachbereichsverantwortliche in Pharma- und Biotech-Unternehmen. Die Unterstützung kann mit einem ersten Compliance-Programm, einer konkreten Kontrolllücke oder der Weiterentwicklung eines etablierten Regelwerks beginnen.",
+  "delivery": "Wir legen den Umfang anhand Ihrer Aktivitäten und Märkte fest, prüfen bestehende Kontrollen und priorisieren die Lücken. Die Arbeit kann Richtlinien und SOPs, Zuständigkeiten, Risikobewertungen, Schulungen, Monitoring und Abhilfemaßnahmen verbinden. Zur Umsetzung gehören die Freigabewege und Nachweisanforderungen, die Ihre Teams brauchen, um das Programm in der Praxis anzuwenden.",
+  "difference": "Eunomia verbindet pharmazeutische Compliance-Expertise mit operativer Umsetzung. Die Programmgestaltung kann an die Unterstützung vor Ort, an Shared-Service-Kapazitäten und an Automatisierung anknüpfen, sodass das Regelwerk einen praktikablen Weg in den Tagesbetrieb findet. Umfang, Zuständigkeiten und Übergabe stimmen wir mit Ihrem Team ab.",
+  "evidenceLabel": "Zugehörige Fallstudie",
+  "evidenceTitle": "Ein einheitliches FMV-Regelwerk für fünf Märkte",
+  "evidence": "Eunomia entwickelte eine dokumentierte Vergütungsmethodik, ein objektives Tiering und Honorarsätze für sechs Stakeholder-Kategorien im Vereinigten Königreich, in Deutschland, Frankreich, Italien und Spanien. Der Fall zeigt, wie ein definiertes Regelwerk Entscheidungen leichter nachvollziehbar und prüfbar machen kann."
+ },
+ "/services/automation-of-compliance-operations": {
+  "problemTitle": "Fragmentierte Compliance-Workflows reduzieren",
+  "problem": "Freigaben per E-Mail, unverbundene Tabellen und wiederholte Dateneingaben erschweren den Überblick darüber, wer eine Entscheidung verantwortet und welche Nachweise vollständig sind. Wer Technologie ohne klare Zuständigkeiten einführt, reproduziert diese Probleme womöglich in einem neuen System. Wir beginnen mit dem Prozess und seinen Kontrollen, bevor wir festlegen, was automatisiert wird.",
+  "audience": "Für Teams in Compliance-Operations, IT, Transformation und Shared Services, die mehr Transparenz und Einheitlichkeit bei Prüfungen, Monitoring und Berichterstattung benötigen. Wir können einen klar umrissenen Workflow oder ein umfassenderes Programm auf Basis Ihrer bestehenden Technologie unterstützen.",
+  "delivery": "Wir bilden den aktuellen Prozess ab, definieren Entscheidungspunkte und stimmen Anforderungen mit Compliance und technischen Stakeholdern ab. Die Umsetzung kann SharePoint-Workflows, Power-BI-Reporting, Prüfplattformen, verbundene Daten und kontrollierte Chatbot-Anwendungsfälle umfassen. Menschliche Prüfung, Eskalationswege und nachvollziehbare Aufzeichnungen sind fester Bestandteil des Betriebsmodells.",
+  "difference": "Compliance-Expertise, Projektmanagement und technische Umsetzung greifen ineinander. Diese Kombination hilft, das Systemdesign mit den Anwenderinnen und Anwendern und den benötigten Nachweisen zu verbinden. Automatisierung unterstützt die verantwortliche Urteilsbildung; Umfang und Kontrollen werden vor dem Rollout vereinbart.",
+  "evidenceLabel": "Zugehörige operative Fallstudie",
+  "evidenceTitle": "Der Prozess hinter einem leistungsfähigeren Materialprüfungsservice",
+  "evidence": "Unsere Fallstudie zur Materialprüfung beschreibt das Zusammenspiel von Workflows, SOPs, Vorlagen, Reporting und spezialisierten Prüfern. Sie ist ein Beispiel für operatives Prozessdesign; die berichteten Ergebnisse werden nicht als reines Automatisierungsergebnis dargestellt."
+ },
+ "/services/local-legal-mandates": {
+  "problemTitle": "Globale Standards mit lokalen Zuständigkeiten verbinden",
+  "problem": "Eine globale Richtlinie beantwortet nicht jede Frage auf Länderebene. Beim Markteintritt und bei grenzüberschreitenden Aktivitäten sind Teams oft unsicher, welche Anforderungen gelten, wer eine Aktivität prüfen soll und wo die Verantwortung liegt. Wir unterstützen Sie dabei, die für die geplante Aktivität erforderlichen lokalen Unterstützungs- und Eskalationswege festzulegen.",
+  "audience": "Für Pharma- und Biotech-Teams, die in einen Markt eintreten, grenzüberschreitend arbeiten oder mit begrenzter lokaler Compliance-Kapazität operieren. Die Unterstützung richtet sich nach den beteiligten Ländern, Aktivitäten und Zuständigkeiten, statt davon auszugehen, dass dasselbe Vertretungsmodell in jedem Markt passt.",
+  "delivery": "Wir bewerten den Kontext des Markteintritts, ermitteln die relevanten lokalen Anforderungen und vereinbaren benannte Ansprechpersonen und Entscheidungsbefugnisse. Die Unterstützung kann die Auslegung von Kodizes, die Verbandsarbeit, die Prüfung der Zusammenarbeit mit Angehörigen der Gesundheitsberufe (HCP) und Transparenzprozesse umfassen. Jede Vertreterrolle und ihre Verantwortlichkeiten werden für das jeweilige Mandat bestätigt.",
+  "difference": "Unsere lokalen Compliance-Partner verbinden Länderwissen mit Ihrem zentralen Team. Vereinbarte Berichts- und Eskalationswege helfen, lokale Entscheidungen in das übergreifende Compliance-Programm einzupassen. Länderleitfäden und Team-Biografien bieten einen Ausgangspunkt, um die Expertise zu besprechen, die Ihr Mandat benötigt.",
+  "evidenceLabel": "Zugehörige marktübergreifende Fallstudie",
+  "evidenceTitle": "Eine FMV-Methode mit länderspezifischen Eingangsdaten",
+  "evidence": "Das FMV-Projekt für fünf Märkte kombinierte ein gemeinsames Berechnungsmodell mit nationalen Daten und stakeholderspezifischen Honorarsätzen. Es veranschaulicht einen marktübergreifenden Ansatz der Compliance-Umsetzung und ist keine Fallstudie zur Bestellung eines gesetzlichen Vertreters."
+ },
+ "/services/shared-services": {
+  "problemTitle": "Kapazität ergänzen, wenn die Compliance-Arbeit das Team übersteigt",
+  "problem": "Steigende Prüfvolumina und Aktivitäten in neuen Märkten können eine schlank aufgestellte Compliance-Funktion unter Druck setzen. Rückstände, wiederholte Prüfschleifen und uneinheitliche Aufzeichnungen binden Zeit, die für die Aufsicht fehlt. Wir bieten operative Unterstützung über vereinbarte Prozesse, damit Ihr Team das Arbeitsvolumen bewältigen und zugleich die Verantwortung behalten kann.",
+  "audience": "Für junge Biotech-Unternehmen, die ihr Betriebsmodell aufbauen, für Pharma-Teams mit begrenzter Prüfkapazität und für etablierte Organisationen, die Shared Services, GBS- oder GCC-Funktionen entwickeln. Ein Mandat kann mit einer Aktivität oder einem Markt beginnen und mit veränderten Anforderungen wachsen.",
+  "delivery": "Wir vereinbaren Aktivitäten, Prüfzuständigkeiten, Servicekennzahlen und Eskalationswege und arbeiten dann innerhalb Ihrer SOPs und Systeme. Der Umfang kann Werbe- und medizinische Materialien, HCP-Engagements, FMV-Bewertungen, Transparenzberichterstattung und zugehörige Aufzeichnungen umfassen. Das Reporting macht Volumina, Durchlaufzeiten, Ausnahmen und wiederkehrende Probleme für Ihr Team sichtbar.",
+  "difference": "Spezialisierte Prüfkompetenz wird durch Workflow-Management und operative Koordination unterstützt. Wir binden lokale Expertise ein, wenn der vereinbarte Umfang es erfordert, und überprüfen die Leistung in regelmäßigen Governance-Terminen. Ihre Organisation behält die Aufsicht und die für das Mandat festgelegten Entscheidungsbefugnisse.",
+  "evidenceLabel": "Service-Fallstudie",
+  "evidenceTitle": "Durchlaufzeit der Materialprüfung von fünf auf zwei Tage verkürzt",
+  "evidence": "Ein britisches Pharmaunternehmen, das sich in Europa ausweitete, erhielt einen strukturierten Prüfservice mit erfahrenen Prüfern, Workflows, SOPs und Reporting. Die veröffentlichte Fallstudie berichtet, dass die Prüfschleifen von vier auf zwei sanken. Diese Ergebnisse beziehen sich auf dieses Mandat und sind kein zugesagtes Ergebnis für jeden Kunden."
+ }
+}

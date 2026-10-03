@@ -1,0 +1,252 @@
+{
+ "/services/governance-assurance": {
+  "intro": "英国のプログラムは通常、業界規範と法律の両方に照らして評価されます。以下は、Eunomiaが統制を設計する際の主な枠組みです。適切な組み合わせは、貴社の活動や市場によって異なります。",
+  "frameworks": [
+   {
+    "title": "2024年版ABPI行動規範",
+    "body": "2024年10月1日に施行され、2024年12月31日までの移行期間が設けられました。ABPIから独立してPMCPAが運用しています。第24条は委託サービスを対象とし、正当な必要性、選定、事前の契約締結、公正な市場価値（FMV）を反映した報酬について定めています。",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA：2024年版ABPI規範"
+   },
+   {
+    "title": "英国贈収賄法2010、第7条",
+    "body": "商業組織は、代理人やサービス提供者など、自らに関連する者による贈賄を防止しなかった場合に責任を問われることがあります。適切な手続を整備していることは抗弁となります。",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "贈収賄法 第7条"
+   },
+   {
+    "title": "詐欺防止義務違反（ECCTA 2023）",
+    "body": "2023年経済犯罪・企業透明性法（ECCTA）で導入された法人の罪は、2025年9月1日から適用されており、第三者および商取引に関する統制の評価に含めるべきものです。",
+    "href": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+    "label": "ECCTAガイダンス"
+   },
+   {
+    "title": "コンプライアンスプログラムに関するSFOガイダンス",
+    "body": "英国重大不正捜査局（SFO）が、企業のコンプライアンスプログラムが実務上機能しているかどうかをどのように評価するかを説明しています。これは執行に関するガイダンスであり、製薬分野の認証基準ではありません。",
+    "href": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "label": "SFOガイダンス"
+   }
+  ],
+  "steps": [
+   {
+    "title": "範囲の確定",
+    "body": "対象となる活動、市場、義務と、それぞれの責任者を合意します。"
+   },
+   {
+    "title": "評価",
+    "body": "既存の方針、承認、記録、研修をそれらの義務に照らしてレビューし、ギャップをリスク評価します。"
+   },
+   {
+    "title": "設計と導入",
+    "body": "方針、SOP、承認ルート、証跡要件、役割別の研修を構築または更新します。"
+   },
+   {
+    "title": "モニタリングと改善",
+    "body": "モニタリング、CAPA、ガバナンス報告を整備し、プログラムが日常の運用の中で検証され、改善されるようにします。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "Pharma Compliance Readiness Checklist",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   },
+   {
+    "label": "EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "コンプライアンスプログラム、監査、研修に関する記事",
+    "href": "/resources/category/compliance-programmes"
+   }
+  ]
+ },
+ "/services/automation-of-compliance-operations": {
+  "intro": "自動化されたワークフローであっても、根底にある規則を満たさなければなりません。以下の枠組みは、自動化されたプロセスにおけるデータ、レビュー、記録が示すべき内容を左右します。",
+  "frameworks": [
+   {
+    "title": "EFPIA行動規範",
+    "body": "医療従事者、医療機関、患者団体との関わりに関する欧州の基準を定めており、各暦年の終了後6か月以内に行う年次の利益移転の開示を含みます。加盟団体はこれを各国の規範に置き換えており、より厳格な基準を採用する場合もあります。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA規範"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "ABPIが公開している、英国の医療従事者・医療機関に対する業界からの支払いに関するデータベースで、欧州全体の透明性への取り組みの一環です。",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   },
+   {
+    "title": "GDPR",
+    "body": "規則（EU）2016/679は、個人データの取扱いを規律しており、関与、支払い、開示の目的で保有する医療従事者のデータも対象となります。",
+    "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "label": "GDPR"
+   },
+   {
+    "title": "EU AI法",
+    "body": "規則（EU）2024/1689です。GDPR、EUデータ法、およびAIが医療機器や診断薬の一部を成す場合はMDRおよびIVDRと併せて確認する必要があります。",
+    "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "label": "EU AI法"
+   }
+  ],
+  "steps": [
+   {
+    "title": "整理",
+    "body": "現行のプロセス、判断ポイント、責任者、各ステップが生み出すべき証跡を文書化します。"
+   },
+   {
+    "title": "定義",
+    "body": "コンプライアンス部門と技術部門の関係者とともに、人によるレビューやエスカレーションを含む要件を合意します。"
+   },
+   {
+    "title": "構築",
+    "body": "SharePointやPower BIなど、既存のテクノロジー上で、ワークフロー、レポート、連携データを構成します。"
+   },
+   {
+    "title": "引き継ぎ",
+    "body": "実際の事例でテストし、利用者を研修したうえで、責任者、変更管理、モニタリングを合意します。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "開示準備および方法論的注記ガイド",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "プロモーション資材レビューのワークフローガイド",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "AIとデジタルのコンプライアンスに関する記事",
+    "href": "/resources/category/ai-digital-compliance"
+   }
+  ]
+ },
+ "/services/local-legal-mandates": {
+  "intro": "現地サポートは、欧州の枠組みと各国の規則の間に位置します。以下は欧州レベルの枠組みであり、各国の詳細は国別ガイドで取り上げています。",
+  "frameworks": [
+   {
+    "title": "EU指令2001/83/EC",
+    "body": "ヒト用医薬品に関するEUの法典で、各国の法律が実施している広告および不当な利益提供に関する枠組みを含みます。",
+    "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+    "label": "指令2001/83/EC"
+   },
+   {
+    "title": "EFPIA行動規範",
+    "body": "医療従事者、医療機関、患者団体との関わりに関する欧州の基準を定めており、各暦年の終了後6か月以内に行う年次の利益移転の開示を含みます。加盟団体はこれを各国の規範に置き換えており、より厳格な基準を採用する場合もあります。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA規範"
+   },
+   {
+    "title": "英国贈収賄法2010、第7条",
+    "body": "商業組織は、代理人やサービス提供者など、自らに関連する者による贈賄を防止しなかった場合に責任を問われることがあります。適切な手続を整備していることは抗弁となります。",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "贈収賄法 第7条"
+   }
+  ],
+  "steps": [
+   {
+    "title": "活動の定義",
+    "body": "対象国、予定している活動、関与する法人と担当者を確認します。"
+   },
+   {
+    "title": "現地要件の整理",
+    "body": "適用される国内法と業界規範を特定し、貴社のグローバル方針との相違点を明らかにします。"
+   },
+   {
+    "title": "責任分担の合意",
+    "body": "窓口担当者、意思決定権限、レビューのルート、案件における正式な役割の有無を確認します。"
+   },
+   {
+    "title": "運用とエスカレーション",
+    "body": "活動が発生するたびにレビューし、疑問点は合意したルートに沿って本社チームにエスカレーションします。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "国別コンプライアンスガイド",
+    "href": "/legal-mandates"
+   },
+   {
+    "label": "Eunomiaの現地コンプライアンスパートナー",
+    "href": "/team"
+   },
+   {
+    "label": "EFPIA Code Self-Assessment Checklist",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   }
+  ]
+ },
+ "/services/shared-services": {
+  "intro": "シェアードサービスのレビュアーも、社内チームと同じ規則に従って業務を行います。以下は、資材レビュー、医療従事者との関わり、開示業務の背景として最もよく参照される枠組みです。",
+  "frameworks": [
+   {
+    "title": "MHRAブルーガイド",
+    "body": "英国の2012年ヒト用医薬品規則第14部が定める医薬品広告の法的要件を、MHRAがどのように適用するかについてのガイダンスです。",
+    "href": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+    "label": "MHRAブルーガイド"
+   },
+   {
+    "title": "2024年版ABPI行動規範",
+    "body": "2024年10月1日に施行され、2024年12月31日までの移行期間が設けられました。ABPIから独立してPMCPAが運用しています。第24条は委託サービスを対象とし、正当な必要性、選定、事前の契約締結、公正な市場価値（FMV）を反映した報酬について定めています。",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA：2024年版ABPI規範"
+   },
+   {
+    "title": "EFPIA行動規範",
+    "body": "医療従事者、医療機関、患者団体との関わりに関する欧州の基準を定めており、各暦年の終了後6か月以内に行う年次の利益移転の開示を含みます。加盟団体はこれを各国の規範に置き換えており、より厳格な基準を採用する場合もあります。",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA規範"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "ABPIが公開している、英国の医療従事者・医療機関に対する業界からの支払いに関するデータベースで、欧州全体の透明性への取り組みの一環です。",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   }
+  ],
+  "steps": [
+   {
+    "title": "サービスの合意",
+    "body": "活動内容、件数、レビューの責任、サービス指標、エスカレーションのルートを定めます。"
+   },
+   {
+    "title": "オンボーディング",
+    "body": "レビュー開始前に、貴社のSOP、システム、テンプレート、承認権限と整合させます。"
+   },
+   {
+    "title": "実施",
+    "body": "貴社のプロセスの枠内で、合意したレビュー、評価、報告を実施します。"
+   },
+   {
+    "title": "実績のレビュー",
+    "body": "定期的なガバナンスの場で、件数、所要期間、例外事項、繰り返し発生する課題を報告します。"
+   }
+  ],
+  "resources": [
+   {
+    "label": "開示準備および方法論的注記ガイド",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "プロモーション資材レビューのワークフローガイド",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "資材レビューの事例",
+    "href": "/resources/materials-review-shared-service-case-study"
+   },
+   {
+    "label": "公正な市場価値（FMV）の事例",
+    "href": "/resources/fair-market-value-methodology"
+   },
+   {
+    "label": "医療従事者との関わりと透明性に関する記事",
+    "href": "/resources/category/hcp-engagement-transparency"
+   }
+  ]
+ }
+}

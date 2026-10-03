@@ -1,0 +1,42 @@
+{
+ "/services/governance-assurance": {
+  "problemTitle": "Trasformate le policy di compliance in pratica quotidiana",
+  "problem": "Un portafoglio in crescita, nuovi mercati e priorità concorrenti possono far emergere distanze tra le policy scritte e ciò che i team fanno davvero. Flussi approvativi poco chiari, registrazioni incoerenti e una formazione reattiva rendono più difficile dimostrare che i controlli funzionano. Vi aiutiamo a collegare il vostro framework alle attività, alle persone e alle decisioni che deve governare.",
+  "audience": "Per responsabili compliance e legal, team Medical Affairs e responsabili di business nelle aziende farmaceutiche e biotech. Il supporto può partire da un primo programma di compliance, da una specifica lacuna nei controlli o dal miglioramento di un framework già consolidato.",
+  "delivery": "Concordiamo l’ambito in base alle vostre attività e ai vostri mercati, rivediamo i controlli esistenti e assegniamo priorità alle lacune. Il lavoro può combinare policy e SOP, responsabilità, valutazioni del rischio, formazione, monitoraggio e remediation. L’implementazione comprende i flussi approvativi e i requisiti di evidenza di cui i vostri team hanno bisogno per usare il programma nella pratica.",
+  "difference": "Eunomia unisce competenza di compliance farmaceutica ed esecuzione operativa. La progettazione del programma può collegarsi al supporto sui mercati locali, alla capacità dei servizi condivisi e all’automazione, così che il framework abbia una via concreta verso il lavoro di ogni giorno. Ambito, responsabilità e passaggio di consegne sono concordati con il vostro team.",
+  "evidenceLabel": "Caso di studio correlato",
+  "evidenceTitle": "Un framework FMV coerente su cinque mercati",
+  "evidence": "Eunomia ha sviluppato una metodologia di compenso documentata, una classificazione oggettiva in fasce e tariffari per sei categorie di stakeholder in Regno Unito, Germania, Francia, Italia e Spagna. Il caso illustra come un framework definito possa rendere le decisioni più facili da spiegare e da riesaminare."
+ },
+ "/services/automation-of-compliance-operations": {
+  "problemTitle": "Riducete la frammentazione dei flussi di compliance",
+  "problem": "Approvazioni via e-mail, fogli di calcolo scollegati e inserimenti ripetuti dei dati possono rendere difficile capire chi sia responsabile di una decisione o quali evidenze siano complete. Aggiungere tecnologia senza responsabilità chiare può riprodurre gli stessi problemi in un nuovo sistema. Partiamo dal processo e dai suoi controlli prima di scegliere cosa automatizzare.",
+  "audience": "Per i team di compliance operations, IT, trasformazione e servizi condivisi che hanno bisogno di maggiore visibilità e coerenza in revisioni, monitoraggio e reporting. Possiamo supportare un singolo flusso di lavoro definito oppure un programma più ampio costruito attorno alla vostra tecnologia esistente.",
+  "delivery": "Mappiamo il processo attuale, definiamo i punti decisionali e concordiamo i requisiti con gli stakeholder di compliance e tecnici. L’attività può comprendere flussi SharePoint, reporting Power BI, piattaforme di revisione, dati collegati e casi d’uso controllati di chatbot. Revisione umana, canali di escalation e registrazioni tracciabili sono integrati nel modello operativo.",
+  "difference": "Competenza di compliance, project management e sviluppo tecnico lavorano insieme. Questa combinazione aiuta a collegare la progettazione dei sistemi alle persone che li usano e alle evidenze di cui hanno bisogno. L’automazione supporta un giudizio responsabile, con ambito e controlli concordati prima del rilascio.",
+  "evidenceLabel": "Caso di studio operativo correlato",
+  "evidenceTitle": "Il processo alla base di un servizio di revisione dei materiali più solido",
+  "evidence": "Il nostro caso di studio sulla revisione dei materiali descrive flussi di lavoro, SOP, modelli, reporting e revisori specialisti che operano insieme. Offre un esempio di progettazione dei processi operativi; i risultati riportati non sono presentati come esito della sola automazione."
+ },
+ "/services/local-legal-mandates": {
+  "problemTitle": "Collegate gli standard globali alle responsabilità locali",
+  "problem": "Una policy globale non risolve ogni questione a livello di singolo Paese. L’ingresso in un nuovo mercato e le attività transfrontaliere possono lasciare i team incerti su quali requisiti si applichino, chi debba rivedere un’attività e dove risieda la responsabilità. Vi aiutiamo a definire il supporto locale e i canali di escalation necessari per l’attività pianificata.",
+  "audience": "Per i team farmaceutici e biotech che entrano in un mercato, operano a livello transfrontaliero o dispongono di una capacità di compliance locale limitata. Il supporto è calibrato su Paesi, attività e responsabilità coinvolti, senza presumere che lo stesso modello di rappresentanza valga per ogni mercato.",
+  "delivery": "Valutiamo il contesto di ingresso nel mercato, individuiamo i requisiti locali pertinenti e concordiamo referenti designati e poteri decisionali. Il supporto può comprendere interpretazione dei codici, rapporti con le associazioni, revisione delle collaborazioni con operatori sanitari e processi di trasparenza. Qualsiasi ruolo di rappresentanza e le relative responsabilità vengono confermati per lo specifico incarico.",
+  "difference": "I nostri partner locali di compliance collegano la conoscenza del Paese con il vostro team centrale. Canali di reporting e di escalation concordati aiutano le decisioni locali a inserirsi nel programma di compliance complessivo. Le guide per Paese e le biografie del team sono un punto di partenza per discutere le competenze di cui il vostro incarico ha bisogno.",
+  "evidenceLabel": "Caso di studio cross-market correlato",
+  "evidenceTitle": "Un’unica metodologia FMV, con input specifici per Paese",
+  "evidence": "Il progetto FMV su cinque mercati ha combinato un framework di calcolo comune con dati nazionali e tariffari specifici per stakeholder. Illustra un approccio cross-market all’erogazione della compliance, e non un caso di studio sulla nomina di un rappresentante legale."
+ },
+ "/services/shared-services": {
+  "problemTitle": "Aggiungete capacità quando il lavoro di compliance supera le dimensioni del team",
+  "problem": "L’aumento dei volumi di revisione e delle attività nei nuovi mercati può mettere sotto pressione una funzione di compliance snella. Arretrati, cicli di revisione ripetuti e registrazioni incoerenti sottraggono tempo alla supervisione. Forniamo supporto operativo attraverso processi concordati, così che il vostro team possa gestire il carico di lavoro mantenendo la responsabilità.",
+  "audience": "Per le biotech emergenti che costruiscono il proprio modello operativo, per i team farmaceutici con capacità di revisione limitata e per le organizzazioni consolidate che sviluppano funzioni di servizi condivisi, GBS o GCC. Un incarico può partire da una singola attività o da un singolo mercato ed ampliarsi al mutare delle esigenze.",
+  "delivery": "Concordiamo attività, responsabilità di revisione, indicatori di servizio e canali di escalation, quindi lavoriamo all’interno delle vostre SOP e dei vostri sistemi. L’ambito può comprendere materiali promozionali e medici, collaborazioni con operatori sanitari, valutazione FMV, rendicontazione di trasparenza e relative registrazioni. Il reporting rende visibili al vostro team volumi, tempi di risposta, eccezioni e problemi ricorrenti.",
+  "difference": "La capacità di revisione specialistica è affiancata da gestione dei flussi di lavoro e coordinamento operativo. Coinvolgiamo competenze locali quando l’ambito concordato lo richiede e utilizziamo una governance periodica per riesaminare le prestazioni. La vostra organizzazione mantiene la supervisione e i poteri decisionali definiti per l’incarico.",
+  "evidenceLabel": "Caso di studio del servizio",
+  "evidenceTitle": "Tempi di revisione dei materiali ridotti da cinque giorni a due",
+  "evidence": "Un’azienda farmaceutica britannica in espansione in Europa ha ricevuto un servizio di revisione strutturato, con revisori esperti, flussi di lavoro, SOP e reporting. Il caso di studio pubblicato riporta cicli di revisione scesi da quattro a due. Questi risultati si riferiscono a quell’incarico e non costituiscono un esito garantito per ogni cliente."
+ }
+}

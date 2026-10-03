@@ -2,6 +2,7 @@ import { SiteImage } from "./SiteImage";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Locale } from "../data/i18n/locales";
 import chromeStrings from "../data/i18n/site-chrome.json";
+import { localHref } from "../lib/i18n";
 
 type ChromeCopy = Record<string, string>;
 function copyFor(locale: Locale): ChromeCopy {
@@ -57,7 +58,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         <span>{copy.registeredOffice}</span>
         <span>+44 7584 567018</span>
         <a href={localPath("/team")}>{copy.ourTeam}</a>
-        <a href="/privacy">{copy.privacyCookies}</a>
+        <a href={localHref(locale, "/privacy")}>{copy.privacyCookies}</a>
         <span>© 2026 Eunomia Pharma Services</span>
       </div>
     </footer>

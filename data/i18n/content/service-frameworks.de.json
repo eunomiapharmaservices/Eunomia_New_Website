@@ -1,0 +1,252 @@
+{
+ "/services/governance-assurance": {
+  "intro": "Ein britisches Programm wird üblicherweise sowohl an Branchenkodizes als auch am Gesetz gemessen. Dies sind die wichtigsten Regelwerke, an denen wir Kontrollen ausrichten; die passende Auswahl hängt von Ihren Aktivitäten und Märkten ab.",
+  "frameworks": [
+   {
+    "title": "ABPI-Kodex 2024",
+    "body": "Seit dem 1. Oktober 2024 in Kraft, mit einer Übergangsfrist bis zum 31. Dezember 2024, und wird von der PMCPA unabhängig von der ABPI verwaltet. Klausel 24 regelt vertraglich vereinbarte Leistungen, darunter berechtigten Bedarf, Auswahl, Vertragsabschluss im Voraus und eine Vergütung, die dem marktüblichen Wert (Fair Market Value) entspricht.",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA: ABPI-Kodex 2024"
+   },
+   {
+    "title": "UK Bribery Act 2010, Section 7",
+    "body": "Ein Handelsunternehmen kann haften, wenn es nicht verhindert, dass ihm nahestehende Personen wie Vertreter und Dienstleister Bestechung begehen. Angemessene Verfahren stellen einen Verteidigungsgrund dar.",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "Bribery Act, s. 7"
+   },
+   {
+    "title": "Versäumnis der Betrugsprävention (ECCTA 2023)",
+    "body": "Der durch den Economic Crime and Corporate Transparency Act 2023 eingeführte Unternehmenstatbestand gilt seit dem 1. September 2025 und gehört in die Bewertung der Kontrollen bei Dritten und im kommerziellen Bereich.",
+    "href": "https://www.gov.uk/government/publications/offence-of-failure-to-prevent-fraud-introduced-by-eccta",
+    "label": "ECCTA-Leitlinien"
+   },
+   {
+    "title": "SFO-Leitlinien zu Compliance-Programmen",
+    "body": "Erläutert, wie das britische Serious Fraud Office beurteilt, ob ein unternehmensweites Compliance-Programm in der Praxis funktioniert. Es handelt sich um Durchsetzungsleitlinien und nicht um einen pharmaspezifischen Zertifizierungsstandard.",
+    "href": "https://www.gov.uk/government/publications/sfo-guidance-on-evaluating-a-corporate-compliance-programme/sfo-guidance-on-evaluating-a-corporate-compliance-programme",
+    "label": "SFO-Leitlinien"
+   }
+  ],
+  "steps": [
+   {
+    "title": "Umfang festlegen",
+    "body": "Die Aktivitäten, Märkte und Pflichten im Umfang sowie die dafür verantwortlichen Personen vereinbaren."
+   },
+   {
+    "title": "Bewerten",
+    "body": "Bestehende Richtlinien, Freigaben, Aufzeichnungen und Schulungen anhand dieser Pflichten prüfen und die Lücken risikobasiert einstufen."
+   },
+   {
+    "title": "Gestalten und umsetzen",
+    "body": "Richtlinien, SOPs, Freigabewege, Nachweisanforderungen und rollenbasierte Schulungen erstellen oder aktualisieren."
+   },
+   {
+    "title": "Überwachen und verbessern",
+    "body": "Monitoring, CAPA und Governance-Reporting einrichten, damit das Programm im laufenden Betrieb getestet und verbessert wird."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Checkliste zur Compliance-Bereitschaft in der Pharmabranche",
+    "href": "/resources/checklists/pharma-compliance-readiness-checklist"
+   },
+   {
+    "label": "Checkliste zur Selbstbewertung nach dem EFPIA-Kodex",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Artikel zu Compliance-Programmen, Audits und Schulungen",
+    "href": "/resources/category/compliance-programmes"
+   }
+  ]
+ },
+ "/services/automation-of-compliance-operations": {
+  "intro": "Automatisierte Workflows müssen weiterhin die zugrunde liegenden Regeln erfüllen. Diese Regelwerke bestimmen, was Daten, Prüfungen und Aufzeichnungen in einem automatisierten Prozess belegen müssen.",
+  "frameworks": [
+   {
+    "title": "EFPIA-Verhaltenskodex",
+    "body": "Legt europäische Standards für Interaktionen mit Angehörigen der Gesundheitsberufe, Gesundheitseinrichtungen und Patientenorganisationen fest, einschließlich der jährlichen Offenlegung von Zuwendungen innerhalb von sechs Monaten nach Ende jedes Kalenderjahres. Die Mitgliedsverbände übertragen ihn in nationale Kodizes und können strengere Standards festlegen.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA-Kodex"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "Die öffentliche Datenbank der ABPI zu Zahlungen der Industrie an britische Angehörige der Gesundheitsberufe und Gesundheitseinrichtungen, Teil einer europaweiten Transparenzinitiative.",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   },
+   {
+    "title": "DSGVO",
+    "body": "Die Verordnung (EU) 2016/679 regelt die Verarbeitung personenbezogener Daten, einschließlich der Daten von Angehörigen der Gesundheitsberufe, die für Zusammenarbeit, Zahlung und Offenlegung vorgehalten werden.",
+    "href": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "label": "DSGVO"
+   },
+   {
+    "title": "EU-KI-Verordnung (EU AI Act)",
+    "body": "Verordnung (EU) 2024/1689, zu lesen zusammen mit der DSGVO, dem EU Data Act und, wenn KI Bestandteil eines Medizinprodukts oder Diagnostikums ist, der MDR und der IVDR.",
+    "href": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "label": "EU-KI-Verordnung"
+   }
+  ],
+  "steps": [
+   {
+    "title": "Abbilden",
+    "body": "Den aktuellen Prozess, die Entscheidungspunkte, die Verantwortlichen und die Nachweise dokumentieren, die jeder Schritt erzeugen muss."
+   },
+   {
+    "title": "Definieren",
+    "body": "Anforderungen mit Compliance und technischen Stakeholdern abstimmen, einschließlich menschlicher Prüfung und Eskalation."
+   },
+   {
+    "title": "Umsetzen",
+    "body": "Workflows, Reporting und verbundene Daten in Ihrer bestehenden Technologie konfigurieren, etwa in SharePoint und Power BI."
+   },
+   {
+    "title": "Übergeben",
+    "body": "Mit realen Fällen testen, Anwender schulen und Verantwortung, Änderungskontrolle und Monitoring vereinbaren."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Leitfaden zur Offenlegungsvorbereitung und zur Methodikbeschreibung",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "Leitfaden zum Workflow der Werbematerialprüfung",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "Checkliste zur Selbstbewertung nach dem EFPIA-Kodex",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   },
+   {
+    "label": "Artikel zu KI und digitaler Compliance",
+    "href": "/resources/category/ai-digital-compliance"
+   }
+  ]
+ },
+ "/services/local-legal-mandates": {
+  "intro": "Lokale Unterstützung liegt zwischen den europäischen Rahmenwerken und den nationalen Regeln. Dies sind die europäischen Ebenen; unsere Länderleitfäden behandeln die nationalen Einzelheiten.",
+  "frameworks": [
+   {
+    "title": "EU-Richtlinie 2001/83/EG",
+    "body": "Der EU-Kodex für Humanarzneimittel, einschließlich des Rahmens für Werbung und Vorteilsgewährung, den die nationalen Gesetze umsetzen.",
+    "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0083",
+    "label": "Richtlinie 2001/83/EG"
+   },
+   {
+    "title": "EFPIA-Verhaltenskodex",
+    "body": "Legt europäische Standards für Interaktionen mit Angehörigen der Gesundheitsberufe, Gesundheitseinrichtungen und Patientenorganisationen fest, einschließlich der jährlichen Offenlegung von Zuwendungen innerhalb von sechs Monaten nach Ende jedes Kalenderjahres. Die Mitgliedsverbände übertragen ihn in nationale Kodizes und können strengere Standards festlegen.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA-Kodex"
+   },
+   {
+    "title": "UK Bribery Act 2010, Section 7",
+    "body": "Ein Handelsunternehmen kann haften, wenn es nicht verhindert, dass ihm nahestehende Personen wie Vertreter und Dienstleister Bestechung begehen. Angemessene Verfahren stellen einen Verteidigungsgrund dar.",
+    "href": "https://www.legislation.gov.uk/ukpga/2010/23/section/7",
+    "label": "Bribery Act, s. 7"
+   }
+  ],
+  "steps": [
+   {
+    "title": "Aktivität definieren",
+    "body": "Die Länder, die geplanten Aktivitäten sowie die beteiligten Rechtsträger und Personen bestätigen."
+   },
+   {
+    "title": "Lokale Anforderungen abbilden",
+    "body": "Das anwendbare nationale Recht und den Branchenkodex ermitteln und festhalten, wo sie von Ihrer globalen Richtlinie abweichen."
+   },
+   {
+    "title": "Zuständigkeiten vereinbaren",
+    "body": "Benannte Ansprechpersonen, Entscheidungsbefugnisse, Prüfwege und jede förmliche Rolle für das Mandat bestätigen."
+   },
+   {
+    "title": "Betreiben und eskalieren",
+    "body": "Aktivitäten prüfen, sobald sie anfallen, und Fragen über die vereinbarten Wege an Ihr zentrales Team eskalieren."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Länderleitfäden zur Compliance",
+    "href": "/legal-mandates"
+   },
+   {
+    "label": "Unsere lokalen Compliance-Partner",
+    "href": "/team"
+   },
+   {
+    "label": "Checkliste zur Selbstbewertung nach dem EFPIA-Kodex",
+    "href": "/resources/checklists/efpia-code-self-assessment-checklist"
+   }
+  ]
+ },
+ "/services/shared-services": {
+  "intro": "Shared-Service-Prüfer arbeiten nach denselben Regeln wie Ihr internes Team. Dies sind die Regelwerke, die am häufigsten hinter Materialprüfung, HCP-Engagement und Offenlegung stehen.",
+  "frameworks": [
+   {
+    "title": "MHRA Blue Guide",
+    "body": "Der Leitfaden der MHRA dazu, wie sie die britischen rechtlichen Anforderungen an die Arzneimittelwerbung nach Teil 14 der Human Medicines Regulations 2012 anwendet.",
+    "href": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promoting-medicines",
+    "label": "MHRA Blue Guide"
+   },
+   {
+    "title": "ABPI-Kodex 2024",
+    "body": "Seit dem 1. Oktober 2024 in Kraft, mit einer Übergangsfrist bis zum 31. Dezember 2024, und wird von der PMCPA unabhängig von der ABPI verwaltet. Klausel 24 regelt vertraglich vereinbarte Leistungen, darunter berechtigten Bedarf, Auswahl, Vertragsabschluss im Voraus und eine Vergütung, die dem marktüblichen Wert (Fair Market Value) entspricht.",
+    "href": "https://www.pmcpa.org.uk/the-code/2024-abpi-code-of-practice-launched-with-a-new-constitution-and-procedure-for-the-pmcpa/",
+    "label": "PMCPA: ABPI-Kodex 2024"
+   },
+   {
+    "title": "EFPIA-Verhaltenskodex",
+    "body": "Legt europäische Standards für Interaktionen mit Angehörigen der Gesundheitsberufe, Gesundheitseinrichtungen und Patientenorganisationen fest, einschließlich der jährlichen Offenlegung von Zuwendungen innerhalb von sechs Monaten nach Ende jedes Kalenderjahres. Die Mitgliedsverbände übertragen ihn in nationale Kodizes und können strengere Standards festlegen.",
+    "href": "https://www.efpia.eu/relationships-code/the-efpia-code/",
+    "label": "EFPIA-Kodex"
+   },
+   {
+    "title": "Disclosure UK",
+    "body": "Die öffentliche Datenbank der ABPI zu Zahlungen der Industrie an britische Angehörige der Gesundheitsberufe und Gesundheitseinrichtungen, Teil einer europaweiten Transparenzinitiative.",
+    "href": "https://www.abpi.org.uk/reputation/disclosure-uk/",
+    "label": "Disclosure UK"
+   }
+  ],
+  "steps": [
+   {
+    "title": "Service vereinbaren",
+    "body": "Aktivitäten, Volumina, Prüfzuständigkeiten, Servicekennzahlen und Eskalationswege festlegen."
+   },
+   {
+    "title": "Einarbeiten",
+    "body": "Vor Beginn der Prüfungen auf Ihre SOPs, Systeme, Vorlagen und Freigabebefugnisse abstimmen."
+   },
+   {
+    "title": "Leisten",
+    "body": "Die vereinbarten Prüfungen, Bewertungen und das Reporting innerhalb Ihrer Prozesse durchführen."
+   },
+   {
+    "title": "Leistung überprüfen",
+    "body": "Volumina, Durchlaufzeiten, Ausnahmen und wiederkehrende Probleme in der regelmäßigen Governance berichten."
+   }
+  ],
+  "resources": [
+   {
+    "label": "Leitfaden zur Offenlegungsvorbereitung und zur Methodikbeschreibung",
+    "href": "/resources/disclosure-preparation-checklist"
+   },
+   {
+    "label": "Leitfaden zum Workflow der Werbematerialprüfung",
+    "href": "/resources/promotional-review-workflow"
+   },
+   {
+    "label": "Fallstudie zur Materialprüfung",
+    "href": "/resources/materials-review-shared-service-case-study"
+   },
+   {
+    "label": "Fallstudie zum Fair Market Value",
+    "href": "/resources/fair-market-value-methodology"
+   },
+   {
+    "label": "Artikel zu HCP-Engagement und Transparenz",
+    "href": "/resources/category/hcp-engagement-transparency"
+   }
+  ]
+ }
+}
