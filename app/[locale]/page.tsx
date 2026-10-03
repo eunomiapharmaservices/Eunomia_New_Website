@@ -29,7 +29,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  if (!Object.hasOwn(copy, locale)) return {};
+  if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as DraftLocale];
   const languages = Object.fromEntries(
     (Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : code}`])
