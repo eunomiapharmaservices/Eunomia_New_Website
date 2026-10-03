@@ -10,7 +10,8 @@ function copyFor(locale: Locale): ChromeCopy {
 
 export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
   const copy = copyFor(locale);
-  const servicesHref = locale === "en" ? "/services" : `/${locale}/services`;
+  const localPath = (path: string) => locale === "en" ? path : `/${locale}${path}`;
+  const servicesHref = localPath("/services");
   return (
     <nav aria-label={locale === "en" ? "Primary navigation" : copy.services}>
       <a href={locale === "en" ? "/" : `/${locale}`}>{copy.home}</a>
@@ -18,10 +19,10 @@ export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
         <summary>{copy.services}</summary>
         <div className="services-dropdown">
           <a href={servicesHref}><b>{copy.servicesOverview}</b><small>{copy.exploreEveryService}</small></a>
-          <a href="/services/governance-assurance"><b>{copy.governanceService}</b><small>{copy.governanceSummary}</small></a>
-          <a href="/services/automation-of-compliance-operations"><b>{copy.automationService}</b><small>{copy.automationSummary}</small></a>
-          <a href="/services/local-legal-mandates"><b>{copy.localMandatesService}</b><small>{copy.localMandatesSummary}</small></a>
-          <a href="/services/shared-services"><b>{copy.sharedServices}</b><small>{copy.sharedServicesSummary}</small></a>
+          <a href={localPath("/services/governance-assurance")}><b>{copy.governanceService}</b><small>{copy.governanceSummary}</small></a>
+          <a href={localPath("/services/automation-of-compliance-operations")}><b>{copy.automationService}</b><small>{copy.automationSummary}</small></a>
+          <a href={localPath("/services/local-legal-mandates")}><b>{copy.localMandatesService}</b><small>{copy.localMandatesSummary}</small></a>
+          <a href={localPath("/services/shared-services")}><b>{copy.sharedServices}</b><small>{copy.sharedServicesSummary}</small></a>
           <a href="/services#approach"><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
         </div>
       </details>
