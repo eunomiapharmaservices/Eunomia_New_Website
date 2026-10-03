@@ -23,9 +23,9 @@ export type Locale = keyof typeof locales;
 export const defaultLocale: Locale = "en";
 
 /**
- * ISO 3166-1 alpha-2 country hints for languages supported by the first
- * translation release. Countries with multiple common languages are not
- * assigned here; use Accept-Language or ask the visitor instead.
+ * ISO 3166-1 alpha-2 country defaults for languages supported by this release.
+ * Countries with multiple common languages are not mapped; those visitors use
+ * their supported Accept-Language preference instead.
  */
 export const countryLocaleHints: Readonly<Record<string, Locale>> = {
   // Spanish
