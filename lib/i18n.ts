@@ -10,7 +10,7 @@ const localizedRoutes: RegExp[] = [
   /^\/$/,
   /^\/services$/,
   /^\/services\/(governance-assurance|automation-of-compliance-operations|local-legal-mandates|shared-services)$/,
-  /^\/contact$/,
+  /^\/contact$/,\n  /^\/privacy$/,
   /^\/team$/,
   /^\/resources$/,
   /^\/markets\/(ireland|sweden|germany|france|portugal|spain|italy|netherlands)$/,
