@@ -32,9 +32,8 @@ function preferredBrowserLocale(header: string | null): Locale | null {
 export function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
-  // Respect a saved language choice. On the first visit, use a supported
-  // browser language; use Vercel's country only to suggest a language when
-  // browser preferences do not identify one.
+  // A visitor's saved choice always wins. On a first visit, a mapped
+  // country sets the default; otherwise use the browser's supported language.
   if (pathname === "/") {
     const saved = request.cookies.get("eps-locale")?.value;
     if (saved && isLocale(saved)) {
@@ -42,18 +41,14 @@ export function proxy(request: NextRequest) {
         return NextResponse.redirect(new URL(`/${saved}${search}`, request.url), 307);
       }
     } else {
+      const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
+      const countryLocale = country ? countryLocaleHints[country] : undefined;
+      if (countryLocale && countryLocale !== defaultLocale) {
+        return NextResponse.redirect(new URL(`/${countryLocale}${search}`, request.url), 307);
+      }
       const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
       if (browserLocale && browserLocale !== defaultLocale) {
         return NextResponse.redirect(new URL(`/${browserLocale}${search}`, request.url), 307);
-      }
-      if (browserLocale !== defaultLocale) {
-        const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
-        const suggestion = country ? countryLocaleHints[country] : undefined;
-        if (suggestion) {
-          const headers = new Headers(request.headers);
-          headers.set("x-eps-locale-suggestion", suggestion);
-          return NextResponse.next({ request: { headers } });
-        }
       }
     }
   }
