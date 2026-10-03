@@ -103,3 +103,42 @@ export function localizeTeamPerson<T extends { role: string; country?: string }>
     country: person.country ? dictionary.countries[person.country] ?? person.country : person.country,
   };
 }
+
+export const founderBio: Record<Exclude<Locale, "en">, [string, string]> = {
+  es: [
+    "Rashmi Papneja es la fundadora y directora general de Eunomia Pharma Services y una referente en cumplimiento sanitario con más de quince años de experiencia en la industria farmacéutica. Ha ocupado puestos de máxima responsabilidad en las funciones de cumplimiento de empresas farmacéuticas pequeñas y medianas, y ha dirigido la creación de funciones de cumplimiento para biotecnológicas emergentes.",
+    "Como directora de proyectos cualificada por PRINCE2, ha dirigido programas de transformación sobre diligencia debida, transparencia, investigaciones, seguimiento, interacción con profesionales sanitarios y operaciones de cumplimiento con IA. Tiene un máster en Gestión Internacional de la Salud y cuenta con formación de INSEAD.",
+  ],
+  fr: [
+    "Rashmi Papneja est la fondatrice et directrice générale d’Eunomia Pharma Services et une spécialiste de la conformité en santé comptant plus de quinze ans d’expérience dans l’industrie pharmaceutique. Elle a occupé des fonctions de conformité parmi les plus élevées dans des entreprises pharmaceutiques de petite et moyenne taille et a dirigé la mise en place de fonctions conformité pour des biotechs émergentes.",
+    "Cheffe de projet certifiée PRINCE2, elle a mené des programmes de transformation portant sur la diligence raisonnable, la transparence, les enquêtes, le suivi, les interactions avec les professionnels de santé et les opérations de conformité assistées par l’IA. Elle est titulaire d’un master en gestion internationale de la santé et a suivi une formation à l’INSEAD.",
+  ],
+  de: [
+    "Rashmi Papneja ist Gründerin und Geschäftsführerin von Eunomia Pharma Services sowie eine Führungskraft im Bereich Healthcare Compliance mit mehr als fünfzehn Jahren Erfahrung in der Pharmaindustrie. Sie war in kleinen und mittelgroßen Pharmaunternehmen auf höchster Ebene für Compliance verantwortlich und hat Compliance-Funktionen für aufstrebende Biotechunternehmen aufgebaut.",
+    "Als PRINCE2-zertifizierte Projektmanagerin hat sie Transformationsprogramme zu Due Diligence, Transparenz, Untersuchungen, Monitoring, Interaktionen mit medizinischen Fachkreisen und KI-gestützten Compliance-Abläufen geleitet. Sie hat einen Masterabschluss in International Healthcare Management und eine Qualifikation von INSEAD.",
+  ],
+  it: [
+    "Rashmi Papneja è la fondatrice e amministratrice delegata di Eunomia Pharma Services ed è una professionista di riferimento nella compliance sanitaria con oltre quindici anni di esperienza nell’industria farmaceutica. Ha ricoperto ruoli di massimo livello nelle funzioni di compliance di aziende farmaceutiche piccole e medie e ha guidato la creazione di funzioni di compliance per biotecnologiche emergenti.",
+    "Project manager qualificata PRINCE2, ha guidato programmi di trasformazione su due diligence, trasparenza, indagini, monitoraggio, interazioni con professionisti sanitari e operazioni di compliance abilitate dall’IA. Ha un master in International Healthcare Management e una qualifica INSEAD.",
+  ],
+  pt: [
+    "Rashmi Papneja é fundadora e diretora-geral da Eunomia Pharma Services e uma líder em conformidade na área da saúde, com mais de quinze anos de experiência na indústria farmacêutica. Desempenhou funções de elevada responsabilidade nas áreas de conformidade de empresas farmacêuticas de pequena e média dimensão e liderou a criação dessas funções em empresas emergentes de biotecnologia.",
+    "Gestora de projetos qualificada em PRINCE2, liderou programas de transformação em diligência devida, transparência, investigações, monitorização, interação com profissionais de saúde e operações de conformidade apoiadas por IA. Tem um mestrado em Gestão Internacional da Saúde e uma qualificação da INSEAD.",
+  ],
+  nl: [
+    "Rashmi Papneja is de oprichter en Managing Director van Eunomia Pharma Services en een leider op het gebied van zorgcompliance met meer dan vijftien jaar ervaring in de farmaceutische sector. Ze werkte op het hoogste niveau binnen compliancefuncties van kleine en middelgrote farmaceutische bedrijven en leidde de opzet van compliancefuncties voor opkomende biotechbedrijven.",
+    "Als PRINCE2-gekwalificeerd projectmanager leidde ze transformatieprogramma’s voor due diligence, transparantie, onderzoeken, monitoring, interacties met zorgprofessionals en AI-ondersteunde complianceprocessen. Ze heeft een master in International Healthcare Management en een kwalificatie van INSEAD.",
+  ],
+  ja: [
+    "Rashmi PapnejaはEunomia Pharma Servicesの創設者兼Managing Directorであり、製薬業界で15年以上の経験を持つヘルスケア・コンプライアンスのリーダーです。中小規模の製薬会社でコンプライアンス機能の上級職を務め、新興バイオテクノロジー企業のコンプライアンス機能立ち上げを主導してきました。",
+    "PRINCE2資格を持つプロジェクトマネージャーとして、デューデリジェンス、透明性、調査、モニタリング、医療従事者との関わり、AIを活用したコンプライアンス業務に関する変革プログラムを推進しました。国際ヘルスケアマネジメントの修士号を取得し、INSEADの資格も有しています。",
+  ],
+  "zh-CN": [
+    "Rashmi Papneja 是 Eunomia Pharma Services 的创始人兼董事总经理，也是医疗健康合规领域的负责人，在制药行业拥有 15 年以上经验。她曾在中小型制药企业担任合规部门的高级管理职务，并领导新兴生物技术企业建立合规职能。",
+    "她持有 PRINCE2 项目管理资格，曾负责尽职调查、透明度、调查、监控、医疗卫生专业人士互动及 AI 赋能合规运营等转型项目。她拥有国际医疗健康管理硕士学位，并取得 INSEAD 资格。",
+  ],
+  ar: [
+    "راشمي بابنيجا هي مؤسسة Eunomia Pharma Services ومديرتها العامة، وهي خبيرة قيادية في الامتثال بقطاع الرعاية الصحية تتمتع بأكثر من خمسة عشر عاماً من الخبرة في صناعة الأدوية. شغلت مناصب رفيعة في وظائف الامتثال لدى شركات أدوية صغيرة ومتوسطة، وقادت إنشاء وظائف امتثال لشركات تقنية حيوية ناشئة.",
+    "وبصفتها مديرة مشاريع مؤهلة وفق PRINCE2، قادت برامج تحول شملت العناية الواجبة والشفافية والتحقيقات والمراقبة والتعامل مع المهنيين الصحيين وعمليات الامتثال المدعومة بالذكاء الاصطناعي. تحمل درجة ماجستير في الإدارة الدولية للرعاية الصحية ومؤهلاً من INSEAD.",
+  ],
+};
