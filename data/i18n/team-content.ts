@@ -107,9 +107,9 @@ const biographyComingSoon: Partial<Record<Locale, string>> = {
   ar: "السيرة الذاتية قريباً.",
 };
 
-export function localizeTeamPerson<T extends { role: string; country?: string; bio?: string }>(person: T, locale: Locale): T {
+export function localizeTeamPerson<T extends { name: string; role: string; country?: string; bio?: string }>(person: T, locale: Locale): T {
   const dictionary = terms[locale];
-  const translatedBio = person.bio ? partnerBioTranslations[locale]?.[person.name as string] : undefined;
+  const translatedBio = person.bio ? partnerBioTranslations[locale]?.[person.name] : undefined;
   if (!dictionary && !translatedBio) return person;
   return {
     ...person,
