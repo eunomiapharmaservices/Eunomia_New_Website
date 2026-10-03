@@ -28,7 +28,7 @@ export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
       </details>
       <a href="/team">{copy.team}</a>
       <a href="/resources">{copy.resources}</a>
-      <a href="/contact">{copy.contact}</a>
+      <a href={localPath("/contact")}>{copy.contact}</a>
       <LanguageSwitcher locale={locale} />
     </nav>
   );
