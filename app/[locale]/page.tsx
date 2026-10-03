@@ -76,7 +76,7 @@ export default async function LocalizedHome({ params }: { params: Promise<{ loca
           <h1><span className="hero-title-green">{text.title}</span>{" "}<span className="hero-title-orange">{text.powered}</span></h1>
           <p className="hero-lede">{text.promise}</p>
           <p className="home-hero-description">{text.body}</p>
-          <div className="hero-actions"><a className="primary-button" href="/contact">{text.contact}</a><a className="secondary-button" href="/services">{text.serviceLink}</a></div>
+          <div className="hero-actions"><a className="primary-button" href="/contact">{text.contact}</a><a className="secondary-button" href={`/${selected}/services`}>{text.serviceLink}</a></div>
           <p className="home-location-line">{metricCopy[selected]}</p>
         </div>
       </section>
