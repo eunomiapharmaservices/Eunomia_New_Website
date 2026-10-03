@@ -83,7 +83,7 @@ export default async function LocalizedHome({ params }: { params: Promise<{ loca
       <section aria-labelledby="localized-services-title" style={{ maxWidth: 1180, margin: "0 auto", padding: "4rem 1.5rem" }}>
         <p className="home-location-line">{text.section}</p><h2 id="localized-services-title">{text.sectionTitle}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: "1rem" }}>
-          {services.map((service) => <article key={service.href} style={{ border: "1px solid #d9e3dc", borderRadius: 12, padding: "1.25rem" }}><h3>{service.title}</h3><p>{service.description}</p><a href={service.href}>{text.learn} →</a></article>)}
+          {services.map((service) => <article key={service.href} style={{ border: "1px solid #d9e3dc", borderRadius: 12, padding: "1.25rem" }}><h3>{service.title}</h3><p>{service.description}</p><a href={`/${selected}${service.href}`}>{text.learn} →</a></article>)}
         </div>
       </section>
       <SiteFooter locale={selected} />
