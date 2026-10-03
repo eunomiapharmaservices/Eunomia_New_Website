@@ -12,10 +12,10 @@ type ServiceSlug = typeof slugs[number];
 type ChromeCopy = Record<string, string>;
 const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
 const services: Record<ServiceSlug, { title: string; summary: string; image: string; alt: string; key: string }> = {
-  "governance-assurance": { title: "governanceService", summary: "governanceSummary", image: "/home-compliance-team.jpeg", alt: "Compliance programme design", key: "governance" },
-  "automation-of-compliance-operations": { title: "automationService", summary: "automationSummary", image: "/eunomia-workflow.png", alt: "Digital compliance workflows", key: "automation" },
-  "local-legal-mandates": { title: "localMandatesService", summary: "localMandatesSummary", image: "/market-representation.png", alt: "Local market compliance support", key: "mandates" },
-  "shared-services": { title: "sharedServices", summary: "sharedServicesSummary", image: "/compliance-collaboration.png", alt: "Compliance team collaboration", key: "shared" },
+  "governance-assurance": { title: "governanceService", summary: "governanceSummary", image: "/home-compliance-team.jpeg", alt: "Compliance programme design" },
+  "automation-of-compliance-operations": { title: "automationService", summary: "automationSummary", image: "/eunomia-workflow.png", alt: "Digital compliance workflows" },
+  "local-legal-mandates": { title: "localMandatesService", summary: "localMandatesSummary", image: "/market-representation.png", alt: "Local market compliance support" },
+  "shared-services": { title: "sharedServices", summary: "sharedServicesSummary", image: "/compliance-collaboration.png", alt: "Compliance team collaboration" },
 };
 
 type Copy = { scope: string; outcomes: string; contact: string; services: Record<ServiceSlug, string[]>; benefits: string[] };
@@ -89,12 +89,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!Object.prototype.hasOwnProperty.call(text, locale) || !isServiceSlug(slug)) return {};
-  const copy = text[locale as DraftLocale];
   const service = services[slug];
+  const languages = Object.fromEntries((Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services/${slug}`]));
   return {
     title: `${chrome[locale as DraftLocale][service.title]} | Eunomia`,
     description: chrome[locale as DraftLocale][service.summary],
-    alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/services/${slug}` },
+    alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/services/${slug}`, languages },
   };
 }
 
@@ -117,7 +117,7 @@ export default async function LocalizedServicePage({ params }: { params: Promise
         <a className="primary-button" href={`/contact?service=${encodeURIComponent(localized[service.title])}`}>{copy.contact}</a>
       </section>
       <section className="service-video section-pad">
-        <SiteImage src={service.image} sizes="(max-width: 1000px) 90vw, 960px" alt={service.alt} style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }} />
+        <SiteImage src={service.image} sizes="(max-width: 1000px) 90vw, 960px" alt={localized[service.title]} style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }} />
       </section>
       <section id="scope-of-support" className="subservice-scope section-pad">
         <div><p className="section-kicker">{copy.scope}</p><h2>{localized[service.title]}: {copy.scope}</h2></div>
