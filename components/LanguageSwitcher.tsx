@@ -1,4 +1,11 @@
+"use client";
+
 import { locales, type Locale } from "../data/i18n/locales";
+
+function rememberLocale(locale: Locale) {
+  const secure = window.location.protocol === "https:" ? "; Secure" : "";
+  document.cookie = `eps-locale=${locale}; Path=/; Max-Age=31536000; SameSite=Lax${secure}`;
+}
 
 export function LanguageSwitcher({ locale }: { locale: Locale }) {
   const label = locale === "es" ? "Idioma" : locale === "fr" ? "Langue" : locale === "de" ? "Sprache" : locale === "it" ? "Lingua" : locale === "pt" ? "Idioma" : locale === "nl" ? "Taal" : locale === "ja" ? "言語" : locale === "zh-CN" ? "语言" : locale === "ar" ? "اللغة" : "Language";
@@ -15,6 +22,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
               href={href}
               lang={option}
               aria-current={option === locale ? "page" : undefined}
+              onClick={() => rememberLocale(option)}
             >
               {info.label}
             </a>
