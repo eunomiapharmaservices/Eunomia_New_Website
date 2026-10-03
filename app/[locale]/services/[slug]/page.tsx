@@ -129,7 +129,7 @@ export default async function LocalizedServicePage({ params }: { params: Promise
       </section>
       <section className="subservice-cta section-pad">
         <h2>{copy.contact}</h2>
-        <a className="primary-button" href={`/contact?service=${encodeURIComponent(localized[service.title])}`}>{copy.contact} →</a>
+        <a className="primary-button" href={`/${selected}/contact?service=${encodeURIComponent(localized[service.title])}`}>{copy.contact} →</a>
       </section>
       <SiteFooter locale={selected} />
     </main>
