@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import { ContactForm } from "../../../components/ContactForm";
-import { locales, type Locale } from "../../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 const copy = {
   es: { kicker: "Inicie una conversación", title: "Cuéntenos qué tiene entre manos.", intro: "Le escucharemos, haremos algunas preguntas y compartiremos nuestra opinión. Sin compromiso ni presión.", contact: "Póngase en contacto", response: "Llámenos o escríbanos. Procuramos responder a todas las consultas en un día laborable y estaremos encantados de ayudarle.", location: "Reino Unido", registered: "Datos registrales", company: "Eunomia Pharma Services es el nombre comercial de Mivigilance Limited.", number: "Número de registro en Companies House: 12912269" },
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const path = `/${locale}/contact`;
-  const hrefs = Object.fromEntries(Object.keys(locales).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}contact`]));
+  const hrefs = languageAlternates("/contact");
   const content = copy[locale as keyof typeof copy]!;
   return { title: `${content.contact} | Eunomia Pharma Services`, description: content.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com${path}`, languages: hrefs } };
 }

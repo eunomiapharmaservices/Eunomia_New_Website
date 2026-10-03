@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../../components/SiteChrome";
 import { SiteImage } from "../../../../components/SiteImage";
 import chromeDraft from "../../../../data/i18n/site-chrome.draft.json";
-import { locales, type Locale } from "../../../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../../../data/i18n/locales";
 
 export const dynamicParams = false;
 type DraftLocale = Exclude<Locale, "en">;
@@ -90,7 +90,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale, slug } = await params;
   if (!Object.prototype.hasOwnProperty.call(text, locale) || !isServiceSlug(slug)) return {};
   const service = services[slug];
-  const languages = Object.fromEntries((Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services/${slug}`]));
+  const languages = languageAlternates(`/services/${slug}`);
   return {
     title: `${chrome[locale as DraftLocale][service.title]} | Eunomia`,
     description: chrome[locale as DraftLocale][service.summary],

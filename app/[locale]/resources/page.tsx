@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import { ResourceSearch } from "../../../components/ResourceSearch";
 import resourceArticles from "../../../data/resource-articles.json";
-import { locales, type Locale } from "../../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 type ResourcesCopy = { title: string; intro: string; alert: string; english: string; kicker: string; count: string };
 const copy: Record<Exclude<Locale, "en">, ResourcesCopy> = {
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as Exclude<Locale, "en">];
-  const languages = Object.fromEntries(Object.keys(locales).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}resources`]));
+  const languages = languageAlternates("/resources");
   return { title: `${text.kicker} | Eunomia Pharma Services`, description: text.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/resources`, languages } };
 }
 

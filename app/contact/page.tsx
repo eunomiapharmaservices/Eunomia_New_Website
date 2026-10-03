@@ -2,12 +2,13 @@ import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuid
 import { PageFaqs } from "../../components/PageFaqs";
 import { contactFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
+import { languageAlternates } from "../../data/i18n/locales";
 import { withSocial } from "../../lib/seo";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ContactForm } from "../../components/ContactForm";
 export const metadata: Metadata = withSocial("/contact", {
-  alternates: { canonical: "https://www.eunomiapharmaservices.com/contact" },
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/contact", languages: languageAlternates("/contact") },
   title: "Contact Our Pharma Compliance Team | Eunomia",
   description:
     "Tell us about your company, markets and the compliance question on your desk. No obligation and no pressure — we will listen and say how we see it.",

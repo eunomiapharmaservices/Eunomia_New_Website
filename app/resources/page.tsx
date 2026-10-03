@@ -5,13 +5,14 @@ import { resourcesFaqs } from "../../data/page-faqs";
 import { SiteImage } from "../../components/SiteImage";
 import { ArrowUpRight, BookOpen, FileText, PlayCircle } from "lucide-react";
 import type { Metadata } from "next";
+import { languageAlternates } from "../../data/i18n/locales";
 import { withSocial } from "../../lib/seo";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { ResourceSearch } from "../../components/ResourceSearch";
 import resourceArticles from "../../data/resource-articles.json";
 import { populatedCategories } from "../../data/article-categories";
 export const metadata: Metadata = withSocial("/resources", {
-  alternates: { canonical: "https://www.eunomiapharmaservices.com/resources" },
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/resources", languages: languageAlternates("/resources") },
   title: "Pharmaceutical Compliance Resources & Insights | Eunomia",
   description:
     "Explore pharma compliance guides, case studies and templates covering HCP fair market value, disclosure, training, audits, GDPR and automation.",

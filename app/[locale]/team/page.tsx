@@ -6,7 +6,7 @@ import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import { TeamProfile, type TeamPerson } from "../../../components/TeamProfiles";
 import { compliancePartners, partnerId } from "../../../data/compliancePartners";
 import { StructuredData } from "../../../components/StructuredData";
-import { locales, type Locale } from "../../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 type TeamCopy = {
   kicker: string; title: string; intro: string; founderRole: string; operationsTitle: string;
@@ -41,7 +41,7 @@ export function generateStaticParams() { return localeKeys.map((locale) => ({ lo
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
-  const langs = Object.fromEntries(Object.keys(locales).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}team`]));
+  const langs = languageAlternates("/team");
   return { title: `${copy[locale as Exclude<Locale, "en">].title} | Eunomia Pharma Services`, description: copy[locale as Exclude<Locale, "en">].intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/team`, languages: langs } };
 }
 

@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { SiteImage } from "../../components/SiteImage";
 import chromeDraft from "../../data/i18n/site-chrome.draft.json";
-import { locales, type Locale } from "../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../data/i18n/locales";
 
 export const dynamicParams = false;
 type DraftLocale = Exclude<Locale, "en">;
@@ -43,9 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as DraftLocale];
-  const languages = Object.fromEntries(
-    (Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : code}`])
-  );
+  const languages = languageAlternates("");
   return {
     title: `${text.metaTitle} | Eunomia`,
     description: text.metaDescription,

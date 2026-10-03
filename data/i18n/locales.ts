@@ -120,6 +120,22 @@ export const countryLocaleHints: Readonly<Record<string, Locale>> = {
   KM: "ar",
 };
 
+const SITE = "https://www.eunomiapharmaservices.com";
+
+/**
+ * hreflang alternates for a page that exists in every locale. `path` is the
+ * English path ("" for the homepage, "/services" etc.). English is also the
+ * x-default for visitors whose language isn't supported.
+ */
+export function languageAlternates(path: string): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const code of Object.keys(locales)) {
+    map[code] = code === defaultLocale ? `${SITE}${path || "/"}` : `${SITE}/${code}${path}`;
+  }
+  map["x-default"] = map[defaultLocale];
+  return map;
+}
+
 export function isLocale(value: string): value is Locale {
   return Object.prototype.hasOwnProperty.call(locales, value);
 }

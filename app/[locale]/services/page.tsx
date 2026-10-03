@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import chromeDraft from "../../../data/i18n/site-chrome.draft.json";
-import { locales, type Locale } from "../../../data/i18n/locales";
+import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 export const dynamicParams = false;
 type DraftLocale = Exclude<Locale, "en">;
@@ -40,12 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: text.metaDescription,
     alternates: {
       canonical: `https://www.eunomiapharmaservices.com/${locale}/services`,
-      languages: Object.fromEntries(
-        (Object.keys(locales) as Locale[]).map((code) => [
-          code,
-          `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services`,
-        ]),
-      ),
+      languages: languageAlternates("/services"),
     },
   };
 }

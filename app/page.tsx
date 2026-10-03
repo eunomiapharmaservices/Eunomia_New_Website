@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 import { LanguageSuggestion } from "../components/LanguageSuggestion";
-import { isLocale, type Locale } from "../data/i18n/locales";
+import { isLocale, languageAlternates, type Locale } from "../data/i18n/locales";
 import { CompanyBrief, HomeCaseStudies, HomeAudience, HomeFAQs } from "../components/HomeContent";
 import { markets } from "../data/markets";
 import { SiteImage } from "../components/SiteImage";
@@ -16,7 +16,7 @@ import { SiteFooter } from "../components/SiteChrome";
 import { CoverageMap } from "../components/CoverageMap";
 
 export const metadata: Metadata = withSocial("/", {
-  alternates: { canonical: "https://www.eunomiapharmaservices.com/" },
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/", languages: languageAlternates("") },
   title: "UK & Global Pharmaceutical Compliance Services | Eunomia",
   description: "UK-based pharmaceutical compliance support with global reach. Programme design, operational automation, local representation and outsourced compliance services.",
 });

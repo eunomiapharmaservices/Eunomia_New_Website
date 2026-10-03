@@ -2,11 +2,12 @@ import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuid
 import { PageFaqs } from "../../components/PageFaqs";
 import { servicesFaqs } from "../../data/page-faqs";
 import type { Metadata } from "next";
+import { languageAlternates } from "../../data/i18n/locales";
 import { withSocial } from "../../lib/seo";
 import { ArrowUpRight, Bot, MapPinned, ShieldCheck, UsersRound } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 export const metadata: Metadata = withSocial("/services", {
-  alternates: { canonical: "https://www.eunomiapharmaservices.com/services" },
+  alternates: { canonical: "https://www.eunomiapharmaservices.com/services", languages: languageAlternates("/services") },
   title: "Pharma Compliance Services UK & Europe | Eunomia",
   description: "Pharma and biotech compliance support in the UK and Europe: programme design, automation, local legal representation and outsourced operations.",
 });
