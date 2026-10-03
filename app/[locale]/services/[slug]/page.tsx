@@ -11,7 +11,7 @@ const slugs = ["governance-assurance", "automation-of-compliance-operations", "l
 type ServiceSlug = typeof slugs[number];
 type ChromeCopy = Record<string, string>;
 const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
-const services: Record<ServiceSlug, { title: string; summary: string; image: string; alt: string; key: string }> = {
+const services: Record<ServiceSlug, { title: string; summary: string; image: string; alt: string }> = {
   "governance-assurance": { title: "governanceService", summary: "governanceSummary", image: "/home-compliance-team.jpeg", alt: "Compliance programme design" },
   "automation-of-compliance-operations": { title: "automationService", summary: "automationSummary", image: "/eunomia-workflow.png", alt: "Digital compliance workflows" },
   "local-legal-mandates": { title: "localMandatesService", summary: "localMandatesSummary", image: "/market-representation.png", alt: "Local market compliance support" },
