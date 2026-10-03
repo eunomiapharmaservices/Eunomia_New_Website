@@ -19,9 +19,8 @@ export default async function RootLayout({
   params: Promise<{ locale?: string }>;
 }>) {
   const routeParams = await params;
-  const locale = isLocale(routeParams.locale ?? "")
-    ? routeParams.locale
-    : defaultLocale;
+  const localeCandidate = routeParams.locale ?? "";
+  const locale = isLocale(localeCandidate) ? localeCandidate : defaultLocale;
 
   return (
     <html lang={locale} dir={locales[locale].dir}>
