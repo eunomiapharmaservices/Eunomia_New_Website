@@ -94,13 +94,26 @@ const terms: Partial<Record<Locale, TeamTerms>> = {
   }, countries: { "United Kingdom": "المملكة المتحدة", Germany: "ألمانيا", France: "فرنسا", Portugal: "البرتغال", "United States & Canada": "الولايات المتحدة وكندا", Italy: "إيطاليا", Austria: "النمسا", APAC: "آسيا والمحيط الهادئ", "Poland, Ukraine & Russia": "بولندا وأوكرانيا وروسيا", Spain: "إسبانيا", MENA: "الشرق الأوسط وشمال أفريقيا" } },
 };
 
-export function localizeTeamPerson<T extends { role: string; country?: string }>(person: T, locale: Locale): T {
+const biographyComingSoon: Partial<Record<Locale, string>> = {
+  es: "Biografía próximamente.",
+  fr: "Biographie à venir.",
+  de: "Biografie folgt in Kürze.",
+  it: "Biografia in arrivo.",
+  pt: "Biografia em breve.",
+  nl: "Biografie volgt binnenkort.",
+  ja: "略歴は近日公開予定です。",
+  "zh-CN": "个人简介即将发布。",
+  ar: "السيرة الذاتية قريباً.",
+};
+
+export function localizeTeamPerson<T extends { role: string; country?: string; bio?: string }>(person: T, locale: Locale): T {
   const dictionary = terms[locale];
   if (!dictionary) return person;
   return {
     ...person,
     role: dictionary.roles[person.role] ?? person.role,
     country: person.country ? dictionary.countries[person.country] ?? person.country : person.country,
+    bio: person.bio === "Biography coming soon." ? biographyComingSoon[locale] ?? person.bio : person.bio,
   };
 }
 
