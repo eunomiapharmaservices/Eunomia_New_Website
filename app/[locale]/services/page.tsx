@@ -38,7 +38,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${text.metaTitle} | Eunomia`,
     description: text.metaDescription,
-    alternates: {\n      canonical: `https://www.eunomiapharmaservices.com/${locale}/services`,\n      languages: Object.fromEntries((Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services`])),\n    },
+    alternates: {
+      canonical: `https://www.eunomiapharmaservices.com/${locale}/services`,
+      languages: Object.fromEntries(
+        (Object.keys(locales) as Locale[]).map((code) => [
+          code,
+          `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services`,
+        ]),
+      ),
+    },
   };
 }
 
