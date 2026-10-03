@@ -6,6 +6,7 @@
     "note": "Company names, registered details, regulated terminology and legal wording require review before publication."
   },
   "en": {
+    "heroAlt": "Compliance specialists reviewing documents together",
     "home": "Home",
     "services": "Services",
     "servicesOverview": "Services overview",
@@ -31,6 +32,7 @@
     "selectLanguage": "Select language"
   },
   "es": {
+    "heroAlt": "Especialistas en cumplimiento revisando documentos juntos",
     "home": "Inicio",
     "services": "Servicios",
     "servicesOverview": "Resumen de servicios",
@@ -50,12 +52,13 @@
     "contact": "Contacto",
     "ourTeam": "Nuestro equipo",
     "privacyCookies": "Privacidad y cookies",
-    "tradingNameNotice": "Eunomia Pharma Services es el nombre comercial de Mivigilance Limited, sociedad registrada en Inglaterra y Gales. Número de sociedad: 12912269.",
+    "tradingNameNotice": "Eunomia Pharma Services es el nombre comercial de Mivigilance Limited, sociedad registrada en Inglaterra y Gales. Número de registro en Companies House: 12912269.",
     "registeredOffice": "Domicilio social: Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Idioma",
     "selectLanguage": "Seleccione un idioma"
   },
   "fr": {
+    "heroAlt": "Spécialistes de la conformité examinant des documents ensemble",
     "home": "Accueil",
     "services": "Services",
     "servicesOverview": "Présentation des services",
@@ -75,12 +78,13 @@
     "contact": "Contact",
     "ourTeam": "Notre équipe",
     "privacyCookies": "Confidentialité et cookies",
-    "tradingNameNotice": "Eunomia Pharma Services est un nom commercial de Mivigilance Limited, société enregistrée en Angleterre et au pays de Galles. Numéro d’immatriculation : 12912269.",
+    "tradingNameNotice": "Eunomia Pharma Services est le nom commercial de Mivigilance Limited, société enregistrée en Angleterre et au pays de Galles. Numéro d’immatriculation (Companies House) : 12912269.",
     "registeredOffice": "Siège social : Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Langue",
     "selectLanguage": "Choisir une langue"
   },
   "de": {
+    "heroAlt": "Compliance-Fachleute prüfen gemeinsam Unterlagen",
     "home": "Startseite",
     "services": "Leistungen",
     "servicesOverview": "Leistungsübersicht",
@@ -100,16 +104,17 @@
     "contact": "Kontakt",
     "ourTeam": "Unser Team",
     "privacyCookies": "Datenschutz und Cookies",
-    "tradingNameNotice": "Eunomia Pharma Services ist ein Handelsname der Mivigilance Limited, eingetragen in England und Wales. Unternehmensnummer 12912269.",
+    "tradingNameNotice": "Eunomia Pharma Services ist ein Handelsname der Mivigilance Limited, eingetragen in England und Wales. Registernummer (Companies House) 12912269.",
     "registeredOffice": "Sitz der Gesellschaft: Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Sprache",
     "selectLanguage": "Sprache auswählen"
   },
   "it": {
+    "heroAlt": "Specialisti di compliance che esaminano insieme alcuni documenti",
     "home": "Home",
     "services": "Servizi",
     "servicesOverview": "Panoramica dei servizi",
-    "exploreEveryService": "Scopri tutti i servizi",
+    "exploreEveryService": "Scoprite tutti i servizi",
     "governanceService": "Progettazione e attuazione di programmi di compliance sanitaria",
     "governanceSummary": "Modelli, controlli, preparazione agli audit e attuazione",
     "automationService": "Automazione delle attività di compliance",
@@ -125,12 +130,13 @@
     "contact": "Contatti",
     "ourTeam": "Il nostro team",
     "privacyCookies": "Privacy e cookie",
-    "tradingNameNotice": "Eunomia Pharma Services è un nome commerciale di Mivigilance Limited, società registrata in Inghilterra e Galles. Numero di registrazione 12912269.",
+    "tradingNameNotice": "Eunomia Pharma Services è un nome commerciale di Mivigilance Limited, società registrata in Inghilterra e Galles. Numero di registrazione (Companies House) 12912269.",
     "registeredOffice": "Sede legale: Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Lingua",
     "selectLanguage": "Seleziona la lingua"
   },
   "pt": {
+    "heroAlt": "Especialistas em conformidade a analisar documentos em conjunto",
     "home": "Início",
     "services": "Serviços",
     "servicesOverview": "Visão geral dos serviços",
@@ -150,12 +156,13 @@
     "contact": "Contactos",
     "ourTeam": "A nossa equipa",
     "privacyCookies": "Privacidade e cookies",
-    "tradingNameNotice": "Eunomia Pharma Services é um nome comercial da Mivigilance Limited, sociedade registada em Inglaterra e no País de Gales. Número de registo: 12912269.",
+    "tradingNameNotice": "Eunomia Pharma Services é um nome comercial da Mivigilance Limited, sociedade registada em Inglaterra e no País de Gales. Número de registo na Companies House: 12912269.",
     "registeredOffice": "Sede registada: Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Idioma",
     "selectLanguage": "Selecionar idioma"
   },
   "nl": {
+    "heroAlt": "Compliancespecialisten die samen documenten doornemen",
     "home": "Home",
     "services": "Diensten",
     "servicesOverview": "Overzicht van onze diensten",
@@ -175,12 +182,13 @@
     "contact": "Contact",
     "ourTeam": "Ons team",
     "privacyCookies": "Privacy en cookies",
-    "tradingNameNotice": "Eunomia Pharma Services is een handelsnaam van Mivigilance Limited, geregistreerd in Engeland en Wales. Bedrijfsnummer 12912269.",
-    "registeredOffice": "Geregistreerd kantoor: Rough Way, Heath House Road, Woking, GU22 0QU",
+    "tradingNameNotice": "Eunomia Pharma Services is een handelsnaam van Mivigilance Limited, geregistreerd in Engeland en Wales. Registratienummer (Companies House) 12912269.",
+    "registeredOffice": "Statutair adres: Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "Taal",
     "selectLanguage": "Taal selecteren"
   },
   "ja": {
+    "heroAlt": "書類を一緒に確認するコンプライアンスの専門家",
     "home": "ホーム",
     "services": "サービス",
     "servicesOverview": "サービス一覧",
@@ -189,7 +197,7 @@
     "governanceSummary": "枠組み、管理策、監査準備および導入支援",
     "automationService": "コンプライアンス業務の自動化",
     "automationSummary": "SharePoint、Power BI、AIによる自動化",
-    "localMandatesService": "現地法定代理および現地代表",
+    "localMandatesService": "現地法定代理人・代表サービス",
     "localMandatesSummary": "各市場での体制と現地コードへの対応支援",
     "sharedServices": "シェアードサービス / GBS / GCC",
     "sharedServicesSummary": "業務に合わせて設計する専任のコンプライアンス機能",
@@ -200,17 +208,18 @@
     "contact": "お問い合わせ",
     "ourTeam": "チーム紹介",
     "privacyCookies": "プライバシーとCookie",
-    "tradingNameNotice": "Eunomia Pharma Services は、イングランドおよびウェールズで登記された Mivigilance Limited の商号です。会社番号：12912269。",
+    "tradingNameNotice": "Eunomia Pharma Services は、イングランドおよびウェールズで登記された Mivigilance Limited の事業名です。会社番号：12912269。",
     "registeredOffice": "登記上の所在地：Rough Way, Heath House Road, Woking, GU22 0QU",
     "language": "言語",
     "selectLanguage": "言語を選択"
   },
   "zh-CN": {
+    "heroAlt": "合规专家共同审阅文件",
     "home": "首页",
     "services": "服务",
     "servicesOverview": "服务概览",
     "exploreEveryService": "查看全部服务",
-    "governanceService": "医疗健康合规项目设计与实施",
+    "governanceService": "医疗健康合规体系设计与实施",
     "governanceSummary": "框架、控制措施、审计准备与实施",
     "automationService": "合规运营自动化",
     "automationSummary": "SharePoint、Power BI 与人工智能自动化",
@@ -222,7 +231,7 @@
     "deliverySummary": "咨询、项目、集中式职能及共享服务",
     "team": "团队",
     "resources": "资源",
-    "contact": "联系",
+    "contact": "联系我们",
     "ourTeam": "我们的团队",
     "privacyCookies": "隐私与 Cookie",
     "tradingNameNotice": "Eunomia Pharma Services 是 Mivigilance Limited 的商业名称。Mivigilance Limited 在英格兰和威尔士注册，公司编号 12912269。",
@@ -231,6 +240,7 @@
     "selectLanguage": "选择语言"
   },
   "ar": {
+    "heroAlt": "خبراء امتثال يراجعون المستندات معاً",
     "home": "الرئيسية",
     "services": "الخدمات",
     "servicesOverview": "نظرة عامة على الخدمات",
