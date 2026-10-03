@@ -20,6 +20,18 @@ const copy: Record<DraftLocale, HomeCopy> = {
   ar: { title: "خدمات الامتثال الصحي العالمية", powered: "بدعم من الأتمتة", location: "مقرنا في المملكة المتحدة ونغطي الأسواق العالمية", promise: "لا نكتفي بوضع إطار الامتثال التجاري، بل نساعدكم على تطبيقه عملياً.", body: "ندعم شركات الأدوية والتقنية الحيوية في تصميم البرامج وعمليات الامتثال اليومية والخبرة بالأسواق المحلية والأتمتة. ونربط معرفتنا بمدونتي ABPI وEFPIA بعمليات عملية ومسؤوليات واضحة وحكم مهني بشري ذي خبرة.", contact: "تواصلوا مع فريقنا", serviceLink: "استكشفوا خدماتنا", section: "خدمات امتثال عالمية متكاملة", sectionTitle: "كيف يمكننا دعمكم", learn: "معرفة المزيد", metaTitle: "خدمات الامتثال الصحي العالمية", metaDescription: "دعم الامتثال لشركات الأدوية والتقنية الحيوية: تصميم البرامج والعمليات والخبرة المحلية والأتمتة." },
 };
 
+const metricCopy: Record<DraftLocale, string> = {
+  es: "Más de 30 países · Más de 20 clientes · Valoración de 4,9 en Clutch",
+  fr: "Plus de 30 pays · Plus de 20 clients · Note de 4,9 sur Clutch",
+  de: "Mehr als 30 Länder · Mehr als 20 Kunden · 4,9 Bewertung auf Clutch",
+  it: "Oltre 30 Paesi · Oltre 20 clienti · Valutazione 4,9 su Clutch",
+  pt: "Mais de 30 países · Mais de 20 clientes · Classificação de 4,9 na Clutch",
+  nl: "Meer dan 30 landen · Meer dan 20 klanten · Beoordeling 4,9 op Clutch",
+  ja: "30か国以上 · 20社以上のクライアント · Clutch評価4.9",
+  "zh-CN": "覆盖 30 多个国家 · 服务 20 多家客户 · Clutch 评分 4.9",
+  ar: "أكثر من 30 دولة · أكثر من 20 عميلاً · تقييم 4.9 على Clutch",
+};
+
 type ChromeCopy = Record<string, string>;
 const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
 
@@ -65,7 +77,7 @@ export default async function LocalizedHome({ params }: { params: Promise<{ loca
           <p className="hero-lede">{text.promise}</p>
           <p className="home-hero-description">{text.body}</p>
           <div className="hero-actions"><a className="primary-button" href="/contact">{text.contact}</a><a className="secondary-button" href="/services">{text.serviceLink}</a></div>
-          <p className="home-location-line">30+ · 20+ · 4.9 Clutch</p>
+          <p className="home-location-line">{metricCopy[selected]}</p>
         </div>
       </section>
       <section aria-labelledby="localized-services-title" style={{ maxWidth: 1180, margin: "0 auto", padding: "4rem 1.5rem" }}>
