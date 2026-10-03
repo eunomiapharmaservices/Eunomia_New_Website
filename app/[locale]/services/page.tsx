@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${text.metaTitle} | Eunomia`,
     description: text.metaDescription,
-    alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/services` },
+    alternates: {\n      canonical: `https://www.eunomiapharmaservices.com/${locale}/services`,\n      languages: Object.fromEntries((Object.keys(locales) as Locale[]).map((code) => [code, `https://www.eunomiapharmaservices.com/${code === "en" ? "" : `${code}/`}services`])),\n    },
   };
 }
 
@@ -62,7 +62,7 @@ export default async function LocalizedServices({ params }: { params: Promise<{ 
         <h1>{text.title}</h1>
         <p>{text.intro}</p>
       </section>
-      <section className="section-pad" aria-label={nav.services}>
+      <section className="section-pad" id="approach" aria-label={nav.services}>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1rem" }}>
           {services.map((service) => (
             <article key={service.number} style={{ border: "1px solid #d9e3dc", borderRadius: 12, padding: "1.5rem" }}>
