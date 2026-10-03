@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import { ContactForm } from "../../../components/ContactForm";
+import { PageFaqs } from "../../../components/PageFaqs";
+import { contactFaqs } from "../../../data/i18n/contact-faqs";
 import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 const copy = {
@@ -61,6 +63,7 @@ export default async function LocalizedContactPage({ params }: { params: Promise
           </div>
         </aside>
       </section>
+      <PageFaqs faqs={contactFaqs[selected].faqs} kicker={contactFaqs[selected].kicker} title={contactFaqs[selected].title} />
       <SiteFooter locale={selected} />
     </main>
   );
