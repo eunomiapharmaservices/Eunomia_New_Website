@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
 import { SiteImage } from "../../components/SiteImage";
-import chromeDraft from "../../data/i18n/site-chrome.draft.json";
+import chromeStrings from "../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../data/i18n/locales";
 
 export const dynamicParams = false;
-type DraftLocale = Exclude<Locale, "en">;
+type TranslatedLocale = Exclude<Locale, "en">;
 type HomeCopy = { title: string; powered: string; location: string; promise: string; body: string; contact: string; serviceLink: string; section: string; sectionTitle: string; learn: string; metaTitle: string; metaDescription: string };
-const copy: Record<DraftLocale, HomeCopy> = {
+const copy: Record<TranslatedLocale, HomeCopy> = {
   es: { title: "Cumplimiento sanitario global", powered: "impulsado por automatización", location: "Con sede en el Reino Unido y cobertura global", promise: "No solo creamos el marco de cumplimiento comercial: lo ponemos en práctica para usted.", body: "Apoyamos a empresas farmacéuticas y biotecnológicas con el diseño de programas, las operaciones diarias de cumplimiento, la experiencia en mercados locales y la automatización. Combinamos conocimiento de los códigos ABPI y EFPIA con procesos prácticos, responsabilidades claras y criterio humano experto.", contact: "Hable con nuestro equipo", serviceLink: "Explore nuestros servicios", section: "Servicios globales de cumplimiento de principio a fin", sectionTitle: "Cómo podemos ayudarle", learn: "Más información", metaTitle: "Servicios globales de cumplimiento sanitario", metaDescription: "Apoyo en cumplimiento para empresas farmacéuticas y biotecnológicas: diseño de programas, operaciones, experiencia local y automatización." },
   fr: { title: "Conformité mondiale dans le secteur de la santé", powered: "optimisée par l’automatisation", location: "Basée au Royaume-Uni, avec une couverture mondiale", promise: "Nous ne nous contentons pas de concevoir votre cadre de conformité commerciale : nous le mettons en œuvre à vos côtés.", body: "Nous accompagnons les entreprises pharmaceutiques et biotechnologiques dans la conception de programmes, les opérations quotidiennes, l’expertise des marchés locaux et l’automatisation. Nous associons la connaissance des codes ABPI et EFPIA à des processus concrets, des responsabilités claires et un jugement humain expérimenté.", contact: "Parler à notre équipe", serviceLink: "Découvrir nos services", section: "Des services de conformité mondiaux, de bout en bout", sectionTitle: "Comment nous pouvons vous aider", learn: "En savoir plus", metaTitle: "Services mondiaux de conformité en santé", metaDescription: "Accompagnement en conformité pour les entreprises pharmaceutiques et biotechnologiques : programmes, opérations, expertise locale et automatisation." },
   de: { title: "Globale Healthcare-Compliance", powered: "durch Automatisierung unterstützt", location: "Mit Hauptsitz im Vereinigten Königreich und globaler Präsenz", promise: "Wir entwickeln nicht nur Ihren kommerziellen Compliance-Rahmen, sondern setzen ihn gemeinsam mit Ihnen um.", body: "Wir unterstützen Pharma- und Biotech-Unternehmen bei der Programmgestaltung, im täglichen Compliance-Betrieb, mit lokaler Marktexpertise und durch Automatisierung. Wir verbinden Kenntnisse der ABPI- und EFPIA-Kodizes mit praktischen Abläufen, klaren Zuständigkeiten und erfahrenem menschlichem Urteilsvermögen.", contact: "Sprechen Sie mit unserem Team", serviceLink: "Unsere Leistungen ansehen", section: "Globale Compliance-Leistungen aus einer Hand", sectionTitle: "So können wir Sie unterstützen", learn: "Mehr erfahren", metaTitle: "Globale Healthcare-Compliance-Services", metaDescription: "Compliance-Unterstützung für Pharma- und Biotech-Unternehmen: Programmgestaltung, Betrieb, lokale Expertise und Automatisierung." },
@@ -20,7 +20,7 @@ const copy: Record<DraftLocale, HomeCopy> = {
   ar: { title: "خدمات الامتثال الصحي العالمية", powered: "بدعم من الأتمتة", location: "مقرنا في المملكة المتحدة ونغطي الأسواق العالمية", promise: "لا نكتفي بوضع إطار الامتثال التجاري، بل نساعدكم على تطبيقه عملياً.", body: "ندعم شركات الأدوية والتقنية الحيوية في تصميم البرامج وعمليات الامتثال اليومية والخبرة بالأسواق المحلية والأتمتة. ونربط معرفتنا بمدونتي ABPI وEFPIA بإجراءات عملية ومسؤوليات واضحة وحكم مهني بشري ذي خبرة.", contact: "تواصلوا مع فريقنا", serviceLink: "استكشفوا خدماتنا", section: "خدمات امتثال عالمية متكاملة", sectionTitle: "كيف يمكننا دعمكم", learn: "معرفة المزيد", metaTitle: "خدمات الامتثال الصحي العالمية", metaDescription: "دعم الامتثال لشركات الأدوية والتقنية الحيوية: تصميم البرامج والعمليات والخبرة المحلية والأتمتة." },
 };
 
-const metricCopy: Record<DraftLocale, string> = {
+const metricCopy: Record<TranslatedLocale, string> = {
   es: "Más de 30 países · Más de 20 clientes · Valoración de 4,9 en Clutch",
   fr: "Plus de 30 pays · Plus de 20 clients · Note de 4,9 sur Clutch",
   de: "Mehr als 30 Länder · Mehr als 20 Kunden · Bewertung von 4,9 auf Clutch",
@@ -33,7 +33,7 @@ const metricCopy: Record<DraftLocale, string> = {
 };
 
 type ChromeCopy = Record<string, string>;
-const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
+const chrome = chromeStrings as unknown as Record<TranslatedLocale, ChromeCopy>;
 
 export function generateStaticParams() {
   return (Object.keys(locales) as Locale[]).filter((locale) => locale !== "en").map((locale) => ({ locale }));
@@ -42,7 +42,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
-  const text = copy[locale as DraftLocale];
+  const text = copy[locale as TranslatedLocale];
   const languages = languageAlternates("");
   return {
     title: `${text.metaTitle} | Eunomia`,
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocalizedHome({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!Object.hasOwn(copy, locale)) notFound();
-  const selected = locale as DraftLocale;
+  const selected = locale as TranslatedLocale;
   const text = copy[selected];
   const nav = chrome[selected];
   const services = [

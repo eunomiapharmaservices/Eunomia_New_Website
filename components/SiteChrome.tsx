@@ -1,11 +1,11 @@
 import { SiteImage } from "./SiteImage";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Locale } from "../data/i18n/locales";
-import chromeDraft from "../data/i18n/site-chrome.draft.json";
+import chromeStrings from "../data/i18n/site-chrome.json";
 
 type ChromeCopy = Record<string, string>;
 function copyFor(locale: Locale): ChromeCopy {
-  return chromeDraft[locale] as ChromeCopy;
+  return chromeStrings[locale] as ChromeCopy;
 }
 
 export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {

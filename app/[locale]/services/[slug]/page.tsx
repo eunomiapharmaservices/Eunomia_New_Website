@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../../components/SiteChrome";
 import { SiteImage } from "../../../../components/SiteImage";
-import chromeDraft from "../../../../data/i18n/site-chrome.draft.json";
+import chromeStrings from "../../../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../../../data/i18n/locales";
 
 export const dynamicParams = false;
-type DraftLocale = Exclude<Locale, "en">;
+type TranslatedLocale = Exclude<Locale, "en">;
 const slugs = ["governance-assurance", "automation-of-compliance-operations", "local-legal-mandates", "shared-services"] as const;
 type ServiceSlug = typeof slugs[number];
 type ChromeCopy = Record<string, string>;
-const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
+const chrome = chromeStrings as unknown as Record<TranslatedLocale, ChromeCopy>;
 const services: Record<ServiceSlug, { title: string; summary: string; image: string; alt: string }> = {
   "governance-assurance": { title: "governanceService", summary: "governanceSummary", image: "/home-compliance-team.jpeg", alt: "Compliance programme design" },
   "automation-of-compliance-operations": { title: "automationService", summary: "automationSummary", image: "/eunomia-workflow.png", alt: "Digital compliance workflows" },
@@ -19,7 +19,7 @@ const services: Record<ServiceSlug, { title: string; summary: string; image: str
 };
 
 type Copy = { scope: string; outcomes: string; contact: string; services: Record<ServiceSlug, string[]>; benefits: string[] };
-const text: Record<DraftLocale, Copy> = {
+const text: Record<TranslatedLocale, Copy> = {
   es: { scope: "Áreas de apoyo", outcomes: "Qué aporta este servicio", contact: "Hable con nuestro equipo", services: {
     "governance-assurance": ["Diseño e implementación de programas", "Políticas y procedimientos normalizados", "Evaluaciones de riesgos, auditorías y CAPA", "Formación, seguimiento y diligencia debida de terceros"],
     "automation-of-compliance-operations": ["Evaluación de preparación para IA", "Flujos de trabajo de SharePoint y paneles de Power BI", "Automatización de procesos y plataformas de revisión", "Seguimiento, integración de datos y evidencias"],
@@ -92,8 +92,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const service = services[slug];
   const languages = languageAlternates(`/services/${slug}`);
   return {
-    title: `${chrome[locale as DraftLocale][service.title]} | Eunomia`,
-    description: chrome[locale as DraftLocale][service.summary],
+    title: `${chrome[locale as TranslatedLocale][service.title]} | Eunomia`,
+    description: chrome[locale as TranslatedLocale][service.summary],
     alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/services/${slug}`, languages },
   };
 }
@@ -101,7 +101,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocalizedServicePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
   if (!Object.prototype.hasOwnProperty.call(text, locale) || !isServiceSlug(slug)) notFound();
-  const selected = locale as DraftLocale;
+  const selected = locale as TranslatedLocale;
   const copy = text[selected];
   const service = services[slug];
   const localized = chrome[selected];

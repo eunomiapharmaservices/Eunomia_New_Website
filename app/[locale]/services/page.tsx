@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
-import chromeDraft from "../../../data/i18n/site-chrome.draft.json";
+import chromeStrings from "../../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
 export const dynamicParams = false;
-type DraftLocale = Exclude<Locale, "en">;
+type TranslatedLocale = Exclude<Locale, "en">;
 type ServicePageCopy = { title: string; intro: string; metaTitle: string; metaDescription: string };
-const copy: Record<DraftLocale, ServicePageCopy> = {
+const copy: Record<TranslatedLocale, ServicePageCopy> = {
   es: { title: "Servicios", intro: "Apoyamos a empresas farmacéuticas y biotecnológicas con diseño de programas, operaciones de cumplimiento, conocimiento de los mercados locales y automatización.", metaTitle: "Servicios de cumplimiento farmacéutico", metaDescription: "Servicios globales de cumplimiento para empresas farmacéuticas y biotecnológicas." },
   fr: { title: "Nos services", intro: "Nous accompagnons les entreprises pharmaceutiques et biotechnologiques dans la conception de programmes, les opérations de conformité, l’expertise des marchés locaux et l’automatisation.", metaTitle: "Services de conformité pharmaceutique", metaDescription: "Services mondiaux de conformité pour les entreprises pharmaceutiques et biotechnologiques." },
   de: { title: "Unsere Leistungen", intro: "Wir unterstützen Pharma- und Biotech-Unternehmen mit Programmgestaltung, Compliance-Abläufen, lokaler Marktexpertise und Automatisierung.", metaTitle: "Pharma-Compliance-Services", metaDescription: "Globale Compliance-Services für Pharma- und Biotech-Unternehmen." },
@@ -25,7 +25,7 @@ const serviceLinks = [
   "/services/shared-services",
 ];
 type ChromeCopy = Record<string, string>;
-const chrome = chromeDraft as unknown as Record<DraftLocale, ChromeCopy>;
+const chrome = chromeStrings as unknown as Record<TranslatedLocale, ChromeCopy>;
 
 export function generateStaticParams() {
   return (Object.keys(locales) as Locale[]).filter((locale) => locale !== "en").map((locale) => ({ locale }));
@@ -34,7 +34,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
-  const text = copy[locale as DraftLocale];
+  const text = copy[locale as TranslatedLocale];
   return {
     title: `${text.metaTitle} | Eunomia`,
     description: text.metaDescription,
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocalizedServices({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) notFound();
-  const selected = locale as DraftLocale;
+  const selected = locale as TranslatedLocale;
   const nav = chrome[selected];
   const text = copy[selected];
   const services = [

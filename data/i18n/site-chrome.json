@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "status": "translation draft for subject-matter review",
+    "status": "published",
     "sourceLocale": "en",
     "targetLocales": ["es", "fr", "de", "it", "pt", "nl", "ja", "zh-CN", "ar"],
-    "note": "Company names, registered details, regulated terminology and legal wording require review before publication."
+    "note": "Live site navigation and footer strings. Keep company names, registered details and legal wording identical in meaning across all languages."
   },
   "en": {
     "heroAlt": "Compliance specialists reviewing documents together",
