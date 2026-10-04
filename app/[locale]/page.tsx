@@ -1,8 +1,6 @@
+import { HomePage } from "../../components/HomePage";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SiteHeader, SiteFooter } from "../../components/SiteChrome";
-import { SiteImage } from "../../components/SiteImage";
-import chromeStrings from "../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../data/i18n/locales";
 
 export const dynamicParams = false;
@@ -20,20 +18,7 @@ const copy: Record<TranslatedLocale, HomeCopy> = {
   ar: { title: "خدمات الامتثال الصحي العالمية", powered: "بدعم من الأتمتة", location: "مقرنا في المملكة المتحدة ونغطي الأسواق العالمية", promise: "لا نكتفي بوضع إطار الامتثال التجاري، بل نساعدكم على تطبيقه عملياً.", body: "ندعم شركات الأدوية والتقنية الحيوية في تصميم البرامج وعمليات الامتثال اليومية والخبرة بالأسواق المحلية والأتمتة. ونربط معرفتنا بمدونتي ABPI وEFPIA بإجراءات عملية ومسؤوليات واضحة وحكم مهني بشري ذي خبرة.", contact: "تواصلوا مع فريقنا", serviceLink: "استكشفوا خدماتنا", section: "خدمات امتثال عالمية متكاملة", sectionTitle: "كيف يمكننا دعمكم", learn: "معرفة المزيد", metaTitle: "خدمات الامتثال الصحي العالمية", metaDescription: "دعم الامتثال لشركات الأدوية والتقنية الحيوية: تصميم البرامج والعمليات والخبرة المحلية والأتمتة." },
 };
 
-const metricCopy: Record<TranslatedLocale, string> = {
-  es: "Más de 30 países · Más de 20 clientes · Valoración de 4,9 en Clutch",
-  fr: "Plus de 30 pays · Plus de 20 clients · Note de 4,9 sur Clutch",
-  de: "Mehr als 30 Länder · Mehr als 20 Kunden · Bewertung von 4,9 auf Clutch",
-  it: "Oltre 30 Paesi · Oltre 20 clienti · Valutazione 4,9 su Clutch",
-  pt: "Mais de 30 países · Mais de 20 clientes · Classificação de 4,9 na Clutch",
-  nl: "Meer dan 30 landen · Meer dan 20 klanten · Beoordeling 4,9 op Clutch",
-  ja: "30か国以上 · 20社以上のクライアント · Clutch評価4.9",
-  "zh-CN": "覆盖 30 多个国家 · 服务 20 多家客户 · Clutch 评分 4.9",
-  ar: "أكثر من 30 دولة · أكثر من 20 عميلاً · تقييم 4.9 على Clutch",
-};
 
-type ChromeCopy = Record<string, string>;
-const chrome = chromeStrings as unknown as Record<TranslatedLocale, ChromeCopy>;
 
 export function generateStaticParams() {
   return (Object.keys(locales) as Locale[]).filter((locale) => locale !== "en").map((locale) => ({ locale }));
@@ -54,37 +39,5 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocalizedHome({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!Object.hasOwn(copy, locale)) notFound();
-  const selected = locale as TranslatedLocale;
-  const text = copy[selected];
-  const nav = chrome[selected];
-  const services = [
-    { title: nav.governanceService, description: nav.governanceSummary, href: "/services/governance-assurance" },
-    { title: nav.automationService, description: nav.automationSummary, href: "/services/automation-of-compliance-operations" },
-    { title: nav.localMandatesService, description: nav.localMandatesSummary, href: "/services/local-legal-mandates" },
-    { title: nav.sharedServices, description: nav.sharedServicesSummary, href: "/services/shared-services" },
-  ];
-
-  return (
-    <main lang={selected} dir={locales[selected].dir}>
-      <SiteHeader locale={selected} />
-      <section className="hero" id="top">
-        <div className="hero-media"><SiteImage src="/home-compliance-team.jpeg" alt={nav.heroAlt} fill preload fetchPriority="high" sizes="(max-width: 900px) 100vw, 38vw" /></div>
-        <div className="hero-copy">
-          <p className="home-location-line">{text.location}</p>
-          <h1><span className="hero-title-green">{text.title}</span>{" "}<span className="hero-title-orange">{text.powered}</span></h1>
-          <p className="hero-lede">{text.promise}</p>
-          <p className="home-hero-description">{text.body}</p>
-          <div className="hero-actions"><a className="primary-button" href={`/${selected}/contact`}>{text.contact}</a><a className="secondary-button" href={`/${selected}/services`}>{text.serviceLink}</a></div>
-          <p className="home-location-line">{metricCopy[selected]}</p>
-        </div>
-      </section>
-      <section aria-labelledby="localized-services-title" style={{ maxWidth: 1180, margin: "0 auto", padding: "4rem 1.5rem" }}>
-        <p className="home-location-line">{text.section}</p><h2 id="localized-services-title">{text.sectionTitle}</h2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))", gap: "1rem" }}>
-          {services.map((service) => <article key={service.href} style={{ border: "1px solid #d9e3dc", borderRadius: 12, padding: "1.25rem" }}><h3>{service.title}</h3><p>{service.description}</p><a href={`/${selected}${service.href}`}>{text.learn} →</a></article>)}
-        </div>
-      </section>
-      <SiteFooter locale={selected} />
-    </main>
-  );
+  return <HomePage locale={locale as TranslatedLocale} />;
 }

@@ -14,9 +14,13 @@ const partnerMarkers = [
   ["Rohit Kumar", 76.5, 38.5],
 ] as const;
 
-const partnerByName = new Map(compliancePartners.map((partner) => [partner.name, partner]));
 
-export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean }) {
+
+type MapPerson = Pick<typeof compliancePartners[number], "name" | "country" | "role" | "image">;
+export function CoverageMap({ showOfficers = true, locale = "en", people = compliancePartners, labels }: { showOfficers?: boolean; locale?: string; people?: MapPerson[]; labels?: string[] }) {
+  const partnerByName = new Map(people.map((person) => [person.name, person]));
+  const label = (index: number, english: string) => labels?.[index] ?? english;
+  const bioHref = (name: string) => `${locale === "en" ? "" : `/${locale}`}/team#${partnerId(name)}`;
   const [active, setActive] = useState<string | null>(null);
   const [zoomed, setZoomed] = useState(false);
   const root = useRef<HTMLDivElement>(null);
@@ -38,15 +42,15 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
       onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setActive(null); }}
       onPointerLeave={(event) => { if (event.pointerType === "mouse" && !event.currentTarget.contains(document.activeElement)) setActive(null); }}
       className={`coverage-map${showOfficers ? " coverage-map-officers" : ""}`}
-      aria-label="World map showing Eunomia team member locations"
+      aria-label={label(0, "World map showing Eunomia team member locations")}
       role={showOfficers ? undefined : "img"}
     >
       <div className="map-instructions">
-        <strong>Hover over Europe to zoom in. Hover over a red dot to see a photo; click to read their bio.</strong>
-        <span>On mobile, tap “Zoom Europe”, then tap a red dot to read their bio. Red dots show team member locations.</span>
+        <strong>{label(1, "Hover over Europe to zoom in. Hover over a red dot to see a photo; click to read their bio.")}</strong>
+        <span>{label(2, "On mobile, tap “Zoom Europe”, then tap a red dot to read their bio. Red dots show team member locations.")}</span>
         <div className="map-zoom-controls">
-          <button type="button" aria-pressed={!zoomed} onClick={() => { setZoomed(false); setActive(null); }}>World view</button>
-          <button type="button" aria-pressed={zoomed} onClick={() => { setZoomed(true); setActive(null); }}>Zoom Europe</button>
+          <button type="button" aria-pressed={!zoomed} onClick={() => { setZoomed(false); setActive(null); }}>{label(3, "World view")}</button>
+          <button type="button" aria-pressed={zoomed} onClick={() => { setZoomed(true); setActive(null); }}>{label(4, "Zoom Europe")}</button>
         </div>
       </div>
       <div className="map-stage" onPointerMove={(event) => {
@@ -65,10 +69,10 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
           if (!partner) return null;
           return (
             <a
-              href={`/team#${partnerId(partner.name)}`}
+              href={bioHref(partner.name)}
               className={`market-marker partner-dot${active === name ? " is-active" : ""}`}
               style={{ left: `${left}%`, top: `${top}%` }}
-              aria-label={`${partner.name} — ${partner.country} — ${partner.role}. Read biography`}
+              aria-label={`${partner.name} — ${partner.country} — ${partner.role}. ${label(5, "Read biography")}`}
               aria-expanded={active === name}
               aria-controls={active === name ? cardId : undefined}
               onPointerEnter={(event) => { if (event.pointerType === "mouse") setActive(name); }}
@@ -82,31 +86,31 @@ export function CoverageMap({ showOfficers = true }: { showOfficers?: boolean })
         })}
         </div></div>
         {showOfficers && selected && (
-          <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, team member`}>
-            <button type="button" className="map-card-close" aria-label="Close team member card" onClick={() => setActive(null)}>×</button>
+          <aside id={cardId} className="map-partner-card" aria-label={`${selected.name}, ${label(6, "Team member")}`}>
+            <button type="button" className="map-card-close" aria-label={label(7, "Close team member card")} onClick={() => setActive(null)}>×</button>
             {selected.image
-              ? <a href={`/team#${partnerId(selected.name)}`} aria-label={`Read ${selected.name}’s bio`}><img className="map-partner-photo" src={selected.image} alt={selected.name} /></a>
+              ? <a href={bioHref(selected.name)} aria-label={`${label(5, "Read biography")}: ${selected.name}`}><img className="map-partner-photo" src={selected.image} alt={selected.name} /></a>
               : <span className="map-partner-initials" aria-hidden="true">{selected.name.split(" ").filter((part) => !part.endsWith(".")).map((part) => part[0]).slice(0, 2).join("")}</span>}
             <div className="map-partner-copy">
               <span className="map-partner-country">{selected.country}</span>
               <h3>{selected.name}</h3>
               <p>{selected.role}</p>
-              <a href={`/team#${partnerId(selected.name)}`}>View bio →</a>
+              <a href={bioHref(selected.name)}>{label(8, "View bio →")}</a>
             </div>
           </aside>
         )}
       </div>
       {showOfficers && <label className="map-partner-picker">
-        <span>Explore our team</span>
+        <span>{label(9, "Explore our team")}</span>
         <select value={active || ""} onChange={(event) => { const marker = partnerMarkers.find(([name]) => name === event.target.value); setActive(event.target.value || null); setZoomed(Boolean(marker && marker[1] > 43 && marker[1] < 59 && marker[2] < 35)); }}>
-          <option value="">Choose a team member</option>
+          <option value="">{label(10, "Choose a team member")}</option>
           {partnerMarkers.map(([name]) => <option value={name} key={name}>{partnerByName.get(name)?.country} — {name}</option>)}
         </select>
       </label>}
       <div className="map-caption">
-        <strong>Service coverage</strong>
-        {showOfficers && <span>Hover or tap a team marker to meet your compliance partner.</span>}
-        <span>Europe · MENA · US · Brazil &amp; South America · India · Southeast Asia · Japan</span>
+        <strong>{label(11, "Service coverage")}</strong>
+        {showOfficers && <span>{label(12, "Hover or tap a team marker to meet your compliance partner.")}</span>}
+        <span>{label(13, "Europe · MENA · US · Brazil & South America · India · Southeast Asia · Japan")}</span>
       </div>
     </div>
   );
