@@ -1,3 +1,4 @@
+import { ContactSupport } from "../../../components/ContactSupport";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Mail, MapPin, Phone } from "lucide-react";
@@ -63,6 +64,7 @@ export default async function LocalizedContactPage({ params }: { params: Promise
           </div>
         </aside>
       </section>
+      <ContactSupport locale={selected} />
       <PageFaqs faqs={contactFaqs[selected].faqs} kicker={contactFaqs[selected].kicker} title={contactFaqs[selected].title} />
       <SiteFooter locale={selected} />
     </main>

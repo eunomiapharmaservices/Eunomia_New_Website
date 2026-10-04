@@ -1,13 +1,8 @@
+import { ContactSupport } from "./ContactSupport";
 import styles from './ComplianceDecisionGuide.module.css';
 
 export function ComplianceDecisionGuide({ page }: { page: 'contact' | 'resources' | 'services' }) {
-  if (page === 'contact') return <section className={`${styles.section} section-pad`} aria-labelledby="contact-support-title">
-    <p className="section-kicker">Plan the next step</p>
-    <h2 id="contact-support-title">How can we help your compliance team?</h2>
-    <p>Eunomia supports pharmaceutical and biotech organisations with commercial healthcare compliance in the UK and across international markets. You can ask about a defined project, specialist advice or ongoing operational support. Start with the activity or problem you need to address; you do not need a finished brief.</p>
-    <div className={styles.grid}><div><h3>What should you include?</h3><p>Tell us which countries and activities are involved, what your team currently handles and the outcome you need. Mention any planned launch, reporting deadline or capacity constraint. A short outline helps us identify the relevant expertise and the questions to explore together.</p></div><div><h3>What happens next?</h3><p>We review your enquiry, clarify the scope and discuss a suitable approach. Responsibilities, deliverables and any ongoing support should be agreed before work begins. You can meet our <a href="/team">compliance specialists</a> and review the <a href="/services">service options</a> before the conversation.</p></div></div>
-    <p>If you are still exploring, use our <a href="/resources/checklists/pharma-compliance-readiness-checklist">compliance readiness checklist</a> to organise your questions or browse the <a href="/resources">practical resource library</a>.</p>
-  </section>;
+  if (page === 'contact') return <ContactSupport />;
   if (page === 'resources') return <section className={`${styles.section} section-pad`} aria-labelledby="resource-guide-title">
     <p className="section-kicker">Find the right starting point</p>
     <h2 id="resource-guide-title">Which pharma compliance resource do you need?</h2>

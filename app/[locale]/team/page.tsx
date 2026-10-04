@@ -1,3 +1,6 @@
+import { PageFaqs } from "../../../components/PageFaqs";
+import teamFaqs from "../../../data/i18n/team-faqs.json";
+import { getUi } from "../../../lib/i18n";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
@@ -55,7 +58,7 @@ export default async function LocalizedTeamPage({ params }: { params: Promise<{ 
   const people = [...compliancePartners, agyat, ...operations].map((person) => localizeTeamPerson(person, selected));
   return (
     <main className="team-page" lang={selected} dir={direction}>
-      <StructuredData data={{ "@context": "https://schema.org", "@graph": people.map((person) => ({ "@type": "Person", "@id": `https://www.eunomiapharmaservices.com/${selected}/team#${partnerId(person.name)}`, name: person.name, jobTitle: person.role, image: person.image ? `https://www.eunomiapharmaservices.com${person.image}` : undefined, affiliation: { "@id": "https://www.eunomiapharmaservices.com/#organization" }, url: `https://www.eunomiapharmaservices.com/${selected}/team` })) }} />
+      <StructuredData data={{ "@context": "https://schema.org", "@graph": people.map((person) => ({ "@type": "Person", "@id": `https://www.eunomiapharmaservices.com/${selected}/team#${partnerId(person.name)}`, name: person.name, jobTitle: person.name === "Rashmi Papneja" ? text.founderRole : person.role, image: person.image ? `https://www.eunomiapharmaservices.com${person.image}` : undefined, affiliation: { "@id": "https://www.eunomiapharmaservices.com/#organization" }, url: `https://www.eunomiapharmaservices.com/${selected}/team` })) }} />
       <SiteHeader locale={selected} />
       <section className="team-hero section-pad">
         <div><p className="section-kicker">{text.kicker}</p><h1>{text.title}</h1></div>
@@ -84,6 +87,7 @@ export default async function LocalizedTeamPage({ params }: { params: Promise<{ 
         <p className="section-kicker">{text.ctaKicker}</p><h2>{text.ctaTitle}</h2>
         <a className="primary-button" href={`/${selected}/contact`}>{text.ctaButton} <ArrowUpRight /></a>
       </section>
+      <PageFaqs faqs={teamFaqs[selected].faqs} title={teamFaqs[selected].title} kicker={getUi(selected)("faqKicker")} />
       <SiteFooter locale={selected} />
     </main>
   );
