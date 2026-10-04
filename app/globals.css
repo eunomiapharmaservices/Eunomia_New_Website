@@ -1366,3 +1366,30 @@ a.primary-button[href*="/resources/checklists/"]:focus-visible {
   outline-offset: 4px;
   box-shadow: 0 0 0 4px #fff;
 }
+
+/* Keep the language picker independent of the navigation link typography. */
+.site-header { height: auto; min-height: 112px; flex-wrap: wrap; gap: 0 24px; }
+.site-header nav { align-items: center; flex-wrap: wrap; min-width: 0; }
+.site-header .language-menu { position: relative; flex: none; font: 500 14px/1.4 Arial, sans-serif; letter-spacing: normal; text-transform: none; }
+.site-header .language-menu > summary { display: flex; align-items: center; gap: 8px; padding: 12px 0; cursor: pointer; list-style: none; }
+.site-header .language-menu > summary::-webkit-details-marker { display: none; }
+.site-header .language-menu > summary::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); }
+.site-header .language-menu[open] > summary::after { transform: rotate(225deg); }
+.site-header .language-dropdown { position: absolute; inset-inline-end: 0; top: 100%; z-index: 20; width: 190px; max-width: calc(100vw - 32px); max-height: min(440px, 60vh); overflow-y: auto; padding: 6px; background: #fff; color: #17331b; border: 1px solid #d4dfd0; border-radius: 6px; box-shadow: 0 12px 30px rgba(23,51,27,.16); }
+.site-header nav .language-dropdown a { display: block; padding: 10px 12px; font: 500 14px/1.4 Arial, sans-serif; letter-spacing: normal; text-transform: none; white-space: nowrap; border-radius: 3px; }
+.site-header nav .language-dropdown a::after { display: none; }
+.site-header nav .language-dropdown a:hover,
+.site-header nav .language-dropdown a[aria-current="page"] { background: #edf4e8; color: #17331b; }
+.site-header .language-menu > summary:focus-visible,
+.site-header nav .language-dropdown a:focus-visible { outline: 2px solid #17331b; outline-offset: 2px; }
+@media (max-width: 1200px) {
+  .site-header nav { width: 100%; justify-content: flex-start; gap: 0 20px; }
+  .site-header nav > a, .site-header .services-menu > summary { padding-top: 12px; padding-bottom: 18px; }
+  .site-header nav > a::after { bottom: 8px; }
+  .site-header .language-menu { margin-inline-start: auto; }
+}
+@media (max-width: 650px) {
+  .site-header nav { gap: 0 14px; }
+  .site-header .language-menu { margin-inline-start: 0; }
+  .site-header .language-dropdown { inset-inline-start: 0; inset-inline-end: auto; }
+}
