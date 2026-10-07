@@ -32,6 +32,11 @@ function preferredBrowserLocale(header: string | null): Locale | null {
 export function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
 
+  // The legacy WordPress eBook has no current replacement.
+  if (pathname === "/wp-content/uploads/2025/10/ebook.pdf") {
+    return new NextResponse(null, { status: 410 });
+  }
+
   // A visitor's saved choice always wins. On a first visit, a mapped
   // country sets the default; otherwise use the browser's supported language.
   if (pathname === "/") {
@@ -64,5 +69,8 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/|api/|.*\\.[A-Za-z0-9]+/?$).*)"],
+  matcher: [
+    "/wp-content/uploads/2025/10/ebook.pdf",
+    "/((?!_next/|api/|.*\\.[A-Za-z0-9]+/?$).*)",
+  ],
 };
