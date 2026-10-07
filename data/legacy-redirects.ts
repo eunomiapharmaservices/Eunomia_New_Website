@@ -49,5 +49,7 @@ export const legacyRedirects: LegacyRedirect[] = [
       { source: "/bespoke-compliance-trainings", destination: "/services/governance-assurance/pharma-compliance-training", permanent: true },
       { source: "/compilencetraining", destination: "/services/governance-assurance/pharma-compliance-training", permanent: true },
       { source: "/index", destination: "/", permanent: true },
+      // Legacy PHP homepage URL; canonical homepage handles locale selection.
+      { source: "/index.php", destination: "/", permanent: true },
       ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true as const })),
     ];
