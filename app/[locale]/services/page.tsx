@@ -1,3 +1,4 @@
+import { withSocial } from "../../../lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
@@ -35,14 +36,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as TranslatedLocale];
-  return {
+  return withSocial(`/${locale}/services`, {
     title: `${text.metaTitle} | Eunomia`,
     description: text.metaDescription,
     alternates: {
       canonical: `https://www.eunomiapharmaservices.com/${locale}/services`,
       languages: languageAlternates("/services"),
     },
-  };
+  });
 }
 
 export default async function LocalizedServices({ params }: { params: Promise<{ locale: string }> }) {

@@ -29,7 +29,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: found.market.metaTitle,
     description: found.market.metaDescription,
     alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}${path}`, languages: languageAlternates(path) },
-    openGraph: { locale: locale.replace("-", "_") },
   });
 }
 

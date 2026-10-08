@@ -1,0 +1,223 @@
+{
+  "/es/team": {
+    "title": "Nuestro equipo de cumplimiento | Eunomia",
+    "description": "Conozca al equipo de Eunomia: expertos en cumplimiento farmacéutico, asesoramiento estratégico y apoyo operativo local y global."
+  },
+  "/fr/team": {
+    "title": "Notre équipe conformité | Eunomia",
+    "description": "Découvrez les experts Eunomia en conformité pharmaceutique : conseil stratégique et soutien opérationnel en Europe et à l’international."
+  },
+  "/de/team": {
+    "title": "Unser Compliance-Team | Eunomia",
+    "description": "Lernen Sie Eunomias Pharma-Compliance-Team kennen: strategische Beratung und operative Unterstützung in Europa und weltweit."
+  },
+  "/it/team": {
+    "title": "Il nostro team di compliance | Eunomia",
+    "description": "Scoprite gli esperti Eunomia di compliance farmaceutica: consulenza strategica e supporto operativo in Europa e nel mondo."
+  },
+  "/pt/team": {
+    "title": "A nossa equipa de conformidade | Eunomia",
+    "description": "Conheça os especialistas da Eunomia em conformidade farmacêutica: orientação estratégica e apoio operacional na Europa e a nível global."
+  },
+  "/nl/team": {
+    "title": "Ons compliance-team | Eunomia",
+    "description": "Maak kennis met Eunomias experts in farmaceutische compliance: strategisch advies en operationele ondersteuning in Europa en wereldwijd."
+  },
+  "/es/privacy": {
+    "description": "Cómo Eunomia recoge, utiliza y protege los datos personales enviados a través de este sitio web, y cómo ejercer sus derechos."
+  },
+  "/fr/privacy": {
+    "description": "Comment Eunomia collecte, utilise et protège vos données personnelles sur ce site, et comment exercer vos droits."
+  },
+  "/de/privacy": {
+    "description": "Wie Eunomia personenbezogene Daten auf dieser Website erhebt, nutzt und schützt und wie Sie Ihre Rechte ausüben können."
+  },
+  "/nl/privacy": {
+    "description": "Hoe Eunomia persoonsgegevens via deze website verzamelt, gebruikt en beschermt, en hoe u uw rechten kunt uitoefenen."
+  },
+  "/es/services/governance-assurance": {
+    "title": "Programas de cumplimiento sanitario | Eunomia",
+    "description": "Diseñamos e implementamos programas de cumplimiento sanitario con políticas, controles, formación, evaluación de riesgos y preparación para auditorías."
+  },
+  "/fr/services/governance-assurance": {
+    "title": "Programmes de conformité en santé | Eunomia",
+    "description": "Conception et mise en œuvre de programmes de conformité en santé : politiques, contrôles, formation, gestion des risques et préparation aux audits."
+  },
+  "/de/services/governance-assurance": {
+    "title": "Pharma-Compliance-Programme | Eunomia",
+    "description": "Pharma-Compliance-Programme entwickeln und umsetzen: Richtlinien, Kontrollen, Schulungen, Risikobewertung und Vorbereitung auf Audits."
+  },
+  "/it/services/governance-assurance": {
+    "title": "Programmi di compliance sanitaria | Eunomia",
+    "description": "Progettazione e attuazione di programmi di compliance sanitaria: policy, controlli, formazione, valutazione dei rischi e preparazione agli audit."
+  },
+  "/pt/services/governance-assurance": {
+    "title": "Programas de conformidade em saúde | Eunomia",
+    "description": "Conceção e implementação de programas de conformidade em saúde: políticas, controlos, formação, avaliação de riscos e preparação para auditorias."
+  },
+  "/nl/services/governance-assurance": {
+    "title": "Complianceprogramma’s voor de zorg | Eunomia",
+    "description": "Complianceprogramma’s voor de zorg ontwerpen en uitvoeren: beleid, controles, training, risicobeoordeling en voorbereiding op audits."
+  },
+  "/es/services/automation-of-compliance-operations": {
+    "description": "Automatice las operaciones de cumplimiento con SharePoint, Power BI y herramientas de IA: flujos de aprobación, informes y seguimiento de riesgos."
+  },
+  "/es/services/local-legal-mandates": {
+    "description": "Apoyo en mandatos legales locales y representación para empresas farmacéuticas: requisitos nacionales, códigos del sector y presencia en el mercado."
+  },
+  "/es/services/shared-services": {
+    "description": "Servicios compartidos de cumplimiento para empresas farmacéuticas: coordinación de procesos, apoyo operativo y modelos GBS y GCC."
+  },
+  "/fr/services/automation-of-compliance-operations": {
+    "description": "Automatisez les opérations de conformité avec SharePoint, Power BI et l’IA : circuits d’approbation, rapports et suivi des risques."
+  },
+  "/fr/services/local-legal-mandates": {
+    "description": "Accompagnement des mandats légaux locaux et de la représentation pharmaceutique : exigences nationales, codes du secteur et présence sur le marché."
+  },
+  "/fr/services/shared-services": {
+    "description": "Services partagés de conformité pharmaceutique : coordination des processus, soutien opérationnel et modèles GBS et GCC."
+  },
+  "/de/services/automation-of-compliance-operations": {
+    "description": "Compliance-Abläufe mit SharePoint, Power BI und KI automatisieren: Freigabeprozesse, Berichte und Risikoüberwachung für Pharmaunternehmen."
+  },
+  "/de/services/local-legal-mandates": {
+    "description": "Unterstützung bei lokalen gesetzlichen Mandaten und Vertretung: nationale Anforderungen, Branchenkodizes und Marktpräsenz für Pharmaunternehmen."
+  },
+  "/de/services/shared-services": {
+    "description": "Shared Services für Pharma-Compliance: Prozesskoordination, operative Unterstützung und Umsetzung von GBS- und GCC-Modellen."
+  },
+  "/it/services/automation-of-compliance-operations": {
+    "description": "Automatizzate la compliance con SharePoint, Power BI e IA: flussi di approvazione, report e monitoraggio dei rischi per aziende farmaceutiche."
+  },
+  "/it/services/local-legal-mandates": {
+    "description": "Supporto per mandati legali locali e rappresentanza farmaceutica: requisiti nazionali, codici di settore e presenza sul mercato."
+  },
+  "/it/services/shared-services": {
+    "description": "Servizi condivisi di compliance farmaceutica: coordinamento dei processi, supporto operativo e modelli GBS e GCC."
+  },
+  "/pt/services/automation-of-compliance-operations": {
+    "description": "Automatize a conformidade com SharePoint, Power BI e IA: fluxos de aprovação, relatórios e acompanhamento de riscos para empresas farmacêuticas."
+  },
+  "/pt/services/local-legal-mandates": {
+    "description": "Apoio em mandatos legais locais e representação farmacêutica: requisitos nacionais, códigos do setor e presença no mercado."
+  },
+  "/pt/services/shared-services": {
+    "description": "Serviços partilhados de conformidade farmacêutica: coordenação de processos, apoio operacional e modelos GBS e GCC."
+  },
+  "/nl/services/automation-of-compliance-operations": {
+    "description": "Automatiseer compliance met SharePoint, Power BI en AI: goedkeuringsprocessen, rapportages en risicomonitoring voor farmaceutische bedrijven."
+  },
+  "/nl/services/local-legal-mandates": {
+    "description": "Ondersteuning bij lokale wettelijke mandaten en vertegenwoordiging: nationale vereisten, sectorcodes en markttoegang voor farmaceutische bedrijven."
+  },
+  "/nl/services/shared-services": {
+    "description": "Shared services voor farmaceutische compliance: procescoördinatie, operationele ondersteuning en GBS- en GCC-modellen."
+  },
+  "/ja/services/governance-assurance": {
+    "description": "医薬品・バイオ企業向けのコンプライアンスプログラムを設計・導入。方針、管理体制、研修、リスク評価、監査準備を支援します。"
+  },
+  "/ja/services/automation-of-compliance-operations": {
+    "description": "SharePoint、Power BI、AIでコンプライアンス業務を自動化。承認ワークフロー、レポート、リスクのモニタリングを支援します。"
+  },
+  "/ja/services/local-legal-mandates": {
+    "description": "医薬品企業の現地法定職務と代表者業務を支援。各国の要件、業界コード、市場展開に対応する体制づくりをサポートします。"
+  },
+  "/ja/services/shared-services": {
+    "description": "医薬品コンプライアンスのシェアードサービス。プロセス調整、業務支援、GBS・GCCモデルの構築と運用を支援します。"
+  },
+  "/zh-CN/services/governance-assurance": {
+    "description": "为制药和生物技术企业设计并实施合规体系，支持政策制定、内部控制、培训、风险评估和审计准备。"
+  },
+  "/zh-CN/services/automation-of-compliance-operations": {
+    "description": "利用SharePoint、Power BI和AI自动化合规运营，支持审批工作流、报告和风险监控，提升流程协作与可追溯性。"
+  },
+  "/zh-CN/services/local-legal-mandates": {
+    "description": "支持制药企业的当地法定职责和代表服务，结合国家要求、行业准则与市场布局，协助建立适合当地的合规运营体系。"
+  },
+  "/zh-CN/services/shared-services": {
+    "description": "制药合规共享服务：提供流程协调、运营支持及GBS和GCC模式的设计与实施，连接专业合规知识和日常业务执行。"
+  },
+  "/ar/services/governance-assurance": {
+    "description": "تصميم وتنفيذ برامج الامتثال في الرعاية الصحية: السياسات والضوابط والتدريب وتقييم المخاطر والاستعداد للتدقيق لشركات الأدوية والتقنية الحيوية."
+  },
+  "/ar/services/automation-of-compliance-operations": {
+    "description": "أتمتة عمليات الامتثال باستخدام SharePoint وPower BI والذكاء الاصطناعي: مسارات الموافقة والتقارير ومتابعة المخاطر لشركات الأدوية."
+  },
+  "/ar/services/local-legal-mandates": {
+    "description": "دعم التكليفات القانونية المحلية والتمثيل لشركات الأدوية: المتطلبات الوطنية ومدونات القطاع والحضور في الأسواق."
+  },
+  "/ar/services/shared-services": {
+    "description": "خدمات مشتركة للامتثال الدوائي: تنسيق العمليات والدعم التشغيلي وتصميم نماذج GBS وGCC وتنفيذها."
+  },
+  "/es/markets/ireland": {
+    "description": "Cumplimiento farmacéutico: Irlanda. Orientación sobre HPRA, IPHA, publicidad, interacciones con profesionales sanitarios y transparencia."
+  },
+  "/es/markets/sweden": {
+    "description": "Cumplimiento farmacéutico: Suecia. Orientación sobre Lif (LER), publicidad, interacciones con profesionales sanitarios y transparencia."
+  },
+  "/es/markets/germany": {
+    "description": "Cumplimiento farmacéutico: Alemania. Orientación sobre FSA, HWG, publicidad, interacciones con profesionales sanitarios y transparencia."
+  },
+  "/es/markets/france": {
+    "description": "Cumplimiento farmacéutico: Francia. Orientación sobre ANSM, LEEM, Sapin II, publicidad, interacciones con profesionales sanitarios y transparencia."
+  },
+  "/es/markets/netherlands": {
+    "description": "Cumplimiento farmacéutico: Países Bajos. Orientación sobre CGR, publicidad, interacciones con profesionales sanitarios y transparencia."
+  },
+  "/fr/markets/ireland": {
+    "description": "Conformité pharmaceutique : Irlande. Repères sur HPRA, IPHA, publicité, relations avec les professionnels de santé et transparence."
+  },
+  "/fr/markets/sweden": {
+    "description": "Conformité pharmaceutique : Suède. Repères sur Lif (LER), publicité, relations avec les professionnels de santé et transparence."
+  },
+  "/fr/markets/germany": {
+    "title": "Conformité pharmaceutique : Allemagne | Eunomia",
+    "description": "Conformité pharmaceutique : Allemagne. Repères sur FSA, HWG, publicité, relations avec les professionnels de santé et transparence."
+  },
+  "/fr/markets/france": {
+    "description": "Conformité pharmaceutique : France. Repères sur ANSM, LEEM, Sapin II, publicité, relations avec les professionnels de santé et transparence."
+  },
+  "/fr/markets/netherlands": {
+    "title": "Conformité pharmaceutique : Pays-Bas | Eunomia",
+    "description": "Conformité pharmaceutique : Pays-Bas. Repères sur CGR, publicité, relations avec les professionnels de santé et transparence."
+  },
+  "/de/markets/ireland": {
+    "description": "Pharma-Compliance: Irland. Orientierung zu HPRA, IPHA, Arzneimittelwerbung, Zusammenarbeit mit Gesundheitsfachkräften und Transparenz."
+  },
+  "/de/markets/sweden": {
+    "description": "Pharma-Compliance: Schweden. Orientierung zu Lif (LER), Arzneimittelwerbung, Zusammenarbeit mit Gesundheitsfachkräften und Transparenz."
+  },
+  "/de/markets/germany": {
+    "description": "Pharma-Compliance: Deutschland. Orientierung zu FSA, HWG, Arzneimittelwerbung, Zusammenarbeit mit Gesundheitsfachkräften und Transparenz."
+  },
+  "/it/markets/ireland": {
+    "description": "Compliance farmaceutica: Irlanda. Guida a HPRA, IPHA, pubblicità, rapporti con operatori sanitari e trasparenza."
+  },
+  "/it/markets/sweden": {
+    "description": "Compliance farmaceutica: Svezia. Guida a Lif (LER), pubblicità, rapporti con operatori sanitari e trasparenza."
+  },
+  "/it/markets/france": {
+    "description": "Compliance farmaceutica: Francia. Guida a ANSM, LEEM, Sapin II, pubblicità, rapporti con operatori sanitari e trasparenza."
+  },
+  "/pt/markets/ireland": {
+    "description": "Conformidade farmacêutica: Irlanda. Orientações sobre HPRA, IPHA, publicidade, interações com profissionais de saúde e transparência."
+  },
+  "/pt/markets/sweden": {
+    "description": "Conformidade farmacêutica: Suécia. Orientações sobre Lif (LER), publicidade, interações com profissionais de saúde e transparência."
+  },
+  "/pt/markets/germany": {
+    "description": "Conformidade farmacêutica: Alemanha. Orientações sobre FSA, HWG, publicidade, interações com profissionais de saúde e transparência."
+  },
+  "/pt/markets/france": {
+    "description": "Conformidade farmacêutica: França. Orientações sobre ANSM, LEEM, Sapin II, publicidade, interações com profissionais de saúde e transparência."
+  },
+  "/nl/markets/sweden": {
+    "description": "Farmaceutische compliance: Zweden. Inzicht in Lif (LER), geneesmiddelenreclame, samenwerking met zorgprofessionals en transparantie."
+  },
+  "/nl/markets/germany": {
+    "description": "Farmaceutische compliance: Duitsland. Inzicht in FSA, HWG, geneesmiddelenreclame, samenwerking met zorgprofessionals en transparantie."
+  },
+  "/nl/markets/france": {
+    "description": "Farmaceutische compliance: Frankrijk. Inzicht in ANSM, LEEM, Sapin II, geneesmiddelenreclame, samenwerking met zorgprofessionals en transparantie."
+  }
+}

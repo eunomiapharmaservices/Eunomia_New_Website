@@ -1,3 +1,4 @@
+import { withSocial } from "../../../lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as Exclude<Locale, "en">];
   const languages = languageAlternates("/resources");
-  return { title: `${text.kicker} | Eunomia Pharma Services`, description: text.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/resources`, languages } };
+  return withSocial(`/${locale}/resources`, { title: `${text.kicker} | Eunomia Pharma Services`, description: text.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/resources`, languages } });
 }
 
 export default async function LocalizedResourcesPage({ params }: { params: Promise<{ locale: string }> }) {

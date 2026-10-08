@@ -1,3 +1,4 @@
+import { withSocial } from "../../../lib/seo";
 import { ContactSupport } from "../../../components/ContactSupport";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const path = `/${locale}/contact`;
   const hrefs = languageAlternates("/contact");
   const content = copy[locale as keyof typeof copy]!;
-  return { title: `${content.contact} | Eunomia Pharma Services`, description: content.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com${path}`, languages: hrefs } };
+  return withSocial(`/${locale}/contact`, { title: `${content.contact} | Eunomia Pharma Services`, description: content.intro, alternates: { canonical: `https://www.eunomiapharmaservices.com${path}`, languages: hrefs } });
 }
 
 export default async function LocalizedContactPage({ params }: { params: Promise<{ locale: string }> }) {

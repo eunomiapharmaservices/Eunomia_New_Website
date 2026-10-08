@@ -1,3 +1,4 @@
+import { withSocial } from "../../../../lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { languageAlternates, locales, isLocale, type Locale } from "../../../../data/i18n/locales";
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const page=pages[slug as Slug];
   const copy=chromeStrings[locale] as Record<string,string>;
   const path=`/services/${slug}`;
-  return {title: `${copy[page.title]} | Eunomia`, description: copy[page.summary], alternates: {canonical: `https://www.eunomiapharmaservices.com/${locale}${path}`, languages: languageAlternates(path)}};
+  return withSocial(`/${locale}${path}`, {title: `${copy[page.title]} | Eunomia`, description: copy[page.summary], alternates: {canonical: `https://www.eunomiapharmaservices.com/${locale}${path}`, languages: languageAlternates(path)}});
 }
 export default async function LocalizedServicePage({params}: {params: Promise<{locale:string;slug:string}>}) {
   const {locale,slug}=await params;

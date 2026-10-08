@@ -1,3 +1,4 @@
+import localizedSeo from "../data/localized-seo.json";
 import type { Metadata } from "next";
 
 export const SITE_URL = "https://www.eunomiapharmaservices.com";
@@ -16,15 +17,19 @@ export const DEFAULT_OG_IMAGE = {
  * title, summary and image.
  */
 export function withSocial(path: string, meta: Metadata, type: "website" | "article" = "website"): Metadata {
+  const override = localizedSeo[path as keyof typeof localizedSeo];
+  meta = { ...meta, ...override };
   const title = typeof meta.title === "string" ? meta.title : undefined;
   const description = meta.description ?? undefined;
   const url = SITE_URL + path;
+  const language = path.split("/")[1];
+  const socialLocales: Record<string, string> = { en: "en_GB", es: "es_ES", fr: "fr_FR", de: "de_DE", it: "it_IT", pt: "pt_PT", nl: "nl_NL", ja: "ja_JP", "zh-CN": "zh_CN", ar: "ar_AR" };
   return {
     ...meta,
     openGraph: {
       type,
       siteName: SITE_NAME,
-      locale: "en_GB",
+      locale: socialLocales[language] ?? "en_GB",
       url,
       title,
       description,

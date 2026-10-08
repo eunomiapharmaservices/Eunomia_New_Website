@@ -1,3 +1,4 @@
+import { withSocial } from "../../../lib/seo";
 import { PageFaqs } from "../../../components/PageFaqs";
 import teamFaqs from "../../../data/i18n/team-faqs.json";
 import { getUi } from "../../../lib/i18n";
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const langs = languageAlternates("/team");
-  return { title: `${copy[locale as Exclude<Locale, "en">].title} | Eunomia Pharma Services`, description: copy[locale as Exclude<Locale, "en">].intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/team`, languages: langs } };
+  return withSocial(`/${locale}/team`, { title: `${copy[locale as Exclude<Locale, "en">].title} | Eunomia Pharma Services`, description: copy[locale as Exclude<Locale, "en">].intro, alternates: { canonical: `https://www.eunomiapharmaservices.com/${locale}/team`, languages: langs } });
 }
 
 export default async function LocalizedTeamPage({ params }: { params: Promise<{ locale: string }> }) {
