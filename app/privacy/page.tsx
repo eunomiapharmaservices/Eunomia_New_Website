@@ -110,8 +110,12 @@ const sections = [
       Fonts loaded from Google Fonts cause your browser to request files from
       Google’s servers, which receives your IP address. Some resources and
       reviews are hosted by third parties; after following those links, their
-      privacy notices apply. If analytics are added later, we will request
-      consent and update this notice.
+      privacy notices apply. We use Ahrefs Web Analytics and Vercel Web Analytics
+      to understand aggregated website usage, such as page views and traffic
+      sources. These tools use cookie-free analytics. Ahrefs also measures
+      interactions such as link clicks and form submissions; we do not send
+      enquiry field values as analytics events. For details, see the{" "}
+      <a href="https://help.ahrefs.com/en/articles/10247870-about-ahrefs-web-analytics" target="_blank" rel="noreferrer">Ahrefs Web Analytics information</a>.
     </>,
   ],
   [
@@ -137,7 +141,7 @@ export default function Privacy() {
           This notice explains what we collect when you contact us through this
           website, why we hold it, and what you can ask us to do with it.
         </p>
-        <small>Last updated: 8 September 2026</small>
+        <small>Last updated: 8 October 2026</small>
       </section>
       <section className="privacy-content section-pad">
         {sections.map(([title, body]) => (

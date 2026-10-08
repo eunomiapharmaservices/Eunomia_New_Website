@@ -26,6 +26,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} dir={locales[locale].dir}>
+      <head>
+        <script async src="https://analytics.ahrefs.com/analytics.js" data-key="2NrGOTGsxxnH8/C1CfxBVg" />
+      </head>
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
         {children}
