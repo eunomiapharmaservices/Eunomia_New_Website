@@ -1,3 +1,4 @@
+import { withSocial } from "../../../lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
@@ -123,14 +124,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!Object.prototype.hasOwnProperty.call(copy, locale)) return {};
   const text = copy[locale as Exclude<Locale, "en">];
-  return {
+  return withSocial(`/${locale}/privacy`, {
     title: `${text.kicker} | Eunomia Pharma Services`,
     description: text.intro,
     alternates: {
       canonical: `https://www.eunomiapharmaservices.com/${locale}/privacy`,
       languages: languageAlternates("/privacy"),
     },
-  };
+  });
 }
 
 export default async function LocalizedPrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
