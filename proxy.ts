@@ -31,6 +31,11 @@ function preferredBrowserLocale(header: string | null): Locale | null {
 
 export function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
+  const segment = pathname.split("/")[1];
+  const requestHeaders = new Headers(request.headers);
+  // Always overwrite incoming values: language follows the requested route.
+  requestHeaders.set("x-eps-locale", isLocale(segment) ? segment : defaultLocale);
+  const next = () => NextResponse.next({ request: { headers: requestHeaders } });
 
   // The legacy WordPress eBook has no current replacement.
   if (pathname === "/wp-content/uploads/2025/10/ebook.pdf") {
@@ -60,7 +65,7 @@ export function proxy(request: NextRequest) {
 
   // Old URLs are usually indexed with a trailing slash (/fmv/). Without this,
   // they take two redirects on our side (strip slash, then legacy mapping).
-  if (pathname.length <= 1 || !pathname.endsWith("/")) return NextResponse.next();
+  if (pathname.length <= 1 || !pathname.endsWith("/")) return next();
   const bare = pathname.replace(/\/+$/, "") || "/";
   const target = legacy.get(safeDecode(bare).toLowerCase()) ?? bare;
   const [path, hash] = target.split("#");

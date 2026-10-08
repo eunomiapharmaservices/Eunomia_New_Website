@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import './globals.css';
 import { Analytics } from '@vercel/analytics/next';
 import { defaultLocale, isLocale, locales } from '../data/i18n/locales';
@@ -19,7 +20,8 @@ export default async function RootLayout({
   params: Promise<{ locale?: string }>;
 }>) {
   const routeParams = await params;
-  const localeCandidate = routeParams.locale ?? "";
+  const requestHeaders = await headers();
+  const localeCandidate = requestHeaders.get("x-eps-locale") ?? routeParams.locale ?? "";
   const locale = isLocale(localeCandidate) ? localeCandidate : defaultLocale;
 
   return (
