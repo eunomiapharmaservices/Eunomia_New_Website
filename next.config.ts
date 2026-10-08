@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
           { key: 'Permissions-Policy', value: 'camera=(), geolocation=(), microphone=()' },
           {
             key: 'Content-Security-Policy-Report-Only',
-            value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://challenges.cloudflare.com https://*.challenges.cloudflare.com https://vitals.vercel-insights.com; frame-src https://challenges.cloudflare.com; upgrade-insecure-requests",
+            value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://analytics.ahrefs.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://challenges.cloudflare.com https://*.challenges.cloudflare.com https://vitals.vercel-insights.com https://analytics.ahrefs.com; frame-src https://challenges.cloudflare.com; upgrade-insecure-requests",
           },
         ],
       },
