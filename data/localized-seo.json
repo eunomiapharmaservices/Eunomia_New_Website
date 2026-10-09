@@ -147,7 +147,7 @@
     "description": "دعم التكليفات القانونية المحلية والتمثيل لشركات الأدوية: المتطلبات الوطنية ومدونات القطاع والحضور في الأسواق."
   },
   "/ar/services/shared-services": {
-    "description": "خدمات مشتركة للامتثال الدوائي: تنسيق العمليات والدعم التشغيلي وتصميم نماذج GBS وGCC وتنفيذها."
+    "description": "خدمات مشتركة للامتثال الدوائي من Eunomia: تنسيق العمليات والدعم التشغيلي وتصميم نماذج GBS وGCC وتنفيذها بما يلائم احتياجات مؤسستكم."
   },
   "/es/markets/ireland": {
     "description": "Cumplimiento farmacéutico: Irlanda. Orientación sobre HPRA, IPHA, publicidad, interacciones con profesionales sanitarios y transparencia."
@@ -219,5 +219,125 @@
   },
   "/nl/markets/france": {
     "description": "Farmaceutische compliance: Frankrijk. Inzicht in ANSM, LEEM, Sapin II, geneesmiddelenreclame, samenwerking met zorgprofessionals en transparantie."
+  },
+  "/ar/markets/germany": {
+    "description": "دعم الامتثال الدوائي في ألمانيا: مدونات FSA وقانون الإعلان الصحي HWG ومكافحة الفساد في القطاع الصحي وفق المادتين 299a و299b من StGB والشفافية."
+  },
+  "/it/markets/germany": {
+    "description": "Compliance farmaceutica in Germania: codici FSA, legge sulla pubblicità HWG, reati di corruzione sanitaria ai §§ 299a–299b StGB e trasparenza."
+  },
+  "/it/markets/netherlands": {
+    "description": "Compliance farmaceutica nei Paesi Bassi: regole sugli incentivi, Codice CGR, rendicontazione di trasparenza e revisione della pubblicità dei medicinali."
+  },
+  "/nl/markets/ireland": {
+    "description": "Farmaceutische compliance in Ierland: HPRA-reclameregels, de IPHA Code, contacten met zorgprofessionals en rapportage van waardeoverdrachten."
+  },
+  "/pt/markets/netherlands": {
+    "description": "Conformidade farmacêutica nos Países Baixos: regras sobre incentivos, Código CGR, transparência e revisão da publicidade a medicamentos."
+  },
+  "/fr/markets/italy": {
+    "description": "Conformité pharmaceutique en Italie : publicité, cadeaux, notifications de congrès à l’AIFA, code de Farmindustria et exigences de transparence."
+  },
+  "/de/markets/france": {
+    "description": "Pharma-Compliance in Frankreich: Anti-Geschenke-Gesetz, Transparenz nach der Loi Bertrand, ANSM-Werbevisa, Sapin II und LEEM-Regeln."
+  },
+  "/fr/markets/portugal": {
+    "description": "Conformité pharmaceutique au Portugal : déclarations de transparence à INFARMED, publicité des médicaments et code de l’APIFARMA."
+  },
+  "/resources/category/hcp-engagement-transparency": {
+    "description": "Explore pharma compliance articles on HCP engagement, fair market value, transfers of value and disclosure under EFPIA and national transparency laws."
+  },
+  "/resources/category/ai-digital-compliance": {
+    "description": "Explore articles on AI governance, compliance automation and data analytics, with practical considerations for pharmaceutical and healthcare teams."
+  },
+  "/resources/category/compliance-programmes": {
+    "description": "Explore practical articles on designing and implementing healthcare compliance programmes, policies, training, monitoring and audit preparation."
+  },
+  "/resources/category/regulatory-updates": {
+    "description": "Explore pharmaceutical compliance articles covering regulatory guidance, legislation and developments, with practical context for healthcare teams."
+  },
+  "/resources/category/gdpr-data-compliance": {
+    "description": "Explore articles on GDPR, data protection and data governance in pharma, including HCP disclosure and the handling of personal information."
+  },
+  "/resources/category/abpi-code-pmcpa": {
+    "description": "Explore UK pharmaceutical promotional compliance articles covering the ABPI Code of Practice, PMCPA guidance and cases, and practical review considerations."
+  },
+  "/resources/category/third-party-due-diligence": {
+    "description": "Explore pharma third-party due diligence articles covering compliance risks in distributors, vendors and other partners, with practical review guidance."
+  },
+  "/de/contact": {
+    "description": "Kontaktieren Sie Eunomia zu Pharma-Compliance, Programmgestaltung, Automatisierung und lokaler Unterstützung. Wir besprechen Ihren Bedarf unverbindlich."
+  },
+  "/nl/contact": {
+    "description": "Neem contact op met Eunomia over farmaceutische compliance, programmaontwerp, automatisering en lokale ondersteuning. Bespreek uw behoeften vrijblijvend."
+  },
+  "/ar/contact": {
+    "description": "تواصلوا مع Eunomia لمناقشة احتياجات الامتثال الدوائي وتصميم البرامج وأتمتة العمليات والدعم المحلي. نستمع إليكم ونشارككم وجهة نظرنا دون التزام."
+  },
+  "/pt/contact": {
+    "description": "Contacte a Eunomia para discutir conformidade farmacêutica, desenho de programas, automação e apoio local. Partilhamos a nossa perspetiva sem compromisso."
+  },
+  "/ar": {
+    "description": "تدعم Eunomia شركات الأدوية والتقنية الحيوية في تصميم برامج الامتثال وتنفيذها وأتمتة العمليات والخدمات المشتركة، مع خبرة محلية ودعم عالمي."
+  },
+  "/ar/services": {
+    "description": "خدمات Eunomia للامتثال الدوائي: تصميم البرامج وتنفيذها وأتمتة العمليات والدعم المحلي والخدمات المشتركة لشركات الأدوية والتقنية الحيوية."
+  },
+  "/ar/resources": {
+    "description": "استكشفوا مقالات Eunomia وندواتها ودراسات الحالة والموارد العملية حول الامتثال الدوائي والشفافية والحوكمة وأتمتة العمليات لدعم فرقكم."
+  },
+  "/it/services": {
+    "description": "Servizi di compliance per aziende farmaceutiche e biotech: progettazione di programmi, automazione, supporto locale e servizi condivisi con Eunomia."
+  },
+  "/nl/services": {
+    "description": "Ontdek Eunomias farmaceutische compliancediensten: programmaontwerp, automatisering, lokale ondersteuning en gedeelde diensten voor pharma en biotech."
+  },
+  "/de/services": {
+    "description": "Eunomias Compliance-Services für Pharma und Biotech: Programmgestaltung, Automatisierung, lokale Unterstützung und Shared Services für Ihre Organisation."
+  },
+  "/pt/services": {
+    "description": "Serviços Eunomia para empresas farmacêuticas e de biotecnologia: desenho de programas, automação da conformidade, apoio local e serviços partilhados."
+  },
+  "/es/services": {
+    "description": "Servicios de cumplimiento para empresas farmacéuticas y biotecnológicas: diseño de programas, automatización, apoyo local y servicios compartidos."
+  },
+  "/fr/services": {
+    "description": "Services Eunomia pour les entreprises pharmaceutiques et biotechnologiques : conception de programmes, automatisation, soutien local et services partagés."
+  },
+  "/pt/resources": {
+    "description": "Explore artigos, webinars, estudos de caso e recursos da Eunomia sobre conformidade farmacêutica, transparência, governação e automação de processos."
+  },
+  "/nl/resources": {
+    "description": "Ontdek artikelen, webinars, casestudy’s en praktische hulpmiddelen van Eunomia over farmaceutische compliance, transparantie, governance en automatisering."
+  },
+  "/de/resources": {
+    "description": "Entdecken Sie Eunomias Artikel, Webinare, Fallstudien und praktische Ressourcen zu Pharma-Compliance, Transparenz, Governance und Automatisierung."
+  },
+  "/fr/resources": {
+    "description": "Découvrez les articles, webinaires, études de cas et ressources Eunomia sur la conformité pharmaceutique, la transparence, la gouvernance et l’automatisation."
+  },
+  "/it/resources": {
+    "description": "Scoprite articoli, webinar, casi di studio e risorse Eunomia sulla compliance farmaceutica, la trasparenza, la governance e l’automazione dei processi."
+  },
+  "/es/resources": {
+    "description": "Explore artículos, seminarios web, casos prácticos y recursos de Eunomia sobre cumplimiento farmacéutico, transparencia, gobernanza y automatización."
+  },
+  "/ja/contact": {
+    "description": "製薬コンプライアンスのご相談はEunomiaへ。プログラム設計、業務の自動化、現地支援について、貴社の課題やご要望を伺い、対応の方向性をご提案します。"
+  },
+  "/zh-CN/contact": {
+    "description": "联系Eunomia，讨论制药合规体系设计、运营自动化和当地支持需求。我们会了解您的业务情况与具体挑战，分享建议，无需承诺。"
+  },
+  "/ja/services": {
+    "description": "Eunomiaは製薬・バイオ企業向けに、コンプライアンスプログラムの設計と導入、業務自動化、各国の法定職務支援、シェアードサービスを提供します。"
+  },
+  "/zh-CN/services": {
+    "description": "Eunomia为制药和生物技术企业提供合规体系设计与实施、合规运营自动化、当地法定职责与代表服务，以及共享服务支持。"
+  },
+  "/ja/resources": {
+    "description": "製薬コンプライアンス、透明性、ガバナンス、業務自動化に関するEunomiaの記事、ウェビナー、事例、実務資料をご覧いただけます。"
+  },
+  "/zh-CN/resources": {
+    "description": "浏览Eunomia关于制药合规、透明度、治理和运营自动化的文章、网络研讨会、案例研究与实用资料，为团队的日常工作提供参考。"
   }
 }
