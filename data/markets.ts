@@ -282,7 +282,7 @@ export const markets: Market[] = [
       { label: "Anti-gift regime (CNOP)", href: "https://www.ordre.pharmacien.fr/je-suis/pharmacien/pharmacien/mon-exercice-professionnel/le-dispositif-anti-cadeaux" },
       { label: "DGCCRF / DGOS FAQ", href: "https://www.economie.gouv.fr/dgccrf/reglementation-encadrement-des-avantages-la-foire-aux-questions-de-la-dgccrf-et-de-la-dgos" },
       { label: "Loi n° 2011-2012", href: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000025053440" },
-      { label: "Transparence Santé", href: "https://www.transparence.sante.gouv.fr/" },
+      { label: "Transparence Santé", href: "https://www.transparence.sante.gouv.fr/pages/accueil/" },
       { label: "ANSM advertising visas", href: "https://ansm.sante.fr/vos-demarches/industriel/effectuer-une-demande-de-visa-de-publicite-pour-les-medicaments-gp-pm" },
       { label: "Sapin II, Article 17", href: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051752923" },
       { label: "LEEM ethics rules", href: "https://www.leem.org/dispositions-deontologiques-professionnelles" },
@@ -364,7 +364,7 @@ export const markets: Market[] = [
       },
       {
         "label": "INFARMED transparency platform",
-        "href": "https://placotrans.infarmed.pt/"
+        "href": "https://extranet.infarmed.pt/pmro/"
       },
       {
         "label": "INFARMED circular on the platform (2017)",

@@ -96,7 +96,7 @@ export default function Services() {
       <section className="approach" id="approach">
         <div className="approach-image">
           <img
-            src="/eunomia-team.png"
+            src="/eunomia-team.webp"
             alt="Eunomia compliance specialists working together"
           />
         </div>
