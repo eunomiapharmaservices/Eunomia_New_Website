@@ -480,7 +480,7 @@
     "sources": [
       {
         "title": "Transparence Santé",
-        "url": "https://www.transparence.sante.gouv.fr/",
+        "url": "https://www.transparence.sante.gouv.fr/pages/accueil/",
         "context": "France’s public transparency database, managed by the Direction générale de la santé."
       },
       {
@@ -1365,7 +1365,7 @@
       },
       {
         "title": "EMA: Reflection paper on AI in the medicinal product lifecycle",
-        "url": "https://www.ema.europa.eu/en/use-artificial-intelligence-ai-medicinal-product-lifecycle-scientific-guideline",
+        "url": "https://www.ema.europa.eu/en/scientific-guidelines/use-artificial-intelligence-ai-medicinal-product-lifecycle",
         "context": "Principles for AI across the medicines lifecycle, adopted September 2024."
       }
     ],
