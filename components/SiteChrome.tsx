@@ -59,6 +59,7 @@ export function SiteFooter({ locale = "en" }: { locale?: Locale }) {
         <span>+44 7584 567018</span>
         <a href={localPath("/team")}>{copy.ourTeam}</a>
         <a href={localHref(locale, "/privacy")}>{copy.privacyCookies}</a>
+        <a href="https://www.linkedin.com/company/eunomia-pharma-services/" target="_blank" rel="noopener noreferrer" aria-label="Eunomia Pharma Services on LinkedIn">LinkedIn</a>
         <span>© 2026 Eunomia Pharma Services</span>
       </div>
     </footer>
