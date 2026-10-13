@@ -167,10 +167,6 @@
     ],
     "resources": [
       {
-        "label": "Guías de cumplimiento por país",
-        "href": "/legal-mandates"
-      },
-      {
         "label": "Nuestros socios locales de cumplimiento",
         "href": "/team"
       },
