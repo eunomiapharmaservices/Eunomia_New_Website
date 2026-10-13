@@ -259,7 +259,7 @@ export const ukServicePages: UkServicePage[] = [
       { question: "Is anti-bribery training part of adequate procedures?", answer: "The Ministry of Justice guidance on the Bribery Act 2010 lists communication, including training, as one of six principles of adequate procedures, proportionate to the risks the organisation faces." },
       { question: "Which compliance training modules do you offer?", answer: "Modules include the ABPI Code of Practice, anti-bribery and anti-corruption, HCP and HCO engagement, hospitality and fair market value, materials review and certification, transparency and disclosure, and policy and SOP roll-out. Each can be tailored by role, market and system." },
       { question: "Do you train teams outside the UK?", answer: "Yes. Training can be mapped to the codes and markets each role works under, with input from our local compliance partners across Europe and other regions." },
-      { question: "Can you provide EU AI Act training for pharmaceutical teams?", answer: "Yes. We can design role-based AI literacy training for teams that develop, procure, oversee or use AI systems, using relevant pharma compliance scenarios and your internal policies. Article 4 of the EU AI Act requires providers and deployers to take measures to ensure a sufficient level of AI literacy for staff and others operating AI systems on their behalf. The training scope is tailored to the people, systems and context; it does not certify legal compliance or replace a legal assessment." },
+      { question: "Can you provide EU AI Act training for pharmaceutical teams?", answer: "Yes. We can design role-based AI literacy training for teams that develop, procure, oversee or use AI systems, using relevant pharma compliance scenarios and your internal policies. Article 4 of the EU AI Act, as amended in 2026, requires providers and deployers to take measures to support the development of AI literacy for staff and others using AI systems on their behalf. The training scope is tailored to the people, systems and context; it does not certify legal compliance or replace a legal assessment." },
     ],
     positioning: {
       problemTitle: "Why checkbox training fails",
@@ -282,7 +282,7 @@ export const ukServicePages: UkServicePage[] = [
         { title: "Measure", body: "Check whether behaviour changes, using agreed measures, and refresh content as rules and risks change." },
       ],
       resources: [
-        { label: "EU AI Act for pharmaceutical companies", href: "/resources/articles/eu-ai-act-pharmaceutical-companies" },
+        { label: "EU AI Act for pharmaceutical companies", href: "/resources/articles/eu-ai-act-pharma" },
         { label: "Role-based compliance training matrix", href: "/resources/role-based-compliance-training-matrix" },
         { label: "Compliance training beyond the Code", href: "/resources/articles/compliance-training-beyond-the-code" },
         { label: "Why bespoke compliance training matters", href: "/resources/articles/importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry" },
@@ -536,6 +536,7 @@ export const ukServicePages: UkServicePage[] = [
         { title: "Follow up", body: "Track actions to closure and check they worked, then update the plan." },
       ],
       resources: [
+        { label: "PMCPA social media and influencer guidance", href: "/resources/articles/pmcpas-2026-social-media-guidance" },
         { label: "Compliance monitoring and data analytics", href: "/resources/articles/unleash-the-power-of-data-analytics-for-healthcare-compliance" },
         { label: "Pharma Compliance Audits in the UK", href: "/services/governance-assurance/pharma-compliance-audits" },
         readiness,
