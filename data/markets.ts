@@ -235,7 +235,7 @@ export const markets: Market[] = [
     country: "France",
     metaTitle: "Pharmaceutical Compliance Support in France | Eunomia",
     metaDescription:
-      "Pharma compliance support in France: the anti-gift law (loi anti-cadeaux), Loi Bertrand transparency, ANSM advertising visas, Sapin II and LEEM rules.",
+      "Pharma compliance support in France: anti-gift rules, Loi Bertrand transparency, ANSM visas, Sapin II and Pharmacien Responsable governance.",
     title: "Pharmaceutical compliance support in France",
     intro:
       "Local compliance support for pharmaceutical and biotech companies working in France, from the anti-gift regime and Transparence Santé disclosure to Sapin II and Pharmacien Responsable governance, led by a senior French ethics and compliance professional.",
@@ -420,7 +420,7 @@ export const markets: Market[] = [
   "slug": "spain",
   "country": "Spain",
   "metaTitle": "Pharmaceutical Compliance Support in Spain | Eunomia",
-  "metaDescription": "Pharma compliance support in Spain covering medicines advertising, incentives, the Farmaindustria Code and transfer-of-value disclosure.",
+  "metaDescription": "Pharma compliance support in Spain, including local compliance review, medicines advertising, HCP incentives, Farmaindustria Code and transparency reporting.",
   "title": "Pharmaceutical compliance support in Spain",
   "intro": "Local compliance support for pharmaceutical and biotech companies working in Spain, connecting Spanish medicines law and the Farmaindustria Code of Good Practice to your global governance, with a named business partner for Spain.",
   "lead": {
