@@ -108,7 +108,7 @@ export const serviceFrameworks: Record<string, ServiceFrameworks> = {
       { title: "Agree responsibilities", body: "Confirm named contacts, decision rights, review routes and any formal role for the engagement." },
       { title: "Operate and escalate", body: "Review activities as they arise and escalate questions through the agreed routes to your central team." },
     ],
-    resources: [{ label: "Country compliance guides", href: "/legal-mandates" }, { label: "Our local compliance partners", href: "/team" }, { label: "EFPIA Code Self-Assessment Checklist", href: "/resources/checklists/efpia-code-self-assessment-checklist" }],
+    resources: [{ label: "Our local compliance partners", href: "/team" }, { label: "EFPIA Code Self-Assessment Checklist", href: "/resources/checklists/efpia-code-self-assessment-checklist" }],
   },
   "/services/shared-services": {
     intro: "Shared-service reviewers work to the same rules as your in-house team. These are the frameworks most often behind materials review, HCP engagement and disclosure work.",
