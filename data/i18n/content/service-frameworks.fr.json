@@ -167,10 +167,6 @@
     ],
     "resources": [
       {
-        "label": "Guides de conformité par pays",
-        "href": "/legal-mandates"
-      },
-      {
         "label": "Nos partenaires locaux en conformité",
         "href": "/team"
       },
