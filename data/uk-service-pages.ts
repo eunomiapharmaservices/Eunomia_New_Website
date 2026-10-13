@@ -228,7 +228,7 @@ export const ukServicePages: UkServicePage[] = [
     slug: "pharma-compliance-training",
     topic: "compliance training",
     metaTitle: "Pharmaceutical Compliance Training UK | Eunomia",
-    metaDescription: "UK pharmaceutical compliance training: ABPI Code, ABAC and HCP engagement. Role-based classroom, virtual and e-learning with practical scenarios.",
+    metaDescription: "Pharmaceutical compliance training in the UK and Europe, including ABPI Code, ABAC, HCP engagement and role-based EU AI Act AI literacy training.",
     heading: "Pharmaceutical Compliance Training in the UK",
     kicker: "Pharmaceutical Compliance Training",
     title: "Training that changes decisions, not just completion rates.",
@@ -259,6 +259,7 @@ export const ukServicePages: UkServicePage[] = [
       { question: "Is anti-bribery training part of adequate procedures?", answer: "The Ministry of Justice guidance on the Bribery Act 2010 lists communication, including training, as one of six principles of adequate procedures, proportionate to the risks the organisation faces." },
       { question: "Which compliance training modules do you offer?", answer: "Modules include the ABPI Code of Practice, anti-bribery and anti-corruption, HCP and HCO engagement, hospitality and fair market value, materials review and certification, transparency and disclosure, and policy and SOP roll-out. Each can be tailored by role, market and system." },
       { question: "Do you train teams outside the UK?", answer: "Yes. Training can be mapped to the codes and markets each role works under, with input from our local compliance partners across Europe and other regions." },
+      { question: "Can you provide EU AI Act training for pharmaceutical teams?", answer: "Yes. We can design role-based AI literacy training for teams that develop, procure, oversee or use AI systems, using relevant pharma compliance scenarios and your internal policies. Article 4 of the EU AI Act requires providers and deployers to take measures to ensure a sufficient level of AI literacy for staff and others operating AI systems on their behalf. The training scope is tailored to the people, systems and context; it does not certify legal compliance or replace a legal assessment." },
     ],
     positioning: {
       problemTitle: "Why checkbox training fails",
@@ -281,6 +282,7 @@ export const ukServicePages: UkServicePage[] = [
         { title: "Measure", body: "Check whether behaviour changes, using agreed measures, and refresh content as rules and risks change." },
       ],
       resources: [
+        { label: "EU AI Act for pharmaceutical companies", href: "/resources/articles/eu-ai-act-pharmaceutical-companies" },
         { label: "Role-based compliance training matrix", href: "/resources/role-based-compliance-training-matrix" },
         { label: "Compliance training beyond the Code", href: "/resources/articles/compliance-training-beyond-the-code" },
         { label: "Why bespoke compliance training matters", href: "/resources/articles/importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry" },
@@ -321,6 +323,7 @@ export const ukServicePages: UkServicePage[] = [
       { question: "Is a risk score enough?", answer: "No. A useful risk register explains decisions and drives action. A score alone does not show that a risk is controlled; the assessment should identify the control, its owner and evidence that it operates in practice." },
       { question: "How often should the assessment be reviewed?", answer: "When activities or risks change, and on a regular cycle. The fraud guidance describes the assessment as kept under regular review, and the bribery guidance as periodic." },
       { question: "Can you cover markets outside the UK?", answer: "Yes. The assessment can be structured by country, with input from our local compliance partners where national law and codes differ." },
+      { question: "Can a pharmaceutical compliance risk assessment include AI systems?", answer: "Yes. The assessment can include AI-enabled compliance workflows and other AI use cases by documenting the purpose, data, users, potential impact, controls, human oversight, monitoring and accountable owner. We help connect identified risks to governance and action plans; the assessment does not replace a specialist legal or technical AI conformity assessment." },
     ],
     positioning: {
       problemTitle: "Turn a risk register into decisions",
@@ -445,6 +448,9 @@ export const ukServicePages: UkServicePage[] = [
       { question: "What is the difference between an audit and a gap analysis?", answer: "An audit validates past adherence by testing what happened. A gap analysis compares obligations with how the business operates now, to assess current effectiveness and future readiness. We often use both." },
       { question: "How is an effective CAPA plan structured?", answer: "It identifies root causes, actions, accountable owners, due dates, dependencies and effectiveness checks, with progress tracked through governance." },
       { question: "Do you carry out GxP inspections?", answer: "No. Our audits cover commercial healthcare compliance, such as promotion, HCP engagement, anti-bribery and disclosure. They are not a substitute for a GxP inspection programme." },
+      { question: "Can you audit AI-supported commercial compliance workflows?", answer: "Yes. Within an agreed commercial compliance audit scope, we can test how an AI-supported workflow is governed, what data and outputs it uses, how approvals and human review work, whether changes are traceable, and how exceptions are monitored. Findings are validated against records and process evidence; AI output is not treated as audit evidence by itself." },
+      { question: "Can you manage a commercial compliance project?", answer: "Yes. Eunomia can structure and coordinate a defined commercial compliance project, such as a policy rollout, process redesign or remediation programme, with agreed deliverables, milestones, owners, dependencies, decision points and progress reporting. Project governance and client approval responsibilities are agreed at the outset." },
+      { question: "What does pharmaceutical copy approval support include?", answer: "Copy approval support can include workflow and SOP design, reviewer responsibilities, evidence and version control, approval records, certification steps where applicable, and monitoring of the process. Formal approval or certification remains with the company’s authorised personnel under the applicable code and local rules." },
     ],
     positioning: {
       problemTitle: "Find the gaps before someone else does",
@@ -488,6 +494,7 @@ export const ukServicePages: UkServicePage[] = [
       "Risk-based monitoring plan design",
       "HCP engagement and contracted services monitoring",
       "Meetings, events and hospitality monitoring, including live attendance checks",
+      "External stakeholder and third-party engagement monitoring, including digital influencer activity where in scope",
       "Promotional materials and certification sample checks",
       "Grants, donations and sponsorship monitoring",
       "Payment and transfer-of-value data monitoring",
@@ -505,6 +512,8 @@ export const ukServicePages: UkServicePage[] = [
       { question: "What should a pharma monitoring plan cover?", answer: "The highest-risk activities from your risk assessment, typically HCP engagements and contracted services, meetings and hospitality, promotional materials, grants and donations, and payments. The plan sets the sample, frequency, owner and what counts as a finding." },
       { question: "Can monitoring be automated?", answer: "Parts of it can. Workflows and dashboards, for example in SharePoint and Power BI, can flag exceptions and track findings, while experienced people review the results and decide what action is needed." },
       { question: "What happens to monitoring findings?", answer: "Each finding is recorded with its root cause, an accountable owner and a due date, tracked through governance, and checked later to confirm the action worked." },
+      { question: "Can compliance monitoring cover external stakeholders and digital influencers?", answer: "Yes, where these activities are within the agreed programme. Monitoring can review contracts, briefings, content approval, disclosures, records and ongoing oversight for external stakeholders or digital influencers acting on a company’s behalf. The scope should reflect the content, channel, country code and responsibility for reviewing or escalating issues." },
+      { question: "Can AI automate copy, meeting and event approvals?", answer: "AI and workflow tools can help route submissions, check required fields, flag potential issues and keep records for copy, meetings and events. They should support the review process rather than make the final compliance decision: qualified company reviewers retain approval authority, assess context and escalate exceptions." },
     ],
     positioning: {
       problemTitle: "Controls that nobody checks drift",
