@@ -238,7 +238,7 @@ export const markets: Market[] = [
       "Pharma compliance support in France: the anti-gift law (loi anti-cadeaux), Loi Bertrand transparency, ANSM advertising visas, Sapin II and LEEM rules.",
     title: "Pharmaceutical compliance support in France",
     intro:
-      "Local compliance support for pharmaceutical and biotech companies working in France, from the anti-gift regime and Transparence Santé disclosure to Sapin II, led by a senior French ethics and compliance professional.",
+      "Local compliance support for pharmaceutical and biotech companies working in France, from the anti-gift regime and Transparence Santé disclosure to Sapin II and Pharmacien Responsable governance, led by a senior French ethics and compliance professional.",
     lead: {
       name: "Alexandre Guillaume",
       role: "Global Compliance Business Partner — Global & France",
@@ -274,6 +274,10 @@ export const markets: Market[] = [
         body: "Article 17 of Loi n° 2016-1691 of 9 December 2016 (Sapin II) requires companies with at least 500 employees and turnover above €100 million, including at group level, to put an anti-corruption programme in place. The Agence française anticorruption (AFA) checks compliance.",
       },
       {
+        title: "Pharmacien Responsable and pharmaceutical establishment governance",
+        body: "French Public Health Code Article L.5124-2 provides for a Pharmacien Responsable in the context of pharmaceutical establishments and assigns personal responsibility for compliance with provisions relating to the activity. The applicable entity, activities, eligibility and appointment requirements must be assessed for each organisation. Eunomia can support role mapping and compliance governance; this page does not offer or imply a statutory appointment.",
+      },
+      {
         title: "Industry ethics: LEEM",
         body: "LEEM, the French pharmaceutical industry association, sets professional ethics rules for its members (Dispositions Déontologiques Professionnelles), overseen by its ethics committee, the Codeem.",
       },
@@ -285,6 +289,7 @@ export const markets: Market[] = [
       { label: "Transparence Santé", href: "https://www.transparence.sante.gouv.fr/pages/accueil/" },
       { label: "ANSM advertising visas", href: "https://ansm.sante.fr/vos-demarches/industriel/effectuer-une-demande-de-visa-de-publicite-pour-les-medicaments-gp-pm" },
       { label: "Sapin II, Article 17", href: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051752923" },
+      { label: "French Public Health Code, Article L.5124-2", href: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006689976" },
       { label: "LEEM ethics rules", href: "https://www.leem.org/dispositions-deontologiques-professionnelles" },
     ],
     faqs: [
@@ -302,6 +307,11 @@ export const markets: Market[] = [
         question: "Does Sapin II apply to us?",
         answer:
           "Article 17 applies above the employee and turnover thresholds, including at group level. Where it applies, we can help assess and strengthen the programme against it. Where it does not, its measures remain a useful benchmark for a proportionate programme.",
+      },
+      {
+        question: "What is a Pharmacien Responsable in France?",
+        answer:
+          "The Pharmacien Responsable is a statutory responsible pharmacist role under the French Public Health Code for relevant pharmaceutical establishments. The legal entity, establishment, activity and appointment requirements determine how it applies. Eunomia can help map governance and responsibilities, but a formal appointment and eligibility must be confirmed for the specific organisation.",
       },
     ],
   },
@@ -494,6 +504,10 @@ export const markets: Market[] = [
     {
       "question": "Do regional authorities have a role in Spain?",
       "answer": "Yes. Under Article 25 of RD 1416/1994, advertising material aimed at healthcare professionals is notified to the relevant Autonomous Community. Build that step into your review and approval workflow."
+    },
+    {
+      "question": "Can Eunomia provide a local Spanish compliance reviewer?",
+      "answer": "Eunomia can scope local Spanish review support through its Spain business partner for materials, meetings and HCP engagements against the relevant Spanish rules and Farmaindustria Code where applicable. The engagement must define what is reviewed, who holds final company approval authority and whether any regional notification or legal advice is required. Local review support is not a regulatory appointment."
     }
   ]
 },
@@ -501,7 +515,7 @@ export const markets: Market[] = [
   "slug": "italy",
   "country": "Italy",
   "metaTitle": "Pharmaceutical Compliance Support in Italy | Eunomia",
-  "metaDescription": "Pharma compliance support in Italy covering advertising, gifts, AIFA congress notifications, the Farmindustria Code and transparency requirements.",
+  "metaDescription": "Pharma compliance support in Italy covering the Scientific Service (servizio scientifico), AIFA advertising and congress notifications, HCP engagements and transparency.",
   "title": "Pharmaceutical compliance support in Italy",
   "intro": "Local compliance support for pharmaceutical and biotech companies working in Italy, connecting Italian medicines law, AIFA procedures and the Farmindustria Code to your global governance, with a named business partner for Italy.",
   "lead": {
@@ -543,6 +557,10 @@ export const markets: Market[] = [
       "body": "Law 62 of 31 May 2022 requires publication of transfers of value above set thresholds (for individual healthcare professionals, more than €100 per item or €1,000 a year) in a public register, Sanità trasparente, on the Ministry of Health website. The register’s start date is to be announced in the Gazzetta Ufficiale. We have not found an official notice that the register is operational, so check its status when planning reporting."
     },
     {
+      "title": "The Scientific Service (servizio scientifico): Article 126",
+      "body": "Article 126 of D.Lgs. 219/2006 requires each company holding a marketing authorisation for medicines to have a Scientific Service responsible for information on the medicines it markets. The head must meet the qualifications set out in the law, and the service is separate from marketing. The requirements and the appropriate arrangement for foreign authorisation holders must be confirmed for the specific entity. Eunomia can support governance and workflow mapping; this page does not offer a statutory appointment."
+    },
+    {
       "title": "Corporate liability: D.Lgs. 231/2001",
       "body": "A company can be liable for specified offences, including bribery, committed in its interest or to its benefit. It can avoid liability if it proves it adopted and effectively applied a suitable organisational and management model, overseen by a body with autonomous powers."
     }
@@ -569,6 +587,10 @@ export const markets: Market[] = [
       "href": "https://leg13.camera.it/parlam/leggi/deleghe/testi/01231dl.htm"
     },
     {
+      "label": "Article 126, D.Lgs. 219/2006 (AIFA consolidated text)",
+      "href": "https://www.aifa.gov.it/sites/default/files/d.lgs_.n._219_2006_e_s.m.i..pdf"
+    },
+    {
       "label": "EFPIA Code",
       "href": "https://www.efpia.eu/relationships-code/the-efpia-code/"
     }
@@ -585,6 +607,10 @@ export const markets: Market[] = [
     {
       "question": "Does a D.Lgs. 231/2001 model cover pharma compliance?",
       "answer": "A 231 model addresses the specified offences, including bribery. It should connect to your commercial compliance controls, such as HCP engagement approval and gift and hospitality rules, so the model is applied in practice."
+    },
+    {
+      "question": "What is the Italian Scientific Service?",
+      "answer": "Article 126 of D.Lgs. 219/2006 requires a Scientific Service (servizio scientifico) for each company holding a marketing authorisation for medicines. It is responsible for information on those medicines, must be separate from marketing, and must be headed by a person with the legally required qualifications. Confirm how the rule applies to the relevant entity, including a foreign authorisation holder, before deciding the operating model."
     }
   ]
 },
