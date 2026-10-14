@@ -6,6 +6,7 @@ import { ukServicePages, UK_SERVICE_BASE } from "../../data/uk-service-pages";
 export function ServicePage({locale = "en"}: {locale?: Locale}) {
 const t = serviceTranslator(locale);
 const href = (path: string) => localHref(locale, path);
+const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/governance-assurance"
@@ -75,6 +76,16 @@ const href = (path: string) => localHref(locale, path);
           answer:
             t("Yes. Training can be adapted by role, market, process and system using classroom, virtual, e-learning or blended delivery with effectiveness measures."),
         },
+        ...(isEnglish ? [
+          {
+            question: "Does Eunomia provide pharmaceutical quality and compliance services?",
+            answer: "Eunomia provides commercial healthcare compliance services for pharma and biotech, including programme design, ABPI and EFPIA Code support, risk assessment, policies and SOPs, training, monitoring, audits, HCP engagement and transparency reporting. The service is non-GxP: Eunomia does not provide GMP manufacturing quality systems, GxP quality assurance, or laboratory and clinical quality services.",
+          },
+          {
+            question: "Does Eunomia offer pharmaceutical regulatory consulting?",
+            answer: "Eunomia offers regulatory-adjacent commercial compliance consulting: mapping relevant ABPI and EFPIA Codes and local requirements into practical controls, procedures, training and market-specific support. This is not broad regulatory affairs consulting for product registrations, marketing authorisation applications or regulatory submissions.",
+          },
+        ] : []),
       ]}
     />
   );

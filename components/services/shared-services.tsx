@@ -5,6 +5,7 @@ import { ServiceSubpage } from "../../components/ServiceSubpage";
 export function ServicePage({locale = "en"}: {locale?: Locale}) {
 const t = serviceTranslator(locale);
 const href = (path: string) => localHref(locale, path);
+const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/shared-services"
@@ -27,6 +28,19 @@ const href = (path: string) => localHref(locale, path);
         t("Consistent decisions, records and turnaround times"),
         t("A service that can scale by market, activity or workload"),
       ]}
+      detailSection={isEnglish ? (
+        <section className="section-pad uk-related" aria-labelledby="pharma-transparency-guide">
+          <p className="section-kicker">Transparency reporting</p>
+          <h2 id="pharma-transparency-guide">How to assess transparency reporting by pharmaceutical companies</h2>
+          <p>There is no single cross-market league table that establishes which pharmaceutical companies are “most transparent.” A more useful assessment checks what a company reports in each market, how complete and timely the information is, and whether its methods are explained.</p>
+          <ul>
+            <li>Use public, market-specific sources such as <a href="https://www.abpi.org.uk/reputation/disclosure-uk/" target="_blank" rel="noreferrer">Disclosure UK</a> and France’s <a href="https://www.transparence.sante.gouv.fr/pages/accueil/" target="_blank" rel="noreferrer">Transparence Santé</a>.</li>
+            <li>Compare the same reporting year and the same types of transfers of value, taking account of local rules and publication methods.</li>
+            <li>Review the company’s methodology, data correction process and explanation of any aggregate reporting or privacy constraints.</li>
+          </ul>
+          <p>Public disclosure records show reported relationships. They do not, by themselves, establish a company’s overall ethical conduct or prove that every compliance control is effective. For context, see the <a href="https://www.efpia.eu/relationships-code/the-efpia-code/" target="_blank" rel="noreferrer">EFPIA Code</a> and Eunomia’s <a href={href("/resources/articles/transparency-reporting-in-pharmaceutical-industry")}>guide to pharma transparency reporting</a>.</p>
+        </section>
+      ) : undefined}
       faqs={[
         {
           question: t("What is a healthcare compliance shared service?"),
@@ -59,6 +73,10 @@ const href = (path: string) => localHref(locale, path);
           answer:
             t("The service can use agreed measures for volume, turnaround, quality, exceptions, escalation and stakeholder experience, supported by regular governance reviews."),
         },
+        ...(isEnglish ? [{
+          question: "Which pharma companies are known for transparency?",
+          answer: "There is no single cross-market ranking that identifies the pharmaceutical companies that are “most transparent.” Check the relevant public disclosure sources for each country, compare the same reporting year and categories, and review each company’s methodology and correction process. Public disclosures are useful evidence about reported relationships, but are not a complete measure of a company’s overall ethics or compliance effectiveness.",
+        }] : []),
       ]}
     />
   );
