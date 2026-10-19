@@ -85,6 +85,12 @@ const href = (path: string) => localHref(locale, path);
           </div>
         </section>
       }
+      detailSection={locale === "en" ? (
+        <section className="section-pad uk-related" aria-labelledby="review-people-process">
+          <h2 id="review-people-process">Need reviewers as well as a review workflow?</h2>
+          <p>Our <a href="/services/promotional-materials-review">outsourced promotional materials review and copy approval service</a> connects specialist review capacity with SOPs, approval routes and operational reporting. Automation supports the process; authorised people retain review and certification decisions.</p>
+        </section>
+      ) : undefined}
       faqs={[
         {
           question: t("What is an AI compliance readiness assessment?"),

@@ -109,7 +109,7 @@ export const practicalResources: PracticalResource[] = [
       { question: "What should happen when approved material changes?", answer: "Keep the earlier version and route the change through the approved change-control process. Determine the required review and certification before releasing the revised item." }
     ],
     sources: [{ label: "PMCPA: 2024 ABPI Code, Clause 8 — certification, examination and retention", href: code + "clause-8-certification-and-examination/" }],
-    related: [{ label: "Compliance workflow automation", href: "/services/automation-of-compliance-operations" }, { label: "Promotional review shared services", href: "/services/shared-services" }, { label: "Materials-review shared-service case study", href: "/resources/materials-review-shared-service-case-study" }, { label: "Role-based compliance training matrix", href: "/resources/role-based-compliance-training-matrix" }],
+    related: [{ label: "Compliance workflow automation", href: "/services/automation-of-compliance-operations" }, { label: "Outsourced promotional review and copy approval", href: "/services/promotional-materials-review" }, { label: "Materials-review shared-service case study", href: "/resources/materials-review-shared-service-case-study" }, { label: "Role-based compliance training matrix", href: "/resources/role-based-compliance-training-matrix" }],
     cta: "Discuss your promotional review process", enquiry: "Promotional Review Workflow"
   }
 ];

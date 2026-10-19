@@ -70,6 +70,7 @@ export default function Services() {
               {service.title}
             </a>
           ))}
+          <a href="/services/promotional-materials-review">Outsourced promotional review and copy approval</a>
           <a href="#approach">How we deliver</a>
         </nav>
       </section>
@@ -127,6 +128,12 @@ export default function Services() {
             </li>
           </ol>
         </div>
+      </section>
+      <section className="section-pad uk-related" aria-labelledby="promotional-review-service">
+        <p className="section-kicker">Specialist shared-service support</p>
+        <h2 id="promotional-review-service">Outsourced promotional materials review and copy approval</h2>
+        <p>Specialist review capacity, approval workflows, SOPs and reporting for UK and European pharmaceutical teams, with clear reviewer and signatory responsibilities.</p>
+        <p><a href="/services/promotional-materials-review">Explore promotional review support →</a></p>
       </section>
       <ComplianceDecisionGuide page="services" />
       <PageFaqs faqs={servicesFaqs} title="Choosing the right service" />
