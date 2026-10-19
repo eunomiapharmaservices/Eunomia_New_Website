@@ -29,6 +29,13 @@ const isEnglish = !locale || locale === "en";
         t("A service that can scale by market, activity or workload"),
       ]}
       detailSection={isEnglish ? (
+        <>
+        <section className="section-pad uk-related" aria-labelledby="outsourced-materials-review">
+          <p className="section-kicker">Materials review operations</p>
+          <h2 id="outsourced-materials-review">Outsourced promotional review and copy approval support</h2>
+          <p>Combine specialist reviewers, SOPs, approval workflows and reporting within your existing systems. Scope the UK and European markets, capacity and any nominated signatory arrangements before delivery begins.</p>
+          <p><a href="/services/promotional-materials-review">Explore our promotional materials review service →</a></p>
+        </section>
         <section className="section-pad uk-related" aria-labelledby="pharma-transparency-guide">
           <p className="section-kicker">Transparency reporting</p>
           <h2 id="pharma-transparency-guide">How to assess transparency reporting by pharmaceutical companies</h2>
@@ -40,6 +47,7 @@ const isEnglish = !locale || locale === "en";
           </ul>
           <p>Public disclosure records show reported relationships. They do not, by themselves, establish a company’s overall ethical conduct or prove that every compliance control is effective. For context, see the <a href="https://www.efpia.eu/relationships-code/the-efpia-code/" target="_blank" rel="noreferrer">EFPIA Code</a> and Eunomia’s <a href={href("/resources/articles/transparency-reporting-in-pharmaceutical-industry")}>guide to pharma transparency reporting</a>.</p>
         </section>
+        </>
       ) : undefined}
       faqs={[
         {
