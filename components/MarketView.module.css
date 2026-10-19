@@ -11,13 +11,13 @@
 .overview, .delivery { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
 .overview { padding-bottom: 48px; border-bottom: 1px solid var(--line); }
 .approach .eyebrow { font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--site-green); margin-bottom: 16px; }
-.challenge { border-left: 4px solid var(--site-orange); padding-left: 28px; }
+.challenge { border-inline-start: 4px solid var(--site-orange); padding-inline-start: 28px; }
 .delivery { padding-top: 48px; }
 .priorities { background: var(--site-pale, #f4f7f1); border-top: 4px solid var(--site-orange); padding: 28px 32px; }
 .priorities ul { list-style: none; margin: 0; padding: 0; }
-.priorities li { position: relative; padding-left: 24px; margin-bottom: 16px; }
+.priorities li { position: relative; padding-inline-start: 24px; margin-bottom: 16px; }
 .priorities li:last-child { margin-bottom: 0; }
-.priorities li::before { content: "✓"; color: var(--site-green); position: absolute; left: 0; font-weight: 800; }
+.priorities li::before { content: "✓"; color: var(--site-green); position: absolute; inset-inline-start: 0; font-weight: 800; }
 .related { margin-top: 48px; }
 .related > div { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .related a { border: 2px solid var(--site-orange); padding: 20px; font-weight: 700; line-height: 1.5; color: var(--ink); display: flex; justify-content: space-between; gap: 16px; text-decoration: none; }

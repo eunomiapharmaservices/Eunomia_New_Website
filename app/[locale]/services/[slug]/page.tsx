@@ -7,7 +7,10 @@ import { ServicePage as Service0 } from "../../../../components/services/governa
 import { ServicePage as Service1 } from "../../../../components/services/automation-of-compliance-operations";
 import { ServicePage as Service2 } from "../../../../components/services/local-legal-mandates";
 import { ServicePage as Service3 } from "../../../../components/services/shared-services";
+import { ServicePage as PromotionalReview } from "../../../../components/services/promotional-materials-review";
+import { promotionalReviewMetadata } from "../../../../data/i18n/promotional-review-copy";
 const pages = {
+  "promotional-materials-review": { Page: PromotionalReview, title: "sharedServices", summary: "sharedServicesSummary" },
   "governance-assurance": { Page: Service0, title: "governanceService", summary: "governanceSummary" },
   "automation-of-compliance-operations": { Page: Service1, title: "automationService", summary: "automationSummary" },
   "local-legal-mandates": { Page: Service2, title: "localMandatesService", summary: "localMandatesSummary" },
@@ -24,6 +27,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const {locale,slug} = await params;
   if (!valid(locale,slug)) return {};
+  if (slug === "promotional-materials-review") return promotionalReviewMetadata(locale);
   const page=pages[slug as Slug];
   const copy=chromeStrings[locale] as Record<string,string>;
   const path=`/services/${slug}`;

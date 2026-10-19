@@ -1,9 +1,11 @@
+import { promotionalReviewTranslator } from "../../data/i18n/promotional-review-copy";
 import { serviceTranslator } from "../../data/i18n/full-service-copy";
 import { localHref } from "../../lib/i18n";
 import type { Locale } from "../../data/i18n/locales";
 import { ServiceSubpage } from "../../components/ServiceSubpage";
 export function ServicePage({locale = "en"}: {locale?: Locale}) {
 const t = serviceTranslator(locale);
+const reviewT = promotionalReviewTranslator(locale);
 const href = (path: string) => localHref(locale, path);
 const isEnglish = !locale || locale === "en";
   return (
@@ -30,12 +32,6 @@ const isEnglish = !locale || locale === "en";
       ]}
       detailSection={isEnglish ? (
         <>
-        <section className="section-pad uk-related" aria-labelledby="outsourced-materials-review">
-          <p className="section-kicker">Materials review operations</p>
-          <h2 id="outsourced-materials-review">Outsourced promotional review and copy approval support</h2>
-          <p>Combine specialist reviewers, SOPs, approval workflows and reporting within your existing systems. Scope the UK and European markets, capacity and any nominated signatory arrangements before delivery begins.</p>
-          <p><a href="/services/promotional-materials-review">Explore our promotional materials review service →</a></p>
-        </section>
         <section className="section-pad uk-related" aria-labelledby="pharma-transparency-guide">
           <p className="section-kicker">Transparency reporting</p>
           <h2 id="pharma-transparency-guide">How to assess transparency reporting by pharmaceutical companies</h2>
@@ -49,6 +45,7 @@ const isEnglish = !locale || locale === "en";
         </section>
         </>
       ) : undefined}
+      heroDetail={<section className="section-pad uk-related"><h2><a href={href("/services/promotional-materials-review")}>{reviewT("Promotional materials review and copy approval")}</a></h2><p>{reviewT("Specialist review capacity within your approval process.")}</p></section>}
       faqs={[
         {
           question: t("What is a healthcare compliance shared service?"),

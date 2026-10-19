@@ -1,3 +1,4 @@
+import { promotionalReviewTranslator } from "../../data/i18n/promotional-review-copy";
 import { serviceTranslator } from "../../data/i18n/full-service-copy";
 import { localHref } from "../../lib/i18n";
 import type { Locale } from "../../data/i18n/locales";
@@ -10,6 +11,7 @@ import {
 import { ServiceSubpage } from "../../components/ServiceSubpage";
 export function ServicePage({locale = "en"}: {locale?: Locale}) {
 const t = serviceTranslator(locale);
+const reviewT = promotionalReviewTranslator(locale);
 const href = (path: string) => localHref(locale, path);
   return (
     <ServiceSubpage locale={locale}
@@ -40,6 +42,7 @@ const href = (path: string) => localHref(locale, path);
         t("Automation that strengthens operations without replacing accountable human judgement"),
       ]}
       heroDetail={
+        <>
         <section className="ai-delivery-model section-pad" aria-labelledby="ai-delivery-title">
           <div className="ai-delivery-heading">
             <h2 id="ai-delivery-title">{t("How we deliver pharma compliance automation")}</h2>
@@ -84,13 +87,9 @@ const href = (path: string) => localHref(locale, path);
             </div>
           </div>
         </section>
+        <section className="section-pad uk-related"><h2><a href={href("/services/promotional-materials-review")}>{reviewT("Promotional materials review and copy approval")}</a></h2><p>{reviewT("Specialist review capacity within your approval process.")}</p></section>
+        </>
       }
-      detailSection={locale === "en" ? (
-        <section className="section-pad uk-related" aria-labelledby="review-people-process">
-          <h2 id="review-people-process">Need reviewers as well as a review workflow?</h2>
-          <p>Our <a href="/services/promotional-materials-review">outsourced promotional materials review and copy approval service</a> connects specialist review capacity with SOPs, approval routes and operational reporting. Automation supports the process; authorised people retain review and certification decisions.</p>
-        </section>
-      ) : undefined}
       faqs={[
         {
           question: t("What is an AI compliance readiness assessment?"),
