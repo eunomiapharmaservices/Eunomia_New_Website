@@ -68,10 +68,10 @@ export function ServicePage({ locale = "en" }: { locale?: Locale }) {
           <aside className={styles.priorities}>
             <h3>{t("How an engagement runs")}</h3>
             <ol>
-              <li><b>{t("Scope.")}</b>{t("Confirm products, markets, material types, workload and accountable owners.")}</li>
-              <li><b>{t("Set up.")}</b>{t("Agree reviewer expertise, SOPs, templates, hand-offs and signatory arrangements.")}</li>
-              <li><b>{t("Operate.")}</b>{t("Review submissions, document feedback and route decisions through authorised personnel.")}</li>
-              <li><b>{t("Improve.")}</b>{t("Review quality, turnaround and recurring issues with your team.")}</li>
+              <li><b>{t("Scope.")}</b>{" "}{t("Confirm products, markets, material types, workload and accountable owners.")}</li>
+              <li><b>{t("Set up.")}</b>{" "}{t("Agree reviewer expertise, SOPs, templates, hand-offs and signatory arrangements.")}</li>
+              <li><b>{t("Operate.")}</b>{" "}{t("Review submissions, document feedback and route decisions through authorised personnel.")}</li>
+              <li><b>{t("Improve.")}</b>{" "}{t("Review quality, turnaround and recurring issues with your team.")}</li>
             </ol>
           </aside>
         </div>
@@ -85,7 +85,7 @@ export function ServicePage({ locale = "en" }: { locale?: Locale }) {
           </article>
           <aside className={styles.priorities}>
             <h3>{t("Meet the team behind delivery")}</h3>
-            <p><a href={href("/team#agyat-suri")}>{t("Agyat Suri")}</a>{t("is Eunomia’s Healthcare Compliance Operations Lead and contributes the operational perspective in the published case study.")}{" "}<a href={href("/team#rashmi-papneja")}>{t("Rashmi Papneja")}</a>{t(", Founder and Managing Director, leads Eunomia’s UK compliance work.")}</p>
+            <p><a href={href("/team#agyat-suri")}>{t("Agyat Suri")}</a>{" "}{t("is Eunomia’s Healthcare Compliance Operations Lead and contributes the operational perspective in the published case study.")}{" "}<a href={href("/team#rashmi-papneja")}>{t("Rashmi Papneja")}</a>{t(", Founder and Managing Director, leads Eunomia’s UK compliance work.")}</p>
             <p>{t("Reviewer and signatory suitability is established for the product, market and role; a leadership role alone does not establish signatory eligibility.")}</p>
           </aside>
         </div>
