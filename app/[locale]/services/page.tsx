@@ -5,6 +5,8 @@ import { SiteHeader, SiteFooter } from "../../../components/SiteChrome";
 import chromeStrings from "../../../data/i18n/site-chrome.json";
 import { languageAlternates, locales, type Locale } from "../../../data/i18n/locales";
 
+import { promotionalReviewTranslator } from "../../../data/i18n/promotional-review-copy";
+
 export const dynamicParams = false;
 type TranslatedLocale = Exclude<Locale, "en">;
 type ServicePageCopy = { title: string; intro: string; metaTitle: string; metaDescription: string };
@@ -78,6 +80,10 @@ export default async function LocalizedServices({ params }: { params: Promise<{ 
             </article>
           ))}
         </div>
+      </section>
+      <section className="section-pad uk-related">
+        <h2><a href={`/${locale}/services/promotional-materials-review`}>{promotionalReviewTranslator(locale as Locale)("Promotional materials review and copy approval")}</a></h2>
+        <p>{promotionalReviewTranslator(locale as Locale)("Specialist review capacity within your approval process.")}</p>
       </section>
       <SiteFooter locale={selected} />
     </main>

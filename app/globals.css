@@ -1393,3 +1393,8 @@ a.primary-button[href*="/resources/checklists/"]:focus-visible {
   .site-header .language-menu { margin-inline-start: 0; }
   .site-header .language-dropdown { inset-inline-start: 0; inset-inline-end: auto; }
 }
+
+/* Respect Arabic reading direction where shared layouts explicitly align left. */
+html[dir="rtl"] :is(.subservice-hero, .subservice-cta, .section-kicker, .contact, .team-cta, .ai-model-result, .footer-details, .enquiry-form) { text-align: start; }
+html[dir="rtl"] .enquiry-form :is(input[type="email"], input[type="tel"]) { direction: ltr; text-align: left; }
+html[dir="rtl"] .back-link svg { transform: scaleX(-1); }

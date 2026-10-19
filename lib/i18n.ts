@@ -9,7 +9,7 @@ import uiStrings from "../data/i18n/ui.json";
 const localizedRoutes: RegExp[] = [
   /^\/$/,
   /^\/services$/,
-  /^\/services\/(governance-assurance|automation-of-compliance-operations|local-legal-mandates|shared-services)$/,
+  /^\/services\/(governance-assurance|automation-of-compliance-operations|local-legal-mandates|shared-services|promotional-materials-review)$/,
   /^\/contact$/,
   /^\/privacy$/,
   /^\/team$/,
