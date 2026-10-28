@@ -1,3 +1,4 @@
+import { articlePath } from "../../../lib/article-path";
 import { withSocial } from "../../../lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -55,7 +56,7 @@ export default async function LocalizedResourcesPage({ params }: { params: Promi
         </div>
         <div className="article-grid">
           {articles.map(({ date, title, slug }, i) => (
-            <a className="article-card" href={`/resources/articles/${slug}`} key={slug} lang="en" data-resource-search={`article ${date} ${title}`}>
+            <a className="article-card" href={articlePath(slug)} key={slug} lang="en" data-resource-search={`article ${date} ${title}`}>
               <div><span className="article-number">{String(i + 1).padStart(2, "0")}</span><span className="article-date">{dateFormat.format(new Date(date))}</span></div>
               <h3>{title}</h3><span className="resource-card-link">{text.english} <ArrowUpRight /></span>
             </a>

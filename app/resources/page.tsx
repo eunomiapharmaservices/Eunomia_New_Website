@@ -1,3 +1,4 @@
+import { articlePath } from "../../lib/article-path";
 import { ComplianceDecisionGuide } from "../../components/ComplianceDecisionGuide";
 import { practicalResources } from "../../data/practical-resources";
 import { PageFaqs } from "../../components/PageFaqs";
@@ -190,7 +191,7 @@ export default function Resources() {
             return (
               <a
                 className="article-card"
-                href={`/resources/articles/${slug}`}
+                href={articlePath(slug)}
                 key={`${title}-${date}`}
                 data-resource-search={`article ${date} ${title}`}
               >

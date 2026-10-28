@@ -1,3 +1,4 @@
+import { articlePath } from "../../../../lib/article-path";
 import { articlePracticalResources } from "../../../../data/article-practical-resources";
 import { editorialEntry, EditorialSummary, EditorialSources } from "../../../../components/EditorialEnhancement";
 import type { Metadata } from "next";
@@ -34,9 +35,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const article = articleSeo.find((item) => item.slug === slug);
   if (!article) return {};
-  const url = "https://www.eunomiapharmaservices.com/resources/articles/" + slug;
+  const url = "https://www.eunomiapharmaservices.com" + articlePath(slug);
   return {
-    title: article.title + " | Eunomia",
+    title: slug === "eu-ai-act-governance-article-50-pharma" ? article.title : article.title + " | Eunomia",
     description: article.description,
     alternates: { canonical: url },
     openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services", locale: "en_GB", images: [DEFAULT_OG_IMAGE] },
@@ -75,7 +76,7 @@ function localiseArticleLinks(html: string) {
       const path = url.pathname.replace(/\/+$/, "") || "/";
       const key = path.replace(/^\/resources\/articles\//, "").replace(/^\//, "");
       const destination = legacyDestinations[key.toLowerCase()]
-        ?? (articleSlugs.has(key) ? `/resources/articles/${key}` : path);
+        ?? (articleSlugs.has(key) ? articlePath(key) : path);
       return `href=${quote}${destination}${url.search}${url.hash}${quote}`;
     });
 }
@@ -107,7 +108,7 @@ export default async function ResourceArticle({
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Resources", item: `${SITE}/resources` },
       ...(cats[0] ? [{ "@type": "ListItem", position: 2, name: cats[0].name, item: `${SITE}/resources/category/${cats[0].slug}` }] : []),
-      { "@type": "ListItem", position: cats[0] ? 3 : 2, name: article.title.replace(/<[^>]+>/g, ""), item: `${SITE}/resources/articles/${slug}` },
+      { "@type": "ListItem", position: cats[0] ? 3 : 2, name: article.title.replace(/<[^>]+>/g, ""), item: `${SITE}${articlePath(slug)}` },
     ],
   };
   const relatedSlugs = Array.from(
@@ -120,7 +121,7 @@ export default async function ResourceArticle({
 
   const enhancement = editorialEntry(slug);
   const seo = articleSeo.find((item) => item.slug === slug);
-  const url = `${SITE}/resources/articles/${slug}`;
+  const url = `${SITE}${articlePath(slug)}`;
   // Dates come from the article record; author and publisher resolve to the
   // site-wide Organization entity already published in the layout.
   const articleSchema = {
@@ -169,7 +170,7 @@ export default async function ResourceArticle({
             <ul>
               {relatedArticles.map((a) => (
                 <li key={a.slug}>
-                  <a href={`/resources/articles/${a.slug}`} dangerouslySetInnerHTML={{ __html: a.title }} />
+                  <a href={articlePath(a.slug)} dangerouslySetInnerHTML={{ __html: a.title }} />
                 </li>
               ))}
             </ul>

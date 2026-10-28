@@ -1,3 +1,4 @@
+import { articlePath } from "../lib/article-path";
 // Legacy WordPress and duplicate URLs, shared by next.config.ts (exact
 // paths) and proxy.ts (the same paths with a trailing slash), so every old
 // URL reaches its final page in a single redirect.
@@ -8,6 +9,7 @@ export type LegacyRedirect = { source: string; destination: string; permanent: t
 const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
 
 export const legacyRedirects: LegacyRedirect[] = [
+  { source: "/resources/articles/eu-ai-act-governance-article-50-pharma", destination: articlePath("eu-ai-act-governance-article-50-pharma"), permanent: true },
   { source: "/about", destination: "/team", permanent: true },
   // Merged into audit-readiness-best-practices (30 Sep 2026).
   { source: "/resources/articles/ensure-audit-readiness-in-pharma-compliance", destination: "/resources/articles/audit-readiness-best-practices", permanent: true },
@@ -51,5 +53,5 @@ export const legacyRedirects: LegacyRedirect[] = [
       { source: "/index", destination: "/", permanent: true },
       // Legacy PHP homepage URL; canonical homepage handles locale selection.
       { source: "/index.php", destination: "/", permanent: true },
-      ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: `/resources/articles/${slug}`, permanent: true as const })),
+      ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: articlePath(slug), permanent: true as const })),
     ];

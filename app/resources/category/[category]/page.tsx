@@ -1,3 +1,4 @@
+import { articlePath } from "../../../../lib/article-path";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
@@ -53,7 +54,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
               isPartOf: { "@id": `${SITE}/#website` },
               mainEntity: {
                 "@type": "ItemList",
-                itemListElement: items.map((a, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/resources/articles/${a.slug}` })),
+                itemListElement: items.map((a, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}${articlePath(a.slug)}` })),
               },
             },
             {
@@ -80,7 +81,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       </section>
       <section className="category-list section-pad">
         {items.map((a) => (
-          <a key={a.slug} href={`/resources/articles/${a.slug}`} className="category-item">
+          <a key={a.slug} href={articlePath(a.slug)} className="category-item">
             <span>{a.date.slice(0, 10)}</span>
             <h2 dangerouslySetInnerHTML={{ __html: a.title }} />
             <p>{a.description}</p>
