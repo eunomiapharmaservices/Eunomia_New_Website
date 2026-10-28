@@ -16,6 +16,7 @@ export const articleCategories: ArticleCategory[] = [
 
 // Primary category first.
 export const articleCategoryMap: Record<string, string[]> = {
+  "eu-ai-act-governance-article-50-pharma": ["ai-digital-compliance", "regulatory-updates"],
   "pharma-compliance-across-product-lifecycle": ["compliance-programmes", "efpia-code-compliance"],
   "pmcpa-case-lessons-2026": ["abpi-code-pmcpa", "regulatory-updates"],
   "abpi-signatory-certification-requirements": ["abpi-code-pmcpa", "compliance-programmes"],
