@@ -1,9 +1,9 @@
 /**
  * Locale foundations for the multilingual site.
  *
- * Browser language and an explicit visitor choice must take precedence over
- * these country defaults. Country is only a suggestion signal: it does not
- * uniquely determine a person's language.
+ * An explicit visitor choice takes precedence. Mapped countries use their
+ * default supported language; countries with multiple common languages use
+ * the visitor's supported browser language.
  */
 export const locales = {
   en: { label: "English", dir: "ltr" },
@@ -28,6 +28,11 @@ export const defaultLocale: Locale = "en";
  * their supported Accept-Language preference instead.
  */
 export const countryLocaleHints: Readonly<Record<string, Locale>> = {
+  // English defaults: keep UK and US visitors on the English site even if
+  // their browser also lists another supported language.
+  GB: "en",
+  US: "en",
+
   // Spanish
   ES: "es",
   MX: "es",
