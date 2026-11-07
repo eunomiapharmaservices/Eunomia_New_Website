@@ -42,22 +42,28 @@ export function proxy(request: NextRequest) {
     return new NextResponse(null, { status: 410 });
   }
 
-  // The root path always serves the English homepage. A saved or detected
-  // language may be offered to the visitor, but never redirects the root URL.
+  // A saved language choice wins. Otherwise, use a mapped country default;
+  // only use browser language where the visitor's country has no mapped default.
   if (pathname === "/") {
     const saved = request.cookies.get("eps-locale")?.value;
-    const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
-    const countryLocale = country ? countryLocaleHints[country] : undefined;
-    const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
-    const suggestion =
-      saved && isLocale(saved)
-        ? saved !== defaultLocale ? saved : null
-        : countryLocale && countryLocale !== defaultLocale
-          ? countryLocale
-          : browserLocale && browserLocale !== defaultLocale
-            ? browserLocale
-            : null;
-    if (suggestion) requestHeaders.set("x-eps-locale-suggestion", suggestion);
+    if (saved && isLocale(saved)) {
+      if (saved !== defaultLocale) {
+        return NextResponse.redirect(new URL(`/${saved}${search}`, request.url), 307);
+      }
+    } else {
+      const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
+      const countryLocale = country ? countryLocaleHints[country] : undefined;
+      if (countryLocale) {
+        if (countryLocale !== defaultLocale) {
+          return NextResponse.redirect(new URL(`/${countryLocale}${search}`, request.url), 307);
+        }
+      } else {
+        const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
+        if (browserLocale && browserLocale !== defaultLocale) {
+          return NextResponse.redirect(new URL(`/${browserLocale}${search}`, request.url), 307);
+        }
+      }
+    }
   }
 
   // Old URLs are usually indexed with a trailing slash (/fmv/). Without this,
