@@ -781,7 +781,7 @@ export const markets: Market[] = [
       { question: "Is there one federal database for HCP payments?", answer: "There is no single federal HCP payment register equivalent to US Open Payments. IMC has a voluntary framework; provincial laws and status should be assessed separately. Ontario's 2017 Act says commencement is by proclamation." },
       { question: "Does Eunomia have a Canadian office or formal regulatory representative?", answer: "This guide does not claim a Canadian office or formal regulatory appointment. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada. Contact us to confirm expertise, French-language support and delivery arrangements." }
     ]
-  },,
+  },
 {
   "slug": "india",
   "country": "India",
