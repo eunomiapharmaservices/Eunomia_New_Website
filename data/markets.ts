@@ -707,6 +707,81 @@ export const markets: Market[] = [
     }
   ]
 },
+  {
+    slug: "united-states",
+    country: "United States",
+    metaTitle: "US Pharmaceutical Compliance Support | Eunomia",
+    metaDescription: "Navigate US pharma compliance: FDA promotion, HCP engagements, Open Payments and state rules, with programme, review and monitoring support.",
+    title: "Pharmaceutical compliance support in the United States",
+    intro: "Eunomia helps pharmaceutical and biotech teams plan US compliance operations, connecting federal and state requirements with review, engagement, monitoring and reporting workflows.",
+    approach: {
+      audience: "For international pharma teams preparing US commercial activity, emerging biotechs building compliance processes and compliance leaders coordinating multiple states, products and third parties.",
+      challenge: "US requirements span federal law, FDA rules, programme integrity, transparency reporting, industry commitments and state laws. A national SOP may miss state-specific reporting, marketing-code or HCP interaction requirements.",
+      delivery: "We can map planned activities to applicable requirements, identify state-specific questions for legal review and translate agreed controls into SOPs, approval routes and monitoring. Support can include promotional review coordination, HCP engagement and payment workflows, reporting checks, training and automation. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada; confirm scope and specialist support before engagement.",
+      priorities: ["Map products, channels and audiences to FDA promotional requirements, claim support, fair balance and applicable submissions.", "Document HCP selection, legitimate need, written terms, fair-market-value rationale and evidence of services.", "Confirm Open Payments applicability, recipient and payment classifications, data owners and annual controls.", "Maintain a state-by-state register for applicable conduct, registration, reporting and disclosure requirements."]
+    },
+    rules: [
+      { title: "FDA prescription drug promotion", body: "FDA rules require advertising to be truthful and non-misleading, with risk information in fair balance with benefit claims. Claims must be consistent with approved labeling and supported by appropriate evidence. Build review, reference checks, version control and applicable submissions into the workflow." },
+      { title: "Consumer health claims", body: "FTC guidance requires health-related advertising claims to be truthful, not misleading and adequately substantiated before dissemination. Review campaign net impression, including digital content, testimonials and implied claims, and retain supporting evidence." },
+      { title: "Federal HCP arrangements", body: "The federal Anti-Kickback Statute prohibits knowingly and willfully offering, paying, soliciting or receiving remuneration to induce or reward referrals involving items or services payable by a federal healthcare programme. Assess arrangements on their facts; written terms, legitimate need, appropriate compensation and evidence of services are useful controls. Obtain legal advice where required." },
+      { title: "Open Payments", body: "Applicable manufacturers and group purchasing organisations report specified payments to covered recipients and certain physician ownership interests through CMS Open Payments. Applicability depends on statutory definitions. Build recipient validation, reconciliation, correction, attestation and records into the annual process; CMS thresholds change each year." },
+      { title: "Industry codes and state requirements", body: "The PhRMA Code is an industry commitment for companies that adopt it, not a federal statute. States may add conduct, registration, training, audit or disclosure obligations. Massachusetts, for example, requires covered manufacturers to register, follow its marketing code, train relevant staff, conduct annual audits and submit reports. Maintain a state-by-state assessment." }
+    ],
+    sources: [
+      { label: "FDA: Prescription drug advertising", href: "https://www.fda.gov/drugs/surveillance-post-drug-approval-activities/prescription-drug-advertising-and-promotional-labeling" },
+      { label: "FDA: OPDP FAQs", href: "https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/opdp-frequently-asked-questions-faqs" },
+      { label: "FTC: Health Products Compliance Guidance", href: "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" },
+      { label: "HHS OIG: General Compliance Program Guidance", href: "https://oig.hhs.gov/compliance/general-compliance-program-guidance/" },
+      { label: "CMS: Open Payments reporting entities", href: "https://www.cms.gov/priorities/key-initiatives/open-payments/program-participants/reporting-entities" },
+      { label: "CMS: Open Payments thresholds", href: "https://www.cms.gov/openpayments/program-participants/reporting-entities/data-collection" },
+      { label: "PhRMA Code on Interactions with HCPs", href: "https://phrma.org/resources/code-on-interactions-with-health-care-professionals" },
+      { label: "Massachusetts: Pharmaceutical Code of Conduct", href: "https://www.mass.gov/info-details/pharmaceutical-code-of-conduct-requirements" }
+    ],
+    faqs: [
+      { question: "Does FDA pre-approve every US promotional material?", answer: "No. FDA says pre-approval is generally not required, subject to limited exceptions and specific requirements. Companies remain responsible for compliant content and applicable submissions." },
+      { question: "Does one federal process cover every state?", answer: "No. States may impose additional conduct, registration, training, audit or disclosure rules. Assess states where the company, agents and activities operate." },
+      { question: "Does Eunomia have a US office or formal regulatory representative?", answer: "This guide does not claim a US office or formal regulatory appointment. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada. Contact us to confirm expertise and delivery arrangements." }
+    ]
+  },
+  {
+    slug: "canada",
+    country: "Canada",
+    metaTitle: "Canadian Pharmaceutical Compliance Support | Eunomia",
+    metaDescription: "Plan pharma compliance in Canada: Health Canada advertising rules, PAAB review, IMC commitments, provincial requirements and HCP payment transparency.",
+    title: "Pharmaceutical compliance support in Canada",
+    intro: "Eunomia helps pharmaceutical and biotech teams plan Canadian compliance operations, connecting federal advertising requirements and industry commitments with provincial context, bilingual review planning and HCP engagement controls.",
+    approach: {
+      audience: "For international pharma teams entering Canada, emerging biotechs preparing commercial activity and compliance leaders coordinating federal rules, provincial health systems and English and French materials.",
+      challenge: "Canada combines federal regulation of health product advertising with industry-code commitments, provincial and territorial rules, professional standards and institutional policies. Prescription drug advertising to the public is tightly restricted; Quebec has distinct French-language requirements.",
+      delivery: "We can scope a market-readiness review, map activities to federal rules and applicable code commitments, and identify provincial, French-language or specialist questions requiring local review. Outputs can include a responsibility matrix, promotional workflow, HCP engagement and payment controls, disclosure checks, monitoring plan and action list. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada; confirm scope and specialist support before engagement.",
+      priorities: ["Confirm product authorization, terms of market authorization, audience and channel before adapting promotion.", "Check whether PAAB's Code covers the material and whether preclearance or another review applies.", "Assess IMC commitments, HCP agreements, compensation, meals, sponsorship and records.", "Map provincial and territorial requirements, institution policies and reporting obligations; plan French-language and Quebec review where relevant."]
+    },
+    rules: [
+      { title: "Federal advertising rules", body: "The Food and Drugs Act and Regulations govern health product advertising. Health Canada states public prescription drug advertising is generally restricted to the drug's brand, proper or common name, price and quantity; further restrictions apply to certain diseases and products. HCP advertising is treated differently but remains subject to federal requirements." },
+      { title: "Authorized products and claims", body: "Promotion is generally limited to products authorized for sale in Canada and must respect the terms of market authorization. Health Canada guidance distinguishes advertising from other activities, including scientific or medical information. Review purpose, audience, content and context before classifying digital, social, investor or disease-awareness communications." },
+      { title: "PAAB preclearance", body: "The PAAB Code sets standards for advertising within its scope, including full, fair and balanced disclosure. Preclearance is a Code requirement for in-scope materials unless exempt; it is not universal statutory pre-approval. Health Canada can require preclearance in defined circumstances. Confirm the applicable route, language and review status." },
+      { title: "Innovative Medicines Canada Code", body: "The IMC Code guides member-company activities in commercializing prescription medicines. It is an industry commitment, not legislation automatically binding every company. Confirm membership or contractual adoption and translate applicable requirements into engagement, sponsorship, meal, education and review controls." },
+      { title: "Transparency and provincial variation", body: "Canada has no single federal HCP payment register equivalent to US Open Payments. IMC publishes a voluntary disclosure framework for participating companies. Check provincial requirements separately: Ontario's enacted Health Sector Payment Transparency Act states that it comes into force on a date set by proclamation; verify current status before treating it as operative." },
+      { title: "Quebec language requirements", body: "Health professional rules, privacy requirements and institution policies vary by province and territory. Quebec's Charter of the French Language requires commercial advertising to be in French; where another language is used, French must generally be markedly predominant, subject to exceptions. Plan French-language review and confirm application to each product, channel and audience." }
+    ],
+    sources: [
+      { label: "Health Canada: Advertising requirements", href: "https://www.canada.ca/en/health-canada/services/drugs-health-products/marketing-drugs-devices/advertising-requirements-drugs-medical-devices.html" },
+      { label: "Health Canada: Prescription drug marketing", href: "https://www.canada.ca/en/health-canada/services/drugs-health-products/marketing-drugs-devices/illegal-marketing/prescription-drugs.html" },
+      { label: "Health Canada: Advertising and other activities guidance", href: "https://www.canada.ca/en/health-canada/services/drugs-health-products/regulatory-requirements-advertising/policies-guidance-documents/policy-distinction-between-advertising-activities.html" },
+      { label: "Health Canada: Advertising preclearance", href: "https://www.canada.ca/en/health-canada/services/drugs-health-products/marketing-drugs-devices/advertising-preclearance-system.html" },
+      { label: "PAAB Code of Advertising Acceptance", href: "https://code.paab.ca/" },
+      { label: "IMC: Code of Ethical Practices", href: "https://innovativemedicines.ca/ethics/code-of-ethical-practices/" },
+      { label: "IMC: Voluntary disclosure framework", href: "https://innovativemedicines.ca/ethics/voluntary-disclosure-of-payments/" },
+      { label: "Ontario: Health Sector Payment Transparency Act", href: "https://www.ontario.ca/laws/statute/17h25" },
+      { label: "Quebec: Charter of the French Language, section 58", href: "https://www.legisquebec.gouv.qc.ca/en/pdf/cs/C-11.pdf" }
+    ],
+    faqs: [
+      { question: "Can prescription medicines be advertised to the public in Canada?", answer: "Federal law generally restricts public prescription drug advertising to the brand, proper or common name, price and quantity. Disease and product-specific restrictions also apply." },
+      { question: "Is PAAB preclearance required for every promotion?", answer: "No. It is a Code requirement for materials within the PAAB Code's scope unless exempt. Health Canada may require preclearance in defined cases." },
+      { question: "Is there one federal database for HCP payments?", answer: "There is no single federal HCP payment register equivalent to US Open Payments. IMC has a voluntary framework; provincial laws and status should be assessed separately. Ontario's 2017 Act says commencement is by proclamation." },
+      { question: "Does Eunomia have a Canadian office or formal regulatory representative?", answer: "This guide does not claim a Canadian office or formal regulatory appointment. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada. Contact us to confirm expertise, French-language support and delivery arrangements." }
+    ]
+  },
 ];
 
 export function getMarket(slug: string) {
