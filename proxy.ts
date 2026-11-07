@@ -42,26 +42,22 @@ export function proxy(request: NextRequest) {
     return new NextResponse(null, { status: 410 });
   }
 
-  // A visitor's saved choice always wins. First visits stay in English;
-  // a mapped country or supported browser language is offered as a suggestion.
+  // The root path always serves the English homepage. A saved or detected
+  // language may be offered to the visitor, but never redirects the root URL.
   if (pathname === "/") {
     const saved = request.cookies.get("eps-locale")?.value;
-    if (saved && isLocale(saved)) {
-      if (saved !== defaultLocale) {
-        return NextResponse.redirect(new URL(`/${saved}${search}`, request.url), 307);
-      }
-    } else {
-      const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
-      const countryLocale = country ? countryLocaleHints[country] : undefined;
-      const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
-      const suggestion =
-        countryLocale && countryLocale !== defaultLocale
+    const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
+    const countryLocale = country ? countryLocaleHints[country] : undefined;
+    const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
+    const suggestion =
+      saved && isLocale(saved)
+        ? saved !== defaultLocale ? saved : null
+        : countryLocale && countryLocale !== defaultLocale
           ? countryLocale
           : browserLocale && browserLocale !== defaultLocale
             ? browserLocale
             : null;
-      if (suggestion) requestHeaders.set("x-eps-locale-suggestion", suggestion);
-    }
+    if (suggestion) requestHeaders.set("x-eps-locale-suggestion", suggestion);
   }
 
   // Old URLs are usually indexed with a trailing slash (/fmv/). Without this,
