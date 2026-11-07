@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 import './globals.css';
+import "./markets/markets.css";
 import { Analytics } from '@vercel/analytics/next';
 import { defaultLocale, isLocale, locales } from '../data/i18n/locales';
 
