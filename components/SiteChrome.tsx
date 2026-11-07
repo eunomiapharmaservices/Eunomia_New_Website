@@ -27,6 +27,8 @@ export function PrimaryNav({ locale = "en" }: { locale?: Locale }) {
           <a href={localPath("/services#approach")}><b>{copy.howWeDeliver}</b><small>{copy.deliverySummary}</small></a>
         </div>
       </details>
+      <a href="/markets">Markets</a>
+      <a href="/entering-europe">Entering Europe</a>
       <a href={localPath("/team")}>{copy.team}</a>
       <a href={localPath("/resources")}>{copy.resources}</a>
       <a href={localPath("/contact")}>{copy.contact}</a>

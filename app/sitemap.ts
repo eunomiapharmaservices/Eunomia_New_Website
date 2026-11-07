@@ -11,7 +11,7 @@ import { leadMagnets } from "../data/lead-magnets";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.eunomiapharmaservices.com";
-  const routes = ["/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/contact", "/privacy"];
+  const routes = ["/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/markets", "/entering-europe", "/contact", "/privacy"];
   const updatedPages = new Set(["/", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services"]);
   const translatedPaths = ["/services/promotional-materials-review", "", "/contact", "/privacy", "/team", "/resources", "/services",
     "/services/governance-assurance", "/services/automation-of-compliance-operations",

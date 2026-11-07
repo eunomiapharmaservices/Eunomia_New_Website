@@ -67,6 +67,7 @@ export function MarketView({ market, locale }: { market: Market; locale?: Locale
               <a href={localHref(locale, "/services/governance-assurance")}>{t("mProgDesign")} <span aria-hidden="true">↗</span></a>
               <a href={localHref(locale, "/services/shared-services")}>{t("mShared")} <span aria-hidden="true">↗</span></a>
               <a href={localHref(locale, "/services/automation-of-compliance-operations")}>{t("mAutomation")} <span aria-hidden="true">↗</span></a>
+              <a href="/entering-europe">Planning a European launch? <span aria-hidden="true">↗</span></a>
             </div>
           </nav>
           <a className={styles.checklist} href={localHref(locale, "/resources/checklists/pharma-compliance-readiness-checklist")}>{t("mChecklist")} <span aria-hidden="true">→</span></a>
