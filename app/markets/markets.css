@@ -1,0 +1,28 @@
+.market-hub-entry{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:42px;padding:26px 30px;border-left:6px solid #4da017;background:#fff;box-shadow:0 8px 24px rgba(23,51,27,.07)}
+.market-hub-entry>div{display:grid;gap:8px;max-width:700px}.market-hub-entry strong{font:800 20px/1.25 Arial,Helvetica,sans-serif;color:#17331b}.market-hub-entry span{font-size:15px;line-height:1.6;color:#4d5a50}
+.market-hub-entry .primary-button{flex:none}
+.market-hub-intro{max-width:760px;margin-bottom:34px}.market-hub-intro h2,.europe-entry-heading h2,.europe-entry-steps h2,.europe-entry-markets h2,.europe-entry-faq h2{font:900 clamp(30px,4vw,48px)/1.08 Arial,Helvetica,sans-serif;letter-spacing:-.035em;color:#17331b;margin:8px 0 16px}.market-hub-intro>p:last-child,.europe-entry-heading>p:last-child,.europe-entry-steps>div>p:last-child,.europe-entry-markets>div>p:last-child{max-width:780px;font-size:17px;line-height:1.7;color:#4d5a50}
+.market-hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.market-hub-grid .category-item{border-radius:8px}
+.market-hub-grid .category-item h3{font:800 24px/1.2 Arial,Helvetica,sans-serif;color:#17331b;margin:0}
+.market-hub-grid .category-item b{margin-top:12px}
+.europe-entry-hero{background:#f7f9f5}.europe-entry-hero h1{max-width:970px;font:900 clamp(38px,5.5vw,68px)/1.02 Arial,Helvetica,sans-serif;letter-spacing:-.045em;color:#17331b;margin:8px 0 22px}.europe-entry-lede{max-width:850px;font-size:20px;line-height:1.65;color:#344137;margin:0 0 28px}.europe-entry-note{max-width:850px;margin:20px 0 0;font-size:13px;line-height:1.6;color:#596259}
+.europe-entry-heading{max-width:800px;margin-bottom:42px}
+.europe-entry-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #dce4d8;border-left:1px solid #dce4d8}
+.europe-entry-cards article{padding:30px;border-right:1px solid #dce4d8;border-bottom:1px solid #dce4d8;background:#fff}
+.europe-entry-cards article>span{font:700 12px Arial,sans-serif;letter-spacing:.1em;color:#3f7a1d}
+.europe-entry-cards h3{font:800 23px/1.2 Arial,Helvetica,sans-serif;color:#17331b;margin:24px 0 10px}
+.europe-entry-cards p{font-size:15px;line-height:1.65;color:#4d5a50;margin:0}
+.europe-entry-steps{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;background:#f7f9f5}
+.europe-entry-steps ol{list-style:none;padding:0;margin:0;counter-reset:step}
+.europe-entry-steps li{display:grid;grid-template-columns:38px 1fr;gap:4px 16px;padding:20px 0;border-top:1px solid #dce4d8;counter-increment:step}
+.europe-entry-steps li:before{content:"0" counter(step);grid-row:1/3;font:700 12px Arial,sans-serif;color:#3f7a1d}
+.europe-entry-steps li b{font-size:17px;color:#17331b}.europe-entry-steps li span{grid-column:2;font-size:14px;line-height:1.6;color:#596259}
+.europe-entry-markets>div:first-child{max-width:780px;margin-bottom:30px}
+.europe-entry-markets ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.europe-entry-markets li a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:17px 18px;border:1px solid #dce4d8;border-left:5px solid #4da017;background:#fff;font-weight:700;color:#17331b}
+.europe-entry-markets li a:hover{background:#edf4e8}
+.europe-entry-markets li svg{flex:none}
+.europe-entry-faq{display:grid;grid-template-columns:.75fr 1.25fr;gap:6vw;background:#f7f9f5}
+.europe-entry-faq h2{margin-top:0}
+@media(max-width:900px){.market-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.europe-entry-steps,.europe-entry-faq{grid-template-columns:1fr}.europe-entry-markets ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.market-hub-entry{align-items:flex-start;flex-direction:column;padding:22px}.market-hub-grid,.europe-entry-cards,.europe-entry-markets ul{grid-template-columns:1fr}.europe-entry-hero h1{font-size:40px}.europe-entry-lede{font-size:17px}.europe-entry-cards article{padding:24px}}
