@@ -42,8 +42,8 @@ export function proxy(request: NextRequest) {
     return new NextResponse(null, { status: 410 });
   }
 
-  // A visitor's saved choice always wins. On a first visit, a mapped
-  // country sets the default; otherwise use the browser's supported language.
+  // A visitor's saved choice always wins. First visits stay in English;
+  // a mapped country or supported browser language is offered as a suggestion.
   if (pathname === "/") {
     const saved = request.cookies.get("eps-locale")?.value;
     if (saved && isLocale(saved)) {
@@ -53,13 +53,14 @@ export function proxy(request: NextRequest) {
     } else {
       const country = request.headers.get("x-vercel-ip-country")?.toUpperCase();
       const countryLocale = country ? countryLocaleHints[country] : undefined;
-      if (countryLocale && countryLocale !== defaultLocale) {
-        return NextResponse.redirect(new URL(`/${countryLocale}${search}`, request.url), 307);
-      }
       const browserLocale = preferredBrowserLocale(request.headers.get("accept-language"));
-      if (browserLocale && browserLocale !== defaultLocale) {
-        return NextResponse.redirect(new URL(`/${browserLocale}${search}`, request.url), 307);
-      }
+      const suggestion =
+        countryLocale && countryLocale !== defaultLocale
+          ? countryLocale
+          : browserLocale && browserLocale !== defaultLocale
+            ? browserLocale
+            : null;
+      if (suggestion) requestHeaders.set("x-eps-locale-suggestion", suggestion);
     }
   }
 
