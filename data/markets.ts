@@ -781,7 +781,108 @@ export const markets: Market[] = [
       { question: "Is there one federal database for HCP payments?", answer: "There is no single federal HCP payment register equivalent to US Open Payments. IMC has a voluntary framework; provincial laws and status should be assessed separately. Ontario's 2017 Act says commencement is by proclamation." },
       { question: "Does Eunomia have a Canadian office or formal regulatory representative?", answer: "This guide does not claim a Canadian office or formal regulatory appointment. Eunomia identifies Karen Glade as its Global Compliance Business Partner for the United States and Canada. Contact us to confirm expertise, French-language support and delivery arrangements." }
     ]
+  },,
+{
+  "slug": "india",
+  "country": "India",
+  "metaTitle": "India Pharmaceutical Compliance Support | Eunomia",
+  "metaDescription": "India pharma compliance support covering UCPMP 2024, drug promotion, HCP interactions, state drug-control processes and annual marketing expenditure disclosures.",
+  "title": "Pharmaceutical compliance support in India",
+  "intro": "Eunomia helps pharmaceutical and biotech teams plan India compliance operations, connecting the Uniform Code for Pharmaceutical Marketing Practices (UCPMP) with advertising law, state-level drug-control processes and practical HCP engagement and review workflows.",
+  "approach": {
+    "audience": "For international pharma teams entering India, emerging biotechs preparing commercial activity and compliance leaders coordinating product, channel and state-level requirements.",
+    "challenge": "India combines central laws and national marketing-practice requirements with state-level administration of drug manufacture, sale and distribution. Companies also need to operationalise detailed controls for promotional claims, HCP interactions, samples, education programmes and annual marketing-expenditure disclosures.",
+    "delivery": "We can map activities to the applicable national framework, identify state-specific licensing or enforcement questions for local legal review, and translate agreed requirements into SOPs, approval routes, evidence standards and monitoring. Support can include promotional materials review coordination, HCP and event workflows, sample controls, reporting checks, training and automation. India-specific legal advice, licensing work or formal local appointments must be separately scoped with appropriately qualified local professionals; this guide does not claim India-based representation.",
+    "priorities": [
+      "Map products and intended claims to current marketing approvals before promotional use; identify audience, channel and approving roles.",
+      "Implement UCPMP controls for HCP engagements, third parties, CME/CPD, research services, samples and complaints.",
+      "Record event and sample activity with supporting evidence, spend categories, recipient counts, owners and escalation routes.",
+      "Map state drug-control touchpoints across the planned sales, distribution and manufacturing footprint; confirm any local legal or licensing needs."
+    ]
   },
+  "rules": [
+    {
+      "title": "UCPMP 2024 is a mandatory national code",
+      "body": "The Department of Pharmaceuticals describes UCPMP 2024 as mandatory. It establishes ethical standards for pharmaceutical promotion and industry interactions with healthcare practitioners. Complaints are handled through association-level Ethics Committees for Pharma Marketing Practices, with an appeal mechanism at the Department of Pharmaceuticals. The Code is a distinct compliance layer alongside statutory requirements."
+    },
+    {
+      "title": "Promotion must follow marketing approval and support its claims",
+      "body": "UCPMP says a drug must not be promoted before competent-authority marketing approval and that promotion must remain consistent with that approval. Claims should be current, balanced, verifiable and capable of substantiation. The Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 separately prohibits misleading drug advertisements and advertisements for specified diseases and conditions. Review intended audience, content and channel against the product approval and applicable law."
+    },
+    {
+      "title": "HCP benefits and hospitality have strict limits",
+      "body": "UCPMP prohibits gifts or personal benefits for healthcare practitioners and their family members, as well as pecuniary advantage or benefits in kind to people qualified to prescribe or supply drugs. It also restricts company-funded travel and hospitality, with limited Code conditions for speakers at CME/CPD programmes; monetary grants to HCPs or family members are prohibited. Build documented purpose, approvals, contracts, event controls and escalation into engagement workflows."
+    },
+    {
+      "title": "CME, CPD and event support need transparent controls",
+      "body": "The Code requires well-defined, transparent and verifiable guidelines for industry engagement in CME/CPD and related events. It prohibits events in foreign locations, identifies eligible organiser categories, and requires companies to publish event and expenditure details on their websites. Organisers must disclose participant and speaker selection procedures, funding sources and expenditure; the Code also sets a 1:10 speaker-to-participant ratio for covered in-country events. Confirm the exact event model, organiser and applicable provisions before committing support."
+    },
+    {
+      "title": "Samples require eligibility, quantity and value controls",
+      "body": "Samples may be supplied only to people qualified to prescribe the product, for awareness and experience, and must be recorded and controlled. UCPMP limits sample packs to the prescribed course for no more than three patients and no more than 12 packs per drug per practitioner each year; packs must be marked not for sale and cannot exceed the smallest market pack. The total monetary value of samples should not exceed 2% of domestic sales. The 2025 amendment clarifies sample valuation for annual reporting."
+    },
+    {
+      "title": "Annual expenditure reporting and state administration",
+      "body": "Under the UCPMP text updated on 1 September 2025, the executive head submits an annual marketing-expenditure disclosure within two months after the financial year, through a member association or the Department of Pharmaceuticals portal where the company is not an association member. The prescribed form captures domestic sales, sample value and HCP recipient counts, and education-programme expenditure and event counts. Separately, CDSCO says states primarily regulate manufacture, sale and distribution of drugs, while central authorities handle functions including new-drug approvals, standards and import quality. Map the state footprint and applicable licensing or enforcement touchpoints."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Department of Pharmaceuticals: UCPMP 2024 and policy circulars",
+      "href": "https://pharma-dept.gov.in/en/policy/uniform-code-pharmaceutical-marketing-practices-ucpmp-2024-reg"
+    },
+    {
+      "label": "UCPMP 2024 consolidated text, updated 1 September 2025",
+      "href": "https://ucmp.pharma-dept.gov.in/Pharma/UCPMP%202024%20for%20website_0.pdf"
+    },
+    {
+      "label": "Department of Pharmaceuticals: UCPMP portal and implementation",
+      "href": "https://ucmp.pharma-dept.gov.in/Pharma/"
+    },
+    {
+      "label": "CDSCO: central and state regulatory functions",
+      "href": "https://www.cdsco.gov.in/opencms/opencms/en/About-us/Functions/"
+    },
+    {
+      "label": "CDSCO: Acts and Rules",
+      "href": "https://cdsco.gov.in/opencms/opencms/en/Acts-and-rules/"
+    },
+    {
+      "label": "India Code: Drugs and Magic Remedies Act, 1954",
+      "href": "https://www.indiacode.nic.in/handle/123456789/1412?view_type=browse"
+    },
+    {
+      "label": "Press Information Bureau: UCPMP implementation and disclosures",
+      "href": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2288768&lang=11&reg=6"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is UCPMP 2024 voluntary or mandatory?",
+      "answer": "The Department of Pharmaceuticals' UCPMP portal describes the 2024 Code as mandatory. It operates alongside applicable statutes and is implemented through pharmaceutical association ethics committees and a Department-level appeal mechanism."
+    },
+    {
+      "question": "Can a company promote a medicine before it is approved in India?",
+      "answer": "No. UCPMP says promotion must not begin before the competent authority has granted marketing approval and must remain consistent with that approval."
+    },
+    {
+      "question": "Can pharmaceutical companies provide gifts or pay for HCP travel?",
+      "answer": "UCPMP prohibits gifts, personal benefits and monetary grants to HCPs and their family members, and restricts travel and hospitality. The Code contains limited conditions for speakers at CME/CPD programmes, so each arrangement needs review against the full provision."
+    },
+    {
+      "question": "What UCPMP transparency reporting applies?",
+      "answer": "The updated Code requires an annual marketing-expenditure disclosure. Its prescribed form includes domestic sales, sample value and HCP recipient counts, and expenditure and event counts for education programmes. The submission route depends on association membership; check the current Department form and any deadline extensions."
+    },
+    {
+      "question": "Do state-level requirements matter if UCPMP is national?",
+      "answer": "Yes. UCPMP and central laws form part of the national framework, while CDSCO says states primarily regulate drug manufacture, sale and distribution. Companies should map state licensing and enforcement touchpoints to their operating footprint."
+    },
+    {
+      "question": "Does Eunomia have an India office or named India-based representative?",
+      "answer": "This guide does not claim an India office, India-based representative, legal qualification or formal regulatory appointment. Contact Eunomia to agree the scope, expertise and delivery arrangements required; any local legal advice or formal role must be separately confirmed."
+    }
+  ]
+}
 ];
 
 export function getMarket(slug: string) {
