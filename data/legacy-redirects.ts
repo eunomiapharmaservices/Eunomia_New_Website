@@ -39,7 +39,7 @@ export const legacyRedirects: LegacyRedirect[] = [
       { source: "/third%E2%80%91party-vendor-management", destination: "/resources/articles/from-risk-to-resilience-why-third-party-risk-management-is-pharmas-biggest-competitive-advantage", permanent: true },
       { source: "/monitoring-and-auditing", destination: "/services/governance-assurance/pharma-compliance-audits", permanent: true },
       { source: "/compliance", destination: "/services", permanent: true },
-      { source: "/material", destination: "/services/shared-services", permanent: true },
+      { source: "/material", destination: "/services/promotional-materials-review", permanent: true },
       { source: "/blog", destination: "/resources", permanent: true },
       { source: "/ai-governance", destination: "/services/automation-of-compliance-operations", permanent: true },
       { source: "/audits", destination: "/services/governance-assurance/pharma-compliance-audits", permanent: true },
