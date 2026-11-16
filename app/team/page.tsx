@@ -13,7 +13,7 @@ import { compliancePartners } from "../../data/compliancePartners";
 
 export const metadata: Metadata = withSocial("/team", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/team", languages: languageAlternates("/team") },
-  title: "Our team | Eunomia Pharma Services",
+  title: "Our Team | Eunomia Pharma Services",
   description: "Meet Eunomia's global compliance business partners and healthcare compliance operations specialists.",
 });
 
