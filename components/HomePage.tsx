@@ -86,7 +86,7 @@ export function HomePage({ locale = "en", suggestion = null }: { locale?: Locale
         <div className="hero-copy">
           <p className="home-location-line">{t("Headquartered in the UK with global coverage")}</p>
           <h1>
-            <span className="hero-title-green">{t("Global Healthcare Compliance Services")}</span>{" "}<span className="hero-title-orange">{t("powered by Automation")}</span>
+            <span className="hero-title-green">{t("UK & Global Healthcare Compliance Services")}</span>{" "}<span className="hero-title-orange">{t("powered by Automation")}</span>
           </h1>
           <p className="hero-lede">{t("We don’t just build the commercial compliance framework,")}{" "}<strong>{t("we operationalise it for you.")}</strong></p>
           <p className="home-hero-description">{t("We support pharma and biotech teams with programme design, daily compliance operations, local-market expertise and automation. Our work connects ABPI and EFPIA Code support with practical processes, clear responsibilities and experienced human judgement.")}</p>

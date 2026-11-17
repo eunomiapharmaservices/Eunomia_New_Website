@@ -11,7 +11,7 @@ const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/shared-services"
-      heading={t("Outsourced Pharma Compliance and Shared Services for the UK and Europe")}
+      heading={t("Outsourced Pharma Compliance and Shared Services, UK and Global")}
       kicker={t("Shared Services / GBS / GCC")}
       title={t("Your compliance function, run with you.")}
       serviceTitleFirst

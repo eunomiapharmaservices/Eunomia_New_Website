@@ -16,7 +16,7 @@ const href = (path: string) => localHref(locale, path);
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/automation-of-compliance-operations"
-      heading={t("Pharma Automation Compliance Consulting, UK and Europe")}
+      heading={t("Pharma Automation Compliance Consulting, UK and Global")}
       accent="green"
       serviceImage={{ src: "/eunomia-workflow.png", alt: t("Planning digital compliance workflows and automated processes") }}
       serviceTitleFirst
