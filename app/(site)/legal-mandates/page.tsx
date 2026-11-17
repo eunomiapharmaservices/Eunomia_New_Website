@@ -9,7 +9,7 @@ import { markets } from "../../../data/markets";
 export const metadata: Metadata = withSocial("/legal-mandates", {
   title: "Pharmaceutical Compliance Rules & Legal Mandates | Eunomia",
   description:
-    "Explore pharma compliance laws and codes covering medicines advertising, ABPI, EFPIA, anti-bribery, transparency and AI governance.",
+    "Explore pharma compliance laws and codes covering medicines advertising, ABPI and EFPIA Codes, anti-bribery, transparency and AI governance in the UK and EU.",
   alternates: { canonical: "https://www.eunomiapharmaservices.com/legal-mandates" },
 });
 
@@ -77,7 +77,7 @@ export default function Legal() {
       <SiteHeader />
       <section className="inner-hero legal-hero">
         <p className="section-kicker">Legal mandates</p>
-        <h1>The rule behind<br /><em>the process…</em></h1>
+        <h1>Pharmaceutical compliance rules<br /><em>and legal mandates</em></h1>
         <p>Legal and self-regulatory requirements translated into ownership, review routes, evidence and reporting.</p>
       </section>
       <section className="legal-page section-pad">

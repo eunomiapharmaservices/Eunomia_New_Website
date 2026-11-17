@@ -19,5 +19,8 @@
   },
   "/resources/category/third-party-due-diligence": {
     "description": "Explore pharma third-party due diligence articles covering compliance risks in distributors, vendors and other partners, with practical review guidance."
+  },
+  "/resources/category/efpia-code-compliance": {
+    "description": "Explore articles on applying the EFPIA Code and national codes to pharma interactions with healthcare professionals, organisations and patient groups."
   }
 }

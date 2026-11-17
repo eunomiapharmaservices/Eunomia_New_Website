@@ -14,7 +14,7 @@ import { compliancePartners } from "../../../data/compliancePartners";
 export const metadata: Metadata = withSocial("/team", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/team", languages: languageAlternates("/team") },
   title: "Our Team | Eunomia Pharma Services",
-  description: "Meet Eunomia's global compliance business partners and healthcare compliance operations specialists.",
+  description: "Meet Eunomia’s compliance business partners and operations specialists supporting pharmaceutical and biotech teams across the UK, Europe and global markets.",
 });
 
 const agyat: TeamPerson = {

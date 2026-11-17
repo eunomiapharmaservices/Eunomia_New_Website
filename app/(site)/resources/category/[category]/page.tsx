@@ -16,13 +16,21 @@ export function generateStaticParams() {
   return populatedCategories.map(({ slug }) => ({ category: slug }));
 }
 
+// Page titles where the category name alone is too long or too short for search results.
+const categoryTitles: Record<string, string> = {
+  "third-party-due-diligence": "Pharma Third-Party Due Diligence",
+  "abpi-code-pmcpa": "ABPI Code & PMCPA Compliance Articles",
+  "efpia-code-compliance": "EFPIA Code Compliance Articles for Pharma",
+  "ai-digital-compliance": "AI & Digital Compliance in Pharma",
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const { category } = await params;
   const c = populatedCategories.find((x) => x.slug === category);
   if (!c) return {};
   const path = `/resources/category/${c.slug}`;
   return withSocial(path, {
-    title: `${c.slug === "third-party-due-diligence" ? "Pharma Third-Party Due Diligence" : c.name} | Eunomia`,
+    title: `${categoryTitles[c.slug] ?? c.name} | Eunomia`,
     description: c.description,
     alternates: { canonical: SITE + path },
   });

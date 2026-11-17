@@ -1095,6 +1095,7 @@ body{font-family:var(--display);color:var(--site-ink);background:#fff}
 .exit-offer p:not(.section-kicker){margin:0 0 14px;color:#4d5a50}
 .exit-offer-close{position:absolute;top:10px;right:10px;background:none;border:0;cursor:pointer;padding:6px;color:#596259}
 .article-checklist-cta ~ .article-related-service{margin-top:0}
+.article-checklist-cta ~ .article-related-reading{margin-top:0}
 .checklist-contents .legal-note{color:#596259;font-size:13px;line-height:1.5}
 
 /* WCAG AA: small green text */
