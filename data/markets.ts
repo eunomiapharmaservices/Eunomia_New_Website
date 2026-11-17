@@ -515,7 +515,7 @@ export const markets: Market[] = [
   "slug": "italy",
   "country": "Italy",
   "metaTitle": "Pharmaceutical Compliance Support in Italy | Eunomia",
-  "metaDescription": "Pharma compliance support in Italy covering the Scientific Service (servizio scientifico), AIFA advertising and congress notifications, HCP engagements and transparency.",
+  "metaDescription": "Pharma compliance support in Italy covering the Scientific Service, AIFA advertising and congress notifications, HCP engagements and transparency.",
   "title": "Pharmaceutical compliance support in Italy",
   "intro": "Local compliance support for pharmaceutical and biotech companies working in Italy, connecting Italian medicines law, AIFA procedures and the Farmindustria Code to your global governance, with a named business partner for Italy.",
   "lead": {
@@ -786,7 +786,7 @@ export const markets: Market[] = [
   "slug": "india",
   "country": "India",
   "metaTitle": "India Pharmaceutical Compliance Support | Eunomia",
-  "metaDescription": "India pharma compliance support covering UCPMP 2024, drug promotion, HCP interactions, state drug-control processes and annual marketing expenditure disclosures.",
+  "metaDescription": "India pharma compliance support covering UCPMP 2024, drug promotion, HCP interactions, state drug-control processes and marketing expenditure disclosure.",
   "title": "Pharmaceutical compliance support in India",
   "intro": "Eunomia helps pharmaceutical and biotech teams plan India compliance operations, connecting the Uniform Code for Pharmaceutical Marketing Practices (UCPMP) with advertising law, state-level drug-control processes and practical HCP engagement and review workflows.",
   "approach": {

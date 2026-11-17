@@ -1,0 +1,23 @@
+{
+  "/services/governance-assurance": {
+    "description": "医薬品・バイオ企業向けのコンプライアンスプログラムを設計・導入。方針、管理体制、研修、リスク評価、監査準備を支援します。"
+  },
+  "/services/automation-of-compliance-operations": {
+    "description": "SharePoint、Power BI、AIでコンプライアンス業務を自動化。承認ワークフロー、レポート、リスクのモニタリングを支援します。"
+  },
+  "/services/local-legal-mandates": {
+    "description": "医薬品企業の現地法定職務と代表者業務を支援。各国の要件、業界コード、市場展開に対応する体制づくりをサポートします。"
+  },
+  "/services/shared-services": {
+    "description": "医薬品コンプライアンスのシェアードサービス。プロセス調整、業務支援、GBS・GCCモデルの構築と運用を支援します。"
+  },
+  "/contact": {
+    "description": "製薬コンプライアンスのご相談はEunomiaへ。プログラム設計、業務の自動化、現地支援について、貴社の課題やご要望を伺い、対応の方向性をご提案します。"
+  },
+  "/services": {
+    "description": "Eunomiaは製薬・バイオ企業向けに、コンプライアンスプログラムの設計と導入、業務自動化、各国の法定職務支援、シェアードサービスを提供します。"
+  },
+  "/resources": {
+    "description": "製薬コンプライアンス、透明性、ガバナンス、業務自動化に関するEunomiaの記事、ウェビナー、事例、実務資料をご覧いただけます。"
+  }
+}

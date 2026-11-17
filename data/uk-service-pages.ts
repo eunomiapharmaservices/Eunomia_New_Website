@@ -115,7 +115,7 @@ export const ukServicePages: UkServicePage[] = [
 {
   "slug": "fmv-consulting",
   "topic": "fair market value assessment",
-  "metaTitle": "FMV Consulting Services for Pharma UK | Eunomia",
+  "metaTitle": "FMV Consulting Services for Pharma UK & EU | Eunomia",
   "metaDescription": "UK pharma FMV consulting for HCP compensation: methodology, tiering and approval workflows. Projects typically take 1–3 months depending on countries covered.",
   "heading": "FMV Consulting Services for Pharma in the UK",
   "kicker": "Fair Market Value Consulting",
@@ -180,7 +180,7 @@ export const ukServicePages: UkServicePage[] = [
     "delivery": "We review the existing approach and identify the evidence and decisions needed for a usable FMV framework. Agreed outputs can include a methodology document, tiering criteria, an assessment template, approval responsibilities and an implementation plan.",
     "difference": "Our focus includes operational delivery: how requests arrive, who checks the evidence, how exceptions are escalated and how the approved rationale remains connected to the contract and payment record. Benchmark availability and licensing are confirmed during scoping.",
     "evidenceLabel": "Related project",
-    "evidenceTitle": "Fair Market Value Methodology for HCP Compensation",
+    "evidenceTitle": "FMV Methodology Case Study: Five European Markets",
     "evidence": "Read the published project account for an example of methodology, tiering and rate-card work. The case study is not a public rate schedule or a guarantee of future results.",
     "href": "/resources/fair-market-value-methodology"
   },
@@ -227,7 +227,7 @@ export const ukServicePages: UkServicePage[] = [
   {
     slug: "pharma-compliance-training",
     topic: "compliance training",
-    metaTitle: "Pharmaceutical Compliance Training UK | Eunomia",
+    metaTitle: "Pharmaceutical Compliance Training UK & EU | Eunomia",
     metaDescription: "Pharmaceutical compliance training in the UK and Europe, including ABPI Code, ABAC, HCP engagement and role-based EU AI Act AI literacy training.",
     heading: "Pharmaceutical Compliance Training in the UK",
     kicker: "Pharmaceutical Compliance Training",
@@ -294,7 +294,7 @@ export const ukServicePages: UkServicePage[] = [
   {
     slug: "pharma-risk-assessment",
     topic: "risk assessment",
-    metaTitle: "Pharmaceutical Risk Assessment Services UK | Eunomia",
+    metaTitle: "Pharmaceutical Risk Assessment Services UK & EU | Eunomia",
     metaDescription: "Pharmaceutical compliance risk assessment in the UK: ABAC, fraud and commercial compliance risk assessments with documented controls, owners and follow-up.",
     heading: "Pharmaceutical Risk Assessment Services in the UK",
     kicker: "Pharmaceutical Risk Assessment",
@@ -356,7 +356,7 @@ export const ukServicePages: UkServicePage[] = [
   {
     slug: "sop-policy-development",
     topic: "SOPs and policies",
-    metaTitle: "SOP and Policy Development for Pharma UK | Eunomia",
+    metaTitle: "SOP and Policy Development for Pharma UK & EU | Eunomia",
     metaDescription: "Pharma SOP development in the UK: gap analysis, practical policies, workflow mapping and roll-out, with related automation and risk-assessment support.",
     heading: "SOP and Policy Development for Pharma in the UK",
     kicker: "SOP and Policy Development",
@@ -419,7 +419,7 @@ export const ukServicePages: UkServicePage[] = [
   {
     slug: "pharma-compliance-audits",
     topic: "compliance audits",
-    metaTitle: "Pharma Compliance Audits UK | Eunomia",
+    metaTitle: "Pharma Compliance Audits UK & EU | Eunomia",
     metaDescription: "Pharmaceutical compliance audits in the UK: ABPI Code and commercial compliance audits, gap analysis, audit readiness and CAPA support with risk-rated findings.",
     heading: "Pharma Compliance Audits in the UK",
     kicker: "Pharma Compliance Audits",
@@ -483,7 +483,7 @@ export const ukServicePages: UkServicePage[] = [
   {
     slug: "pharma-compliance-monitoring",
     topic: "compliance monitoring",
-    metaTitle: "Pharma Compliance Monitoring Services UK | Eunomia",
+    metaTitle: "Pharma Compliance Monitoring Services UK & EU | Eunomia",
     metaDescription: "Pharmaceutical compliance monitoring in the UK: risk-based monitoring of HCP engagements, events, materials and payments, with findings, trends and follow-up.",
     heading: "Pharma Compliance Monitoring Services in the UK",
     kicker: "Pharma Compliance Monitoring",

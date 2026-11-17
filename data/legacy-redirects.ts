@@ -6,6 +6,9 @@ import articles from "./resource-articles.json";
 
 export type LegacyRedirect = { source: string; destination: string; permanent: true };
 
+export const APEX_HOST = "eunomiapharmaservices.com";
+export const CANONICAL_ORIGIN = "https://www.eunomiapharmaservices.com";
+
 const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities-risks-regulatory-landscapes";
 
 export const legacyRedirects: LegacyRedirect[] = [
@@ -53,5 +56,15 @@ export const legacyRedirects: LegacyRedirect[] = [
       { source: "/index", destination: "/", permanent: true },
       // Legacy PHP homepage URL; canonical homepage handles locale selection.
       { source: "/index.php", destination: "/", permanent: true },
+      // Still returning 404 in Search Console (16 Nov 2026).
+      { source: "/fair-market-value-hcp-compliance", destination: "/resources/articles/fair-market-value-fmv-in-healthcare-compliance", permanent: true },
+      { source: "/resources/articles/fair-market-value-hcp-compensation", destination: "/resources/articles/fair-market-value-fmv-in-healthcare-compliance", permanent: true },
+      { source: "/tag/pharmaceutical-transparency-reporting", destination: "/resources/articles/transparency-reporting-in-pharmaceutical-industry", permanent: true },
+      { source: "/tag/what-is-pharmaceutical-transparency-reporting", destination: "/resources/articles/transparency-reporting-in-pharmaceutical-industry", permanent: true },
+      { source: "/tag/what-are-common-pharma-reporting-mistakes", destination: "/resources/articles/top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid", permanent: true },
+      { source: "/tag/how-can-pharma-companies-avoid-reporting-penalties", destination: "/resources/articles/top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid", permanent: true },
       ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: articlePath(slug), permanent: true as const })),
     ];
+
+// Other old WordPress tag archives have no direct replacement.
+export const LEGACY_TAG_FALLBACK = { source: "/tag/:tag*", destination: "/resources", permanent: true as const };

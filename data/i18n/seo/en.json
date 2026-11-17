@@ -1,0 +1,23 @@
+{
+  "/resources/category/hcp-engagement-transparency": {
+    "description": "Explore pharma compliance articles on HCP engagement, fair market value, transfers of value and disclosure under EFPIA and national transparency laws."
+  },
+  "/resources/category/ai-digital-compliance": {
+    "description": "Explore articles on AI governance, compliance automation and data analytics, with practical considerations for pharmaceutical and healthcare teams."
+  },
+  "/resources/category/compliance-programmes": {
+    "description": "Explore practical articles on designing and implementing healthcare compliance programmes, policies, training, monitoring and audit preparation."
+  },
+  "/resources/category/regulatory-updates": {
+    "description": "Explore pharmaceutical compliance articles covering regulatory guidance, legislation and developments, with practical context for healthcare teams."
+  },
+  "/resources/category/gdpr-data-compliance": {
+    "description": "Explore articles on GDPR, data protection and data governance in pharma, including HCP disclosure and the handling of personal information."
+  },
+  "/resources/category/abpi-code-pmcpa": {
+    "description": "Explore UK pharmaceutical promotional compliance articles covering the ABPI Code of Practice, PMCPA guidance and cases, and practical review considerations."
+  },
+  "/resources/category/third-party-due-diligence": {
+    "description": "Explore pharma third-party due diligence articles covering compliance risks in distributors, vendors and other partners, with practical review guidance."
+  }
+}

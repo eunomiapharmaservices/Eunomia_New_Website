@@ -1,11 +1,24 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { legacyRedirects } from "./data/legacy-redirects";
+import { APEX_HOST, CANONICAL_ORIGIN, LEGACY_TAG_FALLBACK, legacyRedirects } from "./data/legacy-redirects";
 import { countryLocaleHints, defaultLocale, isLocale, type Locale } from "./data/i18n/locales";
 
 const legacy = new Map(legacyRedirects.map((r) => [safeDecode(r.source).toLowerCase(), r.destination]));
 
 function safeDecode(path: string) {
   try { return decodeURIComponent(path); } catch { return path; }
+}
+
+// Where a path ends up after trailing-slash and legacy-URL redirects, so a
+// visitor can be sent there in one hop.
+function finalPath(pathname: string) {
+  const bare = pathname.replace(/\/+$/, "") || "/";
+  const key = safeDecode(bare).toLowerCase();
+  return legacy.get(key) ?? (key.startsWith("/tag/") ? LEGACY_TAG_FALLBACK.destination : bare);
+}
+
+function redirectTo(target: string, search: string, base: string) {
+  const [path, hash] = target.split("#");
+  return NextResponse.redirect(new URL(path + search + (hash ? `#${hash}` : ""), base), 308);
 }
 
 function preferredBrowserLocale(header: string | null): Locale | null {
@@ -31,11 +44,12 @@ function preferredBrowserLocale(header: string | null): Locale | null {
 
 export function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
-  const segment = pathname.split("/")[1];
-  const requestHeaders = new Headers(request.headers);
-  // Always overwrite incoming values: language follows the requested route.
-  requestHeaders.set("x-eps-locale", isLocale(segment) ? segment : defaultLocale);
-  const next = () => NextResponse.next({ request: { headers: requestHeaders } });
+  const next = () => NextResponse.next();
+
+  // The bare domain goes straight to the final www page in one hop, instead of
+  // first to the same path on www and then on to the new URL.
+  const host = request.headers.get("host")?.split(":")[0].toLowerCase();
+  if (host === APEX_HOST) return redirectTo(finalPath(pathname), search, CANONICAL_ORIGIN);
 
   // The legacy WordPress eBook has no current replacement.
   if (pathname === "/wp-content/uploads/2025/10/ebook.pdf") {
@@ -69,16 +83,14 @@ export function proxy(request: NextRequest) {
   // Old URLs are usually indexed with a trailing slash (/fmv/). Without this,
   // they take two redirects on our side (strip slash, then legacy mapping).
   if (pathname.length <= 1 || !pathname.endsWith("/")) return next();
-  const bare = pathname.replace(/\/+$/, "") || "/";
-  const target = legacy.get(safeDecode(bare).toLowerCase()) ?? bare;
-  const [path, hash] = target.split("#");
-  const url = new URL(path + search + (hash ? `#${hash}` : ""), request.url);
-  return NextResponse.redirect(url, 308);
+  return redirectTo(finalPath(pathname), search, request.url);
 }
 
 export const config = {
   matcher: [
     "/wp-content/uploads/2025/10/ebook.pdf",
     "/((?!_next/|api/|.*\\.[A-Za-z0-9]+/?$).*)",
+    // Every path on the bare domain, including files such as /index.php.
+    { source: "/:path*", has: [{ type: "host", value: "eunomiapharmaservices.com" }] },
   ],
 };

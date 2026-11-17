@@ -1,0 +1,205 @@
+import { articlePath } from "../../../../../lib/article-path";
+import { articlePracticalResources } from "../../../../../data/article-practical-resources";
+import { editorialEntry, EditorialSummary, EditorialSources } from "../../../../../components/EditorialEnhancement";
+import type { Metadata } from "next";
+import articleSeo from "../../../../../data/article-seo.json";
+import { ArrowLeft } from "lucide-react";
+import { notFound } from "next/navigation";
+import { SiteFooter, SiteHeader } from "../../../../../components/SiteChrome";
+import resourceArticles from "../../../../../data/resource-articles.json";
+import { StructuredData } from "../../../../../components/StructuredData";
+import { DEFAULT_OG_IMAGE } from "../../../../../lib/seo";
+import articleServices from "../../../../../data/article-services.json";
+import relatedGroups from "../../../../../data/article-related.json";
+import { categoriesFor } from "../../../../../data/article-categories";
+import { ExitIntentOffer } from "../../../../../components/ExitIntentOffer";
+import { TopicClusterLinks } from "../../../../../components/TopicClusterLinks";
+import { clusterFor } from "../../../../../data/topic-clusters";
+
+const SERVICES: Record<string, { name: string; summary: string }> = {
+  "governance-assurance": { name: "Healthcare Compliance Programme Design and Implementation", summary: "Frameworks, controls, audit readiness and implementation" },
+  "automation-of-compliance-operations": { name: "Automation of Compliance Operations", summary: "SharePoint, Power BI and AI automation" },
+  "local-legal-mandates": { name: "Local Legal Mandates and Representation", summary: "In-market presence and local-code support" },
+  "shared-services": { name: "Shared Services / GBS / GCC", summary: "A named compliance function, shaped around the work" },
+};
+
+// Section headings in the imported articles are mostly <h3>. Promote them to
+// <h2> when an article has none, so each section is a top-level heading under
+// the <h1>; data-level keeps the original size in CSS.
+function promoteSectionHeadings(html: string) {
+  if (/<h2\b/i.test(html)) return html;
+  return html.replace(/<h3\b/gi, '<h2 data-level="3"').replace(/<\/h3>/gi, "</h2>");
+}
+
+const SITE = "https://www.eunomiapharmaservices.com";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const article = articleSeo.find((item) => item.slug === slug);
+  if (!article) return {};
+  const url = "https://www.eunomiapharmaservices.com" + articlePath(slug);
+  return {
+    title: article.title + " | Eunomia",
+    description: article.description,
+    alternates: { canonical: url },
+    openGraph: { type: "article", title: article.title, description: article.description, url, siteName: "Eunomia Pharma Services", locale: "en_GB", images: [DEFAULT_OG_IMAGE] },
+    twitter: { card: "summary_large_image", title: article.title, description: article.description, images: [DEFAULT_OG_IMAGE.url] },
+  };
+}
+
+type Article = (typeof resourceArticles)[number];
+
+export function generateStaticParams() {
+  return resourceArticles.map(({ slug }) => ({ slug }));
+}
+
+const legacyDestinations: Record<string, string> = {
+  "healthcare-compliance-services": "/services",
+  "compliancetraining": "/services/governance-assurance/pharma-compliance-training",
+  "sop": "/services/governance-assurance/sop-policy-development",
+  "monitoring-and-auditing": "/services/governance-assurance/pharma-compliance-audits",
+  "audits": "/services/governance-assurance/pharma-compliance-audits",
+  "risk-assessment-framework-and-internal-controls": "/services/governance-assurance/pharma-risk-assessment",
+  "fmv": "/resources/fair-market-value-methodology",
+  "material": "/services/shared-services",
+  "transparency": "/services/shared-services",
+  "contact": "/contact"
+};
+const articleSlugs = new Set(resourceArticles.map(({ slug }) => slug));
+
+function localiseArticleLinks(html: string) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/href=(["'])([^"']+)\1/gi, (match, quote: string, href: string) => {
+      // Rewrite only known destinations on our own site. Preserve other URLs.
+      if (!href.startsWith("/") && !/^https?:\/\//i.test(href)) return match;
+      const url = new URL(href, SITE);
+      if (!/^(www\.)?eunomiapharmaservices\.com$/i.test(url.hostname)) return match;
+      const path = url.pathname.replace(/\/+$/, "") || "/";
+      const key = path.replace(/^\/resources\/articles\//, "").replace(/^\//, "");
+      const destination = legacyDestinations[key.toLowerCase()]
+        ?? (articleSlugs.has(key) ? articlePath(key) : path);
+      return `href=${quote}${destination}${url.search}${url.hash}${quote}`;
+    });
+}
+
+export default async function ResourceArticle({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const article = resourceArticles.find((item) => item.slug === slug) as
+    | Article
+    | undefined;
+
+  if (!article) notFound();
+
+  const relatedServiceSlug = (articleServices as Record<string, string>)[slug];
+  const relatedService = relatedServiceSlug ? SERVICES[relatedServiceSlug] : undefined;
+
+  const cats = categoriesFor(slug);
+  const efpiaTopic = cats.some((c) => ["efpia-code-compliance", "hcp-engagement-transparency", "abpi-code-pmcpa"].includes(c.slug));
+  const practicalResource = articlePracticalResources[slug];
+  const checklist = practicalResource ?? (efpiaTopic
+    ? { href: "/resources/checklists/efpia-code-self-assessment-checklist", title: "EFPIA Code Self-Assessment Checklist", blurb: "Check your processes against the EFPIA Code of Practice (2026), article by article." }
+    : { href: "/resources/checklists/pharma-compliance-readiness-checklist", title: "Pharma Compliance Readiness Checklist", blurb: "Test whether your compliance programme would stand up to an audit or inspection." });
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Resources", item: `${SITE}/resources` },
+      ...(cats[0] ? [{ "@type": "ListItem", position: 2, name: cats[0].name, item: `${SITE}/resources/category/${cats[0].slug}` }] : []),
+      { "@type": "ListItem", position: cats[0] ? 3 : 2, name: article.title.replace(/<[^>]+>/g, ""), item: `${SITE}${articlePath(slug)}` },
+    ],
+  };
+  // Pages in the same topic cluster get their own block with the cluster's service.
+  const cluster = clusterFor(articlePath(slug));
+  const clusterHrefs = new Set(cluster?.pages.map((page) => page.href));
+  const relatedSlugs = Array.from(
+    new Set((relatedGroups as string[][]).filter((g) => g.includes(slug)).flat()),
+  ).filter((s) => s !== slug && !clusterHrefs.has(articlePath(s)));
+  const relatedArticles = relatedSlugs
+    .map((s) => resourceArticles.find((a) => a.slug === s))
+    .filter((a): a is Article => Boolean(a))
+    .slice(0, 3);
+
+  const enhancement = editorialEntry(slug);
+  const seo = articleSeo.find((item) => item.slug === slug);
+  const url = `${SITE}${articlePath(slug)}`;
+  // Dates come from the article record; author and publisher resolve to the
+  // site-wide Organization entity already published in the layout.
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${url}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    headline: seo?.title ?? article.title,
+    ...(seo?.description ? { description: seo.description } : {}),
+    datePublished: article.date,
+    dateModified: enhancement?.updated ?? article.date,
+    ...(enhancement ? { citation: enhancement.sources.map(source => source.url) } : {}),
+    inLanguage: "en-GB",
+    author: { "@id": `${SITE}/#organization` },
+    publisher: { "@id": `${SITE}/#organization` },
+    isPartOf: { "@id": `${SITE}/#website` },
+  };
+
+  return (
+    <main>
+      <StructuredData data={articleSchema} />
+      <StructuredData data={breadcrumb} />
+      <SiteHeader />
+      <article className="standalone-resource">
+        <header className="standalone-resource-header section-pad">
+          <a href="/resources#articles" className="back-link">
+            <ArrowLeft /> All resources
+          </a>
+          <p className="section-kicker">
+            Eunomia perspective · {article.date.slice(0, 10)}
+            {cats.length > 0 && <> · {cats.map((c, i) => <span key={c.slug}>{i > 0 && ", "}<a href={`/resources/category/${c.slug}`}>{c.name}</a></span>)}</>}
+          </p>
+          <h1 dangerouslySetInnerHTML={{ __html: article.title }} />
+        </header>
+        {enhancement && <div className="standalone-resource-body"><EditorialSummary entry={enhancement} /></div>}
+        <div
+          className="standalone-resource-body"
+          dangerouslySetInnerHTML={{
+            __html: promoteSectionHeadings(localiseArticleLinks(article.content)),
+          }}
+        />
+        {enhancement && <div className="standalone-resource-body"><EditorialSources entry={enhancement} /></div>}
+        {relatedArticles.length > 0 && (
+          <aside className="article-related-reading">
+            <p className="section-kicker">Related reading</p>
+            <ul>
+              {relatedArticles.map((a) => (
+                <li key={a.slug}>
+                  <a href={articlePath(a.slug)} dangerouslySetInnerHTML={{ __html: a.title }} />
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
+        <aside className="article-checklist-cta">
+          <p className="section-kicker">{practicalResource ? "Practical guide and Excel template" : "Free checklist"}</p>
+          <h2>{checklist.title}</h2>
+          <p>{checklist.blurb}</p>
+          <a className="primary-button" href={checklist.href}>{practicalResource ? "Open the guide and template" : "Get the checklist"}</a>
+        </aside>
+        <ExitIntentOffer href={checklist.href} title={checklist.title} />
+        {cluster && <TopicClusterLinks href={articlePath(slug)} />}
+        {!cluster && relatedService && (
+          <aside className="article-related-service">
+            <p className="section-kicker">Related service</p>
+            <a href={`/services/${relatedServiceSlug}`}>
+              <strong>{relatedService.name}</strong>
+              <span>{relatedService.summary}</span>
+            </a>
+          </aside>
+        )}
+      </article>
+      <SiteFooter />
+    </main>
+  );
+}

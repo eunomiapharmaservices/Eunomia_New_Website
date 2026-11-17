@@ -617,5 +617,269 @@
     "answer": "Questa pagina non indica alcun consulente con sede nei Paesi Bassi. Contattate il nostro team con sede nel Regno Unito per concordare attività, competenze e modalità operative necessarie. Qualsiasi specialista locale, revisione in lingua olandese o ruolo formale va confermato nell’ambito dell’incarico."
    }
   ]
+ },
+ {
+  "country": "Stati Uniti",
+  "metaTitle": "Supporto di compliance farmaceutica negli USA | Eunomia",
+  "metaDescription": "Compliance farmaceutica negli USA: promozione FDA, rapporti con gli HCP, Open Payments e norme statali, con supporto su programma, revisione e monitoraggio.",
+  "title": "Supporto di compliance farmaceutica negli Stati Uniti",
+  "intro": "Eunomia affianca i team farmaceutici e biotech nella pianificazione delle attività di compliance negli Stati Uniti, collegando i requisiti federali e statali ai flussi di revisione, collaborazione, monitoraggio e rendicontazione.",
+  "approach": {
+   "audience": "Per i team farmaceutici internazionali che preparano attività commerciali negli Stati Uniti, per le biotech emergenti che costruiscono i propri processi di compliance e per i responsabili compliance che coordinano più Stati, prodotti e terze parti.",
+   "challenge": "Negli Stati Uniti i requisiti spaziano tra legge federale, regole FDA, integrità dei programmi sanitari, rendicontazione di trasparenza, impegni di settore e leggi statali. Una SOP nazionale può non cogliere requisiti specifici dei singoli Stati in materia di rendicontazione, codici di marketing o interazioni con gli operatori sanitari.",
+   "delivery": "Possiamo ricondurre le attività previste ai requisiti applicabili, individuare le questioni specifiche dei singoli Stati da sottoporre a revisione legale e tradurre i controlli concordati in SOP, percorsi di approvazione e monitoraggio. Il supporto può comprendere il coordinamento della revisione promozionale, i flussi per le collaborazioni con operatori sanitari e per i pagamenti, le verifiche sulla rendicontazione, la formazione e l’automazione. Eunomia indica Karen Glade come sua Global Compliance Business Partner per gli Stati Uniti e il Canada; ambito e supporto specialistico vanno confermati prima dell’avvio.",
+   "priorities": [
+    "Ricondurre prodotti, canali e destinatari ai requisiti promozionali della FDA, al supporto dei claim, all’equilibrio tra benefici e rischi (fair balance) e ai depositi applicabili.",
+    "Documentare la selezione degli operatori sanitari, l’esigenza legittima, gli accordi scritti, la motivazione del compenso a valore di mercato (fair market value) e le evidenze dei servizi resi.",
+    "Verificare l’applicabilità di Open Payments, la classificazione di beneficiari e pagamenti, i responsabili dei dati e i controlli annuali.",
+    "Tenere un registro Stato per Stato dei requisiti applicabili in materia di condotta, registrazione, rendicontazione e disclosure."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Promozione dei farmaci soggetti a prescrizione: le regole FDA",
+    "body": "Le regole della FDA richiedono che la pubblicità sia veritiera e non fuorviante, con informazioni sui rischi in equilibrio con i claim sui benefici (fair balance). I claim devono essere coerenti con l’etichettatura approvata e supportati da evidenze adeguate. Inserite nel flusso di lavoro la revisione, la verifica dei riferimenti, il controllo delle versioni e i depositi applicabili."
+   },
+   {
+    "title": "Claim sulla salute rivolti ai consumatori",
+    "body": "Le linee guida della FTC richiedono che i claim pubblicitari relativi alla salute siano veritieri, non fuorvianti e adeguatamente comprovati prima della diffusione. Valutate l’impressione complessiva (net impression) della campagna, compresi contenuti digitali, testimonianze e claim impliciti, e conservate le evidenze a supporto."
+   },
+   {
+    "title": "Accordi federali con gli operatori sanitari",
+    "body": "L’Anti-Kickback Statute federale vieta di offrire, pagare, sollecitare o ricevere consapevolmente e volontariamente una remunerazione per indurre o ricompensare referral relativi a beni o servizi a carico di un programma sanitario federale. Valutate gli accordi in base ai fatti concreti: accordi scritti, esigenza legittima, compenso adeguato ed evidenze dei servizi resi sono controlli utili. Ottenete una consulenza legale ove necessario."
+   },
+   {
+    "title": "Open Payments",
+    "body": "I produttori e le organizzazioni di acquisto di gruppo soggetti all’obbligo (applicable manufacturers e GPO) comunicano tramite CMS Open Payments determinati pagamenti a favore dei beneficiari interessati (covered recipients) e alcune partecipazioni detenute da medici. L’applicabilità dipende dalle definizioni di legge. Inserite nel processo annuale la validazione dei beneficiari, la riconciliazione, le correzioni, l’attestazione e la conservazione della documentazione; le soglie CMS cambiano ogni anno."
+   },
+   {
+    "title": "Codici di settore e requisiti statali",
+    "body": "Il PhRMA Code è un impegno di settore per le aziende che lo adottano, non una legge federale. Gli Stati possono aggiungere obblighi in materia di condotta, registrazione, formazione, audit o disclosure. Il Massachusetts, ad esempio, impone ai produttori interessati di registrarsi, rispettare il codice di marketing dello Stato, formare il personale coinvolto, svolgere audit annuali e presentare relazioni. Mantenete una valutazione Stato per Stato."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FDA: pubblicità dei farmaci soggetti a prescrizione"
+   },
+   {
+    "label": "FDA: FAQ dell’OPDP"
+   },
+   {
+    "label": "FTC: Health Products Compliance Guidance"
+   },
+   {
+    "label": "HHS OIG: General Compliance Program Guidance"
+   },
+   {
+    "label": "CMS: soggetti tenuti alla rendicontazione Open Payments"
+   },
+   {
+    "label": "CMS: soglie Open Payments"
+   },
+   {
+    "label": "PhRMA Code on Interactions with HCPs"
+   },
+   {
+    "label": "Massachusetts: Pharmaceutical Code of Conduct"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "La FDA approva preventivamente ogni materiale promozionale negli Stati Uniti?",
+    "answer": "No. Secondo la FDA l’approvazione preventiva in genere non è richiesta, fatte salve limitate eccezioni e requisiti specifici. Le aziende restano responsabili della conformità dei contenuti e dei depositi applicabili."
+   },
+   {
+    "question": "Un unico processo federale copre tutti gli Stati?",
+    "answer": "No. Gli Stati possono imporre ulteriori regole in materia di condotta, registrazione, formazione, audit o disclosure. Valutate gli Stati in cui operano l’azienda, i suoi agenti e le sue attività."
+   },
+   {
+    "question": "Eunomia ha un ufficio negli Stati Uniti o un rappresentante regolatorio formale?",
+    "answer": "Questa guida non dichiara un ufficio negli Stati Uniti né una nomina regolatoria formale. Eunomia indica Karen Glade come sua Global Compliance Business Partner per gli Stati Uniti e il Canada. Contattateci per confermare competenze e modalità operative."
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "metaTitle": "Supporto di compliance farmaceutica in Canada | Eunomia",
+  "metaDescription": "Compliance farmaceutica in Canada: regole pubblicitarie di Health Canada, revisione PAAB, impegni IMC, norme provinciali e trasparenza dei pagamenti agli HCP.",
+  "title": "Supporto di compliance farmaceutica in Canada",
+  "intro": "Eunomia affianca i team farmaceutici e biotech nella pianificazione delle attività di compliance in Canada, collegando i requisiti federali sulla pubblicità e gli impegni di settore al contesto provinciale, alla pianificazione della revisione bilingue e ai controlli sulle collaborazioni con gli operatori sanitari.",
+  "approach": {
+   "audience": "Per i team farmaceutici internazionali che entrano nel mercato canadese, per le biotech emergenti che preparano le attività commerciali e per i responsabili compliance che coordinano regole federali, sistemi sanitari provinciali e materiali in inglese e francese.",
+   "challenge": "Il Canada combina la regolamentazione federale della pubblicità dei prodotti sanitari con impegni derivanti dai codici di settore, norme provinciali e territoriali, standard professionali e policy istituzionali. La pubblicità al pubblico dei farmaci soggetti a prescrizione è fortemente limitata; il Québec prevede requisiti specifici in materia di lingua francese.",
+   "delivery": "Possiamo definire l’ambito di una verifica di preparazione al mercato, ricondurre le attività alle regole federali e agli impegni dei codici applicabili e individuare le questioni provinciali, di lingua francese o specialistiche che richiedono una revisione locale. Gli output possono comprendere una matrice delle responsabilità, un flusso per i materiali promozionali, controlli sulle collaborazioni e sui pagamenti agli operatori sanitari, verifiche sulle disclosure, un piano di monitoraggio e un elenco di azioni. Eunomia indica Karen Glade come sua Global Compliance Business Partner per gli Stati Uniti e il Canada; ambito e supporto specialistico vanno confermati prima dell’avvio.",
+   "priorities": [
+    "Verificare l’autorizzazione del prodotto, i termini dell’autorizzazione all’immissione in commercio, i destinatari e il canale prima di adattare la promozione.",
+    "Verificare se il materiale rientra nel Codice PAAB e se si applica la preclearance o un’altra forma di revisione.",
+    "Valutare gli impegni IMC, gli accordi con gli operatori sanitari, i compensi, i pasti, le sponsorizzazioni e la documentazione.",
+    "Mappare i requisiti provinciali e territoriali, le policy delle istituzioni e gli obblighi di rendicontazione; pianificare, ove pertinente, la revisione in lingua francese e per il Québec."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Regole federali sulla pubblicità",
+    "body": "Il Food and Drugs Act e i relativi Regulations disciplinano la pubblicità dei prodotti sanitari. Secondo Health Canada, la pubblicità al pubblico dei farmaci soggetti a prescrizione è in genere limitata al nome commerciale, proprio o comune del farmaco, al prezzo e alla quantità; ulteriori restrizioni si applicano a determinate malattie e prodotti. La pubblicità rivolta agli operatori sanitari è trattata diversamente, ma resta soggetta ai requisiti federali."
+   },
+   {
+    "title": "Prodotti autorizzati e claim",
+    "body": "La promozione è in genere limitata ai prodotti autorizzati alla vendita in Canada e deve rispettare i termini dell’autorizzazione all’immissione in commercio. Le linee guida di Health Canada distinguono la pubblicità da altre attività, comprese le informazioni scientifiche o mediche. Esaminate finalità, destinatari, contenuto e contesto prima di classificare comunicazioni digitali, sui social, rivolte agli investitori o di sensibilizzazione sulle malattie."
+   },
+   {
+    "title": "Preclearance PAAB",
+    "body": "Il Codice PAAB stabilisce standard per la pubblicità che rientra nel suo ambito, compresa un’informazione completa, corretta ed equilibrata. La preclearance è un requisito del Codice per i materiali che rientrano nel suo ambito, salvo esenzione; non è un’approvazione preventiva di legge di portata generale. Health Canada può richiedere la preclearance in circostanze definite. Verificate il percorso applicabile, la lingua e lo stato della revisione."
+   },
+   {
+    "title": "Il Codice di Innovative Medicines Canada",
+    "body": "Il Codice IMC orienta le attività delle aziende associate nella commercializzazione dei medicinali soggetti a prescrizione. È un impegno di settore, non una legge automaticamente vincolante per ogni azienda. Verificate l’adesione all’associazione o l’adozione contrattuale e traducete i requisiti applicabili in controlli su collaborazioni, sponsorizzazioni, pasti, formazione e revisione."
+   },
+   {
+    "title": "Trasparenza e differenze provinciali",
+    "body": "In Canada non esiste un unico registro federale dei pagamenti agli operatori sanitari equivalente all’Open Payments statunitense. L’IMC pubblica un quadro di disclosure volontaria per le aziende aderenti. Verificate separatamente i requisiti provinciali: l’Health Sector Payment Transparency Act dell’Ontario, già approvato, stabilisce che entra in vigore a una data fissata per proclamazione; verificatene lo stato attuale prima di considerarlo operativo."
+   },
+   {
+    "title": "Requisiti linguistici del Québec",
+    "body": "Le regole sulle professioni sanitarie, i requisiti in materia di privacy e le policy delle istituzioni variano da provincia a provincia e tra i territori. La Charter of the French Language (Carta della lingua francese) del Québec impone che la pubblicità commerciale sia in francese; se si usa un’altra lingua, il francese deve in genere essere nettamente predominante, fatte salve alcune eccezioni. Pianificate la revisione in lingua francese e verificatene l’applicazione a ciascun prodotto, canale e destinatario."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Health Canada: requisiti in materia di pubblicità"
+   },
+   {
+    "label": "Health Canada: marketing dei farmaci soggetti a prescrizione"
+   },
+   {
+    "label": "Health Canada: linee guida su pubblicità e altre attività"
+   },
+   {
+    "label": "Health Canada: preclearance della pubblicità"
+   },
+   {
+    "label": "PAAB Code of Advertising Acceptance"
+   },
+   {
+    "label": "IMC: Code of Ethical Practices"
+   },
+   {
+    "label": "IMC: quadro di disclosure volontaria"
+   },
+   {
+    "label": "Ontario: Health Sector Payment Transparency Act"
+   },
+   {
+    "label": "Québec: Charter of the French Language, articolo 58"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "In Canada i medicinali soggetti a prescrizione possono essere pubblicizzati al pubblico?",
+    "answer": "La legge federale limita in genere la pubblicità al pubblico dei farmaci soggetti a prescrizione al nome commerciale, proprio o comune, al prezzo e alla quantità. Si applicano inoltre restrizioni specifiche per malattie e prodotti."
+   },
+   {
+    "question": "La preclearance PAAB è richiesta per ogni attività promozionale?",
+    "answer": "No. È un requisito del Codice per i materiali che rientrano nell’ambito del Codice PAAB, salvo esenzione. Health Canada può richiedere la preclearance in casi definiti."
+   },
+   {
+    "question": "Esiste un unico database federale dei pagamenti agli operatori sanitari?",
+    "answer": "Non esiste un unico registro federale dei pagamenti agli operatori sanitari equivalente all’Open Payments statunitense. L’IMC dispone di un quadro volontario; le leggi provinciali e il loro stato vanno valutati separatamente. La legge dell’Ontario del 2017 prevede che l’entrata in vigore avvenga per proclamazione."
+   },
+   {
+    "question": "Eunomia ha un ufficio in Canada o un rappresentante regolatorio formale?",
+    "answer": "Questa guida non dichiara un ufficio in Canada né una nomina regolatoria formale. Eunomia indica Karen Glade come sua Global Compliance Business Partner per gli Stati Uniti e il Canada. Contattateci per confermare competenze, supporto in lingua francese e modalità operative."
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "metaTitle": "Supporto di compliance farmaceutica in India | Eunomia",
+  "metaDescription": "Compliance farmaceutica in India: UCPMP 2024, promozione dei farmaci, rapporti con gli HCP, controllo statale e disclosure annuali delle spese di marketing.",
+  "title": "Supporto di compliance farmaceutica in India",
+  "intro": "Eunomia affianca i team farmaceutici e biotech nella pianificazione delle attività di compliance in India, collegando lo Uniform Code for Pharmaceutical Marketing Practices (UCPMP) alla normativa sulla pubblicità, ai processi statali di controllo dei farmaci e a flussi pratici di revisione e di collaborazione con gli operatori sanitari.",
+  "approach": {
+   "audience": "Per i team farmaceutici internazionali che entrano nel mercato indiano, per le biotech emergenti che preparano le attività commerciali e per i responsabili compliance che coordinano requisiti relativi a prodotti, canali e singoli Stati.",
+   "challenge": "L’India combina leggi centrali e requisiti nazionali sulle pratiche di marketing con l’amministrazione a livello statale della produzione, della vendita e della distribuzione dei farmaci. Le aziende devono inoltre rendere operativi controlli dettagliati su claim promozionali, interazioni con gli operatori sanitari, campioni, programmi formativi e disclosure annuali delle spese di marketing.",
+   "delivery": "Possiamo ricondurre le attività al quadro nazionale applicabile, individuare le questioni statali in materia di licenze o di enforcement da sottoporre a revisione legale locale e tradurre i requisiti concordati in SOP, percorsi di approvazione, standard di evidenza e monitoraggio. Il supporto può comprendere il coordinamento della revisione dei materiali promozionali, i flussi per operatori sanitari ed eventi, i controlli sui campioni, le verifiche sulla rendicontazione, la formazione e l’automazione. La consulenza legale specifica per l’India, le attività relative alle licenze o le nomine locali formali devono essere definite separatamente con professionisti locali adeguatamente qualificati; questa guida non dichiara alcuna rappresentanza con sede in India.",
+   "priorities": [
+    "Ricondurre prodotti e claim previsti alle autorizzazioni all’immissione in commercio vigenti prima dell’uso promozionale; individuare destinatari, canale e ruoli approvativi.",
+    "Attuare i controlli UCPMP per collaborazioni con operatori sanitari, terze parti, programmi CME/CPD, servizi di ricerca, campioni e reclami.",
+    "Registrare eventi e campioni con le relative evidenze, le categorie di spesa, il numero di beneficiari, i responsabili e i percorsi di escalation.",
+    "Mappare i punti di contatto con il controllo statale dei farmaci lungo l’intera presenza prevista per vendite, distribuzione e produzione; verificare eventuali esigenze legali o di licenza a livello locale."
+   ]
+  },
+  "rules": [
+   {
+    "title": "L’UCPMP 2024 è un codice nazionale obbligatorio",
+    "body": "Il Department of Pharmaceuticals definisce obbligatorio l’UCPMP 2024. Il Codice stabilisce standard etici per la promozione farmaceutica e per le interazioni dell’industria con gli operatori sanitari. I reclami sono gestiti dagli Ethics Committees for Pharma Marketing Practices istituiti presso le associazioni, con un meccanismo di ricorso presso il Department of Pharmaceuticals. Il Codice costituisce un livello di compliance distinto, che si affianca agli obblighi di legge."
+   },
+   {
+    "title": "La promozione deve seguire l’autorizzazione e i claim devono essere comprovati",
+    "body": "Secondo l’UCPMP, un farmaco non può essere promosso prima dell’autorizzazione all’immissione in commercio rilasciata dall’autorità competente e la promozione deve restare coerente con tale autorizzazione. I claim dovrebbero essere aggiornati, equilibrati, verificabili e suscettibili di comprova. Il Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 vieta separatamente la pubblicità ingannevole dei farmaci e la pubblicità relativa a determinate malattie e condizioni. Esaminate destinatari, contenuto e canale previsti alla luce dell’autorizzazione del prodotto e della legge applicabile."
+   },
+   {
+    "title": "Benefici e ospitalità per gli operatori sanitari: limiti rigorosi",
+    "body": "L’UCPMP vieta omaggi o benefici personali a favore degli operatori sanitari e dei loro familiari, nonché vantaggi pecuniari o benefici in natura a favore di persone abilitate a prescrivere o fornire farmaci. Limita inoltre i viaggi e l’ospitalità finanziati dalle aziende, con condizioni limitate previste dal Codice per i relatori dei programmi CME/CPD; sono vietate le erogazioni in denaro a operatori sanitari o loro familiari. Integrate nei flussi di collaborazione la documentazione della finalità, le approvazioni, i contratti, i controlli sugli eventi e l’escalation."
+   },
+   {
+    "title": "CME, CPD e supporto agli eventi richiedono controlli trasparenti",
+    "body": "Il Codice richiede linee guida ben definite, trasparenti e verificabili per la partecipazione dell’industria a programmi CME/CPD ed eventi correlati. Vieta gli eventi in località estere, individua le categorie di organizzatori ammessi e impone alle aziende di pubblicare sul proprio sito web i dettagli degli eventi e delle spese. Gli organizzatori devono rendere note le procedure di selezione di partecipanti e relatori, le fonti di finanziamento e le spese; il Codice fissa inoltre un rapporto di 1:10 tra relatori e partecipanti per gli eventi nel Paese che vi rientrano. Verificate l’esatto modello dell’evento, l’organizzatore e le disposizioni applicabili prima di impegnarvi a fornire supporto."
+   },
+   {
+    "title": "Campioni: controlli su idoneità, quantità e valore",
+    "body": "I campioni possono essere forniti solo a persone abilitate a prescrivere il prodotto, a fini di conoscenza ed esperienza, e devono essere registrati e controllati. L’UCPMP limita le confezioni campione al ciclo di terapia prescritto per non più di tre pazienti e a non più di 12 confezioni per farmaco per operatore sanitario all’anno; le confezioni devono recare l’indicazione che non sono destinate alla vendita e non possono superare la confezione più piccola in commercio. Il valore monetario complessivo dei campioni non dovrebbe superare il 2% delle vendite nazionali. La modifica del 2025 chiarisce la valorizzazione dei campioni ai fini della rendicontazione annuale."
+   },
+   {
+    "title": "Rendicontazione annuale delle spese e amministrazione statale",
+    "body": "In base al testo dell’UCPMP aggiornato al 1° settembre 2025, il vertice aziendale (executive head) presenta una disclosure annuale delle spese di marketing entro due mesi dalla chiusura dell’esercizio finanziario, tramite l’associazione di cui l’azienda è membro oppure tramite il portale del Department of Pharmaceuticals se l’azienda non aderisce ad alcuna associazione. Il modulo prescritto rileva le vendite nazionali, il valore dei campioni e il numero di operatori sanitari beneficiari, nonché le spese per i programmi formativi e il numero di eventi. Separatamente, il CDSCO indica che sono principalmente gli Stati a regolamentare la produzione, la vendita e la distribuzione dei farmaci, mentre le autorità centrali svolgono funzioni che comprendono l’approvazione dei nuovi farmaci, gli standard e la qualità delle importazioni. Mappate la presenza nei singoli Stati e i relativi punti di contatto in materia di licenze o di enforcement."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Department of Pharmaceuticals: UCPMP 2024 e circolari"
+   },
+   {
+    "label": "Testo consolidato dell’UCPMP 2024, aggiornato al 1° settembre 2025"
+   },
+   {
+    "label": "Department of Pharmaceuticals: portale UCPMP e attuazione"
+   },
+   {
+    "label": "CDSCO: funzioni regolatorie centrali e statali"
+   },
+   {
+    "label": "CDSCO: Acts and Rules"
+   },
+   {
+    "label": "India Code: Drugs and Magic Remedies Act, 1954"
+   },
+   {
+    "label": "Press Information Bureau: attuazione dell’UCPMP e disclosure"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "L’UCPMP 2024 è volontario od obbligatorio?",
+    "answer": "Il portale UCPMP del Department of Pharmaceuticals definisce obbligatorio il Codice del 2024. Il Codice opera accanto alle leggi applicabili ed è attuato tramite i comitati etici delle associazioni farmaceutiche e un meccanismo di ricorso a livello del Department."
+   },
+   {
+    "question": "Un’azienda può promuovere un medicinale prima che sia autorizzato in India?",
+    "answer": "No. Secondo l’UCPMP la promozione non può iniziare prima che l’autorità competente abbia rilasciato l’autorizzazione all’immissione in commercio e deve restare coerente con tale autorizzazione."
+   },
+   {
+    "question": "Le aziende farmaceutiche possono offrire omaggi o pagare i viaggi degli operatori sanitari?",
+    "answer": "L’UCPMP vieta omaggi, benefici personali ed erogazioni in denaro a favore degli operatori sanitari e dei loro familiari, e limita viaggi e ospitalità. Il Codice prevede condizioni limitate per i relatori dei programmi CME/CPD, quindi ogni accordo va esaminato alla luce della disposizione completa."
+   },
+   {
+    "question": "Quali obblighi di trasparenza prevede l’UCPMP?",
+    "answer": "Il Codice aggiornato richiede una disclosure annuale delle spese di marketing. Il modulo prescritto comprende le vendite nazionali, il valore dei campioni e il numero di operatori sanitari beneficiari, nonché le spese e il numero di eventi per i programmi formativi. Il canale di presentazione dipende dall’adesione a un’associazione; verificate il modulo vigente del Department ed eventuali proroghe delle scadenze."
+   },
+   {
+    "question": "I requisiti statali contano se l’UCPMP è nazionale?",
+    "answer": "Sì. L’UCPMP e le leggi centrali fanno parte del quadro nazionale, mentre secondo il CDSCO sono principalmente gli Stati a regolamentare la produzione, la vendita e la distribuzione dei farmaci. Le aziende dovrebbero mappare i punti di contatto statali in materia di licenze ed enforcement rispetto alla propria presenza operativa."
+   },
+   {
+    "question": "Eunomia ha un ufficio in India o un rappresentante designato con sede in India?",
+    "answer": "Questa guida non dichiara un ufficio in India, un rappresentante con sede in India, qualifiche legali né una nomina regolatoria formale. Contattate Eunomia per concordare ambito, competenze e modalità operative necessarie; qualsiasi consulenza legale locale o ruolo formale va confermato separatamente."
+   }
+  ]
  }
 ]

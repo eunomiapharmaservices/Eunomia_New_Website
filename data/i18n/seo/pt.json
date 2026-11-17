@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Consultoria de compliance farmacêutico em Portugal | Eunomia",
+    "description": "Compliance farmacêutico para empresas em Portugal e na UE: desenho de programas, automatização, representação local e serviços externalizados. Fale connosco."
+  },
+  "/contact": {
+    "title": "Contacte a equipa de compliance farmacêutico | Eunomia",
+    "description": "Fale-nos da sua empresa em Portugal, dos seus mercados e da questão de compliance que tem em mãos. Sem compromisso nem pressão. Envie-nos a sua mensagem."
+  },
+  "/privacy": {
+    "title": "Aviso de privacidade e cookies | Eunomia",
+    "description": "Aviso de privacidade para visitantes em Portugal e na UE: como a Eunomia Pharma Services recolhe, usa e protege os seus dados e que cookies usamos. Saiba mais."
+  },
+  "/team": {
+    "title": "A nossa equipa de compliance farmacêutico | Eunomia",
+    "description": "Conheça os parceiros de compliance e os especialistas em operações da Eunomia que apoiam empresas farmacêuticas em Portugal e na Europa. Conheça a equipa."
+  },
+  "/resources": {
+    "title": "Recursos e guias de compliance farmacêutico | Eunomia",
+    "description": "Guias, estudos de caso e modelos para equipas em Portugal: justo valor de mercado, transparência, formação, auditorias, RGPD e automatização. Explore já."
+  },
+  "/services": {
+    "title": "Serviços de compliance farmacêutico em Portugal | Eunomia",
+    "description": "Apoio a farmacêuticas e biotecnológicas em Portugal e na Europa: desenho de programas, automatização, representação legal local e operações externalizadas."
+  },
+  "/services/governance-assurance": {
+    "title": "Programas de compliance farmacêutico em Portugal | Eunomia",
+    "description": "Compliance comercial para farmacêuticas em Portugal: Código EFPIA, avaliação de riscos, políticas, formação e monitorização. Fale com a nossa equipa."
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Automação de compliance farmacêutico em Portugal | Eunomia",
+    "description": "Automatização do compliance e governação de IA em Portugal: riscos, monitorização, trilhos de auditoria, aprovações e divulgação EFPIA com supervisão humana."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Representante legal local para farmacêuticas | Eunomia",
+    "description": "Representante legal local e apoio de compliance para entrar no mercado: regras do INFARMED em Portugal, códigos nacionais e transparência. Contacte-nos."
+  },
+  "/services/shared-services": {
+    "title": "Compliance farmacêutico externalizado em Portugal | Eunomia",
+    "description": "Compliance externalizado para farmacêuticas em Portugal: interações com profissionais de saúde, justo valor de mercado e transparência. Saiba mais."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Revisão e aprovação de materiais promocionais | Eunomia",
+    "description": "Revisão externalizada de materiais promocionais farmacêuticos para equipas em Portugal e na Europa, com revisores especializados. Peça uma proposta."
+  },
+  "/markets/ireland": {
+    "title": "Apoio em compliance farmacêutico na Irlanda | Eunomia",
+    "description": "Compliance farmacêutico na Irlanda: regras de publicidade da HPRA, Código IPHA, interações com profissionais de saúde e transferências de valor. Leia o guia."
+  },
+  "/markets/sweden": {
+    "title": "Apoio em compliance farmacêutico na Suécia | Eunomia",
+    "description": "Planeie o compliance farmacêutico na Suécia: regras éticas da Lif (LER), informação sobre medicamentos, colaboração com profissionais e divulgação. Leia o guia."
+  },
+  "/markets/germany": {
+    "title": "Apoio em compliance farmacêutico na Alemanha | Eunomia",
+    "description": "Compliance farmacêutico na Alemanha: códigos FSA, a lei HWG sobre publicidade, crimes de corrupção na saúde (§§ 299a–299b StGB) e transparência. Saiba mais."
+  },
+  "/markets/france": {
+    "title": "Apoio em compliance farmacêutico em França | Eunomia",
+    "description": "Compliance farmacêutico em França: regime anti-cadeaux, transparência da Loi Bertrand, vistos da ANSM, Sapin II e Pharmacien Responsable. Fale connosco."
+  },
+  "/markets/portugal": {
+    "title": "Compliance farmacêutico em Portugal: INFARMED | Eunomia",
+    "description": "Compliance farmacêutico em Portugal: Estatuto do Medicamento, publicidade e supervisão do INFARMED, declarações de benefícios e Código APIFARMA. Contacte-nos."
+  },
+  "/markets/spain": {
+    "title": "Apoio em compliance farmacêutico em Espanha | Eunomia",
+    "description": "Compliance farmacêutico em Espanha: incentivos a profissionais de saúde, publicidade de medicamentos, Código da Farmaindustria e transparência. Consulte o guia."
+  },
+  "/markets/italy": {
+    "title": "Apoio em compliance farmacêutico em Itália | Eunomia",
+    "description": "Compliance farmacêutico em Itália: servizio scientifico, publicidade e congressos junto da AIFA, Código Farmindustria e Sunshine Act italiano. Leia o guia."
+  },
+  "/markets/netherlands": {
+    "title": "Apoio em compliance farmacêutico nos Países Baixos | Eunomia",
+    "description": "Compliance farmacêutico nos Países Baixos: incentivos (Geneesmiddelenwet), supervisão da IGJ, Código CGR, Transparantieregister Zorg e publicidade. Saiba mais."
+  },
+  "/markets/united-states": {
+    "title": "Apoio em compliance farmacêutico nos EUA | Eunomia",
+    "description": "Compliance farmacêutico nos EUA: promoção sob a FDA, relações com profissionais de saúde, Open Payments e regras estaduais, com apoio em revisão. Veja o guia."
+  },
+  "/markets/canada": {
+    "title": "Apoio em compliance farmacêutico no Canadá | Eunomia",
+    "description": "Compliance farmacêutico no Canadá: publicidade e Health Canada, pré-aprovação da PAAB, Código da IMC, requisitos provinciais e transparência. Fale connosco."
+  },
+  "/markets/india": {
+    "title": "Apoio em compliance farmacêutico na Índia | Eunomia",
+    "description": "Compliance farmacêutico na Índia: UCPMP 2024, promoção de medicamentos, interações com profissionais de saúde e divulgação anual de despesas. Leia o guia."
+  }
+}

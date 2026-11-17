@@ -14,7 +14,7 @@ const localizedRoutes: RegExp[] = [
   /^\/privacy$/,
   /^\/team$/,
   /^\/resources$/,
-  /^\/markets\/(ireland|sweden|germany|france|portugal|spain|italy|netherlands)$/,
+  /^\/markets\/(ireland|sweden|germany|france|portugal|spain|italy|netherlands|united-states|canada|india)$/,
 ];
 
 export function isLocalizedRoute(path: string): boolean {

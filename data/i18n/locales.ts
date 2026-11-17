@@ -5,18 +5,27 @@
  * default supported language; countries with multiple common languages use
  * the visitor's supported browser language.
  */
+// `region` is the primary target country each language serves (UK for English,
+// one EU country per EU language). It sets <html lang>, the extra country
+// hreflang alongside the generic language code, and og:locale. Non-EU
+// languages have no target country, so they keep their generic tags.
 export const locales = {
-  en: { label: "English", dir: "ltr" },
-  es: { label: "Español", dir: "ltr" },
-  fr: { label: "Français", dir: "ltr" },
-  de: { label: "Deutsch", dir: "ltr" },
-  it: { label: "Italiano", dir: "ltr" },
-  pt: { label: "Português", dir: "ltr" },
-  nl: { label: "Nederlands", dir: "ltr" },
-  ja: { label: "日本語", dir: "ltr" },
-  "zh-CN": { label: "简体中文", dir: "ltr" },
-  ar: { label: "العربية", dir: "rtl" },
+  en: { label: "English", dir: "ltr", region: "en-GB", og: "en_GB" },
+  es: { label: "Español", dir: "ltr", region: "es-ES", og: "es_ES" },
+  fr: { label: "Français", dir: "ltr", region: "fr-FR", og: "fr_FR" },
+  de: { label: "Deutsch", dir: "ltr", region: "de-DE", og: "de_DE" },
+  it: { label: "Italiano", dir: "ltr", region: "it-IT", og: "it_IT" },
+  pt: { label: "Português", dir: "ltr", region: "pt-PT", og: "pt_PT" },
+  nl: { label: "Nederlands", dir: "ltr", region: "nl-NL", og: "nl_NL" },
+  ja: { label: "日本語", dir: "ltr", region: null, og: "ja_JP" },
+  "zh-CN": { label: "简体中文", dir: "ltr", region: null, og: "zh_CN" },
+  ar: { label: "العربية", dir: "rtl", region: null, og: "ar_AR" },
 } as const;
+
+/** Value for <html lang>: the target-country tag where there is one. */
+export function htmlLang(locale: Locale): string {
+  return locales[locale].region ?? locale;
+}
 
 export type Locale = keyof typeof locales;
 
@@ -134,8 +143,12 @@ const SITE = "https://www.eunomiapharmaservices.com";
  */
 export function languageAlternates(path: string): Record<string, string> {
   const map: Record<string, string> = {};
-  for (const code of Object.keys(locales)) {
-    map[code] = code === defaultLocale ? `${SITE}${path || "/"}` : `${SITE}/${code}${path}`;
+  for (const code of Object.keys(locales) as Locale[]) {
+    const url = code === defaultLocale ? `${SITE}${path || "/"}` : `${SITE}/${code}${path}`;
+    map[code] = url;
+    // List the page under its target country too (es and es-ES, en and en-GB).
+    const region = locales[code].region;
+    if (region) map[region] = url;
   }
   map["x-default"] = map[defaultLocale];
   return map;

@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Consulenza di compliance farmaceutica in Italia | Eunomia",
+    "description": "Consulenza di compliance farmaceutica dal Regno Unito per aziende in Italia e nell'UE: programmi, automazione, rappresentanza locale e outsourcing. Ci contatti."
+  },
+  "/contact": {
+    "title": "Contatti il nostro team di compliance | Eunomia",
+    "description": "Ci racconti la sua azienda, i suoi mercati e la questione di compliance che affronta in Italia o in Europa. Senza impegno né pressioni. Scriva al nostro team."
+  },
+  "/privacy": {
+    "title": "Informativa privacy e cookie | Eunomia",
+    "description": "Come Eunomia Pharma Services raccoglie, utilizza e protegge i dati personali inviati tramite questo sito e quali cookie imposta. Legga l'informativa completa."
+  },
+  "/team": {
+    "title": "Il team di esperti in compliance farmaceutica | Eunomia",
+    "description": "Conosca i business partner di compliance e gli specialisti di operazioni di compliance sanitaria di Eunomia, per le aziende in Italia. Incontri il team."
+  },
+  "/resources": {
+    "title": "Risorse e guide sulla compliance farmaceutica | Eunomia",
+    "description": "Guide, casi di studio e modelli per la compliance farmaceutica in Italia: FMV degli HCP, disclosure, formazione, audit, GDPR e automazione. Li scopra."
+  },
+  "/services": {
+    "title": "Servizi di compliance farmaceutica in Italia | Eunomia",
+    "description": "Supporto di compliance per aziende farmaceutiche e biotech in Italia e in Europa: programmi, automazione, rappresentanza locale e outsourcing. Scopra i servizi."
+  },
+  "/services/governance-assurance": {
+    "title": "Programmi e governance di compliance in Italia | Eunomia",
+    "description": "Consulenza di compliance commerciale per aziende farmaceutiche in Italia: Codice EFPIA, analisi dei rischi, policy, formazione e monitoraggio. Ne parliamo?"
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Automazione e IA per la compliance in Italia | Eunomia",
+    "description": "Automazione della compliance e governance dell'IA per aziende farmaceutiche in Italia: monitoraggio, audit trail, approvazioni e disclosure EFPIA. Ci consulti."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Rappresentanza legale locale pharma in Europa | Eunomia",
+    "description": "Rappresentante legale locale per aziende farmaceutiche in Italia che entrano in altri mercati UE: DMOS francese, regole INFARMED, HCP e trasparenza. Ci scriva."
+  },
+  "/services/shared-services": {
+    "title": "Compliance pharma esternalizzata per l'Italia | Eunomia",
+    "description": "Operazioni di compliance farmaceutica esternalizzate per aziende in Italia: interazioni con gli HCP, fair market value e report di trasparenza. Scopra di più."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Revisione materiali promozionali in Italia | Eunomia",
+    "description": "Revisione esternalizzata e approvazione dei materiali promozionali per team farmaceutici in Italia ed Europa, con revisori specializzati. Contatti il team."
+  },
+  "/markets/ireland": {
+    "title": "Supporto di compliance farmaceutica in Irlanda | Eunomia",
+    "description": "Compliance farmaceutica in Irlanda: pubblicità dei medicinali e vigilanza HPRA, Codice IPHA, rapporti con gli HCP e trasferimenti di valore. Consulti la guida."
+  },
+  "/markets/sweden": {
+    "title": "Supporto di compliance farmaceutica in Svezia | Eunomia",
+    "description": "Compliance farmaceutica in Svezia: regole etiche Lif (LER), informazione sui medicinali, rapporti con gli operatori sanitari e disclosure. Legga la guida."
+  },
+  "/markets/germany": {
+    "title": "Supporto di compliance farmaceutica in Germania | Eunomia",
+    "description": "Compliance farmaceutica in Germania: codici FSA, pubblicità (HWG), reati di corruzione sanitaria ai §§ 299a–299b StGB e trasparenza. Parli con un esperto."
+  },
+  "/markets/france": {
+    "title": "Supporto di compliance farmaceutica in Francia | Eunomia",
+    "description": "Compliance farmaceutica in Francia: regime anti-cadeaux, Loi Bertrand, visti ANSM, Sapin II, Codice LEEM e governance del Pharmacien Responsable. Parli con noi."
+  },
+  "/markets/portugal": {
+    "title": "Supporto di compliance farmaceutica in Portogallo | Eunomia",
+    "description": "Compliance farmaceutica in Portogallo: dichiarazioni di trasparenza INFARMED, pubblicità dei medicinali, omaggi e Codice APIFARMA. Consulti la nostra guida."
+  },
+  "/markets/spain": {
+    "title": "Supporto di compliance farmaceutica in Spagna | Eunomia",
+    "description": "Compliance farmaceutica in Spagna: incentivi agli HCP, pubblicità dei medicinali, ospitalità, Codice Farmaindustria e trasparenza. Contatti i nostri esperti."
+  },
+  "/markets/italy": {
+    "title": "Supporto di compliance farmaceutica in Italia | Eunomia",
+    "description": "Compliance farmaceutica in Italia: servizio scientifico, pubblicità e congressi AIFA, Codice Farmindustria, Sunshine Act (L. 62/2022) e D.Lgs. 231. Ci contatti."
+  },
+  "/markets/netherlands": {
+    "title": "Compliance farmaceutica nei Paesi Bassi | Eunomia",
+    "description": "Compliance farmaceutica nei Paesi Bassi: incentivi (Geneesmiddelenwet), Codice CGR, Transparantieregister Zorg e revisione pubblicitaria. Legga la guida."
+  },
+  "/markets/united-states": {
+    "title": "Compliance farmaceutica negli Stati Uniti | Eunomia",
+    "description": "Compliance farmaceutica negli Stati Uniti: promozione FDA, rapporti con gli HCP, Open Payments e norme statali, con revisione e monitoraggio. Scopra come."
+  },
+  "/markets/canada": {
+    "title": "Supporto di compliance farmaceutica in Canada | Eunomia",
+    "description": "Compliance farmaceutica in Canada: pubblicità e Health Canada, revisione PAAB, Codice IMC, norme provinciali e trasparenza verso gli HCP. Approfondisca."
+  },
+  "/markets/india": {
+    "title": "Supporto di compliance farmaceutica in India | Eunomia",
+    "description": "Compliance farmaceutica in India: UCPMP 2024, promozione dei farmaci, interazioni con gli HCP, controlli statali e spese di marketing annuali. Scopra la guida."
+  }
+}

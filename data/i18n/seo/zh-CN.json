@@ -1,0 +1,23 @@
+{
+  "/services/governance-assurance": {
+    "description": "为制药和生物技术企业设计并实施合规体系，支持政策制定、内部控制、培训、风险评估和审计准备。"
+  },
+  "/services/automation-of-compliance-operations": {
+    "description": "利用SharePoint、Power BI和AI自动化合规运营，支持审批工作流、报告和风险监控，提升流程协作与可追溯性。"
+  },
+  "/services/local-legal-mandates": {
+    "description": "支持制药企业的当地法定职责和代表服务，结合国家要求、行业准则与市场布局，协助建立适合当地的合规运营体系。"
+  },
+  "/services/shared-services": {
+    "description": "制药合规共享服务：提供流程协调、运营支持及GBS和GCC模式的设计与实施，连接专业合规知识和日常业务执行。"
+  },
+  "/contact": {
+    "description": "联系Eunomia，讨论制药合规体系设计、运营自动化和当地支持需求。我们会了解您的业务情况与具体挑战，分享建议，无需承诺。"
+  },
+  "/services": {
+    "description": "Eunomia为制药和生物技术企业提供合规体系设计与实施、合规运营自动化、当地法定职责与代表服务，以及共享服务支持。"
+  },
+  "/resources": {
+    "description": "浏览Eunomia关于制药合规、透明度、治理和运营自动化的文章、网络研讨会、案例研究与实用资料，为团队的日常工作提供参考。"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Pharma-Compliance-Services für Deutschland | Eunomia",
+    "description": "Pharma-Compliance für Unternehmen in Deutschland und der EU: Programmgestaltung, Automatisierung, lokale Vertretung und ausgelagerte Services. Jetzt anfragen."
+  },
+  "/contact": {
+    "title": "Kontakt zu unserem Pharma-Compliance-Team | Eunomia",
+    "description": "Erzählen Sie uns von Ihrem Unternehmen, Ihren Märkten wie Deutschland und Ihrer Compliance-Frage. Unverbindlich und ohne Druck. Schreiben Sie uns noch heute."
+  },
+  "/privacy": {
+    "title": "Datenschutzhinweis und Cookies | Eunomia",
+    "description": "Wie Eunomia Pharma Services personenbezogene Daten über diese Website erhebt, nutzt und schützt und welche Cookies die Website setzt. Hier mehr erfahren."
+  },
+  "/team": {
+    "title": "Unser Pharma-Compliance-Team | Eunomia",
+    "description": "Lernen Sie Eunomias Compliance-Business-Partner und Spezialisten für Healthcare-Compliance-Abläufe kennen, die Teams in Deutschland unterstützen. Team ansehen."
+  },
+  "/resources": {
+    "title": "Pharma-Compliance-Ressourcen und Leitfäden | Eunomia",
+    "description": "Leitfäden, Fallstudien und Vorlagen zur Pharma-Compliance in Deutschland: HCP-FMV, Offenlegung, Schulungen, Audits, DSGVO und Automatisierung. Jetzt lesen."
+  },
+  "/services": {
+    "title": "Pharma-Compliance-Leistungen in Deutschland | Eunomia",
+    "description": "Pharma- und Biotech-Compliance in Deutschland und Europa: Programmgestaltung, Automatisierung, lokale Vertretung und ausgelagerte Abläufe. Leistungen ansehen."
+  },
+  "/services/governance-assurance": {
+    "title": "Pharma-Compliance-Beratung in Deutschland | Eunomia",
+    "description": "Kommerzielle Pharma-Compliance für Deutschland: EFPIA-Kodex, Risikobewertung, Richtlinien, Schulungen und Monitoring. Kein GxP, keine Zulassung. Jetzt anfragen."
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Pharma-Compliance-Automatisierung Deutschland | Eunomia",
+    "description": "KI-Governance und Automatisierung für Pharma-Compliance in Deutschland: Risikobewertung, Monitoring, Audit-Trails, Freigaben, EFPIA-Offenlegung. Mehr dazu."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Lokaler Rechtsvertreter für Pharma in Europa | Eunomia",
+    "description": "Lokale Rechtsvertretung und Compliance-Support für Pharmaunternehmen aus Deutschland beim Markteintritt in Europa: Länderkodizes, HCP, Transparenz. Anfragen."
+  },
+  "/services/shared-services": {
+    "title": "Ausgelagerte Pharma-Compliance & Shared Services | Eunomia",
+    "description": "Ausgelagerte Pharma-Compliance für Teams in Deutschland: HCP-Zusammenarbeit, Fair Market Value und Transparenzberichte über Märkte hinweg. Kontaktieren Sie uns."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Externe Pharma-Werbemittelprüfung & Freigabe | Eunomia",
+    "description": "Externe Werbemittelprüfung und Freigabe-Support für Pharma-Teams in Deutschland und Europa, mit Fachprüfern und klaren Unterschriftsrollen. Mehr erfahren."
+  },
+  "/markets/ireland": {
+    "title": "Pharma-Compliance in Irland: HPRA und IPHA | Eunomia",
+    "description": "Pharma-Compliance in Irland: HPRA-Regeln zur Arzneimittelwerbung, IPHA-Kodex, Zusammenarbeit mit Fachkreisen und Offenlegung von Zuwendungen. Leitfaden lesen."
+  },
+  "/markets/sweden": {
+    "title": "Pharma-Compliance in Schweden: Lif und LER | Eunomia",
+    "description": "Pharma-Compliance in Schweden planen: Lif-Ethikregeln (LER), Arzneimittelinformation, Zusammenarbeit mit Fachkreisen und Offenlegung. Sprechen Sie mit uns."
+  },
+  "/markets/germany": {
+    "title": "Pharma-Compliance in Deutschland: FSA & HWG | Eunomia",
+    "description": "Pharma-Compliance in Deutschland: FSA-Kodizes, Heilmittelwerbegesetz (HWG), Korruption im Gesundheitswesen (§§ 299a, 299b StGB) und Transparenz. Beraten lassen."
+  },
+  "/markets/france": {
+    "title": "Pharma-Compliance in Frankreich: ANSM & LEEM | Eunomia",
+    "description": "Pharma-Compliance in Frankreich: Anti-Geschenke-Regeln, Transparenz nach Loi Bertrand, ANSM-Werbevisa, Sapin II und Pharmacien Responsable. Fragen Sie uns."
+  },
+  "/markets/portugal": {
+    "title": "Pharma-Compliance in Portugal: INFARMED | Eunomia",
+    "description": "Pharma-Compliance in Portugal: Transparenzmeldungen an INFARMED, Regeln für Arzneimittelwerbung, Zuwendungen und APIFARMA-Kodex. Sprechen Sie mit unserem Team."
+  },
+  "/markets/spain": {
+    "title": "Pharma-Compliance in Spanien: Farmaindustria | Eunomia",
+    "description": "Pharma-Compliance in Spanien: Arzneimittelwerbung, Anreize für Fachkreise, Bewirtung, Farmaindustria-Kodex und Transparenzberichte. Jetzt Kontakt aufnehmen."
+  },
+  "/markets/italy": {
+    "title": "Pharma-Compliance in Italien: AIFA & Farmindustria | Eunomia",
+    "description": "Pharma-Compliance in Italien: wissenschaftlicher Außendienst, AIFA-Werbung und Kongressmeldungen, Farmindustria-Kodex und Sunshine Act. Fragen Sie unser Team."
+  },
+  "/markets/netherlands": {
+    "title": "Pharma-Compliance in den Niederlanden: CGR | Eunomia",
+    "description": "Pharma-Compliance in den Niederlanden: Vorteilsregeln der Geneesmiddelenwet, IGJ-Aufsicht, CGR-Kodex, Transparantieregister Zorg, Werbeprüfung. Mehr erfahren."
+  },
+  "/markets/united-states": {
+    "title": "Pharma-Compliance in den USA: FDA & Open Payments | Eunomia",
+    "description": "Pharma-Compliance in den USA: FDA-Werberegeln, HCP-Verträge, Open Payments, Regeln der Bundesstaaten, mit Programm-, Prüf- und Monitoring-Support. Anfragen."
+  },
+  "/markets/canada": {
+    "title": "Pharma-Compliance in Kanada: Health Canada & PAAB | Eunomia",
+    "description": "Pharma-Compliance in Kanada: Werberegeln von Health Canada, PAAB-Prüfung, IMC-Kodex, Vorgaben der Provinzen und Transparenz bei HCP-Zahlungen. Leitfaden lesen."
+  },
+  "/markets/india": {
+    "title": "Pharma-Compliance in Indien: UCPMP 2024 | Eunomia",
+    "description": "Pharma-Compliance in Indien: UCPMP 2024, Arzneimittelwerbung, HCP-Interaktionen, Arzneimittelaufsicht der Bundesstaaten, jährliche Ausgabenberichte. Infos hier."
+  }
+}

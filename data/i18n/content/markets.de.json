@@ -617,5 +617,269 @@
     "answer": "Diese Seite nennt keinen in den Niederlanden ansässigen Berater. Sprechen Sie unser Team im Vereinigten Königreich an, um die erforderlichen Aktivitäten, die Expertise und die Umsetzungsmodalitäten zu vereinbaren. Jeder lokale Spezialist, jede niederländischsprachige Prüfung und jede förmliche Rolle wird im Rahmen des Mandats bestätigt."
    }
   ]
+ },
+ {
+  "country": "Vereinigte Staaten",
+  "metaTitle": "Pharma-Compliance-Unterstützung in den USA | Eunomia",
+  "metaDescription": "Pharma-Compliance in den USA: FDA-Werberegeln, HCP-Kooperationen, Open Payments und Regeln der Bundesstaaten – Unterstützung bei Programm, Prüfung, Monitoring.",
+  "title": "Pharma-Compliance-Unterstützung in den USA",
+  "intro": "Eunomia unterstützt Pharma- und Biotech-Teams bei der Planung ihrer Compliance-Abläufe in den USA und verbindet bundesrechtliche und einzelstaatliche Anforderungen mit Workflows für Prüfung, Zusammenarbeit mit Angehörigen der Gesundheitsberufe, Monitoring und Berichterstattung.",
+  "approach": {
+   "audience": "Für internationale Pharma-Teams, die kommerzielle Aktivitäten in den USA vorbereiten, für junge Biotech-Unternehmen, die Compliance-Prozesse aufbauen, und für Compliance-Verantwortliche, die mehrere Bundesstaaten, Produkte und Dritte koordinieren.",
+   "challenge": "Die US-Anforderungen umfassen Bundesrecht, FDA-Vorschriften, Programmintegrität, Transparenzberichterstattung, Selbstverpflichtungen der Branche und das Recht der Bundesstaaten. Eine landesweite SOP kann bundesstaatsspezifische Anforderungen an Berichterstattung, Marketing-Kodizes oder die Interaktion mit Angehörigen der Gesundheitsberufe übersehen.",
+   "delivery": "Wir können geplante Aktivitäten den anwendbaren Anforderungen zuordnen, bundesstaatsspezifische Fragen für die rechtliche Prüfung identifizieren und vereinbarte Kontrollen in SOPs, Freigabewege und Monitoring überführen. Die Unterstützung kann die Koordination der Prüfung von Werbematerialien, Workflows für die Zusammenarbeit mit Angehörigen der Gesundheitsberufe und für Zahlungen, Prüfungen der Berichterstattung, Schulungen und Automatisierung umfassen. Eunomia benennt Karen Glade als Global Compliance Business Partner für die Vereinigten Staaten und Kanada; Umfang und Unterstützung durch Spezialisten sind vor Beginn des Mandats zu bestätigen.",
+   "priorities": [
+    "Produkte, Kanäle und Zielgruppen den FDA-Anforderungen an Werbung zuordnen, einschließlich der Belege für Aussagen, der Fair Balance und anwendbarer Einreichungen.",
+    "Auswahl der Angehörigen der Gesundheitsberufe, berechtigten Bedarf, schriftliche Bedingungen, Begründung des Fair Market Value und Nachweise der erbrachten Leistungen dokumentieren.",
+    "Anwendbarkeit von Open Payments, Klassifizierung von Empfängern und Zahlungen, Datenverantwortliche und jährliche Kontrollen bestätigen.",
+    "Ein Register nach Bundesstaaten für anwendbare Anforderungen an Verhalten, Registrierung, Berichterstattung und Offenlegung führen."
+   ]
+  },
+  "rules": [
+   {
+    "title": "FDA: Werbung für verschreibungspflichtige Arzneimittel",
+    "body": "Nach den FDA-Vorschriften muss Werbung wahrheitsgemäß und nicht irreführend sein, und Risikoinformationen müssen in einem ausgewogenen Verhältnis (Fair Balance) zu den Nutzenaussagen stehen. Aussagen müssen mit der zugelassenen Kennzeichnung (Labeling) übereinstimmen und durch geeignete Evidenz belegt sein. Prüfung, Referenzkontrollen, Versionskontrolle und anwendbare Einreichungen sollten fest in den Workflow eingebaut werden."
+   },
+   {
+    "title": "Gesundheitsbezogene Werbeaussagen gegenüber Verbrauchern",
+    "body": "Nach den Leitlinien der FTC müssen gesundheitsbezogene Werbeaussagen wahrheitsgemäß und nicht irreführend sein und vor ihrer Verbreitung hinreichend belegt werden. Prüfen Sie den Gesamteindruck (Net Impression) einer Kampagne, einschließlich digitaler Inhalte, Testimonials und impliziter Aussagen, und bewahren Sie die Belege auf."
+   },
+   {
+    "title": "Vereinbarungen mit Angehörigen der Gesundheitsberufe nach Bundesrecht",
+    "body": "Das bundesrechtliche Anti-Kickback Statute verbietet es, wissentlich und vorsätzlich eine Vergütung anzubieten, zu zahlen, zu fordern oder anzunehmen, um Zuweisungen im Zusammenhang mit Produkten oder Leistungen herbeizuführen oder zu belohnen, die von einem Gesundheitsprogramm des Bundes vergütet werden können. Vereinbarungen sind anhand der konkreten Umstände zu beurteilen; schriftliche Bedingungen, berechtigter Bedarf, angemessene Vergütung und Nachweise der erbrachten Leistungen sind nützliche Kontrollen. Holen Sie Rechtsberatung ein, wo dies erforderlich ist."
+   },
+   {
+    "title": "Open Payments",
+    "body": "Anwendbare Hersteller (Applicable Manufacturers) und Einkaufsgemeinschaften (Group Purchasing Organizations) melden über CMS Open Payments bestimmte Zahlungen an erfasste Empfänger (Covered Recipients) sowie bestimmte Eigentumsbeteiligungen von Ärzten. Die Anwendbarkeit richtet sich nach den gesetzlichen Definitionen. Empfängervalidierung, Abgleich, Korrektur, Bestätigung (Attestation) und Aufzeichnungen sollten in den jährlichen Prozess eingebaut werden; die CMS-Schwellenwerte ändern sich jedes Jahr."
+   },
+   {
+    "title": "Branchenkodizes und Anforderungen der Bundesstaaten",
+    "body": "Der PhRMA Code ist eine Selbstverpflichtung der Branche für Unternehmen, die ihn übernehmen, und kein Bundesgesetz. Bundesstaaten können zusätzliche Pflichten zu Verhalten, Registrierung, Schulung, Audits oder Offenlegung vorsehen. Massachusetts zum Beispiel verpflichtet erfasste Hersteller, sich zu registrieren, seinen Marketing-Kodex einzuhalten, relevante Mitarbeitende zu schulen, jährliche Audits durchzuführen und Berichte einzureichen. Führen Sie eine Bewertung für jeden einzelnen Bundesstaat durch."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FDA: Werbung für verschreibungspflichtige Arzneimittel"
+   },
+   {
+    "label": "FDA: OPDP-FAQs"
+   },
+   {
+    "label": "FTC: Health Products Compliance Guidance"
+   },
+   {
+    "label": "HHS OIG: General Compliance Program Guidance"
+   },
+   {
+    "label": "CMS: Meldepflichtige Stellen bei Open Payments"
+   },
+   {
+    "label": "CMS: Schwellenwerte bei Open Payments"
+   },
+   {
+    "label": "PhRMA Code on Interactions with HCPs"
+   },
+   {
+    "label": "Massachusetts: Pharmaceutical Code of Conduct"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Genehmigt die FDA jedes Werbematerial in den USA vorab?",
+    "answer": "Nein. Nach Angaben der FDA ist eine Vorabgenehmigung im Allgemeinen nicht erforderlich, vorbehaltlich begrenzter Ausnahmen und spezifischer Anforderungen. Die Unternehmen bleiben für konforme Inhalte und anwendbare Einreichungen verantwortlich."
+   },
+   {
+    "question": "Deckt ein einheitlicher Prozess auf Bundesebene alle Bundesstaaten ab?",
+    "answer": "Nein. Bundesstaaten können zusätzliche Regeln zu Verhalten, Registrierung, Schulung, Audits oder Offenlegung vorschreiben. Bewerten Sie die Bundesstaaten, in denen das Unternehmen, seine Beauftragten und seine Aktivitäten tätig sind."
+   },
+   {
+    "question": "Hat Eunomia ein Büro oder einen förmlichen regulatorischen Vertreter in den USA?",
+    "answer": "Dieser Leitfaden behauptet nicht, dass Eunomia ein Büro in den USA unterhält oder eine förmliche regulatorische Bestellung innehat. Eunomia benennt Karen Glade als Global Compliance Business Partner für die Vereinigten Staaten und Kanada. Kontaktieren Sie uns, um Expertise und Umsetzungsmodalitäten zu bestätigen."
+   }
+  ]
+ },
+ {
+  "country": "Kanada",
+  "metaTitle": "Pharma-Compliance-Unterstützung in Kanada | Eunomia",
+  "metaDescription": "Pharma-Compliance in Kanada: Werberegeln von Health Canada, PAAB-Prüfung, IMC-Verpflichtungen, Vorgaben der Provinzen und Transparenz bei HCP-Zahlungen.",
+  "title": "Pharma-Compliance-Unterstützung in Kanada",
+  "intro": "Eunomia unterstützt Pharma- und Biotech-Teams bei der Planung ihrer Compliance-Abläufe in Kanada und verbindet bundesrechtliche Werbeanforderungen und Selbstverpflichtungen der Branche mit dem Kontext der Provinzen, der Planung zweisprachiger Prüfungen und Kontrollen für die Zusammenarbeit mit Angehörigen der Gesundheitsberufe.",
+  "approach": {
+   "audience": "Für internationale Pharma-Teams, die in den kanadischen Markt eintreten, für junge Biotech-Unternehmen, die kommerzielle Aktivitäten vorbereiten, und für Compliance-Verantwortliche, die Bundesregeln, die Gesundheitssysteme der Provinzen sowie englisch- und französischsprachige Materialien koordinieren.",
+   "challenge": "In Kanada treffen die bundesrechtliche Regulierung der Werbung für Gesundheitsprodukte, Selbstverpflichtungen aus Branchenkodizes, Vorschriften der Provinzen und Territorien, berufsrechtliche Standards und Richtlinien von Einrichtungen zusammen. Publikumswerbung für verschreibungspflichtige Arzneimittel ist stark eingeschränkt; in Quebec gelten eigene Anforderungen an die französische Sprache.",
+   "delivery": "Wir können eine Prüfung der Marktreife abgrenzen, Aktivitäten den Bundesregeln und anwendbaren Kodex-Verpflichtungen zuordnen und Fragen zu Provinzen, zur französischen Sprache oder zu Spezialthemen identifizieren, die eine lokale Prüfung erfordern. Mögliche Ergebnisse sind eine Zuständigkeitsmatrix, ein Workflow für Werbematerialien, Kontrollen für die Zusammenarbeit mit Angehörigen der Gesundheitsberufe und für Zahlungen, Offenlegungsprüfungen, ein Monitoringplan und eine Maßnahmenliste. Eunomia benennt Karen Glade als Global Compliance Business Partner für die Vereinigten Staaten und Kanada; Umfang und Unterstützung durch Spezialisten sind vor Beginn des Mandats zu bestätigen.",
+   "priorities": [
+    "Produktzulassung, Bedingungen der Marktzulassung, Zielgruppe und Kanal bestätigen, bevor Werbung angepasst wird.",
+    "Prüfen, ob der PAAB Code das Material erfasst und ob eine Preclearance oder eine andere Prüfung greift.",
+    "IMC-Verpflichtungen, Vereinbarungen mit Angehörigen der Gesundheitsberufe, Vergütung, Bewirtung, Sponsoring und Aufzeichnungen bewerten.",
+    "Anforderungen der Provinzen und Territorien, Richtlinien von Einrichtungen und Meldepflichten erfassen; wo relevant, eine französischsprachige Prüfung und eine Prüfung für Quebec einplanen."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Bundesrechtliche Werberegeln",
+    "body": "Der Food and Drugs Act und die zugehörigen Regulations regeln die Werbung für Gesundheitsprodukte. Nach Angaben von Health Canada ist Publikumswerbung für verschreibungspflichtige Arzneimittel im Allgemeinen auf Markenname, Eigenname (Proper Name) oder gebräuchlichen Namen, Preis und Menge des Arzneimittels beschränkt; für bestimmte Krankheiten und Produkte gelten weitere Einschränkungen. Werbung gegenüber Angehörigen der Gesundheitsberufe wird anders behandelt, unterliegt aber weiterhin bundesrechtlichen Anforderungen."
+   },
+   {
+    "title": "Zugelassene Produkte und Aussagen",
+    "body": "Werbung ist im Allgemeinen auf Produkte beschränkt, die in Kanada zum Verkauf zugelassen sind, und muss die Bedingungen der Marktzulassung einhalten. Die Leitlinien von Health Canada unterscheiden Werbung von anderen Aktivitäten, einschließlich wissenschaftlicher oder medizinischer Information. Prüfen Sie Zweck, Zielgruppe, Inhalt und Kontext, bevor Sie digitale Kommunikation, Social-Media-Inhalte, Investorenkommunikation oder Kommunikation zur Krankheitsaufklärung einordnen."
+   },
+   {
+    "title": "PAAB-Preclearance",
+    "body": "Der PAAB Code legt Standards für Werbung in seinem Anwendungsbereich fest, einschließlich einer vollständigen, fairen und ausgewogenen Offenlegung. Die Preclearance ist für Materialien im Anwendungsbereich eine Anforderung des Kodex, sofern keine Ausnahme greift; sie ist keine allgemeine gesetzliche Vorabgenehmigung. Health Canada kann in festgelegten Fällen eine Preclearance verlangen. Bestätigen Sie den anwendbaren Prüfweg, die Sprache und den Prüfstatus."
+   },
+   {
+    "title": "Innovative Medicines Canada Code",
+    "body": "Der IMC-Kodex bildet den Rahmen für die Aktivitäten der Mitgliedsunternehmen bei der Vermarktung verschreibungspflichtiger Arzneimittel. Er ist eine Selbstverpflichtung der Branche und kein Gesetz, das automatisch jedes Unternehmen bindet. Bestätigen Sie die Mitgliedschaft oder eine vertragliche Übernahme und überführen Sie die anwendbaren Anforderungen in Kontrollen für Kooperationen, Sponsoring, Bewirtung, Fortbildung und Prüfung."
+   },
+   {
+    "title": "Transparenz und Unterschiede zwischen den Provinzen",
+    "body": "Kanada hat kein einheitliches bundesweites Register für Zahlungen an Angehörige der Gesundheitsberufe, das mit US Open Payments vergleichbar wäre. IMC veröffentlicht einen freiwilligen Offenlegungsrahmen für teilnehmende Unternehmen. Prüfen Sie die Anforderungen der Provinzen gesondert: Der verabschiedete Health Sector Payment Transparency Act von Ontario sieht vor, dass er zu einem durch Proklamation festgelegten Zeitpunkt in Kraft tritt; prüfen Sie den aktuellen Status, bevor Sie ihn als wirksam behandeln."
+   },
+   {
+    "title": "Sprachanforderungen in Quebec",
+    "body": "Berufsrechtliche Regeln für Gesundheitsberufe, Datenschutzanforderungen und Richtlinien von Einrichtungen unterscheiden sich je nach Provinz und Territorium. Die Charter of the French Language (Charta der französischen Sprache) von Quebec verlangt, dass kommerzielle Werbung auf Französisch erfolgt; wird eine andere Sprache verwendet, muss Französisch im Allgemeinen deutlich überwiegen, vorbehaltlich von Ausnahmen. Planen Sie eine französischsprachige Prüfung ein und bestätigen Sie die Anwendung für jedes Produkt, jeden Kanal und jede Zielgruppe."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Health Canada: Werbeanforderungen"
+   },
+   {
+    "label": "Health Canada: Vermarktung verschreibungspflichtiger Arzneimittel"
+   },
+   {
+    "label": "Health Canada: Leitlinie zu Werbung und anderen Aktivitäten"
+   },
+   {
+    "label": "Health Canada: Preclearance von Werbung"
+   },
+   {
+    "label": "PAAB Code of Advertising Acceptance"
+   },
+   {
+    "label": "IMC: Code of Ethical Practices"
+   },
+   {
+    "label": "IMC: Freiwilliger Offenlegungsrahmen"
+   },
+   {
+    "label": "Ontario: Health Sector Payment Transparency Act"
+   },
+   {
+    "label": "Quebec: Charter of the French Language, Section 58"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Darf in Kanada öffentlich für verschreibungspflichtige Arzneimittel geworben werden?",
+    "answer": "Das Bundesrecht beschränkt Publikumswerbung für verschreibungspflichtige Arzneimittel im Allgemeinen auf Markenname, Eigenname oder gebräuchlichen Namen, Preis und Menge. Zusätzlich gelten krankheits- und produktspezifische Einschränkungen."
+   },
+   {
+    "question": "Ist für jede Werbung eine PAAB-Preclearance erforderlich?",
+    "answer": "Nein. Sie ist eine Anforderung des Kodex für Materialien im Anwendungsbereich des PAAB Code, sofern keine Ausnahme greift. Health Canada kann in festgelegten Fällen eine Preclearance verlangen."
+   },
+   {
+    "question": "Gibt es eine bundesweite Datenbank für Zahlungen an Angehörige der Gesundheitsberufe?",
+    "answer": "Es gibt kein einheitliches bundesweites Register für Zahlungen an Angehörige der Gesundheitsberufe, das mit US Open Payments vergleichbar wäre. IMC hat einen freiwilligen Rahmen; Gesetze der Provinzen und deren Status sollten gesondert bewertet werden. Nach dem Gesetz von Ontario aus dem Jahr 2017 erfolgt das Inkrafttreten durch Proklamation."
+   },
+   {
+    "question": "Hat Eunomia ein Büro oder einen förmlichen regulatorischen Vertreter in Kanada?",
+    "answer": "Dieser Leitfaden behauptet nicht, dass Eunomia ein Büro in Kanada unterhält oder eine förmliche regulatorische Bestellung innehat. Eunomia benennt Karen Glade als Global Compliance Business Partner für die Vereinigten Staaten und Kanada. Kontaktieren Sie uns, um Expertise, französischsprachige Unterstützung und Umsetzungsmodalitäten zu bestätigen."
+   }
+  ]
+ },
+ {
+  "country": "Indien",
+  "metaTitle": "Pharma-Compliance-Unterstützung in Indien | Eunomia",
+  "metaDescription": "Pharma-Compliance in Indien: UCPMP 2024, Arzneimittelwerbung, HCP-Interaktionen, Verfahren der Arzneimittelaufsicht der Bundesstaaten und jährliche Offenlegung.",
+  "title": "Pharma-Compliance-Unterstützung in Indien",
+  "intro": "Eunomia unterstützt Pharma- und Biotech-Teams bei der Planung ihrer Compliance-Abläufe in Indien und verbindet den Uniform Code for Pharmaceutical Marketing Practices (UCPMP) mit dem Werberecht, den Verfahren der Arzneimittelaufsicht auf Ebene der Bundesstaaten sowie praxistauglichen Workflows für die Zusammenarbeit mit Angehörigen der Gesundheitsberufe und für Prüfungen.",
+  "approach": {
+   "audience": "Für internationale Pharma-Teams, die in den indischen Markt eintreten, für junge Biotech-Unternehmen, die kommerzielle Aktivitäten vorbereiten, und für Compliance-Verantwortliche, die Anforderungen auf Ebene von Produkten, Kanälen und Bundesstaaten koordinieren.",
+   "challenge": "In Indien wirken zentralstaatliche Gesetze und nationale Anforderungen an Marketingpraktiken mit der Verwaltung von Herstellung, Verkauf und Vertrieb von Arzneimitteln durch die Bundesstaaten zusammen. Unternehmen müssen zudem detaillierte Kontrollen für Werbeaussagen, Interaktionen mit Angehörigen der Gesundheitsberufe, Muster, Fortbildungsprogramme und die jährliche Offenlegung der Marketingausgaben operativ umsetzen.",
+   "delivery": "Wir können Aktivitäten dem anwendbaren nationalen Rahmen zuordnen, bundesstaatsspezifische Fragen zu Lizenzen oder Durchsetzung für die lokale Rechtsprüfung identifizieren und vereinbarte Anforderungen in SOPs, Freigabewege, Nachweisstandards und Monitoring überführen. Die Unterstützung kann die Koordination der Prüfung von Werbematerialien, Workflows für Angehörige der Gesundheitsberufe und Veranstaltungen, Musterkontrollen, Prüfungen der Berichterstattung, Schulungen und Automatisierung umfassen. Indienspezifische Rechtsberatung, Lizenzierungsarbeiten oder förmliche lokale Bestellungen müssen gesondert mit entsprechend qualifizierten lokalen Fachleuten abgegrenzt werden; dieser Leitfaden behauptet keine Vertretung mit Sitz in Indien.",
+   "priorities": [
+    "Produkte und beabsichtigte Aussagen vor der werblichen Verwendung mit den aktuellen Marktzulassungen abgleichen; Zielgruppe, Kanal und freigebende Rollen festlegen.",
+    "UCPMP-Kontrollen für Kooperationen mit Angehörigen der Gesundheitsberufe, Dritte, CME/CPD, Forschungsleistungen, Muster und Beschwerden umsetzen.",
+    "Veranstaltungs- und Musteraktivitäten mit Belegen, Ausgabenkategorien, Empfängerzahlen, Verantwortlichen und Eskalationswegen dokumentieren.",
+    "Berührungspunkte mit der Arzneimittelaufsicht der Bundesstaaten über die geplante Vertriebs-, Distributions- und Produktionspräsenz hinweg erfassen; etwaigen lokalen Rechts- oder Lizenzierungsbedarf bestätigen."
+   ]
+  },
+  "rules": [
+   {
+    "title": "UCPMP 2024 ist ein verpflichtender nationaler Kodex",
+    "body": "Das Department of Pharmaceuticals bezeichnet den UCPMP 2024 als verpflichtend. Er legt ethische Standards für Pharmawerbung und für die Interaktion der Industrie mit Angehörigen der Gesundheitsberufe fest. Beschwerden werden von Ethics Committees for Pharma Marketing Practices auf Verbandsebene bearbeitet, mit einem Rechtsbehelfsverfahren beim Department of Pharmaceuticals. Der Kodex bildet eine eigenständige Compliance-Ebene neben den gesetzlichen Anforderungen."
+   },
+   {
+    "title": "Werbung muss der Marktzulassung folgen und ihre Aussagen belegen",
+    "body": "Nach dem UCPMP darf ein Arzneimittel nicht vor der Marktzulassung durch die zuständige Behörde beworben werden, und die Werbung muss mit dieser Zulassung übereinstimmen. Aussagen sollten aktuell, ausgewogen, überprüfbar und belegbar sein. Der Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 verbietet gesondert irreführende Arzneimittelwerbung sowie Werbung für bestimmte Krankheiten und Zustände. Prüfen Sie Zielgruppe, Inhalt und Kanal anhand der Produktzulassung und des anwendbaren Rechts."
+   },
+   {
+    "title": "Für Vorteile und Bewirtung von Angehörigen der Gesundheitsberufe gelten strenge Grenzen",
+    "body": "Der UCPMP verbietet Geschenke oder persönliche Vorteile für Angehörige der Gesundheitsberufe und ihre Familienangehörigen sowie geldwerte Vorteile oder Sachleistungen für Personen, die zur Verschreibung oder Abgabe von Arzneimitteln berechtigt sind. Er beschränkt außerdem vom Unternehmen finanzierte Reisen und Bewirtung, mit begrenzten Kodex-Bedingungen für Referenten bei CME/CPD-Programmen; Geldzuwendungen an Angehörige der Gesundheitsberufe oder ihre Familienangehörigen sind verboten. Bauen Sie dokumentierten Zweck, Freigaben, Verträge, Veranstaltungskontrollen und Eskalation in die Workflows für Kooperationen ein."
+   },
+   {
+    "title": "CME, CPD und Veranstaltungsunterstützung erfordern transparente Kontrollen",
+    "body": "Der Kodex verlangt klar definierte, transparente und überprüfbare Leitlinien für das Engagement der Industrie bei CME/CPD und damit verbundenen Veranstaltungen. Er verbietet Veranstaltungen an ausländischen Orten, benennt zulässige Kategorien von Veranstaltern und verpflichtet Unternehmen, Angaben zu Veranstaltungen und Ausgaben auf ihren Websites zu veröffentlichen. Veranstalter müssen die Verfahren zur Auswahl von Teilnehmenden und Referenten, Finanzierungsquellen und Ausgaben offenlegen; der Kodex legt zudem für erfasste Veranstaltungen im Inland ein Verhältnis von Referenten zu Teilnehmenden von 1:10 fest. Bestätigen Sie das genaue Veranstaltungsmodell, den Veranstalter und die anwendbaren Bestimmungen, bevor Sie eine Unterstützung zusagen."
+   },
+   {
+    "title": "Muster erfordern Kontrollen zu Berechtigung, Menge und Wert",
+    "body": "Muster dürfen nur an Personen abgegeben werden, die zur Verschreibung des Produkts berechtigt sind, und zwar zur Bekanntmachung und zum Sammeln von Erfahrungen; sie müssen erfasst und kontrolliert werden. Der UCPMP begrenzt Musterpackungen auf die verordnete Behandlungsdauer für höchstens drei Patienten und auf höchstens 12 Packungen pro Arzneimittel und Angehörigem der Gesundheitsberufe pro Jahr; Packungen müssen als unverkäuflich gekennzeichnet sein und dürfen die kleinste Handelspackung nicht überschreiten. Der Gesamtgeldwert der Muster sollte 2 % des Inlandsumsatzes nicht überschreiten. Die Änderung von 2025 präzisiert die Bewertung von Mustern für die jährliche Berichterstattung."
+   },
+   {
+    "title": "Jährliche Ausgabenberichterstattung und Verwaltung durch die Bundesstaaten",
+    "body": "Nach dem am 1. September 2025 aktualisierten UCPMP-Text reicht der Executive Head (die Unternehmensleitung) innerhalb von zwei Monaten nach Ablauf des Geschäftsjahres eine jährliche Offenlegung der Marketingausgaben ein, und zwar über einen Mitgliedsverband oder, wenn das Unternehmen keinem Verband angehört, über das Portal des Department of Pharmaceuticals. Das vorgeschriebene Formular erfasst Inlandsumsatz, Musterwert und Zahl der empfangenden Angehörigen der Gesundheitsberufe sowie Ausgaben und Zahl der Veranstaltungen für Fortbildungsprogramme. Unabhängig davon regeln nach Angaben der CDSCO in erster Linie die Bundesstaaten Herstellung, Verkauf und Vertrieb von Arzneimitteln, während zentrale Behörden Aufgaben wie die Zulassung neuer Arzneimittel, Standards und die Qualität von Importen wahrnehmen. Erfassen Sie die Präsenz in den Bundesstaaten und die anwendbaren Berührungspunkte bei Lizenzierung und Durchsetzung."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Department of Pharmaceuticals: UCPMP 2024 und Rundschreiben"
+   },
+   {
+    "label": "UCPMP 2024, konsolidierte Fassung, aktualisiert am 1. September 2025"
+   },
+   {
+    "label": "Department of Pharmaceuticals: UCPMP-Portal und Umsetzung"
+   },
+   {
+    "label": "CDSCO: Aufgaben auf zentraler und bundesstaatlicher Ebene"
+   },
+   {
+    "label": "CDSCO: Acts and Rules"
+   },
+   {
+    "label": "India Code: Drugs and Magic Remedies Act, 1954"
+   },
+   {
+    "label": "Press Information Bureau: Umsetzung des UCPMP und Offenlegungen"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Ist der UCPMP 2024 freiwillig oder verpflichtend?",
+    "answer": "Das UCPMP-Portal des Department of Pharmaceuticals bezeichnet den Kodex von 2024 als verpflichtend. Er gilt neben den anwendbaren Gesetzen und wird über die Ethikausschüsse der Pharmaverbände sowie ein Rechtsbehelfsverfahren auf Ebene des Department umgesetzt."
+   },
+   {
+    "question": "Darf ein Unternehmen ein Arzneimittel bewerben, bevor es in Indien zugelassen ist?",
+    "answer": "Nein. Nach dem UCPMP darf die Werbung nicht beginnen, bevor die zuständige Behörde die Marktzulassung erteilt hat, und sie muss mit dieser Zulassung übereinstimmen."
+   },
+   {
+    "question": "Dürfen Pharmaunternehmen Geschenke machen oder Reisen von Angehörigen der Gesundheitsberufe bezahlen?",
+    "answer": "Der UCPMP verbietet Geschenke, persönliche Vorteile und Geldzuwendungen an Angehörige der Gesundheitsberufe und ihre Familienangehörigen und beschränkt Reisen und Bewirtung. Der Kodex enthält begrenzte Bedingungen für Referenten bei CME/CPD-Programmen; jede Vereinbarung muss daher anhand der vollständigen Bestimmung geprüft werden."
+   },
+   {
+    "question": "Welche Transparenzberichterstattung gilt nach dem UCPMP?",
+    "answer": "Der aktualisierte Kodex verlangt eine jährliche Offenlegung der Marketingausgaben. Das vorgeschriebene Formular umfasst Inlandsumsatz, Musterwert und Zahl der empfangenden Angehörigen der Gesundheitsberufe sowie Ausgaben und Zahl der Veranstaltungen für Fortbildungsprogramme. Der Einreichungsweg hängt von der Verbandsmitgliedschaft ab; prüfen Sie das aktuelle Formular des Department und etwaige Fristverlängerungen."
+   },
+   {
+    "question": "Spielen Anforderungen der Bundesstaaten eine Rolle, wenn der UCPMP national gilt?",
+    "answer": "Ja. Der UCPMP und die zentralstaatlichen Gesetze sind Teil des nationalen Rahmens, während nach Angaben der CDSCO in erster Linie die Bundesstaaten Herstellung, Verkauf und Vertrieb von Arzneimitteln regeln. Unternehmen sollten die Berührungspunkte bei Lizenzierung und Durchsetzung in den Bundesstaaten ihrer operativen Präsenz zuordnen."
+   },
+   {
+    "question": "Hat Eunomia ein Büro oder einen namentlich benannten Vertreter in Indien?",
+    "answer": "Dieser Leitfaden behauptet weder ein Büro in Indien noch einen in Indien ansässigen Vertreter, eine juristische Qualifikation oder eine förmliche regulatorische Bestellung. Sprechen Sie Eunomia an, um Umfang, Expertise und Umsetzungsmodalitäten zu vereinbaren; jede lokale Rechtsberatung und jede förmliche Rolle muss gesondert bestätigt werden."
+   }
+  ]
  }
 ]

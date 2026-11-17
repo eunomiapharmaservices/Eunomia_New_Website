@@ -20,6 +20,7 @@ export const priorityServiceDetails: Record<string, ServiceDetails | undefined> 
     planning: "FMV projects typically take one to three months, depending on the number of countries covered. We agree the scope, required inputs and delivery timeline before work begins. Our focus is HCP compensation and engagement frameworks; we do not provide clinical-trial budget or pricing assessments.",
     inputs: "Start with the countries, stakeholder groups and engagement types you need to cover, your existing methodology and rate cards, and any known concerns. Benchmark availability and licensing are confirmed during scoping.",
     links: [
+      { label: "Article: why FMV matters for HCP compensation", href: "/resources/articles/fair-market-value-fmv-in-healthcare-compliance" },
       { label: "Case study: FMV methodology across five countries", href: "/resources/fair-market-value-methodology" },
       { label: "Practical guide: HCP FMV assessment and worksheet", href: "/resources/hcp-fmv-assessment" },
       { label: "Related service: compliance workflow automation", href: "/services/automation-of-compliance-operations" },

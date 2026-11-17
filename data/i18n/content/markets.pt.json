@@ -617,5 +617,269 @@
     "answer": "Esta página não identifica nenhum consultor sediado nos Países Baixos. Contacte a nossa equipa sediada no Reino Unido para acordar as atividades, a especialização e as modalidades de execução necessárias. Qualquer especialista local, revisão em neerlandês ou função formal deve ser confirmado no âmbito do projeto."
    }
   ]
+ },
+ {
+  "country": "Estados Unidos",
+  "metaTitle": "Apoio em conformidade farmacêutica nos EUA | Eunomia",
+  "metaDescription": "Conformidade farmacêutica nos EUA: promoção e FDA, profissionais de saúde, Open Payments e regras estaduais, com apoio em programas, revisão e monitorização.",
+  "title": "Apoio em conformidade farmacêutica nos Estados Unidos",
+  "intro": "A Eunomia ajuda equipas farmacêuticas e de biotecnologia a planear as operações de conformidade nos Estados Unidos, ligando os requisitos federais e estaduais aos circuitos de revisão, colaboração, monitorização e comunicação.",
+  "approach": {
+   "audience": "Para equipas farmacêuticas internacionais que preparam atividades comerciais nos EUA, empresas de biotecnologia emergentes que constroem processos de conformidade e responsáveis de conformidade que coordenam vários estados, produtos e terceiros.",
+   "challenge": "Os requisitos norte-americanos abrangem a legislação federal, as regras da FDA, a integridade dos programas, a comunicação de transparência, os compromissos do setor e as leis estaduais. Um SOP nacional pode não contemplar requisitos estaduais específicos em matéria de comunicação, de códigos de marketing ou de interações com profissionais de saúde.",
+   "delivery": "Podemos mapear as atividades previstas face aos requisitos aplicáveis, identificar questões estaduais específicas para revisão jurídica e traduzir os controlos acordados em SOP, circuitos de aprovação e monitorização. O apoio pode incluir a coordenação da revisão promocional, circuitos de colaboração com profissionais de saúde e de pagamentos, verificações da comunicação, formação e automatização. A Eunomia identifica Karen Glade como a sua Global Compliance Business Partner para os Estados Unidos e o Canadá; confirme o âmbito e o apoio especializado antes do início do projeto.",
+   "priorities": [
+    "Mapear produtos, canais e públicos face aos requisitos promocionais da FDA, à fundamentação das alegações, ao equilíbrio entre riscos e benefícios (fair balance) e às submissões aplicáveis.",
+    "Documentar a seleção dos profissionais de saúde, a necessidade legítima, os termos escritos, a fundamentação do justo valor de mercado e a evidência dos serviços prestados.",
+    "Confirmar a aplicabilidade do Open Payments, as classificações de destinatários e de pagamentos, os responsáveis pelos dados e os controlos anuais.",
+    "Manter um levantamento, estado a estado, dos requisitos aplicáveis em matéria de conduta, registo, comunicação e divulgação."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Promoção de medicamentos sujeitos a receita médica: FDA",
+    "body": "As regras da FDA exigem que a publicidade seja verdadeira e não enganosa, com a informação sobre os riscos apresentada de forma equilibrada face às alegações de benefício. As alegações devem ser coerentes com a rotulagem aprovada e sustentadas por evidência adequada. Integre no circuito a revisão, a verificação das referências, o controlo de versões e as submissões aplicáveis."
+   },
+   {
+    "title": "Alegações de saúde dirigidas ao consumidor",
+    "body": "As orientações da FTC exigem que as alegações publicitárias relacionadas com a saúde sejam verdadeiras, não enganosas e devidamente fundamentadas antes da sua difusão. Avalie a impressão global transmitida pela campanha, incluindo conteúdos digitais, testemunhos e alegações implícitas, e conserve a evidência de suporte."
+   },
+   {
+    "title": "Acordos federais com profissionais de saúde",
+    "body": "O Anti-Kickback Statute federal proíbe oferecer, pagar, solicitar ou receber, de forma consciente e deliberada, qualquer remuneração destinada a induzir ou recompensar referenciações que envolvam bens ou serviços pagáveis por um programa federal de saúde. Avalie cada acordo em função dos factos concretos; termos escritos, necessidade legítima, remuneração adequada e evidência dos serviços prestados são controlos úteis. Obtenha aconselhamento jurídico quando necessário."
+   },
+   {
+    "title": "Open Payments",
+    "body": "Os fabricantes abrangidos (applicable manufacturers) e as organizações de compras agrupadas comunicam, através do CMS Open Payments, determinados pagamentos a destinatários abrangidos (covered recipients) e certas participações de médicos no capital. A aplicabilidade depende das definições legais. Integre no processo anual a validação dos destinatários, a reconciliação, as correções, a certificação (attestation) e a conservação de registos; os limiares do CMS mudam todos os anos."
+   },
+   {
+    "title": "Códigos do setor e requisitos estaduais",
+    "body": "O PhRMA Code é um compromisso do setor para as empresas que o adotam, e não uma lei federal. Os estados podem acrescentar obrigações de conduta, registo, formação, auditoria ou divulgação. O Massachusetts, por exemplo, exige que os fabricantes abrangidos se registem, cumpram o seu código de marketing, formem o pessoal relevante, realizem auditorias anuais e apresentem relatórios. Mantenha uma avaliação estado a estado."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FDA: publicidade a medicamentos sujeitos a receita médica"
+   },
+   {
+    "label": "FDA: perguntas frequentes do OPDP"
+   },
+   {
+    "label": "FTC: Health Products Compliance Guidance"
+   },
+   {
+    "label": "HHS OIG: General Compliance Program Guidance"
+   },
+   {
+    "label": "CMS: entidades obrigadas a comunicar no Open Payments"
+   },
+   {
+    "label": "CMS: limiares do Open Payments"
+   },
+   {
+    "label": "PhRMA Code on Interactions with HCPs"
+   },
+   {
+    "label": "Massachusetts: Pharmaceutical Code of Conduct"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "A FDA aprova previamente todos os materiais promocionais nos EUA?",
+    "answer": "Não. A FDA indica que, em geral, não é exigida aprovação prévia, sem prejuízo de exceções limitadas e de requisitos específicos. As empresas continuam a ser responsáveis pela conformidade dos conteúdos e pelas submissões aplicáveis."
+   },
+   {
+    "question": "Um único processo federal abrange todos os estados?",
+    "answer": "Não. Os estados podem impor regras adicionais de conduta, registo, formação, auditoria ou divulgação. Avalie os estados onde a empresa, os seus agentes e as suas atividades operam."
+   },
+   {
+    "question": "A Eunomia tem um escritório nos EUA ou um representante regulamentar formal?",
+    "answer": "Este guia não afirma a existência de um escritório nos EUA nem de uma designação regulamentar formal. A Eunomia identifica Karen Glade como a sua Global Compliance Business Partner para os Estados Unidos e o Canadá. Contacte-nos para confirmar a especialização e as modalidades de execução."
+   }
+  ]
+ },
+ {
+  "country": "Canadá",
+  "metaTitle": "Apoio em conformidade farmacêutica no Canadá | Eunomia",
+  "metaDescription": "Conformidade farmacêutica no Canadá: publicidade e Health Canada, revisão da PAAB, compromissos da IMC, requisitos provinciais e transparência de pagamentos.",
+  "title": "Apoio em conformidade farmacêutica no Canadá",
+  "intro": "A Eunomia ajuda equipas farmacêuticas e de biotecnologia a planear as operações de conformidade no Canadá, ligando os requisitos federais de publicidade e os compromissos do setor ao contexto provincial, ao planeamento da revisão bilingue e aos controlos das colaborações com profissionais de saúde.",
+  "approach": {
+   "audience": "Para equipas farmacêuticas internacionais que entram no Canadá, empresas de biotecnologia emergentes que preparam atividades comerciais e responsáveis de conformidade que coordenam regras federais, sistemas de saúde provinciais e materiais em inglês e em francês.",
+   "challenge": "O Canadá combina a regulação federal da publicidade a produtos de saúde com compromissos decorrentes de códigos do setor, regras provinciais e territoriais, normas profissionais e políticas institucionais. A publicidade ao público de medicamentos sujeitos a receita médica está fortemente restringida; o Quebeque tem requisitos próprios em matéria de língua francesa.",
+   "delivery": "Podemos definir o âmbito de uma revisão de preparação para o mercado, mapear as atividades face às regras federais e aos compromissos de código aplicáveis e identificar questões provinciais, de língua francesa ou especializadas que exijam revisão local. Os resultados podem incluir uma matriz de responsabilidades, um circuito promocional, controlos das colaborações e dos pagamentos a profissionais de saúde, verificações da divulgação, um plano de monitorização e uma lista de ações. A Eunomia identifica Karen Glade como a sua Global Compliance Business Partner para os Estados Unidos e o Canadá; confirme o âmbito e o apoio especializado antes do início do projeto.",
+   "priorities": [
+    "Confirmar a autorização do produto, os termos da autorização de introdução no mercado, o público e o canal antes de adaptar a promoção.",
+    "Verificar se o Código da PAAB abrange o material e se se aplica a revisão prévia (preclearance) ou outra revisão.",
+    "Avaliar os compromissos do Código da IMC, os acordos com profissionais de saúde, a remuneração, as refeições, os patrocínios e os registos.",
+    "Mapear os requisitos provinciais e territoriais, as políticas das instituições e as obrigações de comunicação; planear a revisão em francês e para o Quebeque, quando relevante."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Regras federais de publicidade",
+    "body": "O Food and Drugs Act e os Food and Drug Regulations regem a publicidade a produtos de saúde. O Health Canada indica que a publicidade ao público de medicamentos sujeitos a receita médica está, em geral, limitada à marca, à denominação própria ou comum, ao preço e à quantidade do medicamento; aplicam-se restrições adicionais a determinadas doenças e produtos. A publicidade dirigida a profissionais de saúde tem um tratamento diferente, mas continua sujeita aos requisitos federais."
+   },
+   {
+    "title": "Produtos autorizados e alegações",
+    "body": "Em geral, a promoção limita-se a produtos autorizados para venda no Canadá e deve respeitar os termos da autorização de introdução no mercado. As orientações do Health Canada distinguem a publicidade de outras atividades, incluindo a informação científica ou médica. Avalie a finalidade, o público, o conteúdo e o contexto antes de classificar comunicações digitais, em redes sociais, dirigidas a investidores ou de sensibilização para a doença."
+   },
+   {
+    "title": "Revisão prévia da PAAB",
+    "body": "O Código da PAAB estabelece normas para a publicidade abrangida pelo seu âmbito, incluindo uma divulgação completa, justa e equilibrada. A revisão prévia (preclearance) é um requisito do Código para os materiais abrangidos, salvo isenção; não constitui uma pré-aprovação legal universal. O Health Canada pode exigir a revisão prévia em circunstâncias definidas. Confirme o circuito aplicável, a língua e o estado da revisão."
+   },
+   {
+    "title": "Código da Innovative Medicines Canada",
+    "body": "O Código da IMC orienta as atividades das empresas membros na comercialização de medicamentos sujeitos a receita médica. Trata-se de um compromisso do setor, e não de legislação que vincule automaticamente todas as empresas. Confirme a filiação ou a adoção contratual e traduza os requisitos aplicáveis em controlos de colaborações, patrocínios, refeições, formação e revisão."
+   },
+   {
+    "title": "Transparência e variação provincial",
+    "body": "O Canadá não tem um registo federal único de pagamentos a profissionais de saúde equivalente ao Open Payments dos EUA. A IMC publica um enquadramento de divulgação voluntária para as empresas participantes. Verifique separadamente os requisitos provinciais: o Health Sector Payment Transparency Act do Ontário, já promulgado, prevê a sua entrada em vigor numa data a fixar por proclamação; verifique o seu estado atual antes de o tratar como estando em vigor."
+   },
+   {
+    "title": "Requisitos linguísticos do Quebeque",
+    "body": "As regras aplicáveis aos profissionais de saúde, os requisitos de privacidade e as políticas das instituições variam consoante a província e o território. A Charter of the French Language (Carta da Língua Francesa) do Quebeque exige que a publicidade comercial seja feita em francês; quando for utilizada outra língua, o francês deve, em geral, ser nitidamente predominante, sem prejuízo de exceções. Planeie a revisão em francês e confirme a aplicação a cada produto, canal e público."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Health Canada: requisitos de publicidade"
+   },
+   {
+    "label": "Health Canada: promoção de medicamentos sujeitos a receita médica"
+   },
+   {
+    "label": "Health Canada: orientações sobre publicidade e outras atividades"
+   },
+   {
+    "label": "Health Canada: revisão prévia da publicidade"
+   },
+   {
+    "label": "PAAB Code of Advertising Acceptance"
+   },
+   {
+    "label": "IMC: Code of Ethical Practices"
+   },
+   {
+    "label": "IMC: enquadramento de divulgação voluntária"
+   },
+   {
+    "label": "Ontário: Health Sector Payment Transparency Act"
+   },
+   {
+    "label": "Quebeque: Charter of the French Language, artigo 58.º"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Os medicamentos sujeitos a receita médica podem ser publicitados ao público no Canadá?",
+    "answer": "A legislação federal limita, em geral, a publicidade ao público de medicamentos sujeitos a receita médica à marca, à denominação própria ou comum, ao preço e à quantidade. Aplicam-se também restrições específicas a determinadas doenças e produtos."
+   },
+   {
+    "question": "A revisão prévia da PAAB é obrigatória para todas as ações promocionais?",
+    "answer": "Não. É um requisito do Código para os materiais abrangidos pelo âmbito do Código da PAAB, salvo isenção. O Health Canada pode exigir a revisão prévia em casos definidos."
+   },
+   {
+    "question": "Existe uma base de dados federal única para os pagamentos a profissionais de saúde?",
+    "answer": "Não existe um registo federal único de pagamentos a profissionais de saúde equivalente ao Open Payments dos EUA. A IMC tem um enquadramento voluntário; as leis provinciais e o respetivo estado devem ser avaliados separadamente. A lei do Ontário de 2017 prevê que a entrada em vigor ocorra por proclamação."
+   },
+   {
+    "question": "A Eunomia tem um escritório no Canadá ou um representante regulamentar formal?",
+    "answer": "Este guia não afirma a existência de um escritório no Canadá nem de uma designação regulamentar formal. A Eunomia identifica Karen Glade como a sua Global Compliance Business Partner para os Estados Unidos e o Canadá. Contacte-nos para confirmar a especialização, o apoio em língua francesa e as modalidades de execução."
+   }
+  ]
+ },
+ {
+  "country": "Índia",
+  "metaTitle": "Apoio em conformidade farmacêutica na Índia | Eunomia",
+  "metaDescription": "Conformidade farmacêutica na Índia: UCPMP 2024, promoção, interações com profissionais de saúde, controlo estadual e divulgação anual de despesas.",
+  "title": "Apoio em conformidade farmacêutica na Índia",
+  "intro": "A Eunomia ajuda equipas farmacêuticas e de biotecnologia a planear as operações de conformidade na Índia, ligando o Uniform Code for Pharmaceutical Marketing Practices (UCPMP) à legislação sobre publicidade, aos processos estaduais de controlo de medicamentos e a circuitos práticos de colaboração com profissionais de saúde e de revisão.",
+  "approach": {
+   "audience": "Para equipas farmacêuticas internacionais que entram na Índia, empresas de biotecnologia emergentes que preparam atividades comerciais e responsáveis de conformidade que coordenam requisitos relativos a produtos, canais e estados.",
+   "challenge": "A Índia combina leis centrais e requisitos nacionais de práticas de marketing com a administração estadual do fabrico, da venda e da distribuição de medicamentos. As empresas têm também de pôr em prática controlos pormenorizados para as alegações promocionais, as interações com profissionais de saúde, as amostras, os programas de formação e a divulgação anual das despesas de marketing.",
+   "delivery": "Podemos mapear as atividades face ao enquadramento nacional aplicável, identificar questões estaduais de licenciamento ou fiscalização para revisão jurídica local e traduzir os requisitos acordados em SOP, circuitos de aprovação, padrões de evidência e monitorização. O apoio pode incluir a coordenação da revisão de materiais promocionais, circuitos de colaboração com profissionais de saúde e de eventos, controlos de amostras, verificações da comunicação, formação e automatização. O aconselhamento jurídico específico para a Índia, o trabalho de licenciamento ou designações locais formais têm de ser objeto de um âmbito separado, com profissionais locais devidamente qualificados; este guia não afirma a existência de representação sediada na Índia.",
+   "priorities": [
+    "Associar os produtos e as alegações previstas às autorizações de introdução no mercado em vigor antes da utilização promocional; identificar o público, o canal e as funções de aprovação.",
+    "Implementar os controlos do UCPMP para colaborações com profissionais de saúde, terceiros, CME/CPD, serviços de investigação, amostras e reclamações.",
+    "Registar a atividade de eventos e de amostras com evidência de suporte, categorias de despesa, número de destinatários, responsáveis e circuitos de escalonamento.",
+    "Mapear os pontos de contacto com o controlo estadual de medicamentos em toda a área prevista de vendas, distribuição e fabrico; confirmar eventuais necessidades jurídicas ou de licenciamento locais."
+   ]
+  },
+  "rules": [
+   {
+    "title": "O UCPMP 2024 é um código nacional obrigatório",
+    "body": "O Department of Pharmaceuticals descreve o UCPMP 2024 como obrigatório. O Código estabelece normas éticas para a promoção farmacêutica e para as interações do setor com profissionais de saúde. As reclamações são tratadas pelos Ethics Committees for Pharma Marketing Practices ao nível das associações, com um mecanismo de recurso junto do Department of Pharmaceuticals. O Código constitui um nível de conformidade distinto, a par dos requisitos legais."
+   },
+   {
+    "title": "A promoção deve respeitar a autorização de introdução no mercado e fundamentar as alegações",
+    "body": "O UCPMP determina que um medicamento não pode ser promovido antes da autorização de introdução no mercado pela autoridade competente e que a promoção deve manter-se coerente com essa autorização. As alegações devem ser atuais, equilibradas, verificáveis e passíveis de fundamentação. Separadamente, o Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 proíbe a publicidade enganosa a medicamentos e a publicidade relativa a determinadas doenças e condições. Avalie o público-alvo, o conteúdo e o canal face à autorização do produto e à legislação aplicável."
+   },
+   {
+    "title": "Os benefícios e a hospitalidade para profissionais de saúde têm limites estritos",
+    "body": "O UCPMP proíbe brindes ou benefícios pessoais para profissionais de saúde e os seus familiares, bem como vantagens pecuniárias ou benefícios em espécie a pessoas habilitadas a prescrever ou fornecer medicamentos. Restringe igualmente as viagens e a hospitalidade financiadas pelas empresas, com condições limitadas previstas no Código para oradores em programas de CME/CPD; são proibidas as subvenções monetárias a profissionais de saúde ou aos seus familiares. Integre nos circuitos de colaboração a finalidade documentada, as aprovações, os contratos, os controlos de eventos e o escalonamento."
+   },
+   {
+    "title": "CME, CPD e apoio a eventos exigem controlos transparentes",
+    "body": "O Código exige diretrizes bem definidas, transparentes e verificáveis para a participação do setor em CME/CPD e eventos conexos. Proíbe eventos em locais no estrangeiro, identifica as categorias de organizadores elegíveis e exige que as empresas publiquem nos seus sítios Web os pormenores dos eventos e das despesas. Os organizadores devem divulgar os procedimentos de seleção dos participantes e dos oradores, as fontes de financiamento e as despesas; o Código fixa ainda uma proporção de 1:10 entre oradores e participantes para os eventos abrangidos realizados no país. Confirme o modelo exato do evento, o organizador e as disposições aplicáveis antes de assumir qualquer apoio."
+   },
+   {
+    "title": "As amostras exigem controlos de elegibilidade, quantidade e valor",
+    "body": "As amostras só podem ser fornecidas a pessoas habilitadas a prescrever o produto, para fins de conhecimento e experiência, e devem ser registadas e controladas. O UCPMP limita as embalagens de amostra ao tratamento prescrito para, no máximo, três doentes e a, no máximo, 12 embalagens por medicamento e por profissional de saúde em cada ano; as embalagens devem ostentar a indicação de que não se destinam a venda e não podem exceder a mais pequena embalagem comercializada. O valor monetário total das amostras não deve exceder 2% das vendas internas. A alteração de 2025 clarifica a valorização das amostras para efeitos da comunicação anual."
+   },
+   {
+    "title": "Comunicação anual de despesas e administração estadual",
+    "body": "Nos termos do texto do UCPMP atualizado em 1 de setembro de 2025, o responsável executivo máximo apresenta uma divulgação anual das despesas de marketing no prazo de dois meses após o final do exercício financeiro, através de uma associação de que a empresa seja membro ou do portal do Department of Pharmaceuticals, caso a empresa não seja membro de uma associação. O formulário prescrito abrange as vendas internas, o valor das amostras e o número de profissionais de saúde destinatários, bem como as despesas com programas de formação e o número de eventos. Separadamente, o CDSCO indica que são sobretudo os estados que regulam o fabrico, a venda e a distribuição de medicamentos, enquanto as autoridades centrais asseguram funções que incluem a aprovação de novos medicamentos, as normas e a qualidade das importações. Mapeie a presença estadual e os pontos de contacto aplicáveis em matéria de licenciamento ou fiscalização."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Department of Pharmaceuticals: UCPMP 2024 e circulares de orientação"
+   },
+   {
+    "label": "Texto consolidado do UCPMP 2024, atualizado em 1 de setembro de 2025"
+   },
+   {
+    "label": "Department of Pharmaceuticals: portal e implementação do UCPMP"
+   },
+   {
+    "label": "CDSCO: funções reguladoras centrais e estaduais"
+   },
+   {
+    "label": "CDSCO: leis e regulamentos (Acts and Rules)"
+   },
+   {
+    "label": "India Code: Drugs and Magic Remedies Act, 1954"
+   },
+   {
+    "label": "Press Information Bureau: implementação do UCPMP e divulgações"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "O UCPMP 2024 é voluntário ou obrigatório?",
+    "answer": "O portal do UCPMP do Department of Pharmaceuticals descreve o Código de 2024 como obrigatório. Funciona a par das leis aplicáveis e é implementado através dos comités de ética das associações farmacêuticas e de um mecanismo de recurso ao nível do Department."
+   },
+   {
+    "question": "Uma empresa pode promover um medicamento antes da sua aprovação na Índia?",
+    "answer": "Não. O UCPMP determina que a promoção não pode começar antes de a autoridade competente conceder a autorização de introdução no mercado e que deve manter-se coerente com essa autorização."
+   },
+   {
+    "question": "As empresas farmacêuticas podem oferecer brindes ou pagar viagens a profissionais de saúde?",
+    "answer": "O UCPMP proíbe brindes, benefícios pessoais e subvenções monetárias a profissionais de saúde e aos seus familiares, e restringe as viagens e a hospitalidade. O Código prevê condições limitadas para oradores em programas de CME/CPD, pelo que cada acordo tem de ser avaliado face à disposição completa."
+   },
+   {
+    "question": "Que obrigações de transparência do UCPMP se aplicam?",
+    "answer": "O Código atualizado exige uma divulgação anual das despesas de marketing. O formulário prescrito inclui as vendas internas, o valor das amostras e o número de profissionais de saúde destinatários, bem como as despesas e o número de eventos dos programas de formação. O circuito de apresentação depende da filiação numa associação; consulte o formulário em vigor do Department e eventuais prorrogações de prazo."
+   },
+   {
+    "question": "Os requisitos estaduais são relevantes se o UCPMP é nacional?",
+    "answer": "Sim. O UCPMP e as leis centrais fazem parte do enquadramento nacional, enquanto o CDSCO indica que são sobretudo os estados que regulam o fabrico, a venda e a distribuição de medicamentos. As empresas devem mapear os pontos de contacto estaduais em matéria de licenciamento e fiscalização face à sua presença operacional."
+   },
+   {
+    "question": "A Eunomia tem um escritório na Índia ou um representante designado sediado na Índia?",
+    "answer": "Este guia não afirma a existência de um escritório na Índia, de um representante sediado na Índia, de qualificação jurídica nem de uma designação regulamentar formal. Contacte a Eunomia para acordar o âmbito, a especialização e as modalidades de execução necessários; qualquer aconselhamento jurídico local ou função formal tem de ser confirmado separadamente."
+   }
+  ]
  }
 ]

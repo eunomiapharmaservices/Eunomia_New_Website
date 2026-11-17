@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Conseil en conformité pharmaceutique en France | Eunomia",
+    "description": "Conseil en conformité pharmaceutique pour la France et l’UE depuis le Royaume-Uni : programmes, automatisation, représentation locale. Contactez nos experts."
+  },
+  "/contact": {
+    "title": "Contactez nos experts en conformité pharma | Eunomia",
+    "description": "Parlez-nous de votre entreprise, de vos marchés en France ou en Europe et de votre question de conformité. Sans engagement ni pression. Écrivez-nous."
+  },
+  "/privacy": {
+    "title": "Confidentialité et cookies | Eunomia",
+    "description": "Comment Eunomia Pharma Services collecte, utilise et protège les données personnelles transmises via ce site, et quels cookies il utilise. En savoir plus."
+  },
+  "/team": {
+    "title": "Notre équipe conformité pharmaceutique | Eunomia",
+    "description": "Découvrez les experts Eunomia en conformité pharmaceutique : partenaires conformité et spécialistes des opérations pour la France et l’Europe. Rencontrez-les."
+  },
+  "/resources": {
+    "title": "Ressources en conformité pharmaceutique | Eunomia",
+    "description": "Guides, études de cas et modèles de conformité pharma pour la France et l’UE : juste valeur marchande, transparence, formation, audits, RGPD. Consultez-les."
+  },
+  "/services": {
+    "title": "Services de conformité pharma en France | Eunomia",
+    "description": "Quatre services de conformité pharma pour la France et l’Europe : programmes, automatisation, représentation locale et opérations externalisées. Découvrez-les."
+  },
+  "/services/governance-assurance": {
+    "title": "Conseil en conformité commerciale pharma en France | Eunomia",
+    "description": "Conseil en conformité commerciale pharma pour la France et l’UE : code EFPIA, risques, politiques, formation et contrôle. Hors BPx. Parlez à notre équipe."
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Automatisation de la conformité pharma en France | Eunomia",
+    "description": "Automatisation de la conformité pharma et gouvernance de l’IA en France : risques, pistes d’audit, validations, divulgation EFPIA, contrôle humain. Échangeons."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Représentant légal local pharma : France et UE | Eunomia",
+    "description": "Représentant légal local et conformité pharma en Europe : DMOS (Ordonnance 2017-49) en France, codes nationaux, transparence. Contactez-nous."
+  },
+  "/services/shared-services": {
+    "title": "Conformité pharma externalisée en France | Eunomia",
+    "description": "Opérations de conformité pharma externalisées en France et en Europe : relations avec les PS, juste valeur marchande, transparence. Parlons-en."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Relecture promotionnelle pharma : France et UE | Eunomia",
+    "description": "Relecture externalisée des supports promotionnels pharma et appui à la validation en France et en Europe, par des relecteurs spécialisés. Confiez-les-nous."
+  },
+  "/markets/ireland": {
+    "title": "Conformité pharmaceutique en Irlande | Eunomia",
+    "description": "Conformité pharmaceutique en Irlande : règles publicitaires de la HPRA, code de l’IPHA, relations avec les professionnels de santé, transparence. Voir le guide."
+  },
+  "/markets/sweden": {
+    "title": "Conformité pharmaceutique en Suède | Eunomia",
+    "description": "Conformité pharmaceutique en Suède : règles éthiques de Lif (LER), information sur les médicaments, collaboration avec les PS et transparence. Lisez le guide."
+  },
+  "/markets/germany": {
+    "title": "Conformité pharmaceutique en Allemagne | Eunomia",
+    "description": "Conformité pharmaceutique en Allemagne : codes FSA, Heilmittelwerbegesetz (HWG), anticorruption en santé (§§ 299a–299b StGB), transparence. Découvrez le guide."
+  },
+  "/markets/france": {
+    "title": "Conformité pharmaceutique en France | Eunomia",
+    "description": "Conformité pharmaceutique en France : loi anti-cadeaux, transparence Loi Bertrand, visas ANSM, Sapin II, Pharmacien Responsable et LEEM. Parlez à nos experts."
+  },
+  "/markets/portugal": {
+    "title": "Conformité pharmaceutique au Portugal | Eunomia",
+    "description": "Conformité pharmaceutique au Portugal : déclarations de transparence auprès d’INFARMED, publicité des médicaments, code de l’APIFARMA. Consultez notre guide."
+  },
+  "/markets/spain": {
+    "title": "Conformité pharmaceutique en Espagne | Eunomia",
+    "description": "Conformité pharmaceutique en Espagne : publicité des médicaments, incitations aux professionnels de santé, code Farmaindustria, transparence. Explorez le guide."
+  },
+  "/markets/italy": {
+    "title": "Conformité pharmaceutique en Italie | Eunomia",
+    "description": "Conformité pharmaceutique en Italie : servizio scientifico, publicité et congrès notifiés à l’AIFA, code Farmindustria, Sunshine Act et D.Lgs. 231/2001. À lire."
+  },
+  "/markets/netherlands": {
+    "title": "Conformité pharmaceutique aux Pays-Bas | Eunomia",
+    "description": "Conformité pharmaceutique aux Pays-Bas : avantages (Geneesmiddelenwet), code CGR, Transparantieregister Zorg et contrôle de la publicité. Voir le guide."
+  },
+  "/markets/united-states": {
+    "title": "Conformité pharmaceutique aux États-Unis | Eunomia",
+    "description": "Conformité pharmaceutique aux États-Unis : promotion encadrée par la FDA, relations avec les PS, Open Payments et règles des États. Lisez la fiche pays."
+  },
+  "/markets/canada": {
+    "title": "Conformité pharmaceutique au Canada | Eunomia",
+    "description": "Conformité pharmaceutique au Canada : publicité encadrée par Santé Canada, revue du CCPP, code de MNC, règles provinciales, transparence. Découvrez notre guide."
+  },
+  "/markets/india": {
+    "title": "Conformité pharmaceutique en Inde | Eunomia",
+    "description": "Conformité pharmaceutique en Inde : UCPMP 2024, promotion des médicaments, relations avec les professionnels de santé, déclarations annuelles. Voir la fiche."
+  }
+}

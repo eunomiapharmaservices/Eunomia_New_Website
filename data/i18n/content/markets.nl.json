@@ -617,5 +617,269 @@
     "answer": "Deze pagina vermeldt geen consultant die in Nederland is gevestigd. Neem contact op met ons team in het Verenigd Koninkrijk om af te stemmen welke activiteiten, expertise en uitvoeringsafspraken nodig zijn. Elke lokale specialist, beoordeling in het Nederlands of formele rol wordt als onderdeel van de opdracht bevestigd."
    }
   ]
+ },
+ {
+  "country": "Verenigde Staten",
+  "metaTitle": "Farmaceutische complianceondersteuning in de VS | Eunomia",
+  "metaDescription": "Farmaceutische compliance in de VS: FDA-promotie, zorgprofessionals, Open Payments en regels per staat, met steun bij programma, beoordeling en monitoring.",
+  "title": "Farmaceutische complianceondersteuning in de Verenigde Staten",
+  "intro": "Eunomia helpt farmaceutische en biotechteams bij het plannen van complianceactiviteiten in de Verenigde Staten. Wij verbinden federale vereisten en vereisten op staatsniveau met workflows voor beoordeling, samenwerking, monitoring en rapportage.",
+  "approach": {
+   "audience": "Voor internationale farmateams die commerciële activiteiten in de VS voorbereiden, startende biotechbedrijven die complianceprocessen opzetten en complianceverantwoordelijken die meerdere staten, producten en derden coördineren.",
+   "challenge": "De Amerikaanse vereisten omvatten federale wetgeving, FDA-regels, de integriteit van zorgprogramma’s, transparantierapportage, verbintenissen van de sector en wetgeving van de afzonderlijke staten. Een nationale SOP kan staatsspecifieke vereisten voor rapportage, marketingcodes of interacties met zorgprofessionals over het hoofd zien.",
+   "delivery": "Wij kunnen geplande activiteiten koppelen aan de toepasselijke vereisten, staatsspecifieke vragen voor juridische toetsing signaleren en overeengekomen beheersmaatregelen vertalen naar SOP’s, goedkeuringsroutes en monitoring. De ondersteuning kan bestaan uit coördinatie van de beoordeling van promotiemateriaal, workflows voor samenwerking met en betalingen aan zorgprofessionals, rapportagecontroles, training en automatisering. Eunomia noemt Karen Glade als haar Global Compliance Business Partner voor de Verenigde Staten en Canada; bevestig de reikwijdte en de specialistische ondersteuning vóór de start van de opdracht.",
+   "priorities": [
+    "Koppel producten, kanalen en doelgroepen aan de promotievereisten van de FDA, de onderbouwing van claims, fair balance en toepasselijke indieningen.",
+    "Documenteer de selectie van zorgprofessionals, de legitieme behoefte, schriftelijke voorwaarden, de onderbouwing van een marktconforme vergoeding (fair market value) en het bewijs van geleverde diensten.",
+    "Bevestig of Open Payments van toepassing is, de classificatie van ontvangers en betalingen, de gegevenseigenaren en de jaarlijkse beheersmaatregelen.",
+    "Houd per staat een register bij van toepasselijke vereisten voor gedrag, registratie, rapportage en openbaarmaking."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Promotie van receptplichtige geneesmiddelen: de FDA",
+    "body": "Volgens de FDA-regels moet reclame waarheidsgetrouw en niet-misleidend zijn, met risico-informatie die in evenwicht is met de claims over de voordelen (fair balance). Claims moeten in overeenstemming zijn met de goedgekeurde productinformatie (labeling) en worden onderbouwd met passend bewijs. Neem beoordeling, controle van referenties, versiebeheer en toepasselijke indieningen op in de workflow."
+   },
+   {
+    "title": "Gezondheidsclaims richting consumenten",
+    "body": "De richtlijnen van de FTC vereisen dat gezondheidsgerelateerde reclameclaims waarheidsgetrouw en niet-misleidend zijn en vóór verspreiding afdoende zijn onderbouwd. Beoordeel de totaalindruk (net impression) van een campagne, inclusief digitale content, testimonials en impliciete claims, en bewaar het onderbouwende bewijs."
+   },
+   {
+    "title": "Federale regels voor samenwerking met zorgprofessionals",
+    "body": "De federale Anti-Kickback Statute verbiedt het bewust en opzettelijk aanbieden, betalen, vragen of ontvangen van een beloning om verwijzingen uit te lokken of te belonen in verband met goederen of diensten die door een federaal zorgprogramma worden vergoed. Beoordeel afspraken op basis van de feiten; schriftelijke voorwaarden, een legitieme behoefte, een passende vergoeding en bewijs van geleverde diensten zijn nuttige beheersmaatregelen. Win waar nodig juridisch advies in."
+   },
+   {
+    "title": "Open Payments",
+    "body": "Applicable manufacturers en group purchasing organisations rapporteren via CMS Open Payments gespecificeerde betalingen aan covered recipients en bepaalde eigendomsbelangen van artsen. Of dit van toepassing is, hangt af van de wettelijke definities. Neem validatie van ontvangers, afstemming, correctie, attestatie en archivering op in het jaarlijkse proces; de drempels van CMS veranderen elk jaar."
+   },
+   {
+    "title": "Branchecodes en vereisten per staat",
+    "body": "De PhRMA Code is een verbintenis van de sector voor bedrijven die deze onderschrijven, geen federale wet. Staten kunnen aanvullende verplichtingen opleggen op het gebied van gedrag, registratie, training, audits of openbaarmaking. Massachusetts verplicht bijvoorbeeld fabrikanten die onder de regels vallen om zich te registreren, de marketingcode van de staat te volgen, relevant personeel te trainen, jaarlijkse audits uit te voeren en rapporten in te dienen. Houd een beoordeling per staat bij."
+   }
+  ],
+  "sources": [
+   {
+    "label": "FDA: reclame voor receptplichtige geneesmiddelen"
+   },
+   {
+    "label": "FDA: veelgestelde vragen over OPDP"
+   },
+   {
+    "label": "FTC: Health Products Compliance Guidance"
+   },
+   {
+    "label": "HHS OIG: General Compliance Program Guidance"
+   },
+   {
+    "label": "CMS: rapporterende entiteiten voor Open Payments"
+   },
+   {
+    "label": "CMS: drempels voor Open Payments"
+   },
+   {
+    "label": "PhRMA Code on Interactions with HCPs"
+   },
+   {
+    "label": "Massachusetts: Pharmaceutical Code of Conduct"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Keurt de FDA al het Amerikaanse promotiemateriaal vooraf goed?",
+    "answer": "Nee. Volgens de FDA is voorafgaande goedkeuring over het algemeen niet vereist, behoudens beperkte uitzonderingen en specifieke vereisten. Bedrijven blijven verantwoordelijk voor conforme inhoud en toepasselijke indieningen."
+   },
+   {
+    "question": "Dekt één federaal proces alle staten?",
+    "answer": "Nee. Staten kunnen aanvullende regels opleggen voor gedrag, registratie, training, audits of openbaarmaking. Beoordeel de staten waarin het bedrijf, zijn tussenpersonen en zijn activiteiten actief zijn."
+   },
+   {
+    "question": "Heeft Eunomia een kantoor of een formele regelgevende vertegenwoordiger in de VS?",
+    "answer": "Deze gids beweert niet dat er een Amerikaans kantoor of een formele regelgevende aanstelling is. Eunomia noemt Karen Glade als haar Global Compliance Business Partner voor de Verenigde Staten en Canada. Neem contact met ons op om de expertise en uitvoeringsafspraken te bevestigen."
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "metaTitle": "Farmaceutische complianceondersteuning in Canada | Eunomia",
+  "metaDescription": "Farmacompliance in Canada: reclameregels van Health Canada, PAAB-toetsing, IMC-verbintenissen, provinciale eisen en betalingstransparantie voor zorgverleners.",
+  "title": "Farmaceutische complianceondersteuning in Canada",
+  "intro": "Eunomia helpt farmaceutische en biotechteams bij het plannen van complianceactiviteiten in Canada. Wij verbinden federale reclamevereisten en verbintenissen van de sector met de provinciale context, de planning van tweetalige beoordeling en beheersmaatregelen voor samenwerking met zorgprofessionals.",
+  "approach": {
+   "audience": "Voor internationale farmateams die Canada betreden, startende biotechbedrijven die commerciële activiteiten voorbereiden en complianceverantwoordelijken die federale regels, provinciale zorgstelsels en Engels- en Franstalige materialen coördineren.",
+   "challenge": "Canada combineert federale regulering van reclame voor gezondheidsproducten met verbintenissen uit branchecodes, provinciale en territoriale regels, beroepsnormen en instellingsbeleid. Reclame voor receptplichtige geneesmiddelen richting het publiek is sterk beperkt; Quebec kent eigen vereisten voor de Franse taal.",
+   "delivery": "Wij kunnen een marktgereedheidsbeoordeling afbakenen, activiteiten koppelen aan federale regels en toepasselijke codeverplichtingen en provinciale, Franstalige of specialistische vragen signaleren die een lokale beoordeling vereisen. Resultaten kunnen een verantwoordelijkhedenmatrix, een promotieworkflow, beheersmaatregelen voor samenwerking met en betalingen aan zorgprofessionals, controles op openbaarmaking, een monitoringplan en een actielijst omvatten. Eunomia noemt Karen Glade als haar Global Compliance Business Partner voor de Verenigde Staten en Canada; bevestig de reikwijdte en de specialistische ondersteuning vóór de start van de opdracht.",
+   "priorities": [
+    "Bevestig de productautorisatie, de voorwaarden van de markttoelating, de doelgroep en het kanaal voordat u promotie aanpast.",
+    "Controleer of het materiaal onder de PAAB Code valt en of preclearance of een andere beoordeling van toepassing is.",
+    "Beoordeel IMC-verbintenissen, overeenkomsten met zorgprofessionals, vergoedingen, maaltijden, sponsoring en archivering.",
+    "Breng provinciale en territoriale vereisten, instellingsbeleid en rapportageverplichtingen in kaart; plan waar relevant een Franstalige beoordeling en een beoordeling voor Quebec."
+   ]
+  },
+  "rules": [
+   {
+    "title": "Federale reclameregels",
+    "body": "De Food and Drugs Act en de bijbehorende Regulations regelen reclame voor gezondheidsproducten. Volgens Health Canada is publieksreclame voor receptplichtige geneesmiddelen over het algemeen beperkt tot de merknaam, de officiële of gangbare naam (proper or common name), de prijs en de hoeveelheid van het geneesmiddel; voor bepaalde ziekten en producten gelden verdere beperkingen. Reclame richting zorgprofessionals wordt anders behandeld, maar blijft onderworpen aan federale vereisten."
+   },
+   {
+    "title": "Geautoriseerde producten en claims",
+    "body": "Promotie is over het algemeen beperkt tot producten die in Canada voor verkoop zijn geautoriseerd en moet de voorwaarden van de markttoelating respecteren. De richtlijnen van Health Canada onderscheiden reclame van andere activiteiten, waaronder wetenschappelijke of medische informatie. Beoordeel doel, doelgroep, inhoud en context voordat u digitale communicatie, socialemediacommunicatie, communicatie richting beleggers of ziektebewustzijnscommunicatie classificeert."
+   },
+   {
+    "title": "PAAB-preclearance",
+    "body": "De PAAB Code stelt normen voor reclame binnen haar toepassingsgebied, waaronder volledige, eerlijke en evenwichtige informatie (full, fair and balanced disclosure). Preclearance is voor materialen binnen het toepassingsgebied een vereiste van de Code, tenzij een vrijstelling geldt; het is geen algemene wettelijke voorafgaande goedkeuring. Health Canada kan in omschreven gevallen preclearance verplichten. Bevestig de toepasselijke route, de taal en de beoordelingsstatus."
+   },
+   {
+    "title": "De Innovative Medicines Canada Code",
+    "body": "De IMC Code geeft richting aan de activiteiten van aangesloten bedrijven bij het commercialiseren van receptplichtige geneesmiddelen. Het is een verbintenis van de sector en geen wetgeving die automatisch elk bedrijf bindt. Bevestig het lidmaatschap of de contractuele onderschrijving en vertaal de toepasselijke vereisten naar beheersmaatregelen voor samenwerking, sponsoring, maaltijden, educatie en beoordeling."
+   },
+   {
+    "title": "Transparantie en provinciale verschillen",
+    "body": "Canada heeft geen centraal federaal register voor betalingen aan zorgprofessionals dat vergelijkbaar is met Open Payments in de VS. IMC publiceert een vrijwillig openbaarmakingskader voor deelnemende bedrijven. Controleer provinciale vereisten afzonderlijk: de aangenomen Health Sector Payment Transparency Act van Ontario bepaalt dat deze in werking treedt op een bij proclamatie vast te stellen datum; controleer de actuele status voordat u ervan uitgaat dat de wet van kracht is."
+   },
+   {
+    "title": "Taalvereisten in Quebec",
+    "body": "Regels voor zorgprofessionals, privacyvereisten en instellingsbeleid verschillen per provincie en territorium. De Charter of the French Language van Quebec vereist dat commerciële reclame in het Frans is; wordt een andere taal gebruikt, dan moet het Frans over het algemeen duidelijk overheersen (markedly predominant), behoudens uitzonderingen. Plan een Franstalige beoordeling en bevestig de toepassing op elk product, kanaal en publiek."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Health Canada: reclamevereisten"
+   },
+   {
+    "label": "Health Canada: marketing van receptplichtige geneesmiddelen"
+   },
+   {
+    "label": "Health Canada: richtlijnen over reclame en andere activiteiten"
+   },
+   {
+    "label": "Health Canada: preclearance van reclame"
+   },
+   {
+    "label": "PAAB Code of Advertising Acceptance"
+   },
+   {
+    "label": "IMC: Code of Ethical Practices"
+   },
+   {
+    "label": "IMC: vrijwillig openbaarmakingskader"
+   },
+   {
+    "label": "Ontario: Health Sector Payment Transparency Act"
+   },
+   {
+    "label": "Quebec: Charter of the French Language, artikel 58"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Mogen receptplichtige geneesmiddelen in Canada bij het publiek worden geadverteerd?",
+    "answer": "De federale wetgeving beperkt publieksreclame voor receptplichtige geneesmiddelen over het algemeen tot de merknaam, de officiële of gangbare naam, de prijs en de hoeveelheid. Daarnaast gelden beperkingen voor specifieke ziekten en producten."
+   },
+   {
+    "question": "Is PAAB-preclearance voor alle promotie vereist?",
+    "answer": "Nee. Het is een vereiste van de Code voor materialen binnen het toepassingsgebied van de PAAB Code, tenzij een vrijstelling geldt. Health Canada kan in omschreven gevallen preclearance verplichten."
+   },
+   {
+    "question": "Is er één federale database voor betalingen aan zorgprofessionals?",
+    "answer": "Er is geen centraal federaal register voor betalingen aan zorgprofessionals dat vergelijkbaar is met Open Payments in de VS. IMC heeft een vrijwillig kader; provinciale wetgeving en de status daarvan moeten afzonderlijk worden beoordeeld. Volgens de wet van Ontario uit 2017 treedt deze in werking bij proclamatie."
+   },
+   {
+    "question": "Heeft Eunomia een kantoor of een formele regelgevende vertegenwoordiger in Canada?",
+    "answer": "Deze gids beweert niet dat er een Canadees kantoor of een formele regelgevende aanstelling is. Eunomia noemt Karen Glade als haar Global Compliance Business Partner voor de Verenigde Staten en Canada. Neem contact met ons op om de expertise, Franstalige ondersteuning en uitvoeringsafspraken te bevestigen."
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "metaTitle": "Farmaceutische complianceondersteuning in India | Eunomia",
+  "metaDescription": "Farmacompliance in India: UCPMP 2024, promotie, interacties met zorgprofessionals, toezicht per staat en jaarlijkse openbaarmaking van marketinguitgaven.",
+  "title": "Farmaceutische complianceondersteuning in India",
+  "intro": "Eunomia helpt farmaceutische en biotechteams bij het plannen van complianceactiviteiten in India. Wij verbinden de Uniform Code for Pharmaceutical Marketing Practices (UCPMP) met de reclamewetgeving, processen voor geneesmiddelentoezicht op staatsniveau en praktische workflows voor samenwerking met zorgprofessionals en voor beoordeling.",
+  "approach": {
+   "audience": "Voor internationale farmateams die India betreden, startende biotechbedrijven die commerciële activiteiten voorbereiden en complianceverantwoordelijken die vereisten op het niveau van producten, kanalen en staten coördineren.",
+   "challenge": "India combineert centrale wetgeving en nationale vereisten voor marketingpraktijken met uitvoering op staatsniveau van het toezicht op de productie, verkoop en distributie van geneesmiddelen. Bedrijven moeten bovendien gedetailleerde beheersmaatregelen operationeel maken voor promotionele claims, interacties met zorgprofessionals, monsters, educatieprogramma’s en de jaarlijkse openbaarmaking van marketinguitgaven.",
+   "delivery": "Wij kunnen activiteiten koppelen aan het toepasselijke nationale kader, staatsspecifieke vragen over vergunningen of handhaving signaleren voor lokale juridische toetsing en overeengekomen vereisten vertalen naar SOP’s, goedkeuringsroutes, bewijsstandaarden en monitoring. De ondersteuning kan bestaan uit coördinatie van de beoordeling van promotiemateriaal, workflows voor zorgprofessionals en evenementen, beheersmaatregelen voor monsters, rapportagecontroles, training en automatisering. Indiaas juridisch advies, vergunningswerk of formele lokale aanstellingen moeten afzonderlijk worden afgebakend met passend gekwalificeerde lokale professionals; deze gids beweert niet dat er vertegenwoordiging in India is.",
+   "priorities": [
+    "Koppel producten en beoogde claims aan de actuele markttoelatingen vóór promotioneel gebruik; stel de doelgroep, het kanaal en de goedkeurende rollen vast.",
+    "Implementeer UCPMP-beheersmaatregelen voor samenwerking met zorgprofessionals, derden, CME/CPD, onderzoeksdiensten, monsters en klachten.",
+    "Leg evenementen en verstrekte monsters vast met onderbouwend bewijs, uitgavencategorieën, aantallen ontvangers, eigenaren en escalatieroutes.",
+    "Breng de contactpunten met het geneesmiddelentoezicht in kaart in alle staten waar verkoop, distributie en productie gepland zijn; bevestig eventuele lokale juridische of vergunningsbehoeften."
+   ]
+  },
+  "rules": [
+   {
+    "title": "UCPMP 2024 is een verplichte nationale code",
+    "body": "Het Department of Pharmaceuticals beschrijft UCPMP 2024 als verplicht. De code legt ethische normen vast voor farmaceutische promotie en voor interacties van de sector met zorgprofessionals. Klachten worden behandeld door Ethics Committees for Pharma Marketing Practices op het niveau van de brancheverenigingen, met een beroepsmogelijkheid bij het Department of Pharmaceuticals. De Code vormt een afzonderlijke compliancelaag naast de wettelijke vereisten."
+   },
+   {
+    "title": "Promotie moet de markttoelating volgen en claims moeten onderbouwd zijn",
+    "body": "Volgens de UCPMP mag een geneesmiddel niet worden gepromoot voordat de bevoegde autoriteit een markttoelating heeft verleend, en moet promotie in overeenstemming blijven met die toelating. Claims dienen actueel, evenwichtig, verifieerbaar en onderbouwbaar te zijn. De Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 verbiedt daarnaast misleidende geneesmiddelenreclame en reclame voor bepaalde ziekten en aandoeningen. Toets de beoogde doelgroep, de inhoud en het kanaal aan de producttoelating en de toepasselijke wetgeving."
+   },
+   {
+    "title": "Strikte grenzen voor voordelen en gastvrijheid voor zorgprofessionals",
+    "body": "De UCPMP verbiedt geschenken of persoonlijke voordelen voor zorgprofessionals en hun familieleden, evenals geldelijke voordelen of voordelen in natura voor personen die bevoegd zijn geneesmiddelen voor te schrijven of te verstrekken. De code beperkt ook door bedrijven betaalde reizen en gastvrijheid, met beperkte voorwaarden in de Code voor sprekers bij CME/CPD-programma’s; geldelijke subsidies aan zorgprofessionals of hun familieleden zijn verboden. Neem een gedocumenteerd doel, goedkeuringen, overeenkomsten, beheersmaatregelen voor evenementen en escalatie op in de samenwerkingsworkflows."
+   },
+   {
+    "title": "CME, CPD en ondersteuning van evenementen vragen om transparante beheersmaatregelen",
+    "body": "De Code vereist duidelijk omschreven, transparante en verifieerbare richtlijnen voor de betrokkenheid van de sector bij CME/CPD en aanverwante evenementen. Zij verbiedt evenementen op buitenlandse locaties, benoemt categorieën van in aanmerking komende organisatoren en verplicht bedrijven om gegevens over evenementen en uitgaven op hun websites te publiceren. Organisatoren moeten de selectieprocedures voor deelnemers en sprekers, de financieringsbronnen en de uitgaven openbaar maken; de Code stelt ook een verhouding van 1:10 tussen sprekers en deelnemers vast voor evenementen in India die eronder vallen. Bevestig het precieze evenementmodel, de organisator en de toepasselijke bepalingen voordat u ondersteuning toezegt."
+   },
+   {
+    "title": "Monsters vereisen controles op bevoegdheid, hoeveelheid en waarde",
+    "body": "Monsters mogen alleen worden verstrekt aan personen die bevoegd zijn het product voor te schrijven, met het oog op bekendheid en ervaring, en moeten worden geregistreerd en gecontroleerd. De UCPMP beperkt monsterverpakkingen tot de voorgeschreven kuur voor ten hoogste drie patiënten en tot ten hoogste 12 verpakkingen per geneesmiddel per zorgprofessional per jaar; verpakkingen moeten worden gemarkeerd als niet bestemd voor verkoop en mogen niet groter zijn dan de kleinste handelsverpakking. De totale geldwaarde van monsters dient niet hoger te zijn dan 2% van de binnenlandse omzet. De wijziging van 2025 verduidelijkt de waardering van monsters voor de jaarlijkse rapportage."
+   },
+   {
+    "title": "Jaarlijkse rapportage van uitgaven en uitvoering door de staten",
+    "body": "Op grond van de UCPMP-tekst zoals bijgewerkt op 1 september 2025 dient de hoogste leidinggevende (executive head) binnen twee maanden na afloop van het boekjaar een jaarlijkse openbaarmaking van marketinguitgaven in, via een brancheorganisatie waarvan het bedrijf lid is of, als het bedrijf geen lid is van een brancheorganisatie, via het portaal van het Department of Pharmaceuticals. Het voorgeschreven formulier omvat de binnenlandse omzet, de waarde van monsters en het aantal ontvangende zorgprofessionals, en de uitgaven aan en het aantal evenementen van educatieprogramma’s. Daarnaast stelt CDSCO dat de staten in de eerste plaats de productie, verkoop en distributie van geneesmiddelen reguleren, terwijl centrale autoriteiten functies uitoefenen zoals de goedkeuring van nieuwe geneesmiddelen, normen en de kwaliteit van invoer. Breng de staten waarin u actief bent en de toepasselijke contactpunten voor vergunningen of handhaving in kaart."
+   }
+  ],
+  "sources": [
+   {
+    "label": "Department of Pharmaceuticals: UCPMP 2024 en beleidscirculaires"
+   },
+   {
+    "label": "Geconsolideerde tekst van UCPMP 2024, bijgewerkt op 1 september 2025"
+   },
+   {
+    "label": "Department of Pharmaceuticals: UCPMP-portaal en implementatie"
+   },
+   {
+    "label": "CDSCO: regelgevende functies van de centrale overheid en de staten"
+   },
+   {
+    "label": "CDSCO: Acts and Rules"
+   },
+   {
+    "label": "India Code: Drugs and Magic Remedies Act, 1954"
+   },
+   {
+    "label": "Press Information Bureau: implementatie van de UCPMP en openbaarmakingen"
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is UCPMP 2024 vrijwillig of verplicht?",
+    "answer": "Het UCPMP-portaal van het Department of Pharmaceuticals beschrijft de Code van 2024 als verplicht. Zij geldt naast de toepasselijke wetgeving en wordt uitgevoerd via de ethische commissies van farmaceutische brancheverenigingen en een beroepsmechanisme op het niveau van het Department."
+   },
+   {
+    "question": "Mag een bedrijf een geneesmiddel promoten voordat het in India is goedgekeurd?",
+    "answer": "Nee. Volgens de UCPMP mag promotie niet beginnen voordat de bevoegde autoriteit een markttoelating heeft verleend, en moet zij in overeenstemming blijven met die toelating."
+   },
+   {
+    "question": "Mogen farmaceutische bedrijven geschenken geven of reizen van zorgprofessionals betalen?",
+    "answer": "De UCPMP verbiedt geschenken, persoonlijke voordelen en geldelijke subsidies aan zorgprofessionals en hun familieleden, en beperkt reizen en gastvrijheid. De Code bevat beperkte voorwaarden voor sprekers bij CME/CPD-programma’s, dus elke afspraak moet worden getoetst aan de volledige bepaling."
+   },
+   {
+    "question": "Welke transparantierapportage geldt onder de UCPMP?",
+    "answer": "De bijgewerkte Code vereist een jaarlijkse openbaarmaking van marketinguitgaven. Het voorgeschreven formulier omvat de binnenlandse omzet, de waarde van monsters en het aantal ontvangende zorgprofessionals, en de uitgaven en het aantal evenementen voor educatieprogramma’s. De indieningsroute hangt af van het lidmaatschap van een brancheorganisatie; controleer het actuele formulier van het Department en eventuele verlengingen van de termijn."
+   },
+   {
+    "question": "Zijn vereisten op staatsniveau van belang als de UCPMP nationaal is?",
+    "answer": "Ja. De UCPMP en de centrale wetgeving maken deel uit van het nationale kader, terwijl volgens CDSCO de staten in de eerste plaats de productie, verkoop en distributie van geneesmiddelen reguleren. Bedrijven dienen de contactpunten voor vergunningen en handhaving per staat in kaart te brengen voor alle staten waarin zij actief zijn."
+   },
+   {
+    "question": "Heeft Eunomia een kantoor of een benoemde vertegenwoordiger in India?",
+    "answer": "Deze gids beweert niet dat er een kantoor in India, een in India gevestigde vertegenwoordiger, een juridische kwalificatie of een formele regelgevende aanstelling is. Neem contact op met Eunomia om de vereiste reikwijdte, expertise en uitvoeringsafspraken af te stemmen; eventueel lokaal juridisch advies of een eventuele formele rol moet afzonderlijk worden bevestigd."
+   }
+  ]
  }
 ]

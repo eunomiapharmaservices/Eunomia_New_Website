@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Compliance farmacéutico para España y la UE | Eunomia",
+    "description": "Consultoría de compliance farmacéutico desde el Reino Unido para España y la UE: diseño de programas, automatización y externalización. Hable con nosotros."
+  },
+  "/contact": {
+    "title": "Contacte con nuestro equipo de compliance | Eunomia",
+    "description": "Cuéntenos sobre su empresa, sus mercados en España o en Europa y la cuestión de compliance que tiene entre manos. Sin compromiso ni presión. Escríbanos hoy."
+  },
+  "/privacy": {
+    "title": "Aviso de privacidad y cookies | Eunomia",
+    "description": "Cómo Eunomia Pharma Services recoge, utiliza y protege los datos personales enviados a través de este sitio web y qué cookies utiliza. Consulte nuestro aviso."
+  },
+  "/team": {
+    "title": "Equipo de compliance farmacéutico | Eunomia",
+    "description": "Conozca a los business partners de compliance global y especialistas en operaciones de compliance sanitario que apoyan a empresas en España. Conozca al equipo."
+  },
+  "/resources": {
+    "title": "Recursos de compliance farmacéutico | Eunomia",
+    "description": "Guías, casos prácticos y plantillas de compliance farmacéutico para equipos en España: valor justo de mercado, transparencia, auditorías y RGPD. Explórelos."
+  },
+  "/services": {
+    "title": "Servicios de compliance farmacéutico en España | Eunomia",
+    "description": "Compliance para farmacéuticas y biotecnológicas en España: diseño de programas, automatización, representación legal local y externalización. Contáctenos."
+  },
+  "/services/governance-assurance": {
+    "title": "Consultoría de compliance farmacéutico en España | Eunomia",
+    "description": "Consultoría de compliance comercial para farmacéuticas en España: Código EFPIA, riesgos, políticas, formación y monitorización. Solicite una consulta."
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Automatización del compliance farma en España | Eunomia",
+    "description": "Automatice el compliance farmacéutico en España con gobernanza de IA: riesgos, aprobación de materiales y divulgación EFPIA con supervisión humana. Hablemos."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Representante legal local para farmacéuticas | Eunomia",
+    "description": "Representante legal local y compliance para farmacéuticas de España que entran en otros mercados europeos: DMOS francés, INFARMED y transparencia. Consúltenos."
+  },
+  "/services/shared-services": {
+    "title": "Compliance farmacéutico externalizado en España | Eunomia",
+    "description": "Compliance externalizado para farmacéuticas en España: interacciones con sanitarios, valor justo de mercado e informes de transparencia. Pida información."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Revisión de materiales promocionales farma | Eunomia",
+    "description": "Revisión externalizada de materiales promocionales y apoyo a la aprobación para equipos farmacéuticos en España, con revisores expertos. Solicite una propuesta."
+  },
+  "/markets/ireland": {
+    "title": "Compliance farmacéutico en Irlanda | Eunomia",
+    "description": "Compliance farmacéutico en Irlanda: publicidad según la HPRA, Código IPHA, interacciones con sanitarios y transferencias de valor. Consulte la guía."
+  },
+  "/markets/sweden": {
+    "title": "Compliance farmacéutico en Suecia | Eunomia",
+    "description": "Planifique el compliance farmacéutico en Suecia: normas éticas de Lif (LER), información sobre medicamentos, colaboración y divulgación. Vea cómo ayudamos."
+  },
+  "/markets/germany": {
+    "title": "Compliance farmacéutico en Alemania | Eunomia",
+    "description": "Compliance farmacéutico en Alemania: códigos FSA, ley de publicidad HWG, delitos de corrupción de los §§ 299a–299b StGB y transparencia. Descubra más."
+  },
+  "/markets/france": {
+    "title": "Compliance farmacéutico en Francia | Eunomia",
+    "description": "Compliance farmacéutico en Francia: loi anti-cadeaux, Loi Bertrand, visados ANSM, Sapin II, Pharmacien Responsable y ética del LEEM. Lea el resumen."
+  },
+  "/markets/portugal": {
+    "title": "Compliance farmacéutico en Portugal | Eunomia",
+    "description": "Compliance farmacéutico en Portugal: transparencia ante INFARMED, publicidad de medicamentos, regalos y hospitalidad, y Código APIFARMA. Infórmese."
+  },
+  "/markets/spain": {
+    "title": "Compliance farmacéutico en España: Farmaindustria | Eunomia",
+    "description": "Compliance farmacéutico en España: incentivos a sanitarios, publicidad de medicamentos, hospitalidad, Código de Farmaindustria y transparencia. Hablemos."
+  },
+  "/markets/italy": {
+    "title": "Compliance farmacéutico en Italia | Eunomia",
+    "description": "Compliance farmacéutico en Italia: servizio scientifico, publicidad y congresos ante la AIFA, Código de Farmindustria y Sunshine Act. Consulte los detalles."
+  },
+  "/markets/netherlands": {
+    "title": "Compliance farmacéutico en los Países Bajos | Eunomia",
+    "description": "Compliance farmacéutico en los Países Bajos: incentivos según la Geneesmiddelenwet, Código CGR, Transparantieregister Zorg y publicidad. Descubra cómo."
+  },
+  "/markets/united-states": {
+    "title": "Compliance farmacéutico en Estados Unidos | Eunomia",
+    "description": "Compliance farmacéutico en EE. UU.: promoción ante la FDA, acuerdos con profesionales sanitarios, Open Payments y normas estatales. Revise los requisitos."
+  },
+  "/markets/canada": {
+    "title": "Compliance farmacéutico en Canadá | Eunomia",
+    "description": "Compliance farmacéutico en Canadá: publicidad según Health Canada, revisión PAAB, Código IMC, normas provinciales y transparencia de pagos. Lea la guía."
+  },
+  "/markets/india": {
+    "title": "Compliance farmacéutico en la India | Eunomia",
+    "description": "Compliance farmacéutico en la India: UCPMP 2024, promoción de medicamentos, relación con sanitarios, control estatal y gasto anual en marketing. Sepa más."
+  }
+}

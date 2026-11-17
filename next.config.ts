@@ -1,10 +1,12 @@
 import type { NextConfig } from 'next';
-import { legacyRedirects } from './data/legacy-redirects';
+import { APEX_HOST, LEGACY_TAG_FALLBACK, legacyRedirects } from './data/legacy-redirects';
 
 const nextConfig: NextConfig = {
   // proxy.ts strips trailing slashes itself, so legacy URLs such as /fmv/
   // resolve in one redirect instead of two.
   skipTrailingSlashRedirect: true,
+  // Required by app/global-not-found.tsx: the site has two root layouts.
+  experimental: { globalNotFound: true },
   images: {
     // Small responsive variants avoid downloading a 640px logo on phones.
     imageSizes: [32, 48, 64, 96, 128, 160, 192, 256, 320, 384],
@@ -32,7 +34,10 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
-    return legacyRedirects;
+    // On the bare domain, proxy.ts sends every URL straight to its final www
+    // page in one hop, so these must not fire there first.
+    const missing = [{ type: "host" as const, value: APEX_HOST }];
+    return [...legacyRedirects, LEGACY_TAG_FALLBACK].map((redirect) => ({ ...redirect, missing }));
   },
 };
 

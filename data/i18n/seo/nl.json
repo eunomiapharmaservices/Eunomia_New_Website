@@ -1,0 +1,90 @@
+{
+  "/": {
+    "title": "Farmaceutische compliance voor Nederland en de EU | Eunomia",
+    "description": "Farmacompliance vanuit het VK voor Nederland en de EU: programmaontwerp, automatisering, lokale vertegenwoordiging en uitbesteding. Praat met ons team."
+  },
+  "/contact": {
+    "title": "Contact over farmacompliance in Nederland | Eunomia",
+    "description": "Vertel ons over uw bedrijf, uw markten en uw compliancevraag in Nederland of de EU. Vrijblijvend en zonder druk: wij luisteren en geven onze kijk. Schrijf ons."
+  },
+  "/privacy": {
+    "title": "Privacyverklaring en cookies | Eunomia",
+    "description": "Hoe Eunomia Pharma Services persoonsgegevens van bezoekers, ook uit Nederland, verzamelt, gebruikt en beschermt, en welke cookies de site plaatst. Lees meer."
+  },
+  "/team": {
+    "title": "Ons farma-complianceteam voor Nederland | Eunomia",
+    "description": "Maak kennis met Eunomia's compliance business partners en specialisten in compliance-operaties voor farmabedrijven in Nederland en de EU. Ontmoet ons team."
+  },
+  "/resources": {
+    "title": "Kennisbank farmacompliance: gidsen en inzichten | Eunomia",
+    "description": "Gidsen, casestudy's en templates over farmacompliance in Nederland en de EU: FMV, transparantie, training, audits, AVG en automatisering. Lees meer."
+  },
+  "/services": {
+    "title": "Farmaceutische compliancediensten in Nederland | Eunomia",
+    "description": "Compliance voor farma en biotech in Nederland en Europa: programmaontwerp, automatisering, lokale wettelijke vertegenwoordiging en uitbesteding. Ontdek meer."
+  },
+  "/services/governance-assurance": {
+    "title": "Farmaceutisch complianceadvies in Nederland | Eunomia",
+    "description": "Complianceadvies voor farma in Nederland: commerciële compliance, de EFPIA-code, risicobeoordeling, beleid, training en monitoring. Geen GxP. Plan een gesprek."
+  },
+  "/services/automation-of-compliance-operations": {
+    "title": "Automatisering van farmacompliance in Nederland | Eunomia",
+    "description": "Automatisering en AI-governance voor farmacompliance in Nederland: risicoanalyse, monitoring, audittrails, goedkeuring en EFPIA-openbaarmaking. Vraag advies."
+  },
+  "/services/local-legal-mandates": {
+    "title": "Lokale wettelijke vertegenwoordiger voor farma | Eunomia",
+    "description": "Lokale wettelijke vertegenwoordiging en compliance voor farma uit Nederland bij Europese markttoegang: landencodes, zorgcontacten en transparantie. Bel ons."
+  },
+  "/services/shared-services": {
+    "title": "Uitbestede farmacompliance en shared services | Eunomia",
+    "description": "Uitbestede compliance-operaties voor farma in Nederland en de EU: contacten met zorgprofessionals, FMV-beoordeling en transparantierapportage. Ontdek hoe."
+  },
+  "/services/promotional-materials-review": {
+    "title": "Uitbestede review van promotiemateriaal voor farma | Eunomia",
+    "description": "Uitbestede beoordeling en goedkeuring van farmaceutisch promotiemateriaal voor teams in Nederland en Europa, met specialisten en heldere rollen. Vraag het aan."
+  },
+  "/markets/ireland": {
+    "title": "Farmacompliance in Ierland: HPRA en IPHA-code | Eunomia",
+    "description": "Farmaceutische compliance in Ierland: HPRA-reclameregels, de IPHA Code, contacten met zorgprofessionals en rapportage van waardeoverdrachten. Lees de uitleg."
+  },
+  "/markets/sweden": {
+    "title": "Farmacompliance in Zweden: Lif-regels (LER) | Eunomia",
+    "description": "Farmaceutische compliance in Zweden: de Lif-regels (LER), geneesmiddeleninformatie, samenwerking met zorgprofessionals en transparantie. Lees de gids."
+  },
+  "/markets/germany": {
+    "title": "Farmacompliance in Duitsland: FSA-codes en HWG | Eunomia",
+    "description": "Farmaceutische compliance in Duitsland: FSA-codes, het Heilmittelwerbegesetz (HWG), anticorruptie in de zorg (§§ 299a-299b StGB) en transparantie. Lees verder."
+  },
+  "/markets/france": {
+    "title": "Farmacompliance in Frankrijk: Loi Bertrand en ANSM | Eunomia",
+    "description": "Farmaceutische compliance in Frankrijk: de loi anti-cadeaux, de Loi Bertrand, ANSM-visa, Sapin II en de Pharmacien Responsable. Bekijk de gids."
+  },
+  "/markets/portugal": {
+    "title": "Farmacompliance in Portugal: INFARMED en APIFARMA | Eunomia",
+    "description": "Farmaceutische compliance in Portugal: transparantieverklaringen bij INFARMED, regels voor geneesmiddelenreclame en de APIFARMA-code. Neem contact op."
+  },
+  "/markets/spain": {
+    "title": "Farmacompliance in Spanje: Farmaindustria-code | Eunomia",
+    "description": "Farmaceutische compliance in Spanje: geneesmiddelenreclame, incentives voor zorgprofessionals, de Farmaindustria-code en transparantie. Lees hoe wij helpen."
+  },
+  "/markets/italy": {
+    "title": "Farmacompliance in Italië: AIFA en Sunshine Act | Eunomia",
+    "description": "Farmaceutische compliance in Italië: de servizio scientifico, AIFA-meldingen voor reclame en congressen, de Farmindustria-code en de Sunshine Act. Lees de gids."
+  },
+  "/markets/netherlands": {
+    "title": "Farmacompliance in Nederland: CGR-code en IGJ | Eunomia",
+    "description": "Farmacompliance in Nederland: gunstbetoon (Geneesmiddelenwet), IGJ-toezicht, de CGR-code, het Transparantieregister Zorg en reclametoetsing. Praat met ons."
+  },
+  "/markets/united-states": {
+    "title": "Farmacompliance in de VS: FDA en Open Payments | Eunomia",
+    "description": "Farmaceutische compliance in de VS: FDA-promotieregels, afspraken met zorgprofessionals, Open Payments en regels per staat. Bespreek uw plannen."
+  },
+  "/markets/canada": {
+    "title": "Farmacompliance in Canada: Health Canada en PAAB | Eunomia",
+    "description": "Farmaceutische compliance in Canada: reclameregels van Health Canada, PAAB-toetsing, de IMC-code, provinciale eisen en betalingstransparantie. Bekijk de aanpak."
+  },
+  "/markets/india": {
+    "title": "Farmacompliance in India: UCPMP 2024 | Eunomia",
+    "description": "Farmaceutische compliance in India: de UCPMP 2024, promotie, contacten met zorgprofessionals, processen per staat en jaarlijkse rapportage. Lees meer."
+  }
+}
