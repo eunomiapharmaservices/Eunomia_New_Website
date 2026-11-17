@@ -10,13 +10,13 @@ const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/governance-assurance"
-      heading={t("Pharmaceutical Compliance Consultancy UK")}
+      heading={t("Pharmaceutical Compliance Consultancy UK & Global")}
       accent="orange"
       serviceImage={{ src: "/home-compliance-team.jpeg", alt: t("Compliance specialists discussing programme design and implementation") }}
       serviceTitleFirst
       detailSection={
         <section className="section-pad uk-related" aria-labelledby="uk-specialist-title">
-          <p className="section-kicker">{t("Specialist services in the UK")}</p>
+          <p className="section-kicker">{t("Specialist services in the UK and globally")}</p>
           <h2 id="uk-specialist-title">{t("Training, risk assessment, SOPs, audits and FMV")}</h2>
           <ul>
             {ukServicePages.map((p) => <li key={p.slug}><a href={href(`${UK_SERVICE_BASE}/${p.slug}`)}>{t(p.heading)}</a></li>)}

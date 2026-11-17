@@ -4,7 +4,7 @@ import { withSocial } from "../../../../lib/seo";
 import { ServicePage } from "../../../../components/services/governance-assurance";
 export const metadata: Metadata = withSocial("/services/governance-assurance", {
   alternates: { canonical: "https://www.eunomiapharmaservices.com/services/governance-assurance", languages: languageAlternates("/services/governance-assurance") },
-  title: "Pharmaceutical Compliance Consultancy UK & EU | Eunomia",
-  description: "UK & EU pharma compliance consultancy: commercial compliance, ABPI and EFPIA Codes, risk assessment, policies, training and monitoring. Non-GxP.",
+  title: "Pharmaceutical Compliance Consultancy UK & Global | Eunomia",
+  description: "UK and global pharma compliance consultancy: commercial compliance, ABPI and EFPIA Codes, risk assessment, policies, training and monitoring. Non-GxP.",
 });
 export default function Page() { return <ServicePage />; }
