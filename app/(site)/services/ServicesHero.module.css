@@ -1,4 +1,4 @@
-.hero.hero{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;gap:clamp(32px,4vw,56px);padding-top:64px;padding-bottom:64px}
+.hero.hero{grid-template-columns:minmax(0,1fr) minmax(280px,420px);align-items:center;gap:clamp(32px,4vw,56px);padding-top:64px;padding-bottom:64px}
 .copy{min-width:0}
 .hero .copy h1{font-size:clamp(44px,4.8vw,70px);max-width:830px;text-wrap:balance;line-height:1.02}
 .intro{max-width:760px;margin:28px 0 0;font-size:17px;line-height:1.75;color:#59655b}

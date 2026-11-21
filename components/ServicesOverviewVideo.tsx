@@ -22,17 +22,17 @@ export function ServicesOverviewVideo() {
         <video
           ref={videoRef}
           className={styles.video}
-          width={1280}
-          height={720}
+          width={540}
+          height={840}
           controls
           playsInline
           preload="none"
-          poster="/videos/eunomia-services-overview-landscape-poster.jpg"
+          poster="/videos/eunomia-services-overview-closeup-poster.jpg"
           aria-label="Eunomia healthcare compliance services overview, in English with embedded captions"
           onPlay={() => setPlaying(true)}
         >
-          <source src="/videos/eunomia-services-overview-landscape.mp4" type="video/mp4" />
-          Your browser does not support this video. <a href="/videos/eunomia-services-overview-landscape.mp4">Watch the services overview</a>.
+          <source src="/videos/eunomia-services-overview-closeup.mp4" type="video/mp4" />
+          Your browser does not support this video. <a href="/videos/eunomia-services-overview-closeup.mp4">Watch the services overview</a>.
         </video>
         {!playing && (
           <button className={styles.play} type="button" onClick={playVideo} aria-label="Play Eunomia services overview video">
