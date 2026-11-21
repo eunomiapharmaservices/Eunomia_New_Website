@@ -1,3 +1,4 @@
+import heroStyles from "./ServiceVideoHero.module.css";
 import { FAQSchema } from "./FAQSchema";
 import { ServiceContext, ServiceEvidence, ServiceFrameworksSection } from "./ServicePositioning";
 import { SiteImage } from "./SiteImage";
@@ -23,6 +24,7 @@ type Props = {
   serviceImage?: { src: string; alt: string };
   video?: { src: string; poster: string; captions?: string };
   heroDetail?: ReactNode;
+  heroMedia?: ReactNode;
   detailSection?: ReactNode;
   hideScope?: boolean;
   serviceTitleFirst?: boolean;
@@ -43,6 +45,7 @@ export function ServiceSubpage({
   video,
   serviceImage = { src: "/compliance-collaboration.png", alt: "Compliance specialists reviewing documents together" },
   heroDetail,
+  heroMedia,
   detailSection,
   hideScope = false,
   serviceTitleFirst = false,
@@ -50,12 +53,7 @@ export function ServiceSubpage({
 }: Props) {
   const t = getUi(locale);
   const pageUrl = `https://www.eunomiapharmaservices.com${locale && locale !== "en" ? `/${locale}` : ""}${servicePath}`;
-  return (
-    <main className={`service-subpage ${accent}`} lang={locale && locale !== "en" ? locale : undefined} dir={locale === "ar" ? "rtl" : undefined}>
-      <StructuredData data={{ "@context": "https://schema.org", "@type": "Service", "@id": `${pageUrl}#service`, name: kicker, description: intro, url: pageUrl, provider: { "@id": "https://www.eunomiapharmaservices.com/#organization" } }} />
-      <FAQSchema faqs={faqs} />
-      <SiteHeader locale={locale} />
-      <section className="subservice-hero section-pad">
+  const heroContent = (<>
         <a href={localHref(locale, "/services")} className="back-link">
           <ArrowLeft />
           {t("allServices")}
@@ -79,8 +77,16 @@ export function ServiceSubpage({
         >
           {t("discussService")} <ArrowUpRight />
         </a>
+  </>);
+  return (
+    <main className={`service-subpage ${accent}`} lang={locale && locale !== "en" ? locale : undefined} dir={locale === "ar" ? "rtl" : undefined}>
+      <StructuredData data={{ "@context": "https://schema.org", "@type": "Service", "@id": `${pageUrl}#service`, name: kicker, description: intro, url: pageUrl, provider: { "@id": "https://www.eunomiapharmaservices.com/#organization" } }} />
+      <FAQSchema faqs={faqs} />
+      <SiteHeader locale={locale} />
+      <section className={`subservice-hero section-pad ${heroMedia ? heroStyles.hero : ""}`}>
+        {heroMedia ? <><div className={heroStyles.copy}>{heroContent}</div>{heroMedia}</> : heroContent}
       </section>
-      <section className="service-video section-pad" aria-label={t(video ? "ariaVideo" : "ariaOverview", { kicker })}>
+      {!heroMedia && <section className="service-video section-pad" aria-label={t(video ? "ariaVideo" : "ariaOverview", { kicker })}>
         {video ? (
           <video
             controls
@@ -102,7 +108,7 @@ export function ServiceSubpage({
             style={{ display: "block", width: "100%", maxWidth: 960, height: "auto", margin: "0 auto", borderRadius: 16 }}
           />
         )}
-      </section>
+      </section>}
       <ServiceContext path={servicePath} locale={locale} />
       {heroDetail}
       {!hideScope && (

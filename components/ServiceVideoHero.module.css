@@ -1,0 +1,5 @@
+.hero.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);align-items:center;gap:clamp(32px,4vw,56px);padding-top:64px;padding-bottom:64px}
+.copy{min-width:0}.copy>a:first-child{margin-bottom:24px}.hero .copy h1{font-size:clamp(40px,4.2vw,64px);margin-top:28px;max-width:850px}.hero .copy h2{font-size:clamp(26px,2.8vw,36px)}.copy>p{font-size:17px;line-height:1.7;color:#5d685f;max-width:820px;margin:24px 0 28px}
+.videos{display:grid;grid-template-columns:repeat(2,minmax(0,350px));justify-content:center;gap:36px}.videos figure{justify-self:center}
+@media(max-width:850px){.hero.hero{grid-template-columns:1fr;gap:36px;padding-top:48px;padding-bottom:44px}.hero .copy h1{font-size:clamp(38px,6vw,56px)}}
+@media(max-width:600px){.videos{grid-template-columns:minmax(0,350px)}}
