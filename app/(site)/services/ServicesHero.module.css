@@ -1,0 +1,11 @@
+.hero.hero{grid-template-columns:minmax(0,1fr) minmax(260px,340px);align-items:center;gap:clamp(36px,6vw,88px);padding-top:64px;padding-bottom:64px}
+.copy{min-width:0}
+.hero .copy h1{font-size:clamp(44px,4.8vw,70px);max-width:830px;text-wrap:balance;line-height:1.02}
+.intro{max-width:760px;margin:28px 0 0;font-size:17px;line-height:1.75;color:#59655b}
+.actions{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:30px}
+.actions a{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14px}
+.secondary{color:#17331b;border-bottom:1px solid #4da017;padding:10px 0}
+.index{display:flex;flex-wrap:wrap;gap:12px 28px;padding:28px max(clamp(24px,6vw,96px),calc((100vw - 1440px)/2));background:#fff;border-bottom:1px solid #d8e1d5}
+.index a{font-size:13px;font-weight:700;line-height:1.6;color:#315e20;text-decoration:underline;text-underline-offset:4px}
+.index a:hover{color:#c74f00}
+@media(max-width:850px){.hero.hero{grid-template-columns:1fr;gap:36px;padding-top:48px;padding-bottom:44px}.hero .copy h1{font-size:clamp(40px,7vw,60px);max-width:700px}.intro{font-size:16px}.index{gap:12px 22px}}
