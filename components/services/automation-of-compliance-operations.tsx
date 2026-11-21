@@ -18,9 +18,14 @@ const href = (path: string) => localHref(locale, path);
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/automation-of-compliance-operations"
-      heroMedia={locale === "en" ? <ServiceIntroVideo media="compliance-automation" title="Workflow automation, explained."
-        description="Eunomia Pharma Services introduces SharePoint workflow automation for healthcare compliance operations."
-        seconds={38.743} /> : undefined}
+      heroMedia={locale === "en" ? <div className={videoStyles.videos}>
+        <ServiceIntroVideo media="compliance-automation" title="Workflow automation, explained."
+          description="Eunomia Pharma Services introduces SharePoint workflow automation for healthcare compliance operations."
+          seconds={38.743} />
+        <ServiceIntroVideo media="automation-governance" title="Compliance automation: a closer look."
+          description="Eunomia Pharma Services discusses its approach to compliance automation and accountability."
+          seconds={47.713} />
+      </div> : undefined}
       heading={t("Pharma Automation Compliance Consulting, UK and Global")}
       accent="green"
       serviceImage={{ src: "/eunomia-workflow.png", alt: t("Planning digital compliance workflows and automated processes") }}
@@ -48,15 +53,6 @@ const href = (path: string) => localHref(locale, path);
       ]}
       heroDetail={
         <>
-        {locale === "en" && <section className="section-pad" aria-labelledby="automation-video-title">
-          <p className="section-kicker">COMPLIANCE AUTOMATION</p>
-          <h2 id="automation-video-title">A closer look at our approach</h2>
-          <div className={videoStyles.videos} style={{gridTemplateColumns: "minmax(0,350px)", marginTop: 28}}>
-            <ServiceIntroVideo media="automation-governance" title="Compliance automation: a closer look."
-              description="Eunomia Pharma Services discusses its approach to compliance automation and accountability."
-              seconds={47.713} />
-          </div>
-        </section>}
         <section className="ai-delivery-model section-pad" aria-labelledby="ai-delivery-title">
           <div className="ai-delivery-heading">
             <h2 id="ai-delivery-title">{t("How we deliver pharma compliance automation")}</h2>
