@@ -1,3 +1,6 @@
+import { ServicesOverviewVideo } from "../../../components/ServicesOverviewVideo";
+import { StructuredData } from "../../../components/StructuredData";
+import styles from "./ServicesHero.module.css";
 import { ComplianceDecisionGuide } from "../../../components/ComplianceDecisionGuide";
 import { PageFaqs } from "../../../components/PageFaqs";
 import { servicesFaqs } from "../../../data/page-faqs";
@@ -49,22 +52,39 @@ export default function Services() {
   return (
     <main>
       <SiteHeader />
-      <section className="services-overview section-pad">
-        <div className="services-overview-copy">
+      <StructuredData data={{
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: "Eunomia healthcare compliance services overview",
+        description: "An introduction to Eunomia Pharma Services and its healthcare compliance support for pharmaceutical and biotechnology companies.",
+        thumbnailUrl: "https://www.eunomiapharmaservices.com/videos/eunomia-services-overview-poster.jpg",
+        contentUrl: "https://www.eunomiapharmaservices.com/videos/eunomia-services-overview.mp4",
+        uploadDate: "2026-11-21T11:00:00Z",
+        duration: "PT44.2S",
+        inLanguage: "en",
+      }} />
+      <section className={`services-overview section-pad ${styles.hero}`}>
+        <div className={`services-overview-copy ${styles.copy}`}>
           <p className="breadcrumb">
             <a href="/">Home</a> / Services
           </p>
           <p className="section-kicker">Our services</p>
           <h1>Four services. One connected compliance model.</h1>
-          <p>
+          <p className={styles.intro}>
             Pharma compliance services and healthcare compliance consulting for
             pharmaceutical and biotech companies in the UK and Europe. Each
             service has its own scope, delivery team and guidance. Use one
             independently or connect them as your organisation grows across
             markets.
           </p>
+          <div className={styles.actions}>
+            <a className="primary-button" href="#service-options">Explore our services <ArrowUpRight aria-hidden="true" /></a>
+            <a className={styles.secondary} href="/contact">Talk to our team</a>
+          </div>
         </div>
-        <nav className="page-index" aria-label="Services">
+        <ServicesOverviewVideo />
+      </section>
+        <nav className={styles.index} aria-label="Services">
           {services.map((service) => (
             <a href={service.href} key={service.title}>
               {service.title}
@@ -73,8 +93,7 @@ export default function Services() {
           <a href="/services/promotional-materials-review">Outsourced promotional review and copy approval</a>
           <a href="#approach">How we deliver</a>
         </nav>
-      </section>
-      <section className="service-hub-grid section-pad">
+      <section className="service-hub-grid section-pad" id="service-options">
         {services.map((service) => (
           <a
             href={service.href}
