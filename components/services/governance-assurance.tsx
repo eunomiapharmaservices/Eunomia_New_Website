@@ -1,3 +1,4 @@
+import { ServiceIntroVideo } from "../ServiceIntroVideo";
 import { serviceTranslator } from "../../data/i18n/full-service-copy";
 import { localHref } from "../../lib/i18n";
 import type { Locale } from "../../data/i18n/locales";
@@ -10,6 +11,9 @@ const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/governance-assurance"
+      heroMedia={isEnglish ? <ServiceIntroVideo media="programme-design" title="Programme design, explained."
+        description="Eunomia Pharma Services introduces its approach to designing and implementing practical healthcare compliance programmes."
+        seconds={50.28} /> : undefined}
       heading={t("Pharmaceutical Compliance Consultancy UK & Global")}
       accent="orange"
       serviceImage={{ src: "/home-compliance-team.jpeg", alt: t("Compliance specialists discussing programme design and implementation") }}

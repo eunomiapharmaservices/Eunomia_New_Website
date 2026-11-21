@@ -4,7 +4,12 @@ import { useRef, useState } from "react";
 import { Play } from "lucide-react";
 import styles from "./ServicesOverviewVideo.module.css";
 
-export function ServicesOverviewVideo() {
+type Props = { src?: string; poster?: string; label?: string; title?: string; caption?: string };
+export function ServicesOverviewVideo({
+ src = "/videos/eunomia-services-overview-closeup.mp4", poster = "/videos/eunomia-services-overview-closeup-poster.jpg",
+ label = "Eunomia healthcare compliance services overview, in English with embedded captions",
+ title = "Compliance support, explained.", caption = "44-second introduction · English · Captions included",
+}: Props = {}) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
 
@@ -27,22 +32,22 @@ export function ServicesOverviewVideo() {
           controls
           playsInline
           preload="none"
-          poster="/videos/eunomia-services-overview-closeup-poster.jpg"
-          aria-label="Eunomia healthcare compliance services overview, in English with embedded captions"
+          poster={poster}
+          aria-label={label}
           onPlay={() => setPlaying(true)}
         >
-          <source src="/videos/eunomia-services-overview-closeup.mp4" type="video/mp4" />
-          Your browser does not support this video. <a href="/videos/eunomia-services-overview-closeup.mp4">Watch the services overview</a>.
+          <source src={src} type="video/mp4" />
+          Your browser does not support this video. <a href={src}>Watch the video</a>.
         </video>
         {!playing && (
-          <button className={styles.play} type="button" onClick={playVideo} aria-label="Play Eunomia services overview video">
+          <button className={styles.play} type="button" onClick={playVideo} aria-label={`Play ${title}`}>
             <Play aria-hidden="true" fill="currentColor" />
           </button>
         )}
       </div>
       <figcaption className={styles.caption}>
-        <strong>Compliance support, explained.</strong>
-        <span>44-second introduction · English · Captions included</span>
+        <strong>{title}</strong>
+        <span>{caption}</span>
       </figcaption>
     </figure>
   );
