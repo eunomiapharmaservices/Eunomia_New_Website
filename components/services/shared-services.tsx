@@ -1,3 +1,4 @@
+import { ServiceIntroVideo } from "../ServiceIntroVideo";
 import { promotionalReviewTranslator } from "../../data/i18n/promotional-review-copy";
 import { serviceTranslator } from "../../data/i18n/full-service-copy";
 import { localHref } from "../../lib/i18n";
@@ -11,6 +12,9 @@ const isEnglish = !locale || locale === "en";
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/shared-services"
+      heroMedia={isEnglish ? <ServiceIntroVideo media="shared-services" title="Shared services, explained."
+        description="Eunomia Pharma Services introduces outsourced healthcare compliance support through shared services, GBS and GCC delivery models."
+        seconds={43.84} /> : undefined}
       heading={t("Outsourced Pharma Compliance and Shared Services, UK and Global")}
       kicker={t("Shared Services / GBS / GCC")}
       title={t("Your compliance function, run with you.")}
