@@ -1,3 +1,4 @@
+import { ServiceIntroVideo } from "../ServiceIntroVideo";
 import { homeTranslator } from "../../data/i18n/home-copy";
 import { serviceTranslator } from "../../data/i18n/full-service-copy";
 import { localHref } from "../../lib/i18n";
@@ -46,6 +47,9 @@ const href = (path: string) => localHref(locale, path);
   return (
     <ServiceSubpage locale={locale}
       servicePath="/services/local-legal-mandates"
+      heroMedia={locale === "en" ? <ServiceIntroVideo media="local-legal-mandates" title="Local representation, explained."
+        description="Eunomia Pharma Services introduces local legal mandates and in-market compliance representation for pharmaceutical companies."
+        seconds={45.632} /> : undefined}
       heading={t("Local Legal Representative and Compliance Support for Pharma across Europe")}
       accent="green"
       serviceImage={{ src: "/market-representation.png", alt: t("Local compliance representatives discussing market requirements") }}
