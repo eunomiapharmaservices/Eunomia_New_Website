@@ -13,6 +13,7 @@ const duplicateAiArticle = "ai-in-healthcare-compliance-navigating-opportunities
 
 export const legacyRedirects: LegacyRedirect[] = [
   { source: "/resources/articles/eu-ai-act-governance-article-50-pharma", destination: articlePath("eu-ai-act-governance-article-50-pharma"), permanent: true },
+  { source: "/resources/articles/phase-iii-pharma-compliance-commercialisation-readiness", destination: articlePath("phase-iii-pharma-compliance-commercialisation-readiness"), permanent: true },
   { source: "/about", destination: "/team", permanent: true },
   // Merged into audit-readiness-best-practices (30 Sep 2026).
   { source: "/resources/articles/ensure-audit-readiness-in-pharma-compliance", destination: "/resources/articles/audit-readiness-best-practices", permanent: true },
