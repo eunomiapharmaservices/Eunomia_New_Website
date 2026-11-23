@@ -64,7 +64,9 @@ export const legacyRedirects: LegacyRedirect[] = [
       { source: "/tag/what-is-pharmaceutical-transparency-reporting", destination: "/resources/articles/transparency-reporting-in-pharmaceutical-industry", permanent: true },
       { source: "/tag/what-are-common-pharma-reporting-mistakes", destination: "/resources/articles/top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid", permanent: true },
       { source: "/tag/how-can-pharma-companies-avoid-reporting-penalties", destination: "/resources/articles/top-transparency-reporting-mistakes-pharmaceutical-companies-should-avoid", permanent: true },
-      ...articles.map(({ slug }) => ({ source: `/${slug}`, destination: articlePath(slug), permanent: true as const })),
+      ...articles
+        .map(({ slug }) => ({ source: `/${slug}`, destination: articlePath(slug), permanent: true as const }))
+        .filter(({ source, destination }) => source !== destination),
     ];
 
 // Other old WordPress tag archives have no direct replacement.
