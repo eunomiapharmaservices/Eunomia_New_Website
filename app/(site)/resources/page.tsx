@@ -1,4 +1,4 @@
-import { articlePath } from "../../../lib/article-path";
+import { articlePath, PHASE_III_IMAGE, PHASE_III_SLUG } from "../../../lib/article-path";
 import { ComplianceDecisionGuide } from "../../../components/ComplianceDecisionGuide";
 import { practicalResources } from "../../../data/practical-resources";
 import { PageFaqs } from "../../../components/PageFaqs";
@@ -197,7 +197,7 @@ export default function Resources() {
               >
                 <div className="article-image">
                   <SiteImage
-                    src={articleImage(title)}
+                    src={slug === PHASE_III_SLUG ? PHASE_III_IMAGE : articleImage(title)}
                     fill sizes="(max-width: 650px) 120px, 180px"
                     alt="" aria-hidden="true"
                     loading="lazy" fetchPriority="low"
