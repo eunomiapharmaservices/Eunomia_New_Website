@@ -1,4 +1,4 @@
-import { articlePath } from "../../../../../lib/article-path";
+import { articlePath, PHASE_III_SLUG } from "../../../../../lib/article-path";
 import { articlePracticalResources } from "../../../../../data/article-practical-resources";
 import { editorialEntry, EditorialSummary, EditorialSources } from "../../../../../components/EditorialEnhancement";
 import type { Metadata } from "next";
@@ -163,7 +163,7 @@ export default async function ResourceArticle({
         </header>
         {enhancement && <div className="standalone-resource-body"><EditorialSummary entry={enhancement} /></div>}
         <div
-          className="standalone-resource-body"
+          className={slug === PHASE_III_SLUG ? "standalone-resource-body phase-iii-article-body" : "standalone-resource-body"}
           dangerouslySetInnerHTML={{
             __html: promoteSectionHeadings(localiseArticleLinks(article.content)),
           }}

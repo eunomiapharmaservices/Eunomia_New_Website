@@ -495,6 +495,28 @@ footer{gap:50px}.footer-details{max-width:900px;display:flex;justify-content:fle
 .standalone-resource-body li{margin-bottom:10px}
 .standalone-resource-body blockquote{border-left:4px solid var(--orange);padding-left:24px;margin-left:0;color:#596259}
 
+.phase-iii-article-body > p {
+  margin-block: 0 1em;
+}
+
+.phase-iii-article-body > h2 {
+  margin-block: 1.5em 0.55em;
+}
+
+.phase-iii-article-body > ul {
+  list-style: disc outside;
+  margin-block: 0 1.15em;
+  padding-inline-start: 1.5em;
+}
+
+.phase-iii-article-body > ul > li {
+  margin-block: 0;
+}
+
+.phase-iii-article-body > ul > li + li {
+  margin-block-start: 0.45em;
+}
+
 /* Keep the shared hierarchy authoritative after page-specific legacy rules. */
 .standalone-resource-header h1{
   font-family:var(--display);
