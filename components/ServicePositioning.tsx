@@ -24,7 +24,17 @@ export function ServiceEvidence({ path, locale }: { path: string; locale?: Local
   return <section className={`${styles.section} section-pad`} aria-label={t("ariaEvidence")}>
     <div className={styles.grid}>
       <div><p className="section-kicker">{t("whyKicker")}</p><h2>{t("expertiseTitle")}</h2><p>{entry.difference}</p><a className={styles.link} href={localHref(locale, "/team")}>{t("meetSpecialists")}</a></div>
-      <article className={styles.evidence}><p className="section-kicker">{entry.evidenceLabel}</p><h3>{entry.evidenceTitle}</h3><p>{entry.evidence}</p><a className={styles.link} href={localHref(locale, entry.href)}>{t("readCase")}</a></article>
+      <div className={styles.evidenceStack}>
+        {(!locale || locale === "en") && path === "/services/automation-of-compliance-operations" && (
+          <article className={`${styles.evidence} ${styles.guide}`}>
+            <p className="section-kicker">Practical guide</p>
+            <h3>How to Automate HCP Engagement Approvals in Pharma</h3>
+            <p>See how one workflow can connect HCP requests, fair market value checks, approvals, payments and disclosure records.</p>
+            <a className={styles.link} href="/resources/articles/automate-hcp-engagement-approvals">Read the HCP engagement workflow guide →</a>
+          </article>
+        )}
+        <article className={styles.evidence}><p className="section-kicker">{entry.evidenceLabel}</p><h3>{entry.evidenceTitle}</h3><p>{entry.evidence}</p><a className={styles.link} href={localHref(locale, entry.href)}>{t("readCase")}</a></article>
+      </div>
     </div>
   </section>;
 }
