@@ -16,6 +16,7 @@ export const articleCategories: ArticleCategory[] = [
 
 // Primary category first.
 export const articleCategoryMap: Record<string, string[]> = {
+  "automate-hcp-engagement-approvals": ["ai-digital-compliance"],
   "phase-iii-pharma-compliance-commercialisation-readiness": ["compliance-programmes"],
   "eu-ai-act-governance-article-50-pharma": ["ai-digital-compliance", "regulatory-updates"],
   "pharma-compliance-across-product-lifecycle": ["compliance-programmes", "efpia-code-compliance"],

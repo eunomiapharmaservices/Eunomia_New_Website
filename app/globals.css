@@ -517,6 +517,26 @@ footer{gap:50px}.footer-details{max-width:900px;display:flex;justify-content:fle
   margin-block-start: 0.45em;
 }
 
+.hcp-automation-article > p { margin-block: 0 1em; }
+.hcp-automation-article > h2 { margin-block: 1.5em 0.55em; }
+.hcp-automation-overview {
+  background: var(--site-pale);
+  border-inline-start: 4px solid var(--site-green);
+  padding: clamp(20px, 4vw, 36px);
+  margin-block-end: 2em;
+}
+.hcp-automation-overview > p:first-child { font-size: 14px; margin-block-end: 12px; }
+.hcp-automation-overview > h2 { margin: 0 0 12px; }
+.hcp-automation-table { overflow-x: auto; margin-block: 24px; }
+.hcp-automation-table:focus-visible { outline: 2px solid var(--site-green); outline-offset: 3px; }
+.standalone-resource-body .hcp-automation-table table {
+  display: table;
+  min-width: 620px;
+  margin: 0;
+}
+.hcp-automation-table th { text-align: start; vertical-align: top; }
+.hcp-automation-table td { vertical-align: top; }
+
 /* Keep the shared hierarchy authoritative after page-specific legacy rules. */
 .standalone-resource-header h1{
   font-family:var(--display);

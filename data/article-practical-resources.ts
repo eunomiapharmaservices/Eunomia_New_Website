@@ -22,6 +22,7 @@ const fmv: Resource = {
 
 // Deliberate topic matches; unrelated articles retain their existing checklist.
 export const articlePracticalResources: Record<string, Resource> = {
+  "automate-hcp-engagement-approvals": fmv,
   "what-makes-healthcare-compliance-training-effective": training,
   "compliance-training-beyond-the-code": training,
   "importance-of-bespoke-healthcare-compliance-training-for-pharmaceutical-industry": training,
