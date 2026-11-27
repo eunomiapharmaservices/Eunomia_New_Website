@@ -20,6 +20,13 @@ export const metadata: Metadata = withSocial("/resources", {
 });
 
 const featured = [
+  {
+    type: "Illustrative case study",
+    title: "Pharma Compliance Monitoring with Automation and AI",
+    href: "/resources/pharma-compliance-monitoring-ai-case-study",
+    image: "/compliance-collaboration.png",
+    icon: FileText,
+  },
   ...practicalResources.map(resource => ({ type: "Guide + template", title: resource.title, href: `/resources/${resource.slug}`, image: "/eunomia-workflow.png", icon: FileText })),
   { type: "Worksheet", title: "HCP FMV Assessment Guide and Worksheet", href: "/resources/hcp-fmv-assessment", image: "/eunomia-workflow.png", icon: FileText },
   {
