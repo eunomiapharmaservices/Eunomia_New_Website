@@ -10,7 +10,44 @@
 .index a:hover{color:#c74f00}
 @media(max-width:850px){.hero.hero{grid-template-columns:1fr;gap:36px;padding-top:48px;padding-bottom:44px}.hero .copy h1{font-size:clamp(40px,7vw,60px);max-width:700px}.intro{font-size:16px}.index{gap:12px 22px}}
 
-.journey{background:var(--site-pale);padding-block:clamp(40px,6vw,80px)}
-.journey h2{max-width:1200px;margin:0 auto 24px;font-size:clamp(24px,3vw,38px);line-height:1.25;color:var(--site-ink);text-wrap:balance}
-.journey a{display:block;max-width:1200px;margin-inline:auto;border-radius:14px;overflow:hidden}
-.journey img{display:block;width:100%;height:auto}
+.journey {
+  background: var(--site-pale);
+  padding-block: clamp(40px, 6vw, 80px);
+}
+
+.journeyContent {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.journey .journeyStatement {
+  /* Match the horizontal inset of the artwork inside the image. */
+  margin: 0 2.87% 12px;
+  padding: clamp(13px, 1.6vw, 20px) clamp(14px, 2vw, 26px);
+  border: 1px solid var(--site-rule);
+  border-inline-start: 4px solid var(--site-orange);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--site-ink);
+  font-size: clamp(16px, 1.65vw, 22px);
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-wrap: pretty;
+}
+
+.journeyStatement strong {
+  font-weight: 700;
+}
+
+.journey a {
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.journey img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
