@@ -1,3 +1,4 @@
+import { SiteImage } from "../../../components/SiteImage";
 import { ServicesOverviewVideo } from "../../../components/ServicesOverviewVideo";
 import { StructuredData } from "../../../components/StructuredData";
 import styles from "./ServicesHero.module.css";
@@ -112,6 +113,18 @@ export default function Services() {
             </b>
           </a>
         ))}
+      </section>
+      <section className={`section-pad ${styles.journey}`} aria-labelledby="compliance-journey">
+        <h2 id="compliance-journey">Eunomia Pharma Services can be your trusted commercial compliance partner along this journey</h2>
+        <a href="/pharma-compliance-transformation-journey.webp" aria-label="Open the full-size Pharma Compliance Transformation Journey infographic">
+          <SiteImage
+            src="/pharma-compliance-transformation-journey.webp"
+            width={1880}
+            height={1280}
+            sizes="(max-width: 1350px) 92vw, 1200px"
+            alt="The Pharma Compliance Transformation Journey moves from finance-led controls to legal and compliance, ethics and enterprise responsibility. The future model brings together flexible processes, technology and data, skilled teams and a values-led culture. Eunomia supports programme design, automation, local mandates and shared services."
+          />
+        </a>
       </section>
       <section className="approach" id="approach">
         <div className="approach-image">

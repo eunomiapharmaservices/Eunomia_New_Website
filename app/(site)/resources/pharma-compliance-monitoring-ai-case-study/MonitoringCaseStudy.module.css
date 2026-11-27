@@ -1,0 +1,16 @@
+.download{display:inline-block;margin-top:16px;font-weight:700;color:var(--site-green);text-decoration:underline;text-underline-offset:4px}
+.body>section+section{margin-top:2.5em}
+.body>section>h2{margin:0 0 .55em}
+.body>section>p{margin:0 0 1em}
+.body>section>ul{list-style:disc outside;padding-inline-start:1.4em}
+.stages{padding:0;list-style:none}
+.stages>li{padding:20px 22px;border:1px solid var(--site-rule);border-radius:10px;background:var(--site-pale)}
+.stages h3{margin:0 0 12px;font-size:23px}
+.stages dl{display:grid;gap:8px;font-size:16px}
+.stages dt{font-weight:700;color:var(--site-ink)}
+.dashboard{margin:24px 0;padding:clamp(12px,3vw,26px);border:1px solid var(--site-rule);border-radius:12px;background:var(--site-pale)}
+.dashboard figcaption,.findings caption{font-weight:700;text-align:start;color:var(--site-ink)}
+.dashboard p{margin:10px 0;font-size:16px}
+.dashboard .findings{display:table;margin:0}
+.findings caption{padding-block:6px}
+.dashboard .findings :is(th,td){padding:7px 8px}

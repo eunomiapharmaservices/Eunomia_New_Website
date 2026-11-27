@@ -537,6 +537,7 @@ export const ukServicePages: UkServicePage[] = [
       ],
       resources: [
         { label: "PMCPA social media and influencer guidance", href: "/resources/articles/pmcpas-2026-social-media-guidance" },
+        { label: "Pharma Compliance Monitoring with Automation and AI", href: "/resources/pharma-compliance-monitoring-ai-case-study" },
         { label: "Compliance monitoring and data analytics", href: "/resources/articles/unleash-the-power-of-data-analytics-for-healthcare-compliance" },
         { label: "Pharma Compliance Audits in the UK", href: "/services/governance-assurance/pharma-compliance-audits" },
         readiness,

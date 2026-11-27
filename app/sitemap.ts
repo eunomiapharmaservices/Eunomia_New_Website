@@ -14,7 +14,7 @@ import { leadMagnets } from "../data/lead-magnets";
 const pageUpdated: Record<string, string> = {
   "/": "2026-11-16",
   "/team": "2026-11-16",
-  "/services": "2026-10-19",
+  "/services": "2026-11-27",
   "/services/promotional-materials-review": "2026-10-19",
   "/services/governance-assurance": "2026-11-16",
   "/services/automation-of-compliance-operations": "2026-11-26",
@@ -25,7 +25,9 @@ const pageUpdated: Record<string, string> = {
   "/entering-europe": "2026-11-07",
   "/contact": "2026-10-03",
   "/privacy": "2026-10-08",
-  "/resources": "2026-11-26",
+  "/resources": "2026-11-27",
+  "/resources/pharma-compliance-monitoring-ai-case-study": "2026-11-27",
+  "/services/governance-assurance/pharma-compliance-monitoring": "2026-11-27",
   "/resources/disclosure-deadlines": "2026-10-01",
   "/resources/glossary": "2026-10-01",
   "/resources/pmcpa-cases": "2026-10-01",
@@ -71,7 +73,7 @@ function latest(dates: (string | undefined)[]) {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.eunomiapharmaservices.com";
-  const routes = ["/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/markets", "/entering-europe", "/contact", "/privacy"];
+  const routes = ["/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/resources/pharma-compliance-monitoring-ai-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/markets", "/entering-europe", "/contact", "/privacy"];
   const translatedPaths = ["/services/promotional-materials-review", "", "/contact", "/privacy", "/team", "/resources", "/services",
     "/services/governance-assurance", "/services/automation-of-compliance-operations",
     "/services/local-legal-mandates", "/services/shared-services",
@@ -86,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const englishEntries: MetadataRoute.Sitemap = [
     ...practicalResources.map(({ slug }) => ({ url: `${base}/resources/${slug}`, lastModified: "2026-09-30" })),
     ...routes.map((path) => ({ url: base + path, lastModified: pageUpdated[path] ?? resourceUpdated(path) })),
-    ...ukServicePages.map(({ slug }) => ({ url: `${base}${UK_SERVICE_BASE}/${slug}`, lastModified: ukServicePagesUpdated })),
+    ...ukServicePages.map(({ slug }) => ({ url: `${base}${UK_SERVICE_BASE}/${slug}`, lastModified: pageUpdated[`${UK_SERVICE_BASE}/${slug}`] ?? ukServicePagesUpdated })),
     ...markets.map(({ slug }) => ({ url: `${base}/markets/${slug}`, lastModified: marketsUpdated })),
     ...populatedCategories.map(({ slug }) => ({ url: `${base}/resources/category/${slug}`, lastModified: latest(articlesIn(slug).map(articleDate)) })),
     ...leadMagnets.map(({ slug }) => ({ url: `${base}/resources/checklists/${slug}`, lastModified: checklistsUpdated })),
