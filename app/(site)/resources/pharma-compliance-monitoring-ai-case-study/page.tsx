@@ -50,7 +50,7 @@ export const metadata: Metadata = withSocial(path, {
   title: `${title} | Eunomia`,
   description,
   alternates: { canonical: SITE_URL + path },
-  openGraph: { publishedTime: published },
+  openGraph: { type: "article", publishedTime: published },
 }, "article");
 
 export default function MonitoringCaseStudy() {
