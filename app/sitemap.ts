@@ -8,6 +8,7 @@ import { markets } from "../data/markets";
 import { ukServicePages, UK_SERVICE_BASE } from "../data/uk-service-pages";
 import { articlesIn, populatedCategories } from "../data/article-categories";
 import { leadMagnets } from "../data/lead-magnets";
+import { europeanLaunchCaseStudy } from "../data/european-launch-case-study";
 
 // Last significant content change for each page, taken from the git history of
 // the page and the data it renders. Update a date when you change that page.
@@ -22,10 +23,11 @@ const pageUpdated: Record<string, string> = {
   "/services/shared-services": "2026-09-29",
   "/legal-mandates": "2026-10-01",
   "/markets": "2026-11-07",
-  "/entering-europe": "2026-11-07",
+  "/entering-europe": "2026-11-28",
   "/contact": "2026-10-03",
   "/privacy": "2026-10-08",
-  "/resources": "2026-11-27",
+  "/resources": "2026-11-28",
+  [europeanLaunchCaseStudy.path]: "2026-11-28",
   "/resources/pharma-compliance-monitoring-ai-case-study": "2026-11-27",
   "/services/governance-assurance/pharma-compliance-monitoring": "2026-11-27",
   "/resources/disclosure-deadlines": "2026-10-01",
@@ -73,7 +75,7 @@ function latest(dates: (string | undefined)[]) {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.eunomiapharmaservices.com";
-  const routes = ["/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/resources/pharma-compliance-monitoring-ai-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/markets", "/entering-europe", "/contact", "/privacy"];
+  const routes = [europeanLaunchCaseStudy.path, "/services/promotional-materials-review", "/resources/hcp-fmv-assessment", "/resources/fair-market-value-methodology", "/resources/materials-review-shared-service-case-study", "/resources/pharma-compliance-monitoring-ai-case-study", "/", "/team", "/services", "/services/governance-assurance", "/services/automation-of-compliance-operations", "/services/local-legal-mandates", "/services/shared-services", "/legal-mandates", "/resources", "/resources/disclosure-deadlines", "/resources/glossary", "/resources/pmcpa-cases", "/markets", "/entering-europe", "/contact", "/privacy"];
   const translatedPaths = ["/services/promotional-materials-review", "", "/contact", "/privacy", "/team", "/resources", "/services",
     "/services/governance-assurance", "/services/automation-of-compliance-operations",
     "/services/local-legal-mandates", "/services/shared-services",

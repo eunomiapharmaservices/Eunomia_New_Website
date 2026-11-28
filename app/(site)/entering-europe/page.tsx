@@ -4,6 +4,7 @@ import { FAQSchema } from "../../../components/FAQSchema";
 import { SiteFooter, SiteHeader } from "../../../components/SiteChrome";
 import { StructuredData } from "../../../components/StructuredData";
 import { markets } from "../../../data/markets";
+import { europeanLaunchCaseStudy } from "../../../data/european-launch-case-study";
 import { withSocial } from "../../../lib/seo";
 
 const base = "https://www.eunomiapharmaservices.com";
@@ -81,6 +82,15 @@ export default function EnteringEuropePage() {
           <li><b>Build the operating model</b><span>Set owners, review routes, documentation, monitoring and escalation into the relevant workflows.</span></li>
           <li><b>Confirm country-specific expertise</b><span>Where local legal advice, language support or formal roles are required, confirm qualified resources and scope before they are undertaken.</span></li>
         </ol>
+      </section>
+
+      <section className="section-pad europe-entry-markets" aria-labelledby="europe-case-study-heading">
+        <div>
+          <p className="section-kicker">Illustrative case study</p>
+          <h2 id="europe-case-study-heading">{europeanLaunchCaseStudy.title}</h2>
+          <p>See how a US biotech could adapt its promotion, materials review, HCP engagement and disclosure workflows across six European markets.</p>
+        </div>
+        <a className="primary-button" href={europeanLaunchCaseStudy.path}>Read the European launch case study</a>
       </section>
 
       <section className="section-pad europe-entry-markets" aria-labelledby="europe-markets-heading">
