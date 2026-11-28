@@ -1,6 +1,7 @@
 import { articlePath, PHASE_III_IMAGE, PHASE_III_SLUG } from "../../../lib/article-path";
 import { ComplianceDecisionGuide } from "../../../components/ComplianceDecisionGuide";
 import { practicalResources } from "../../../data/practical-resources";
+import { europeanLaunchCaseStudy } from "../../../data/european-launch-case-study";
 import { PageFaqs } from "../../../components/PageFaqs";
 import { resourcesFaqs } from "../../../data/page-faqs";
 import { SiteImage } from "../../../components/SiteImage";
@@ -20,6 +21,13 @@ export const metadata: Metadata = withSocial("/resources", {
 });
 
 const featured = [
+  {
+    type: "Illustrative case study",
+    title: europeanLaunchCaseStudy.title,
+    href: europeanLaunchCaseStudy.path,
+    image: "/compliance-collaboration.png",
+    icon: FileText,
+  },
   {
     type: "Illustrative case study",
     title: "Pharma Compliance Monitoring with Automation and AI",
